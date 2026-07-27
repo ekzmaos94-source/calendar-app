@@ -60,6 +60,25 @@ async function fetchTopHeadline(symbol, fromDate, toDate) {
   };
 }
 
+async function logDeepLUsage() {
+  if (!DEEPL_API_KEY) return;
+  const usageUrl = DEEPL_API_KEY.endsWith(':fx')
+    ? 'https://api-free.deepl.com/v2/usage'
+    : 'https://api.deepl.com/v2/usage';
+  try {
+    const response = await fetch(usageUrl, {
+      headers: { Authorization: `DeepL-Auth-Key ${DEEPL_API_KEY}` },
+    });
+    if (!response.ok) return;
+    const { character_count, character_limit } = await response.json();
+    console.log(
+      `[translate] DeepL 남은 글자 수: ${character_limit - character_count} / ${character_limit}`
+    );
+  } catch (err) {
+    console.warn(`[translate] DeepL 사용량 조회 실패: ${err.message}`);
+  }
+}
+
 async function translateHeadlines(headlines) {
   if (!DEEPL_API_KEY || headlines.length === 0) return headlines.map(() => null);
 
@@ -141,6 +160,7 @@ async function main() {
   });
 
   console.log(`${headlinesToTranslate.length}개 헤드라인 번역 시작`);
+  await logDeepLUsage();
   const translated = await translateHeadlines(headlinesToTranslate);
   newsIndices.forEach((moverIndex, i) => {
     movers[moverIndex].news.headlineKo = translated[i];
