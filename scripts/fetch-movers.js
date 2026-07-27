@@ -47,11 +47,47 @@ async function fetchQuote(symbol) {
   return fetchJson(url);
 }
 
-async function fetchTopHeadline(symbol, fromDate, toDate) {
+// Finnhub의 company-news는 조회한 종목에 조금이라도 언급되면 다 붙여주기 때문에,
+// "오늘의 급등락 종목 모음" 같은 여러 종목이 섞인 기사도 그대로 섞여 들어온다.
+// related/category 필드로는 구분이 안 돼서, 헤드라인 텍스트로 걸러낸다.
+const ROUNDUP_KEYWORDS = [
+  'stocks that explain',
+  'are gapping',
+  'biggest gainers',
+  'biggest losers',
+  'top movers',
+  'stock movers',
+  'week ahead',
+  'stocks to watch',
+  'which s&p',
+  'market movers',
+  'stocks surge',
+  'stocks that hit',
+];
+
+function isRoundupHeadline(headline, symbol, allSymbols) {
+  const lower = headline.toLowerCase();
+  if (ROUNDUP_KEYWORDS.some((keyword) => lower.includes(keyword))) return true;
+
+  // 다른 S&P500 티커가 헤드라인에 2개 이상 대문자 그대로 등장하면
+  // 여러 종목을 묶어 다루는 기사로 본다.
+  const otherTickers = new Set(
+    (headline.match(/\b[A-Z]{2,5}\b/g) ?? []).filter(
+      (token) => token !== symbol && allSymbols.has(token)
+    )
+  );
+  return otherTickers.size >= 2;
+}
+
+async function fetchTopHeadline(symbol, fromDate, toDate, allSymbols) {
   const url = `https://finnhub.io/api/v1/company-news?symbol=${encodeURIComponent(symbol)}&from=${fromDate}&to=${toDate}&token=${FINNHUB_API_KEY}`;
   const articles = await fetchJson(url);
   if (!Array.isArray(articles) || articles.length === 0) return null;
-  const top = articles.sort((a, b) => (b.datetime ?? 0) - (a.datetime ?? 0))[0];
+
+  const sorted = articles.sort((a, b) => (b.datetime ?? 0) - (a.datetime ?? 0));
+  const top = sorted.find((article) => !isRoundupHeadline(article.headline, symbol, allSymbols));
+  if (!top) return null;
+
   return {
     headline: top.headline,
     url: top.url,
@@ -109,6 +145,7 @@ async function translateHeadlines(headlines) {
 
 async function main() {
   const companies = JSON.parse(fs.readFileSync(sp500Path, 'utf8'));
+  const allSymbols = new Set(companies.map((company) => company.symbol));
   const tradingDate = nyDateString(new Date());
 
   console.log(`${companies.length}개 종목 시세 조회 시작 (${tradingDate})`);
@@ -142,7 +179,7 @@ async function main() {
 
   for (const [index, mover] of movers.entries()) {
     try {
-      mover.news = await fetchTopHeadline(mover.symbol, tradingDate, tradingDate);
+      mover.news = await fetchTopHeadline(mover.symbol, tradingDate, tradingDate, allSymbols);
     } catch (err) {
       console.warn(`[news] ${mover.symbol} 뉴스 조회 실패: ${err.message}`);
       mover.news = null;
