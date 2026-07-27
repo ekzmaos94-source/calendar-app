@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T15:04:09.465Z",
+  "generatedAt": "2026-07-27T15:36:54.712Z",
   "tradingDate": "2026-07-27",
   "thresholdPercent": 5,
   "movers": [
@@ -8,55 +8,14 @@
       "name": "Sandisk",
       "sector": "Information Technology",
       "open": 1482.505,
-      "current": 1277.46,
-      "changePercent": -13.83,
+      "current": 1258.46,
+      "changePercent": -15.11,
       "news": {
         "headline": "Which S&P500 stocks are gapping on Monday?",
         "url": "https://finnhub.io/api/news?id=b2c2134beeb6f172d64343ca7cd66e1ceadc90d88bf96362306a9f63508771d3",
         "source": "ChartMill",
-        "datetime": 1785162901
-      }
-    },
-    {
-      "symbol": "WDC",
-      "name": "Western Digital",
-      "sector": "Information Technology",
-      "open": 531.765,
-      "current": 481.66,
-      "changePercent": -9.42,
-      "news": {
-        "headline": "1 Cash-Producing Stock for Long-Term Investors and 2 Facing Challenges",
-        "url": "https://finnhub.io/api/news?id=9177d642ae3cb4a2d07da93173441357c433954b3eb9f77f5555da378eb54d1b",
-        "source": "Yahoo",
-        "datetime": 1785158702
-      }
-    },
-    {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices",
-      "sector": "Information Technology",
-      "open": 532.6275,
-      "current": 488.29,
-      "changePercent": -8.32,
-      "news": {
-        "headline": "Which S&P500 stocks are gapping on Monday?",
-        "url": "https://finnhub.io/api/news?id=b2c2134beeb6f172d64343ca7cd66e1ceadc90d88bf96362306a9f63508771d3",
-        "source": "ChartMill",
-        "datetime": 1785162901
-      }
-    },
-    {
-      "symbol": "LRCX",
-      "name": "Lam Research",
-      "sector": "Information Technology",
-      "open": 310.8925,
-      "current": 285.8,
-      "changePercent": -8.07,
-      "news": {
-        "headline": "Update: US Equity Futures Rise Pre-Bell as Oil Prices Drop Amid Pause in Middle East Hostilities",
-        "url": "https://finnhub.io/api/news?id=adf0f46b707356684ded63f97397b9d564eb8141d3d6f2ecdff3efade763a882",
-        "source": "Yahoo",
-        "datetime": 1785156732
+        "datetime": 1785162901,
+        "headlineKo": "월요일에 갭 상승을 보일 S&P 500 종목은 무엇일까요?"
       }
     },
     {
@@ -64,27 +23,44 @@
       "name": "Lumentum",
       "sector": "Information Technology",
       "open": 780.425,
-      "current": 718.86,
-      "changePercent": -7.89,
+      "current": 701.97,
+      "changePercent": -10.05,
       "news": {
         "headline": "Which S&P500 stocks are gapping on Monday?",
         "url": "https://finnhub.io/api/news?id=b2c2134beeb6f172d64343ca7cd66e1ceadc90d88bf96362306a9f63508771d3",
         "source": "ChartMill",
-        "datetime": 1785162901
+        "datetime": 1785162901,
+        "headlineKo": "월요일에 갭 상승을 보일 S&P 500 종목은 무엇일까요?"
       }
     },
     {
-      "symbol": "STX",
-      "name": "Seagate Technology",
+      "symbol": "LRCX",
+      "name": "Lam Research",
       "sector": "Information Technology",
-      "open": 868.915,
-      "current": 804.63,
-      "changePercent": -7.4,
+      "open": 310.8925,
+      "current": 279.69,
+      "changePercent": -10.04,
       "news": {
         "headline": "Update: US Equity Futures Rise Pre-Bell as Oil Prices Drop Amid Pause in Middle East Hostilities",
         "url": "https://finnhub.io/api/news?id=adf0f46b707356684ded63f97397b9d564eb8141d3d6f2ecdff3efade763a882",
         "source": "Yahoo",
-        "datetime": 1785156732
+        "datetime": 1785156732,
+        "headlineKo": "속보: 중동 지역 교전 중단으로 유가가 하락하면서 미국 주식 선물 지수가 개장 전 상승세를 보이고 있다"
+      }
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "open": 532.6275,
+      "current": 480.3,
+      "changePercent": -9.82,
+      "news": {
+        "headline": "Which S&P500 stocks are gapping on Monday?",
+        "url": "https://finnhub.io/api/news?id=b2c2134beeb6f172d64343ca7cd66e1ceadc90d88bf96362306a9f63508771d3",
+        "source": "ChartMill",
+        "datetime": 1785162901,
+        "headlineKo": "월요일에 갭 상승을 보일 S&P 500 종목은 무엇일까요?"
       }
     },
     {
@@ -92,55 +68,29 @@
       "name": "Teradyne",
       "sector": "Information Technology",
       "open": 356.805,
-      "current": 330.72,
-      "changePercent": -7.31,
-      "news": {
-        "headline": "Teradyne (TER) Reports Earnings Tomorrow: What To Expect",
-        "url": "https://finnhub.io/api/news?id=5ee48397262c41b07a815b713296a30e63e2bdff9f5db06a1915414e9cab41fe",
-        "source": "Yahoo",
-        "datetime": 1785150062
-      }
-    },
-    {
-      "symbol": "FLEX",
-      "name": "Flex Ltd.",
-      "sector": "Information Technology",
-      "open": 120.16,
-      "current": 111.56,
-      "changePercent": -7.16,
+      "current": 322.71,
+      "changePercent": -9.56,
       "news": {
         "headline": "Which S&P500 stocks are gapping on Monday?",
         "url": "https://finnhub.io/api/news?id=b2c2134beeb6f172d64343ca7cd66e1ceadc90d88bf96362306a9f63508771d3",
         "source": "ChartMill",
-        "datetime": 1785162901
+        "datetime": 1785162901,
+        "headlineKo": "월요일에 갭 상승을 보일 S&P 500 종목은 무엇일까요?"
       }
     },
     {
-      "symbol": "MU",
-      "name": "Micron Technology",
+      "symbol": "WDC",
+      "name": "Western Digital",
       "sector": "Information Technology",
-      "open": 943.2275,
-      "current": 875.66,
-      "changePercent": -7.16,
-      "news": {
-        "headline": "Inside China’s Blockbuster $484 Billion Memory Chip Debut",
-        "url": "https://finnhub.io/api/news?id=8df2720aa4aacfd4fe2f0729d566e1e4984eede955faba2c49e21ea82f2f281f",
-        "source": "Yahoo",
-        "datetime": 1785157860
-      }
-    },
-    {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "open": 282.12,
-      "current": 262.79,
-      "changePercent": -6.85,
+      "open": 531.765,
+      "current": 481.86,
+      "changePercent": -9.38,
       "news": {
         "headline": "Which S&P500 stocks are gapping on Monday?",
         "url": "https://finnhub.io/api/news?id=b2c2134beeb6f172d64343ca7cd66e1ceadc90d88bf96362306a9f63508771d3",
         "source": "ChartMill",
-        "datetime": 1785162901
+        "datetime": 1785162901,
+        "headlineKo": "월요일에 갭 상승을 보일 S&P 500 종목은 무엇일까요?"
       }
     },
     {
@@ -148,27 +98,74 @@
       "name": "Applied Materials",
       "sector": "Information Technology",
       "open": 547.02,
-      "current": 510.62,
-      "changePercent": -6.65,
+      "current": 498.06,
+      "changePercent": -8.95,
       "news": {
         "headline": "These S&P500 stocks that are showing activity before the opening bell on Monday.",
         "url": "https://finnhub.io/api/news?id=6caee4fd9483d323d029bd7ed1a87a2a772ae8fc03ad607c5ddbd3a1c63846cb",
         "source": "ChartMill",
-        "datetime": 1785155701
+        "datetime": 1785155701,
+        "headlineKo": "월요일 개장 전부터 움직임을 보이고 있는 이 S&P 500 종목들입니다."
       }
     },
     {
-      "symbol": "MRVL",
-      "name": "Marvell Technology",
+      "symbol": "STX",
+      "name": "Seagate Technology",
       "sector": "Information Technology",
-      "open": 200.385,
-      "current": 187.5,
-      "changePercent": -6.43,
+      "open": 868.915,
+      "current": 792.7,
+      "changePercent": -8.77,
       "news": {
-        "headline": "The Broadcom Trade Is A Bet On The Market You Already Own, Amplified",
-        "url": "https://finnhub.io/api/news?id=7575bf353d1bf744e6c0354ab5efe78647d16b46be628c48ca58a15ed4fc48df",
+        "headline": "Update: US Equity Futures Rise Pre-Bell as Oil Prices Drop Amid Pause in Middle East Hostilities",
+        "url": "https://finnhub.io/api/news?id=adf0f46b707356684ded63f97397b9d564eb8141d3d6f2ecdff3efade763a882",
         "source": "Yahoo",
-        "datetime": 1785159294
+        "datetime": 1785156732,
+        "headlineKo": "속보: 중동 지역 교전 중단으로 유가가 하락하면서 미국 주식 선물 지수가 개장 전 상승세를 보이고 있다"
+      }
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 282.12,
+      "current": 257.96,
+      "changePercent": -8.56,
+      "news": {
+        "headline": "Which S&P500 stocks are gapping on Monday?",
+        "url": "https://finnhub.io/api/news?id=b2c2134beeb6f172d64343ca7cd66e1ceadc90d88bf96362306a9f63508771d3",
+        "source": "ChartMill",
+        "datetime": 1785162901,
+        "headlineKo": "월요일에 갭 상승을 보일 S&P 500 종목은 무엇일까요?"
+      }
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "open": 120.16,
+      "current": 110.21,
+      "changePercent": -8.28,
+      "news": {
+        "headline": "Which S&P500 stocks are gapping on Monday?",
+        "url": "https://finnhub.io/api/news?id=b2c2134beeb6f172d64343ca7cd66e1ceadc90d88bf96362306a9f63508771d3",
+        "source": "ChartMill",
+        "datetime": 1785162901,
+        "headlineKo": "월요일에 갭 상승을 보일 S&P 500 종목은 무엇일까요?"
+      }
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "open": 943.2275,
+      "current": 866.42,
+      "changePercent": -8.14,
+      "news": {
+        "headline": "Inside China’s Blockbuster $484 Billion Memory Chip Debut",
+        "url": "https://finnhub.io/api/news?id=8df2720aa4aacfd4fe2f0729d566e1e4984eede955faba2c49e21ea82f2f281f",
+        "source": "Yahoo",
+        "datetime": 1785157860,
+        "headlineKo": "4,840억 달러 규모의 중국 메모리 칩 시장, 대성공을 거둔 데뷔의 이면"
       }
     },
     {
@@ -176,27 +173,29 @@
       "name": "KLA Corporation",
       "sector": "Information Technology",
       "open": 213.935,
-      "current": 201.11,
-      "changePercent": -5.99,
+      "current": 196.7,
+      "changePercent": -8.06,
       "news": {
         "headline": "KLA Corporation (KLAC) Rose on Strong Results and Process Control Demand",
         "url": "https://finnhub.io/api/news?id=f2e6974f1984eee35b68e352a76d01d2896b77d2a239922886f4bc1f915950f8",
         "source": "Yahoo",
-        "datetime": 1785153153
+        "datetime": 1785153153,
+        "headlineKo": "KLA 코퍼레이션(KLAC), 호실적과 공정 제어 수요 증가에 힘입어 주가 상승"
       }
     },
     {
-      "symbol": "GEV",
-      "name": "GE Vernova",
-      "sector": "Industrials",
-      "open": 1015.21,
-      "current": 961.51,
-      "changePercent": -5.29,
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "open": 200.385,
+      "current": 184.31,
+      "changePercent": -8.02,
       "news": {
-        "headline": "Which S&P500 stocks are gapping on Monday?",
-        "url": "https://finnhub.io/api/news?id=b2c2134beeb6f172d64343ca7cd66e1ceadc90d88bf96362306a9f63508771d3",
-        "source": "ChartMill",
-        "datetime": 1785162901
+        "headline": "The Broadcom Trade Is A Bet On The Market You Already Own, Amplified",
+        "url": "https://finnhub.io/api/news?id=7575bf353d1bf744e6c0354ab5efe78647d16b46be628c48ca58a15ed4fc48df",
+        "source": "Yahoo",
+        "datetime": 1785159294,
+        "headlineKo": "브로드컴 투자는 여러분이 이미 보유하고 있는 시장에 대한 베팅을 한층 더 강화한 것입니다."
       }
     },
     {
@@ -204,22 +203,14 @@
       "name": "Workday, Inc.",
       "sector": "Information Technology",
       "open": 138.895,
-      "current": 146.12,
-      "changePercent": 5.2,
-      "news": null
-    },
-    {
-      "symbol": "VRT",
-      "name": "Vertiv",
-      "sector": "Industrials",
-      "open": 293.03,
-      "current": 277.95,
-      "changePercent": -5.15,
+      "current": 147.84,
+      "changePercent": 6.44,
       "news": {
-        "headline": "Zacks Investment Ideas feature highlights: Vertiv, Nvidia and EMCOR Group",
-        "url": "https://finnhub.io/api/news?id=9cdea48141f251f3d979781d577fa3bc6dcde0a98ab7e848ef7beefbac0914f1",
-        "source": "Yahoo",
-        "datetime": 1785145620
+        "headline": "Which S&P500 stocks are gapping on Monday?",
+        "url": "https://finnhub.io/api/news?id=b2c2134beeb6f172d64343ca7cd66e1ceadc90d88bf96362306a9f63508771d3",
+        "source": "ChartMill",
+        "datetime": 1785162901,
+        "headlineKo": "월요일에 갭 상승을 보일 S&P 500 종목은 어디인가요?"
       }
     },
     {
@@ -227,14 +218,168 @@
       "name": "Supermicro",
       "sector": "Information Technology",
       "open": 30.805,
-      "current": 29.24,
-      "changePercent": -5.08,
+      "current": 28.85,
+      "changePercent": -6.35,
       "news": {
         "headline": "Should You Buy Super Micro Computer Stock Before Aug. 11?",
         "url": "https://finnhub.io/api/news?id=be2380dd7f9b35afc4ca08f083589cc9caa40fe894da37af6aae7195f41b37f5",
         "source": "Yahoo",
-        "datetime": 1785159249
+        "datetime": 1785159249,
+        "headlineKo": "8월 11일 전에 슈퍼 마이크로 컴퓨터 주식을 매수해야 할까?"
       }
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "open": 293.03,
+      "current": 275.14,
+      "changePercent": -6.11,
+      "news": {
+        "headline": "Zacks Investment Ideas feature highlights: Vertiv, Nvidia and EMCOR Group",
+        "url": "https://finnhub.io/api/news?id=9cdea48141f251f3d979781d577fa3bc6dcde0a98ab7e848ef7beefbac0914f1",
+        "source": "Yahoo",
+        "datetime": 1785145620,
+        "headlineKo": "Zacks 투자 아이디어 특집 하이라이트: Vertiv, Nvidia, EMCOR Group"
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "name": "Nvidia",
+      "sector": "Information Technology",
+      "open": 208.55,
+      "current": 196.32,
+      "changePercent": -5.86,
+      "news": {
+        "headline": "Don't Look Now, but Delta Air Lines Stock Is Up Nearly 50% in the Past Year",
+        "url": "https://finnhub.io/api/news?id=f02e07c06dcfff457b4da194831ea20f5934d62c41e42ff2a1f4a08f456678d6",
+        "source": "Yahoo",
+        "datetime": 1785160200,
+        "headlineKo": "지금은 잘 모르겠지만, 델타항공 주가는 지난 1년 동안 거의 50%나 상승했다"
+      }
+    },
+    {
+      "symbol": "GEV",
+      "name": "GE Vernova",
+      "sector": "Industrials",
+      "open": 1015.21,
+      "current": 956.35,
+      "changePercent": -5.8,
+      "news": {
+        "headline": "Which S&P500 stocks are gapping on Monday?",
+        "url": "https://finnhub.io/api/news?id=b2c2134beeb6f172d64343ca7cd66e1ceadc90d88bf96362306a9f63508771d3",
+        "source": "ChartMill",
+        "datetime": 1785162901,
+        "headlineKo": "월요일에 갭 상승을 보일 S&P 500 종목은 무엇일까요?"
+      }
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "open": 388.19,
+      "current": 365.82,
+      "changePercent": -5.76,
+      "news": {
+        "headline": "Which S&P500 stocks are gapping on Monday?",
+        "url": "https://finnhub.io/api/news?id=b2c2134beeb6f172d64343ca7cd66e1ceadc90d88bf96362306a9f63508771d3",
+        "source": "ChartMill",
+        "datetime": 1785162901,
+        "headlineKo": "월요일에 갭 상승을 보일 S&P 500 종목은 어디인가요?"
+      }
+    },
+    {
+      "symbol": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "open": 28.05,
+      "current": 29.65,
+      "changePercent": 5.7,
+      "news": {
+        "headline": "CoStar (CSGP) Reports Q2: Everything You Need To Know Ahead Of Earnings",
+        "url": "https://finnhub.io/api/news?id=8424e5d9e8325238cede856ed64f6b9d267f687df617187240f63410b6731e2e",
+        "source": "Yahoo",
+        "datetime": 1785122222,
+        "headlineKo": "코스타(CSGP), 2분기 실적 발표: 실적 발표를 앞두고 꼭 알아야 할 모든 것"
+      }
+    },
+    {
+      "symbol": "APH",
+      "name": "Amphenol",
+      "sector": "Information Technology",
+      "open": 155.5,
+      "current": 147.1,
+      "changePercent": -5.4,
+      "news": {
+        "headline": "Amphenol Corporation (APH) Regains Appeal on an Improved Growth Outlook",
+        "url": "https://finnhub.io/api/news?id=744b5912ffe50e1549cd4e1b86af30df21329cf9951f64fdc90a4be758bfbb9d",
+        "source": "Yahoo",
+        "datetime": 1785156299,
+        "headlineKo": "앰페놀 코퍼레이션(APH), 성장 전망 개선에 힘입어 다시 주목받다"
+      }
+    },
+    {
+      "symbol": "VST",
+      "name": "Vistra Corp.",
+      "sector": "Utilities",
+      "open": 165.5,
+      "current": 156.58,
+      "changePercent": -5.39,
+      "news": {
+        "headline": "Nuclear Operators Deliver Explosive Growth at Reasonable Prices",
+        "url": "https://finnhub.io/api/news?id=915f210b18be0c5d6ab97eefcb96a41c7ca2e14e856cdea092e8e90f81e1acba",
+        "source": "ChartMill",
+        "datetime": 1785153958,
+        "headlineKo": "원자력 사업자들, 합리적인 가격으로 폭발적인 성장 달성"
+      }
+    },
+    {
+      "symbol": "ADSK",
+      "name": "Autodesk",
+      "sector": "Information Technology",
+      "open": 212.535,
+      "current": 223.35,
+      "changePercent": 5.09,
+      "news": null
+    },
+    {
+      "symbol": "Q",
+      "name": "Qnity Electronics",
+      "sector": "Information Technology",
+      "open": 136,
+      "current": 129.16,
+      "changePercent": -5.03,
+      "news": {
+        "headline": "Qnity Receives Zhen Ding 2026 Distinguished Contribution Award",
+        "url": "https://finnhub.io/api/news?id=b0952086db988dc193c738a312b332292e17cbe08fcd3b50d6c3f09e74f473bb",
+        "source": "Yahoo",
+        "datetime": 1785150180,
+        "headlineKo": "Qnity, ‘Zhen Ding 2026’ 공로상 수상"
+      }
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "sector": "Information Technology",
+      "open": 145.75,
+      "current": 138.44,
+      "changePercent": -5.02,
+      "news": {
+        "headline": "Corning Incorporated (GLW) Rose on Growing AI Fiber and Optical Demand",
+        "url": "https://finnhub.io/api/news?id=5dc43ee2a01e1bba0d3d00606746737ef8cdbcf1da47a9e98ac99389b382ad73",
+        "source": "Yahoo",
+        "datetime": 1785159234,
+        "headlineKo": "코닝(GLW), AI용 광섬유 및 광학 제품 수요 증가에 힘입어 주가 상승"
+      }
+    },
+    {
+      "symbol": "TYL",
+      "name": "Tyler Technologies",
+      "sector": "Information Technology",
+      "open": 303.24,
+      "current": 318.43,
+      "changePercent": 5.01,
+      "news": null
     }
   ]
 }
