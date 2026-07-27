@@ -65,27 +65,60 @@ const ROUNDUP_KEYWORDS = [
   'stocks that hit',
 ];
 
-function isRoundupHeadline(headline, symbol, allSymbols) {
-  const lower = headline.toLowerCase();
-  if (ROUNDUP_KEYWORDS.some((keyword) => lower.includes(keyword))) return true;
+function escapeRegex(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
 
-  // 다른 S&P500 티커가 헤드라인에 2개 이상 대문자 그대로 등장하면
-  // 여러 종목을 묶어 다루는 기사로 본다.
-  const otherTickers = new Set(
+// "3M", "AT&T" 처럼 그대로 쓰는 이름도 있고 "Booking Holdings"처럼 법인 형태가
+// 붙은 이름도 있어서, 후자만 접미사를 떼어 핵심 이름으로 정규화한다.
+function coreCompanyName(name) {
+  return name
+    .replace(/\([^)]*\)/g, '')
+    .replace(/,?\s*(Inc\.?|Incorporated|Corp\.?|Corporation|Co\.?|Company|Ltd\.?|PLC|Group|Holdings?)$/i, '')
+    .trim();
+}
+
+function buildCompanyMatchers(companies) {
+  return companies.map((company) => ({
+    symbol: company.symbol,
+    regex: new RegExp(`\\b${escapeRegex(coreCompanyName(company.name))}\\b`, 'i'),
+  }));
+}
+
+// 헤드라인이 "이 종목 하나"에 대한 기사인지 판단한다:
+// 1) 대상 종목의 티커/회사명이 실제로 언급돼야 하고 (엉뚱한 종목 피드에 잘못 태깅된 기사 배제)
+// 2) 다른 종목이 2개 이상 함께 언급되면 여러 종목을 묶은 모음 기사로 보고 배제한다.
+function isRelevantSingleStockHeadline(headline, symbol, allSymbols, companyMatchers) {
+  const lower = headline.toLowerCase();
+  if (ROUNDUP_KEYWORDS.some((keyword) => lower.includes(keyword))) return false;
+
+  const targetMatcher = companyMatchers.find((m) => m.symbol === symbol);
+  const mentionsTarget =
+    new RegExp(`\\b${symbol}\\b`).test(headline) || (targetMatcher?.regex.test(headline) ?? false);
+  if (!mentionsTarget) return false;
+
+  const otherMatches = new Set(
     (headline.match(/\b[A-Z]{2,5}\b/g) ?? []).filter(
       (token) => token !== symbol && allSymbols.has(token)
     )
   );
-  return otherTickers.size >= 2;
+  for (const { symbol: otherSymbol, regex } of companyMatchers) {
+    if (otherMatches.size >= 2) break;
+    if (otherSymbol === symbol || otherMatches.has(otherSymbol)) continue;
+    if (regex.test(headline)) otherMatches.add(otherSymbol);
+  }
+  return otherMatches.size < 2;
 }
 
-async function fetchTopHeadline(symbol, fromDate, toDate, allSymbols) {
+async function fetchTopHeadline(symbol, fromDate, toDate, allSymbols, companyMatchers) {
   const url = `https://finnhub.io/api/v1/company-news?symbol=${encodeURIComponent(symbol)}&from=${fromDate}&to=${toDate}&token=${FINNHUB_API_KEY}`;
   const articles = await fetchJson(url);
   if (!Array.isArray(articles) || articles.length === 0) return null;
 
   const sorted = articles.sort((a, b) => (b.datetime ?? 0) - (a.datetime ?? 0));
-  const top = sorted.find((article) => !isRoundupHeadline(article.headline, symbol, allSymbols));
+  const top = sorted.find((article) =>
+    isRelevantSingleStockHeadline(article.headline, symbol, allSymbols, companyMatchers)
+  );
   if (!top) return null;
 
   return {
@@ -146,6 +179,7 @@ async function translateHeadlines(headlines) {
 async function main() {
   const companies = JSON.parse(fs.readFileSync(sp500Path, 'utf8'));
   const allSymbols = new Set(companies.map((company) => company.symbol));
+  const companyMatchers = buildCompanyMatchers(companies);
   const tradingDate = nyDateString(new Date());
 
   console.log(`${companies.length}개 종목 시세 조회 시작 (${tradingDate})`);
@@ -179,7 +213,13 @@ async function main() {
 
   for (const [index, mover] of movers.entries()) {
     try {
-      mover.news = await fetchTopHeadline(mover.symbol, tradingDate, tradingDate, allSymbols);
+      mover.news = await fetchTopHeadline(
+        mover.symbol,
+        tradingDate,
+        tradingDate,
+        allSymbols,
+        companyMatchers
+      );
     } catch (err) {
       console.warn(`[news] ${mover.symbol} 뉴스 조회 실패: ${err.message}`);
       mover.news = null;
