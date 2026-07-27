@@ -44,7 +44,7 @@ function MoverRow({ item }: { item: Mover }) {
       {item.news ? (
         <Pressable onPress={onPressNews} hitSlop={4}>
           <Text style={styles.newsHeadline} numberOfLines={2}>
-            {item.news.headline}
+            {item.news.headlineKo ?? item.news.headline}
           </Text>
           <Text style={styles.newsSource}>{item.news.source}</Text>
         </Pressable>

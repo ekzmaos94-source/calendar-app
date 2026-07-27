@@ -5,9 +5,13 @@ const fs = require('fs');
 const path = require('path');
 
 const FINNHUB_API_KEY = process.env.FINNHUB_API_KEY;
+const DEEPL_API_KEY = process.env.DEEPL_API_KEY;
 const MOVE_THRESHOLD_PERCENT = 5;
 const QUOTE_DELAY_MS = 1100; // 분당 60회 제한 아래로 안전하게 (약 55회/분)
 const NEWS_DELAY_MS = 1100;
+const DEEPL_URL = (DEEPL_API_KEY ?? '').endsWith(':fx')
+  ? 'https://api-free.deepl.com/v2/translate'
+  : 'https://api.deepl.com/v2/translate';
 
 if (!FINNHUB_API_KEY) {
   console.error('FINNHUB_API_KEY 환경변수가 필요합니다.');
@@ -56,6 +60,34 @@ async function fetchTopHeadline(symbol, fromDate, toDate) {
   };
 }
 
+async function translateHeadlines(headlines) {
+  if (!DEEPL_API_KEY || headlines.length === 0) return headlines.map(() => null);
+
+  const params = new URLSearchParams();
+  headlines.forEach((headline) => params.append('text', headline));
+  params.append('target_lang', 'KO');
+
+  try {
+    const response = await fetch(DEEPL_URL, {
+      method: 'POST',
+      headers: {
+        Authorization: `DeepL-Auth-Key ${DEEPL_API_KEY}`,
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: params,
+    });
+    if (!response.ok) {
+      console.warn(`[translate] DeepL 요청 실패: HTTP ${response.status}`);
+      return headlines.map(() => null);
+    }
+    const data = await response.json();
+    return data.translations.map((t) => t.text);
+  } catch (err) {
+    console.warn(`[translate] DeepL 요청 실패: ${err.message}`);
+    return headlines.map(() => null);
+  }
+}
+
 async function main() {
   const companies = JSON.parse(fs.readFileSync(sp500Path, 'utf8'));
   const tradingDate = nyDateString(new Date());
@@ -98,6 +130,21 @@ async function main() {
     }
     if (index < movers.length - 1) await sleep(NEWS_DELAY_MS);
   }
+
+  const newsIndices = [];
+  const headlinesToTranslate = [];
+  movers.forEach((mover, index) => {
+    if (mover.news?.headline) {
+      newsIndices.push(index);
+      headlinesToTranslate.push(mover.news.headline);
+    }
+  });
+
+  console.log(`${headlinesToTranslate.length}개 헤드라인 번역 시작`);
+  const translated = await translateHeadlines(headlinesToTranslate);
+  newsIndices.forEach((moverIndex, i) => {
+    movers[moverIndex].news.headlineKo = translated[i];
+  });
 
   movers.sort((a, b) => Math.abs(b.changePercent) - Math.abs(a.changePercent));
 

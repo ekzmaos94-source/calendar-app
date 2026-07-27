@@ -1,5 +1,6 @@
 export type MoverNews = {
   headline: string;
+  headlineKo: string | null;
   url: string;
   source: string;
   datetime: number;
