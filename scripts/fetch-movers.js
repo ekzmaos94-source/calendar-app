@@ -63,6 +63,7 @@ const ROUNDUP_KEYWORDS = [
   'market movers',
   'stocks surge',
   'stocks that hit',
+  'featured highlights',
 ];
 
 function escapeRegex(str) {
