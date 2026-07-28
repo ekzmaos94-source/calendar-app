@@ -1,7 +1,146 @@
 {
-  "generatedAt": "2026-07-28T12:58:05.776Z",
+  "generatedAt": "2026-07-28T14:13:20.156Z",
   "tradingDate": "2026-07-28",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "open": 683.775,
+      "current": 617.08,
+      "changePercent": -9.75,
+      "news": null
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1192.03,
+      "current": 1079.48,
+      "changePercent": -9.44,
+      "news": {
+        "headline": "Another Memory Massacre Is Inbound on Tuesday: Micron, SanDisk, Seagate See Large Premarket Losses",
+        "url": "https://finnhub.io/api/news?id=7bf00a8dbc27c3ec4c903dd425a8729724af3764a40facc5359db0679c88a3b3",
+        "source": "Yahoo",
+        "datetime": 1785238597,
+        "headlineKo": "화요일 또 다른 ‘메모리 대참사’가 다가오고 있다: 마이크론, 샌디스크, 시게이트, 장전 거래에서 큰 폭의 하락세 기록"
+      }
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 257.28,
+      "current": 234.01,
+      "changePercent": -9.04,
+      "news": null
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "open": 469.075,
+      "current": 431.19,
+      "changePercent": -8.08,
+      "news": null
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "open": 401.26,
+      "current": 368.87,
+      "changePercent": -8.07,
+      "news": null
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "open": 776.7525,
+      "current": 714.76,
+      "changePercent": -7.98,
+      "news": null
+    },
+    {
+      "symbol": "UHS",
+      "name": "Universal Health Services",
+      "sector": "Health Care",
+      "open": 149.54,
+      "current": 161.21,
+      "changePercent": 7.8,
+      "news": null
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "sector": "Information Technology",
+      "open": 128.955,
+      "current": 119.97,
+      "changePercent": -6.97,
+      "news": null
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "open": 111.8025,
+      "current": 105.42,
+      "changePercent": -5.71,
+      "news": {
+        "headline": "Flex (FLEX) To Report Earnings Tomorrow: Here Is What To Expect",
+        "url": "https://finnhub.io/api/news?id=0ba746d4b3b9fd69498c0bc34daf415edbae7277838d8c27862b857e452002f7",
+        "source": "Yahoo",
+        "datetime": 1785236942,
+        "headlineKo": "플렉스(FLEX), 내일 실적 발표 예정: 예상되는 내용은 다음과 같습니다"
+      }
+    },
+    {
+      "symbol": "BRO",
+      "name": "Brown & Brown",
+      "sector": "Financials",
+      "open": 68.97,
+      "current": 72.77,
+      "changePercent": 5.51,
+      "news": {
+        "headline": "The Bull Case For Brown & Brown (BRO) Could Change Following Q2 2026 Earnings Miss And Dividend Reaffirmation",
+        "url": "https://finnhub.io/api/news?id=6dab953bc23bf1343a851e459f94cd2403dbd37050112b8fb62874fd95bfba87",
+        "source": "Yahoo",
+        "datetime": 1785240824,
+        "headlineKo": "브라운 앤 브라운(BRO)에 대한 낙관적 전망은 2026년 2분기 실적 부진과 배당금 유지 발표에 따라 바뀔 수 있다"
+      }
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "open": 181.005,
+      "current": 171.04,
+      "changePercent": -5.51,
+      "news": {
+        "headline": "Marvell Technology vs. Nvidia: Which Technology Stock Is a Better Buy in 2026?",
+        "url": "https://finnhub.io/api/news?id=0b30e80bdb4dece7109751de783debeb5ff0ddc577ee5efef01f5da6650d25b2",
+        "source": "Yahoo",
+        "datetime": 1785237901,
+        "headlineKo": "마벨 테크놀로지 대 엔비디아: 2026년에는 어느 기술주가 더 좋은 투자 대상일까?"
+      }
+    },
+    {
+      "symbol": "INCY",
+      "name": "Incyte",
+      "sector": "Health Care",
+      "open": 118.85,
+      "current": 125.18,
+      "changePercent": 5.33,
+      "news": {
+        "headline": "Incyte (NASDAQ:INCY): High Growth Stock Slides on Q2 Beat but Steep Guidance Cut",
+        "url": "https://finnhub.io/api/news?id=c96d09c019061ce7d6feed85e21a0c0f1efc7c1b939fc4a7215f66194fd03c5a",
+        "source": "ChartMill",
+        "datetime": 1785241400,
+        "headlineKo": "인사이트(NASDAQ:INCY): 2분기 실적은 예상치를 상회했으나 전망치가 대폭 하향 조정되며 고성장주가 하락"
+      }
+    }
+  ]
 }
