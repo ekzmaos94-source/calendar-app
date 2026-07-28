@@ -18,6 +18,7 @@ import {
   MoversData,
   MoversSession,
 } from '../../utils/movers';
+import { cardShadow, colors, radius } from '../../utils/theme';
 
 const SESSION_LABEL: Record<MoversSession, string> = {
   open: '장 초반',
@@ -42,7 +43,7 @@ function MoverRow({ item }: { item: Mover }) {
   };
 
   return (
-    <View style={styles.moverRow}>
+    <View style={styles.moverCard}>
       <View style={styles.moverHeaderRow}>
         <View style={styles.moverTitleGroup}>
           <Text style={styles.moverSymbol}>{item.symbol}</Text>
@@ -50,13 +51,15 @@ function MoverRow({ item }: { item: Mover }) {
             {item.name}
           </Text>
         </View>
-        <Text style={[styles.moverChange, isUp ? styles.changeUp : styles.changeDown]}>
-          {isUp ? '+' : ''}
-          {item.changePercent.toFixed(2)}%
-        </Text>
+        <View style={[styles.changeBadge, isUp ? styles.changeBadgeUp : styles.changeBadgeDown]}>
+          <Text style={[styles.changeBadgeText, isUp ? styles.changeUp : styles.changeDown]}>
+            {isUp ? '+' : ''}
+            {item.changePercent.toFixed(2)}%
+          </Text>
+        </View>
       </View>
       {item.news ? (
-        <Pressable onPress={onPressNews} hitSlop={4}>
+        <Pressable onPress={onPressNews} hitSlop={4} style={styles.newsRow}>
           <Text style={styles.newsHeadline} numberOfLines={2}>
             {item.news.headlineKo ?? item.news.headline}
           </Text>
@@ -161,26 +164,31 @@ export default function StocksScreen() {
     <SafeAreaView style={styles.container} edges={['top', 'bottom']}>
       <View style={styles.headerRow}>
         <Text style={styles.header}>주식</Text>
-        <Pressable onPress={refresh} disabled={isRefreshing} hitSlop={8}>
+        <Pressable style={styles.refreshButton} onPress={refresh} disabled={isRefreshing} hitSlop={8}>
           {isRefreshing ? (
-            <ActivityIndicator size="small" color="#6b7280" />
+            <ActivityIndicator size="small" color={colors.accent} />
           ) : (
-            <Ionicons name="refresh" size={20} color="#6b7280" />
+            <Ionicons name="refresh" size={18} color={colors.accent} />
           )}
         </Pressable>
       </View>
 
       {isInitialLoading ? (
         <View style={styles.centerState}>
-          <ActivityIndicator color="#2563eb" />
+          <ActivityIndicator color={colors.accent} />
         </View>
       ) : error && !bundle ? (
         <View style={styles.centerState}>
+          <View style={styles.emptyIconBadge}>
+            <Ionicons name="cloud-offline-outline" size={28} color={colors.textTertiary} />
+          </View>
           <Text style={styles.errorText}>{error}</Text>
         </View>
       ) : !bundle || (bundle.open.movers.length === 0 && bundle.close.movers.length === 0) ? (
         <View style={styles.centerState}>
-          <Ionicons name="trending-up-outline" size={40} color="#d1d5db" />
+          <View style={styles.emptyIconBadge}>
+            <Ionicons name="trending-up-outline" size={28} color={colors.textTertiary} />
+          </View>
           <Text style={styles.placeholderSubtitle}>
             S&P 500 종목 중 시가 대비 {bundle?.close.thresholdPercent ?? 5}% 이상 변동한 종목이
             없어요.
@@ -201,91 +209,107 @@ export default function StocksScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffffff',
+    backgroundColor: colors.pageBackground,
   },
   headerRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingHorizontal: 16,
-    paddingTop: 6,
-    paddingBottom: 2,
+    paddingHorizontal: 20,
+    paddingTop: 12,
+    paddingBottom: 8,
   },
   header: {
-    fontSize: 19,
-    fontWeight: '700',
+    fontSize: 28,
+    fontWeight: '800',
+    color: colors.textPrimary,
+    letterSpacing: -0.5,
+  },
+  refreshButton: {
+    width: 36,
+    height: 36,
+    borderRadius: radius.pill,
+    backgroundColor: colors.accentSoft,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   centerState: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     paddingHorizontal: 32,
-    gap: 8,
+    gap: 12,
+  },
+  emptyIconBadge: {
+    width: 64,
+    height: 64,
+    borderRadius: radius.pill,
+    backgroundColor: colors.cardBackground,
+    alignItems: 'center',
+    justifyContent: 'center',
+    ...cardShadow,
   },
   placeholderSubtitle: {
-    fontSize: 13,
-    color: '#9ca3af',
+    fontSize: 14,
+    color: colors.textSecondary,
     textAlign: 'center',
-    lineHeight: 19,
+    lineHeight: 20,
   },
   errorText: {
     fontSize: 14,
-    color: '#dc2626',
+    color: colors.textSecondary,
     textAlign: 'center',
   },
   segmentRow: {
     flexDirection: 'row',
-    marginHorizontal: 16,
-    marginBottom: 4,
-    backgroundColor: '#f3f4f6',
-    borderRadius: 8,
-    padding: 3,
-    gap: 3,
+    marginHorizontal: 20,
+    marginBottom: 12,
+    backgroundColor: '#E8EBEF',
+    borderRadius: radius.pill,
+    padding: 4,
+    gap: 4,
   },
   segmentButton: {
     flex: 1,
-    paddingVertical: 8,
-    borderRadius: 6,
+    paddingVertical: 10,
+    borderRadius: radius.pill,
     alignItems: 'center',
   },
   segmentButtonSelected: {
-    backgroundColor: '#ffffff',
-    shadowColor: '#000',
-    shadowOpacity: 0.08,
-    shadowRadius: 2,
-    shadowOffset: { width: 0, height: 1 },
-    elevation: 1,
+    backgroundColor: colors.cardBackground,
+    ...cardShadow,
   },
   segmentButtonText: {
-    fontSize: 13,
-    fontWeight: '600',
-    color: '#6b7280',
+    fontSize: 14,
+    fontWeight: '700',
+    color: colors.textSecondary,
   },
   segmentButtonTextSelected: {
-    color: '#2563eb',
+    color: colors.accent,
   },
   segmentButtonTextDisabled: {
-    color: '#d1d5db',
+    color: colors.textTertiary,
   },
   list: {
-    paddingHorizontal: 16,
-    paddingBottom: 24,
+    paddingHorizontal: 20,
+    paddingBottom: 110,
   },
   section: {
     marginBottom: 20,
   },
   dateLabel: {
-    fontSize: 12,
-    fontWeight: '600',
-    color: '#9ca3af',
-    marginTop: 4,
-    marginBottom: 8,
+    fontSize: 13,
+    fontWeight: '700',
+    color: colors.textTertiary,
+    marginBottom: 10,
   },
-  moverRow: {
-    paddingVertical: 10,
-    borderBottomWidth: 1,
-    borderBottomColor: '#f3f4f6',
-    gap: 4,
+  moverCard: {
+    backgroundColor: colors.cardBackground,
+    borderRadius: radius.card,
+    padding: 16,
+    marginBottom: 10,
+    gap: 8,
+    ...cardShadow,
   },
   moverHeaderRow: {
     flexDirection: 'row',
@@ -299,37 +323,50 @@ const styles = StyleSheet.create({
     flexShrink: 1,
   },
   moverSymbol: {
-    fontSize: 15,
-    fontWeight: '700',
-    color: '#111827',
+    fontSize: 16,
+    fontWeight: '800',
+    color: colors.textPrimary,
   },
   moverName: {
-    fontSize: 12,
-    color: '#6b7280',
+    fontSize: 13,
+    color: colors.textSecondary,
     flexShrink: 1,
   },
-  moverChange: {
-    fontSize: 15,
-    fontWeight: '700',
+  changeBadge: {
+    borderRadius: radius.pill,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+  },
+  changeBadgeUp: {
+    backgroundColor: colors.upSoft,
+  },
+  changeBadgeDown: {
+    backgroundColor: colors.downSoft,
+  },
+  changeBadgeText: {
+    fontSize: 14,
+    fontWeight: '800',
   },
   changeUp: {
-    color: '#dc2626',
+    color: colors.up,
   },
   changeDown: {
-    color: '#2563eb',
+    color: colors.down,
+  },
+  newsRow: {
+    gap: 2,
   },
   newsHeadline: {
     fontSize: 13,
-    color: '#111827',
+    color: colors.textPrimary,
     lineHeight: 18,
   },
   newsSource: {
     fontSize: 11,
-    color: '#9ca3af',
-    marginTop: 2,
+    color: colors.textTertiary,
   },
   newsMissing: {
     fontSize: 12,
-    color: '#9ca3af',
+    color: colors.textTertiary,
   },
 });

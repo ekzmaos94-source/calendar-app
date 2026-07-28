@@ -10,7 +10,6 @@ import {
   Pressable,
   ScrollView,
   StyleSheet,
-  Switch,
   Text,
   TextInput,
   TouchableWithoutFeedback,
@@ -21,7 +20,11 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { CalendarDay, DayMarking } from '../../components/CalendarDay';
 import { buildHolidayMap } from '../../utils/holidays';
 import { parseScheduleText, toDateString } from '../../utils/scheduleParser';
+import { cardShadow, colors, radius } from '../../utils/theme';
 import { fetchCurrentWeather, WeatherInfo } from '../../utils/weather';
+
+// position: 'absolute'인 플로팅 탭바(_layout.tsx)에 화면 하단 콘텐츠가 가리지 않도록 여백을 둔다.
+const TAB_BAR_CLEARANCE = 96;
 
 LocaleConfig.locales.ko = {
   monthNames: [
@@ -42,12 +45,16 @@ LocaleConfig.defaultLocale = 'ko';
 // 여기서 매 렌더마다 새 객체를 만들면 그 memo가 무력화돼 입력창 타이핑 등 무관한 리렌더에도
 // 달력 전체 날짜 셀이 다시 그려지므로, 모듈 스코프 상수로 참조를 고정한다.
 const CALENDAR_THEME = {
-  todayTextColor: '#2563eb',
-  arrowColor: '#2563eb',
-  selectedDayBackgroundColor: '#2563eb',
-  textMonthFontSize: 15,
+  todayTextColor: colors.accent,
+  arrowColor: colors.accent,
+  selectedDayBackgroundColor: colors.accent,
+  textMonthFontSize: 16,
+  textMonthFontWeight: '800' as const,
   textDayHeaderFontSize: 11,
+  textDayHeaderFontWeight: '700' as const,
+  textSectionTitleColor: colors.textTertiary,
   weekVerticalMargin: 4,
+  calendarBackground: colors.cardBackground,
 } as const;
 
 const MemoizedCalendar = memo(Calendar);
@@ -259,7 +266,7 @@ export default function CalendarScreen() {
       [selectedDate]: {
         ...baseMarkedDates[selectedDate],
         selected: true,
-        selectedColor: '#2563eb',
+        selectedColor: colors.accent,
       },
     }),
     [baseMarkedDates, selectedDate]
@@ -431,7 +438,12 @@ export default function CalendarScreen() {
 
   return (
     <SafeAreaView style={styles.container} edges={['top', 'bottom']}>
-      <View style={[styles.container, { paddingBottom: keyboardHeight }]}>
+      <View
+        style={[
+          styles.container,
+          { paddingBottom: keyboardHeight > 0 ? keyboardHeight : TAB_BAR_CLEARANCE },
+        ]}
+      >
         <TouchableWithoutFeedback onPress={cancelInputIfActive}>
         <ScrollView
           style={styles.container}
@@ -442,40 +454,44 @@ export default function CalendarScreen() {
         >
         <View style={styles.headerRow}>
           <Text style={styles.header}>캘린더</Text>
-          <View style={styles.weatherBadge}>
+          <Pressable style={styles.weatherBadge} onPress={onOpenLocationModal}>
+            {weather ? (
+              <>
+                <Ionicons name={weather.icon} size={16} color={colors.textPrimary} />
+                <Text style={styles.weatherText}>{weather.temperature}°</Text>
+              </>
+            ) : (
+              <Ionicons name="location-outline" size={16} color={colors.textSecondary} />
+            )}
             {locationLabel ? (
               <Text style={styles.locationText} numberOfLines={1}>
                 {locationLabel}
               </Text>
             ) : null}
-            {weather ? (
-              <>
-                <Ionicons name={weather.icon} size={18} color="#374151" />
-                <Text style={styles.weatherText}>{weather.temperature}°</Text>
-              </>
-            ) : null}
-            <Pressable onPress={onOpenLocationModal} hitSlop={8}>
-              <Ionicons name="location-outline" size={18} color="#6b7280" />
-            </Pressable>
-          </View>
+          </Pressable>
         </View>
 
-        <View style={styles.optionRow}>
-          <Text style={styles.optionLabel}>미국 공휴일 함께 보기</Text>
-          <Switch value={showUsHolidays} onValueChange={onToggleUsHolidays} />
-        </View>
+        <Pressable
+          style={[styles.holidayChip, showUsHolidays && styles.holidayChipActive]}
+          onPress={() => onToggleUsHolidays(!showUsHolidays)}
+        >
+          <Text style={[styles.holidayChipText, showUsHolidays && styles.holidayChipTextActive]}>
+            🇺🇸 미국 공휴일
+          </Text>
+        </Pressable>
 
-        <MemoizedCalendar
-          current={selectedDate}
-          onDayPress={onDayPress}
-          onMonthChange={onMonthChange}
-          markedDates={markedDates}
-          dayComponent={CalendarDay}
-          enableSwipeMonths
-          monthFormat="yyyy년 MMMM"
-          theme={CALENDAR_THEME}
-          style={styles.calendar}
-        />
+        <View style={styles.calendarCard}>
+          <MemoizedCalendar
+            current={selectedDate}
+            onDayPress={onDayPress}
+            onMonthChange={onMonthChange}
+            markedDates={markedDates}
+            dayComponent={CalendarDay}
+            enableSwipeMonths
+            monthFormat="yyyy년 MMMM"
+            theme={CALENDAR_THEME}
+          />
+        </View>
 
         <View style={styles.detail}>
           <Text style={styles.detailDate}>{formatDisplayDate(selectedDate)}</Text>
@@ -492,6 +508,9 @@ export default function CalendarScreen() {
 
           {eventsForSelectedDate.length === 0 ? (
             <View style={styles.emptyState}>
+              <View style={styles.emptyIconBadge}>
+                <Ionicons name="calendar-clear-outline" size={26} color={colors.textTertiary} />
+              </View>
               <Text style={styles.emptyStateText}>등록된 일정이 없습니다.</Text>
             </View>
           ) : (
@@ -499,7 +518,7 @@ export default function CalendarScreen() {
               {eventsForSelectedDate.map((item) => (
                 <Pressable
                   key={item.id}
-                  style={styles.eventRow}
+                  style={styles.eventCard}
                   onPress={() => onEventPress(item.id)}
                 >
                   {item.time ? (
@@ -525,8 +544,8 @@ export default function CalendarScreen() {
                   >
                     <Ionicons
                       name="pencil-outline"
-                      size={18}
-                      color={item.completed ? '#e5e7eb' : '#9ca3af'}
+                      size={17}
+                      color={item.completed ? colors.textTertiary : colors.textSecondary}
                     />
                   </Pressable>
                   <Pressable
@@ -537,8 +556,8 @@ export default function CalendarScreen() {
                   >
                     <Ionicons
                       name="trash-outline"
-                      size={18}
-                      color={item.completed ? '#e5e7eb' : '#9ca3af'}
+                      size={17}
+                      color={item.completed ? colors.textTertiary : colors.textSecondary}
                     />
                   </Pressable>
                 </Pressable>
@@ -549,7 +568,11 @@ export default function CalendarScreen() {
         </ScrollView>
         </TouchableWithoutFeedback>
 
-        {errorMessage ? <Text style={styles.errorText}>{errorMessage}</Text> : null}
+        {errorMessage ? (
+          <View style={styles.errorBanner}>
+            <Text style={styles.errorText}>{errorMessage}</Text>
+          </View>
+        ) : null}
         {editingGroupId ? (
           <View style={styles.editBanner}>
             <Text style={styles.editBannerText}>일정 수정 중</Text>
@@ -558,12 +581,12 @@ export default function CalendarScreen() {
             </Pressable>
           </View>
         ) : null}
-        <View style={styles.inputRow}>
+        <View style={styles.inputCard}>
           <TextInput
             ref={inputRef}
             style={styles.input}
             placeholder="예: 다음주 금요일 오후 3시에 치과 예약"
-            placeholderTextColor="#9ca3af"
+            placeholderTextColor={colors.textTertiary}
             value={inputText}
             onChangeText={(text) => {
               setInputText(text);
@@ -590,7 +613,7 @@ export default function CalendarScreen() {
             <TextInput
               style={styles.modalInput}
               placeholder="예: 서울 강남구 역삼동"
-              placeholderTextColor="#9ca3af"
+              placeholderTextColor={colors.textTertiary}
               value={manualLocationInput}
               onChangeText={(text) => {
                 setManualLocationInput(text);
@@ -627,168 +650,215 @@ export default function CalendarScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffffff',
+    backgroundColor: colors.pageBackground,
   },
   scrollContent: {
     flexGrow: 1,
+    paddingHorizontal: 20,
   },
   headerRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingHorizontal: 16,
-    paddingTop: 6,
-    paddingBottom: 2,
+    paddingTop: 12,
+    paddingBottom: 12,
   },
   header: {
-    fontSize: 19,
-    fontWeight: '700',
+    fontSize: 28,
+    fontWeight: '800',
+    color: colors.textPrimary,
+    letterSpacing: -0.5,
   },
   weatherBadge: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 4,
-    maxWidth: '65%',
+    maxWidth: '60%',
+    backgroundColor: colors.cardBackground,
+    borderRadius: radius.pill,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    ...cardShadow,
   },
   locationText: {
     fontSize: 12,
-    color: '#6b7280',
+    fontWeight: '600',
+    color: colors.textSecondary,
     flexShrink: 1,
   },
   weatherText: {
-    fontSize: 14,
-    fontWeight: '600',
-    color: '#374151',
-  },
-  optionRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingHorizontal: 16,
-    paddingBottom: 4,
-  },
-  optionLabel: {
     fontSize: 13,
-    color: '#374151',
+    fontWeight: '700',
+    color: colors.textPrimary,
   },
-  calendar: {
-    borderBottomWidth: 1,
-    borderBottomColor: '#e5e7eb',
+  holidayChip: {
+    alignSelf: 'flex-start',
+    backgroundColor: colors.cardBackground,
+    borderRadius: radius.pill,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    marginBottom: 12,
+    ...cardShadow,
   },
-  inputRow: {
+  holidayChipActive: {
+    backgroundColor: colors.accentSoft,
+  },
+  holidayChipText: {
+    fontSize: 12,
+    fontWeight: '700',
+    color: colors.textSecondary,
+  },
+  holidayChipTextActive: {
+    color: colors.accent,
+  },
+  calendarCard: {
+    backgroundColor: colors.cardBackground,
+    borderRadius: radius.card,
+    paddingVertical: 8,
+    marginBottom: 16,
+    overflow: 'hidden',
+    ...cardShadow,
+  },
+  inputCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingHorizontal: 16,
-    paddingTop: 8,
-    paddingBottom: 8,
-    borderTopWidth: 1,
-    borderTopColor: '#e5e7eb',
-    backgroundColor: '#ffffff',
+    marginHorizontal: 20,
+    marginTop: 8,
+    backgroundColor: colors.cardBackground,
+    borderRadius: radius.card,
+    padding: 8,
     gap: 8,
+    ...cardShadow,
   },
   input: {
     flex: 1,
-    borderWidth: 1,
-    borderColor: '#d1d5db',
-    borderRadius: 8,
-    paddingHorizontal: 12,
-    paddingVertical: 8,
+    backgroundColor: colors.pageBackground,
+    borderRadius: radius.button,
+    paddingHorizontal: 14,
+    paddingVertical: 10,
     fontSize: 14,
+    color: colors.textPrimary,
   },
   submitButton: {
-    backgroundColor: '#2563eb',
-    borderRadius: 8,
-    paddingHorizontal: 16,
-    paddingVertical: 10,
+    backgroundColor: colors.accent,
+    borderRadius: radius.button,
+    paddingHorizontal: 18,
+    paddingVertical: 12,
   },
   submitButtonText: {
     color: '#ffffff',
-    fontWeight: '600',
+    fontWeight: '700',
+  },
+  errorBanner: {
+    marginHorizontal: 20,
+    marginTop: 8,
   },
   errorText: {
-    color: '#dc2626',
+    color: colors.up,
     fontSize: 12,
-    paddingHorizontal: 16,
-    paddingTop: 6,
+    fontWeight: '600',
   },
   editBanner: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    paddingHorizontal: 16,
-    paddingTop: 6,
+    marginHorizontal: 20,
+    marginTop: 8,
+    backgroundColor: colors.accentSoft,
+    borderRadius: radius.pill,
+    paddingHorizontal: 14,
+    paddingVertical: 8,
   },
   editBannerText: {
     fontSize: 12,
-    fontWeight: '600',
-    color: '#2563eb',
+    fontWeight: '700',
+    color: colors.accent,
   },
   editBannerCancel: {
     fontSize: 12,
-    color: '#6b7280',
+    fontWeight: '600',
+    color: colors.textSecondary,
   },
   detail: {
     flex: 1,
-    paddingHorizontal: 16,
-    paddingTop: 8,
+    paddingTop: 4,
   },
   detailDate: {
-    fontSize: 16,
-    fontWeight: '600',
-    marginBottom: 8,
+    fontSize: 18,
+    fontWeight: '800',
+    color: colors.textPrimary,
+    marginBottom: 10,
   },
   holidayBanner: {
+    backgroundColor: colors.upSoft,
+    borderRadius: radius.card,
+    paddingHorizontal: 14,
+    paddingVertical: 10,
     marginBottom: 12,
   },
   holidayBannerText: {
     fontSize: 13,
-    fontWeight: '600',
-    color: '#dc2626',
+    fontWeight: '700',
+    color: colors.up,
     marginBottom: 2,
   },
   emptyState: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    paddingBottom: 80,
+    gap: 12,
+    paddingVertical: 60,
+  },
+  emptyIconBadge: {
+    width: 60,
+    height: 60,
+    borderRadius: radius.pill,
+    backgroundColor: colors.cardBackground,
+    alignItems: 'center',
+    justifyContent: 'center',
+    ...cardShadow,
   },
   emptyStateText: {
-    color: '#9ca3af',
+    color: colors.textSecondary,
     fontSize: 14,
   },
-  eventRow: {
+  eventCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    paddingVertical: 8,
-    borderBottomWidth: 1,
-    borderBottomColor: '#f3f4f6',
+    backgroundColor: colors.cardBackground,
+    borderRadius: radius.card,
+    paddingHorizontal: 14,
+    paddingVertical: 12,
+    marginBottom: 10,
     gap: 12,
+    ...cardShadow,
   },
   eventTime: {
     fontSize: 13,
-    fontWeight: '600',
-    color: '#2563eb',
+    fontWeight: '700',
+    color: colors.accent,
     width: 48,
   },
   eventTitle: {
     fontSize: 14,
-    color: '#111827',
+    fontWeight: '600',
+    color: colors.textPrimary,
     flex: 1,
   },
   eventTextCompleted: {
     textDecorationLine: 'line-through',
-    textDecorationColor: '#dc2626',
-    color: '#dc2626',
+    textDecorationColor: colors.up,
+    color: colors.up,
   },
   rangeBadge: {
     backgroundColor: '#fff7ed',
-    borderRadius: 4,
-    paddingHorizontal: 6,
-    paddingVertical: 2,
+    borderRadius: radius.pill,
+    paddingHorizontal: 8,
+    paddingVertical: 3,
   },
   rangeBadgeText: {
     fontSize: 11,
-    fontWeight: '600',
+    fontWeight: '700',
     color: '#f59e0b',
   },
   deleteButton: {
@@ -796,7 +866,7 @@ const styles = StyleSheet.create({
   },
   modalBackdrop: {
     flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.4)',
+    backgroundColor: 'rgba(15, 23, 42, 0.4)',
     alignItems: 'center',
     justifyContent: 'center',
     padding: 24,
@@ -804,25 +874,26 @@ const styles = StyleSheet.create({
   modalCard: {
     width: '100%',
     maxWidth: 360,
-    backgroundColor: '#ffffff',
-    borderRadius: 12,
+    backgroundColor: colors.cardBackground,
+    borderRadius: radius.card,
     padding: 20,
   },
   modalTitle: {
-    fontSize: 16,
-    fontWeight: '700',
+    fontSize: 17,
+    fontWeight: '800',
+    color: colors.textPrimary,
     marginBottom: 12,
   },
   modalInput: {
-    borderWidth: 1,
-    borderColor: '#d1d5db',
-    borderRadius: 8,
-    paddingHorizontal: 12,
-    paddingVertical: 10,
+    backgroundColor: colors.pageBackground,
+    borderRadius: radius.button,
+    paddingHorizontal: 14,
+    paddingVertical: 12,
     fontSize: 14,
+    color: colors.textPrimary,
   },
   modalErrorText: {
-    color: '#dc2626',
+    color: colors.up,
     fontSize: 12,
     marginTop: 8,
   },
@@ -835,20 +906,20 @@ const styles = StyleSheet.create({
   modalCancelButton: {
     paddingHorizontal: 14,
     paddingVertical: 10,
-    borderRadius: 8,
+    borderRadius: radius.button,
   },
   modalCancelButtonText: {
-    color: '#6b7280',
-    fontWeight: '600',
+    color: colors.textSecondary,
+    fontWeight: '700',
   },
   modalConfirmButton: {
-    backgroundColor: '#2563eb',
+    backgroundColor: colors.accent,
     paddingHorizontal: 14,
     paddingVertical: 10,
-    borderRadius: 8,
+    borderRadius: radius.button,
   },
   modalConfirmButtonText: {
     color: '#ffffff',
-    fontWeight: '600',
+    fontWeight: '700',
   },
 });

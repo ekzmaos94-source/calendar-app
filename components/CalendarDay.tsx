@@ -1,5 +1,6 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import type { DateData } from 'react-native-calendars';
+import { colors } from '../utils/theme';
 
 export type DayMarking = {
   selected?: boolean;
@@ -30,7 +31,7 @@ export function CalendarDay({ date, state, marking = {}, onPress }: CalendarDayP
       <View
         style={[
           styles.numberCircle,
-          isSelected && { backgroundColor: marking.selectedColor ?? '#2563eb' },
+          isSelected && { backgroundColor: marking.selectedColor ?? colors.accent },
         ]}
       >
         <Text
@@ -75,28 +76,29 @@ const styles = StyleSheet.create({
   },
   numberText: {
     fontSize: 13,
-    color: '#111827',
+    fontWeight: '600',
+    color: colors.textPrimary,
   },
   numberTextDisabled: {
-    color: '#d1d5db',
+    color: colors.textTertiary,
   },
   numberTextToday: {
-    color: '#2563eb',
-    fontWeight: '700',
+    color: colors.accent,
+    fontWeight: '800',
   },
   numberTextHoliday: {
-    color: '#dc2626',
-    fontWeight: '600',
+    color: colors.up,
+    fontWeight: '700',
   },
   numberTextSelected: {
     color: '#ffffff',
-    fontWeight: '700',
+    fontWeight: '800',
   },
   holidayLabel: {
     marginTop: 1,
     fontSize: 7.5,
     lineHeight: 9,
-    color: '#dc2626',
+    color: colors.up,
   },
   dotSlot: {
     height: 4,
@@ -110,7 +112,7 @@ const styles = StyleSheet.create({
     width: 4,
     height: 4,
     borderRadius: 2,
-    backgroundColor: '#2563eb',
+    backgroundColor: colors.accent,
   },
   rangeDot: {
     width: 5,
