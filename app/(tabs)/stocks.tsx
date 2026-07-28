@@ -10,12 +10,21 @@ import {
   View,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { fetchMovers, loadCachedMovers, Mover, MoversBundle, MoversData } from '../../utils/movers';
+import {
+  fetchMovers,
+  loadCachedMovers,
+  Mover,
+  MoversBundle,
+  MoversData,
+  MoversSession,
+} from '../../utils/movers';
 
-const SESSION_LABEL = {
+const SESSION_LABEL: Record<MoversSession, string> = {
   open: '장 초반',
   close: '마감',
-} as const;
+};
+
+const SESSION_ORDER: MoversSession[] = ['open', 'close'];
 
 function formatTradingDate(dateString: string) {
   const [year, month, day] = dateString.split('-').map((part) => parseInt(part, 10));
@@ -61,13 +70,9 @@ function MoverRow({ item }: { item: Mover }) {
 }
 
 function MoversSection({ data }: { data: MoversData }) {
-  if (data.movers.length === 0) return null;
-
   return (
     <View style={styles.section}>
-      <Text style={styles.dateLabel}>
-        {SESSION_LABEL[data.session]} · {formatTradingDate(data.tradingDate)} 기준
-      </Text>
+      <Text style={styles.dateLabel}>{formatTradingDate(data.tradingDate)} 기준</Text>
       {data.movers.map((item) => (
         <MoverRow key={item.symbol} item={item} />
       ))}
@@ -75,8 +80,46 @@ function MoversSection({ data }: { data: MoversData }) {
   );
 }
 
+function SessionTabs({
+  bundle,
+  selected,
+  onSelect,
+}: {
+  bundle: MoversBundle;
+  selected: MoversSession;
+  onSelect: (session: MoversSession) => void;
+}) {
+  return (
+    <View style={styles.segmentRow}>
+      {SESSION_ORDER.map((session) => {
+        const isDisabled = bundle[session].movers.length === 0;
+        const isSelected = selected === session;
+        return (
+          <Pressable
+            key={session}
+            onPress={() => onSelect(session)}
+            disabled={isDisabled}
+            style={[styles.segmentButton, isSelected && styles.segmentButtonSelected]}
+          >
+            <Text
+              style={[
+                styles.segmentButtonText,
+                isSelected && styles.segmentButtonTextSelected,
+                isDisabled && styles.segmentButtonTextDisabled,
+              ]}
+            >
+              {SESSION_LABEL[session]}
+            </Text>
+          </Pressable>
+        );
+      })}
+    </View>
+  );
+}
+
 export default function StocksScreen() {
   const [bundle, setBundle] = useState<MoversBundle | null>(null);
+  const [selectedSession, setSelectedSession] = useState<MoversSession>('close');
   const [isRefreshing, setIsRefreshing] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -103,6 +146,16 @@ export default function StocksScreen() {
       refresh();
     })();
   }, [refresh]);
+
+  // 선택된 탭에 데이터가 없는데 다른 탭엔 있으면(초기 진입, 새로고침으로 클리어됨 등)
+  // 빈 탭을 계속 보고 있지 않도록 데이터가 있는 쪽으로 옮겨준다.
+  useEffect(() => {
+    if (!bundle) return;
+    const other: MoversSession = selectedSession === 'open' ? 'close' : 'open';
+    if (bundle[selectedSession].movers.length === 0 && bundle[other].movers.length > 0) {
+      setSelectedSession(other);
+    }
+  }, [bundle, selectedSession]);
 
   return (
     <SafeAreaView style={styles.container} edges={['top', 'bottom']}>
@@ -134,10 +187,12 @@ export default function StocksScreen() {
           </Text>
         </View>
       ) : (
-        <ScrollView contentContainerStyle={styles.list}>
-          <MoversSection data={bundle.open} />
-          <MoversSection data={bundle.close} />
-        </ScrollView>
+        <>
+          <SessionTabs bundle={bundle} selected={selectedSession} onSelect={setSelectedSession} />
+          <ScrollView contentContainerStyle={styles.list}>
+            <MoversSection data={bundle[selectedSession]} />
+          </ScrollView>
+        </>
       )}
     </SafeAreaView>
   );
@@ -167,11 +222,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 32,
     gap: 8,
   },
-  placeholderTitle: {
-    fontSize: 15,
-    fontWeight: '600',
-    color: '#6b7280',
-  },
   placeholderSubtitle: {
     fontSize: 13,
     color: '#9ca3af',
@@ -182,6 +232,40 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#dc2626',
     textAlign: 'center',
+  },
+  segmentRow: {
+    flexDirection: 'row',
+    marginHorizontal: 16,
+    marginBottom: 4,
+    backgroundColor: '#f3f4f6',
+    borderRadius: 8,
+    padding: 3,
+    gap: 3,
+  },
+  segmentButton: {
+    flex: 1,
+    paddingVertical: 8,
+    borderRadius: 6,
+    alignItems: 'center',
+  },
+  segmentButtonSelected: {
+    backgroundColor: '#ffffff',
+    shadowColor: '#000',
+    shadowOpacity: 0.08,
+    shadowRadius: 2,
+    shadowOffset: { width: 0, height: 1 },
+    elevation: 1,
+  },
+  segmentButtonText: {
+    fontSize: 13,
+    fontWeight: '600',
+    color: '#6b7280',
+  },
+  segmentButtonTextSelected: {
+    color: '#2563eb',
+  },
+  segmentButtonTextDisabled: {
+    color: '#d1d5db',
   },
   list: {
     paddingHorizontal: 16,
