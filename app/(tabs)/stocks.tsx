@@ -10,7 +10,12 @@ import {
   View,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { fetchMovers, Mover, MoversData } from '../../utils/movers';
+import { fetchMovers, loadCachedMovers, Mover, MoversBundle, MoversData } from '../../utils/movers';
+
+const SESSION_LABEL = {
+  open: '장 초반',
+  close: '마감',
+} as const;
 
 function formatTradingDate(dateString: string) {
   const [year, month, day] = dateString.split('-').map((part) => parseInt(part, 10));
@@ -55,61 +60,83 @@ function MoverRow({ item }: { item: Mover }) {
   );
 }
 
+function MoversSection({ data }: { data: MoversData }) {
+  if (data.movers.length === 0) return null;
+
+  return (
+    <View style={styles.section}>
+      <Text style={styles.dateLabel}>
+        {SESSION_LABEL[data.session]} · {formatTradingDate(data.tradingDate)} 기준
+      </Text>
+      {data.movers.map((item) => (
+        <MoverRow key={item.symbol} item={item} />
+      ))}
+    </View>
+  );
+}
+
 export default function StocksScreen() {
-  const [data, setData] = useState<MoversData | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [bundle, setBundle] = useState<MoversBundle | null>(null);
+  const [isRefreshing, setIsRefreshing] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const load = useCallback(async () => {
-    setIsLoading(true);
+  // 새로고침 중에도 화면에 남겨둘 데이터가 있는지는 bundle로 판단하고,
+  // 앱을 처음 켰을 때(캐시도 없는 상태)만 전체 화면 스피너를 보여준다.
+  const isInitialLoading = isRefreshing && !bundle;
+
+  const refresh = useCallback(async () => {
+    setIsRefreshing(true);
     setError(null);
     try {
-      setData(await fetchMovers());
+      setBundle(await fetchMovers());
     } catch {
       setError('데이터를 불러오지 못했어요. 잠시 후 다시 시도해 주세요.');
     } finally {
-      setIsLoading(false);
+      setIsRefreshing(false);
     }
   }, []);
 
   useEffect(() => {
-    load();
-  }, [load]);
+    (async () => {
+      const cached = await loadCachedMovers();
+      if (cached) setBundle(cached);
+      refresh();
+    })();
+  }, [refresh]);
 
   return (
     <SafeAreaView style={styles.container} edges={['top', 'bottom']}>
       <View style={styles.headerRow}>
         <Text style={styles.header}>주식</Text>
-        <Pressable onPress={load} hitSlop={8}>
-          <Ionicons name="refresh" size={20} color="#6b7280" />
+        <Pressable onPress={refresh} disabled={isRefreshing} hitSlop={8}>
+          {isRefreshing ? (
+            <ActivityIndicator size="small" color="#6b7280" />
+          ) : (
+            <Ionicons name="refresh" size={20} color="#6b7280" />
+          )}
         </Pressable>
       </View>
 
-      {isLoading ? (
+      {isInitialLoading ? (
         <View style={styles.centerState}>
           <ActivityIndicator color="#2563eb" />
         </View>
-      ) : error ? (
+      ) : error && !bundle ? (
         <View style={styles.centerState}>
           <Text style={styles.errorText}>{error}</Text>
         </View>
-      ) : !data || data.movers.length === 0 ? (
+      ) : !bundle || (bundle.open.movers.length === 0 && bundle.close.movers.length === 0) ? (
         <View style={styles.centerState}>
           <Ionicons name="trending-up-outline" size={40} color="#d1d5db" />
-          <Text style={styles.placeholderTitle}>
-            {data ? `${formatTradingDate(data.tradingDate)} 기준` : ''}
-          </Text>
           <Text style={styles.placeholderSubtitle}>
-            S&P 500 종목 중 시가 대비 {data?.thresholdPercent ?? 5}% 이상 변동한 종목이
+            S&P 500 종목 중 시가 대비 {bundle?.close.thresholdPercent ?? 5}% 이상 변동한 종목이
             없어요.
           </Text>
         </View>
       ) : (
         <ScrollView contentContainerStyle={styles.list}>
-          <Text style={styles.dateLabel}>{formatTradingDate(data.tradingDate)} 정규장 기준</Text>
-          {data.movers.map((item) => (
-            <MoverRow key={item.symbol} item={item} />
-          ))}
+          <MoversSection data={bundle.open} />
+          <MoversSection data={bundle.close} />
         </ScrollView>
       )}
     </SafeAreaView>
@@ -160,8 +187,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingBottom: 24,
   },
+  section: {
+    marginBottom: 20,
+  },
   dateLabel: {
     fontSize: 12,
+    fontWeight: '600',
     color: '#9ca3af',
     marginTop: 4,
     marginBottom: 8,

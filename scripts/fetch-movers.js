@@ -1,8 +1,17 @@
-// 정규장 마감 후 실행: S&P 500 종목 중 당일 시가 대비 5% 이상 변동한 종목을 추리고,
-// 해당 종목에 대해서만 한줄 뉴스를 붙여 data/movers.json으로 저장한다.
-// GitHub Actions 워크플로(.github/workflows/stock-movers.yml)에서 매일 장 마감 후 실행된다.
+// S&P 500 종목 중 당일 시가 대비 5% 이상 변동한 종목을 추리고, 해당 종목에 대해서만
+// 한줄 뉴스를 붙여 data/movers-<session>.json으로 저장한다.
+// GitHub Actions 워크플로(.github/workflows/stock-movers.yml)에서 하루 두 번 실행된다:
+// - open: 개장 직후(장 초반 변동 스캔) -> data/movers-open.json
+// - close: 마감 후(마감 시점 변동 재선별) -> data/movers-close.json
+// 두 파일을 서로 덮어쓰지 않기 때문에, 다음날 개장 1시간 전까지는 둘 다 앱에서 조회할 수 있다.
 const fs = require('fs');
 const path = require('path');
+
+const SESSION = process.argv[2];
+if (SESSION !== 'open' && SESSION !== 'close') {
+  console.error('사용법: node scripts/fetch-movers.js <open|close>');
+  process.exit(1);
+}
 
 const FINNHUB_API_KEY = process.env.FINNHUB_API_KEY;
 const DEEPL_API_KEY = process.env.DEEPL_API_KEY;
@@ -19,7 +28,7 @@ if (!FINNHUB_API_KEY) {
 }
 
 const sp500Path = path.join(__dirname, '..', 'data', 'sp500.json');
-const outPath = path.join(__dirname, '..', 'data', 'movers.json');
+const outPath = path.join(__dirname, '..', 'data', `movers-${SESSION}.json`);
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -183,7 +192,7 @@ async function main() {
   const companyMatchers = buildCompanyMatchers(companies);
   const tradingDate = nyDateString(new Date());
 
-  console.log(`${companies.length}개 종목 시세 조회 시작 (${tradingDate})`);
+  console.log(`[${SESSION}] ${companies.length}개 종목 시세 조회 시작 (${tradingDate})`);
 
   const movers = [];
   for (const [index, company] of companies.entries()) {
@@ -250,6 +259,7 @@ async function main() {
     generatedAt: new Date().toISOString(),
     tradingDate,
     thresholdPercent: MOVE_THRESHOLD_PERCENT,
+    session: SESSION,
     movers,
   };
 
