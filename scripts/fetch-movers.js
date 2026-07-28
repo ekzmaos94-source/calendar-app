@@ -4,6 +4,11 @@
 // - open: 개장 직후(장 초반 변동 스캔) -> data/movers-open.json
 // - close: 마감 후(마감 시점 변동 재선별) -> data/movers-close.json
 // 두 파일을 서로 덮어쓰지 않기 때문에, 다음날 개장 1시간 전까지는 둘 다 앱에서 조회할 수 있다.
+//
+// 시세는 Yahoo Finance의 비공식 벌크 시세 엔드포인트로 한 번에 조회한다(503개 종목 개별 호출 시
+// Finnhub 무료 티어 분당 호출 제한 때문에 ~10분이 걸렸는데, 벌크 요청은 몇 초면 끝난다).
+// 문서화되지 않은 API라 인증 방식(쿠키+crumb)이 예고 없이 바뀌거나 막힐 수 있다는 리스크는 있다.
+// 뉴스는 그대로 Finnhub company-news를 쓴다(대상 종목 수가 적어 속도 제한이 문제되지 않음).
 const fs = require('fs');
 const path = require('path');
 
@@ -16,8 +21,10 @@ if (SESSION !== 'open' && SESSION !== 'close') {
 const FINNHUB_API_KEY = process.env.FINNHUB_API_KEY;
 const DEEPL_API_KEY = process.env.DEEPL_API_KEY;
 const MOVE_THRESHOLD_PERCENT = 5;
-const QUOTE_DELAY_MS = 1100; // 분당 60회 제한 아래로 안전하게 (약 55회/분)
-const NEWS_DELAY_MS = 1100;
+const NEWS_DELAY_MS = 1100; // Finnhub 무료 티어 분당 60회 제한 아래로 안전하게 (약 55회/분)
+const YAHOO_QUOTE_CHUNK_SIZE = 200; // 한 번에 다 되긴 하지만, 요청 하나에 다 걸지 않도록 나눠서 요청
+const YAHOO_USER_AGENT =
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36';
 const DEEPL_URL = (DEEPL_API_KEY ?? '').endsWith(':fx')
   ? 'https://api-free.deepl.com/v2/translate'
   : 'https://api.deepl.com/v2/translate';
@@ -51,9 +58,60 @@ async function fetchJson(url) {
   return response.json();
 }
 
-async function fetchQuote(symbol) {
-  const url = `https://finnhub.io/api/v1/quote?symbol=${encodeURIComponent(symbol)}&token=${FINNHUB_API_KEY}`;
-  return fetchJson(url);
+function chunk(array, size) {
+  const chunks = [];
+  for (let i = 0; i < array.length; i += size) {
+    chunks.push(array.slice(i, i + size));
+  }
+  return chunks;
+}
+
+// Yahoo Finance의 quote API는 크롬 등 브라우저에서 발급받는 쿠키+crumb가 있어야 응답한다.
+// fc.yahoo.com에 아무 요청이나 보내 쿠키를 받고, 그 쿠키로 crumb를 발급받는 흐름이다.
+async function getYahooCrumb() {
+  const cookieResponse = await fetch('https://fc.yahoo.com', {
+    headers: { 'User-Agent': YAHOO_USER_AGENT },
+  });
+  const cookie = (cookieResponse.headers.getSetCookie?.() ?? [])
+    .map((entry) => entry.split(';')[0])
+    .join('; ');
+  if (!cookie) {
+    throw new Error('Yahoo Finance 쿠키를 받지 못했습니다.');
+  }
+
+  const crumbResponse = await fetch('https://query2.finance.yahoo.com/v1/test/getcrumb', {
+    headers: { 'User-Agent': YAHOO_USER_AGENT, Cookie: cookie },
+  });
+  const crumb = (await crumbResponse.text()).trim();
+  if (!crumbResponse.ok || !crumb) {
+    throw new Error(`Yahoo Finance crumb 발급 실패: HTTP ${crumbResponse.status}`);
+  }
+
+  return { cookie, crumb };
+}
+
+// symbol -> { open, current } 맵을 반환한다. 시세가 없거나 형식이 이상한 종목은 맵에서 빠진다.
+async function fetchYahooQuotes(symbols, { cookie, crumb }) {
+  const quotes = new Map();
+
+  for (const symbolChunk of chunk(symbols, YAHOO_QUOTE_CHUNK_SIZE)) {
+    const url = `https://query1.finance.yahoo.com/v7/finance/quote?symbols=${encodeURIComponent(symbolChunk.join(','))}&crumb=${encodeURIComponent(crumb)}`;
+    const response = await fetch(url, {
+      headers: { 'User-Agent': YAHOO_USER_AGENT, Cookie: cookie },
+    });
+    if (!response.ok) {
+      throw new Error(`Yahoo Finance 시세 조회 실패: HTTP ${response.status}`);
+    }
+    const data = await response.json();
+    for (const result of data.quoteResponse?.result ?? []) {
+      const { symbol, regularMarketOpen: open, regularMarketPrice: current } = result;
+      if (typeof open === 'number' && open > 0 && typeof current === 'number') {
+        quotes.set(symbol, { open, current });
+      }
+    }
+  }
+
+  return quotes;
 }
 
 // Finnhub의 company-news는 조회한 종목에 조금이라도 언급되면 다 붙여주기 때문에,
@@ -194,29 +252,30 @@ async function main() {
 
   console.log(`[${SESSION}] ${companies.length}개 종목 시세 조회 시작 (${tradingDate})`);
 
-  const movers = [];
-  for (const [index, company] of companies.entries()) {
-    try {
-      const quote = await fetchQuote(company.symbol);
-      const { o: open, c: current } = quote;
-      if (typeof open === 'number' && open > 0 && typeof current === 'number') {
-        const changePercent = ((current - open) / open) * 100;
-        if (Math.abs(changePercent) >= MOVE_THRESHOLD_PERCENT) {
-          movers.push({
-            symbol: company.symbol,
-            name: company.name,
-            sector: company.sector,
-            open,
-            current,
-            changePercent: Math.round(changePercent * 100) / 100,
-          });
-        }
-      }
-    } catch (err) {
-      console.warn(`[quote] ${company.symbol} 조회 실패: ${err.message}`);
-    }
+  const yahooAuth = await getYahooCrumb();
+  const quotes = await fetchYahooQuotes(
+    companies.map((company) => company.symbol),
+    yahooAuth
+  );
+  console.log(`${quotes.size}/${companies.length}개 종목 시세 조회 완료`);
 
-    if (index < companies.length - 1) await sleep(QUOTE_DELAY_MS);
+  const movers = [];
+  for (const company of companies) {
+    const quote = quotes.get(company.symbol);
+    if (!quote) continue;
+
+    const { open, current } = quote;
+    const changePercent = ((current - open) / open) * 100;
+    if (Math.abs(changePercent) >= MOVE_THRESHOLD_PERCENT) {
+      movers.push({
+        symbol: company.symbol,
+        name: company.name,
+        sector: company.sector,
+        open,
+        current,
+        changePercent: Math.round(changePercent * 100) / 100,
+      });
+    }
   }
 
   console.log(`${movers.length}개 종목이 ${MOVE_THRESHOLD_PERCENT}% 이상 변동, 뉴스 조회 시작`);
