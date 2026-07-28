@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Ionicons } from '@expo/vector-icons';
 import * as Location from 'expo-location';
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   Alert,
   Keyboard,
@@ -37,6 +37,20 @@ LocaleConfig.locales.ko = {
   today: '오늘',
 };
 LocaleConfig.defaultLocale = 'ko';
+
+// react-native-calendars의 날짜 셀은 내부적으로 React.memo(theme을 참조 비교)로 최적화돼 있다.
+// 여기서 매 렌더마다 새 객체를 만들면 그 memo가 무력화돼 입력창 타이핑 등 무관한 리렌더에도
+// 달력 전체 날짜 셀이 다시 그려지므로, 모듈 스코프 상수로 참조를 고정한다.
+const CALENDAR_THEME = {
+  todayTextColor: '#2563eb',
+  arrowColor: '#2563eb',
+  selectedDayBackgroundColor: '#2563eb',
+  textMonthFontSize: 15,
+  textDayHeaderFontSize: 11,
+  weekVerticalMargin: 4,
+} as const;
+
+const MemoizedCalendar = memo(Calendar);
 
 type ScheduleEvent = {
   id: string;
@@ -261,31 +275,42 @@ export default function CalendarScreen() {
 
   const holidaysForSelectedDate = holidayMap[selectedDate] ?? [];
 
-  const cancelInputIfActive = () => {
-    if (!editingGroupId && !inputText && keyboardHeight === 0) return;
+  // 참조가 매 렌더마다 바뀌면 Calendar/day 셀의 memo가 깨지므로, 의존성 없이 고정한다.
+  // (동일 값으로 setState하면 React가 알아서 리렌더를 건너뛰므로 이전의 guard는 불필요했다.)
+  const cancelInputIfActive = useCallback(() => {
     setEditingGroupId(null);
     setInputText('');
     setErrorMessage(null);
     Keyboard.dismiss();
-  };
+  }, []);
 
-  const onDayPress = (day: DateData) => {
-    setSelectedDate(day.dateString);
-    cancelInputIfActive();
-  };
+  const onDayPress = useCallback(
+    (day: DateData) => {
+      setSelectedDate(day.dateString);
+      cancelInputIfActive();
+    },
+    [cancelInputIfActive]
+  );
 
-  const onMonthChange = (month: DateData) => {
-    setVisibleYear(month.year);
-    cancelInputIfActive();
-  };
+  const onMonthChange = useCallback(
+    (month: DateData) => {
+      setVisibleYear(month.year);
+      cancelInputIfActive();
+    },
+    [cancelInputIfActive]
+  );
 
-  const onToggleUsHolidays = (value: boolean) => {
-    setShowUsHolidays(value);
-    cancelInputIfActive();
-  };
+  const onToggleUsHolidays = useCallback(
+    (value: boolean) => {
+      setShowUsHolidays(value);
+      cancelInputIfActive();
+    },
+    [cancelInputIfActive]
+  );
 
   const onSubmit = () => {
-    const parsed = parseScheduleText(inputText);
+    const { year, month, day } = parseDateParts(selectedDate);
+    const parsed = parseScheduleText(inputText, new Date(), new Date(year, month - 1, day));
     if (!parsed) {
       setErrorMessage('날짜를 인식하지 못했어요. 예: "다음주 금요일 오후 3시에 치과 예약"');
       return;
@@ -440,7 +465,7 @@ export default function CalendarScreen() {
           <Switch value={showUsHolidays} onValueChange={onToggleUsHolidays} />
         </View>
 
-        <Calendar
+        <MemoizedCalendar
           current={selectedDate}
           onDayPress={onDayPress}
           onMonthChange={onMonthChange}
@@ -448,14 +473,7 @@ export default function CalendarScreen() {
           dayComponent={CalendarDay}
           enableSwipeMonths
           monthFormat="yyyy년 MMMM"
-          theme={{
-            todayTextColor: '#2563eb',
-            arrowColor: '#2563eb',
-            selectedDayBackgroundColor: '#2563eb',
-            textMonthFontSize: 15,
-            textDayHeaderFontSize: 11,
-            weekVerticalMargin: 4,
-          }}
+          theme={CALENDAR_THEME}
           style={styles.calendar}
         />
 

@@ -49,7 +49,7 @@ function expandHolidaysForYear(
 
 const yearCache = new Map<string, HolidayInfo[]>();
 
-export function getHolidaysForYear(year: number, includeUs: boolean): HolidayInfo[] {
+function getHolidaysForYear(year: number, includeUs: boolean): HolidayInfo[] {
   const cacheKey = `${year}-${includeUs}`;
   const cached = yearCache.get(cacheKey);
   if (cached) return cached;

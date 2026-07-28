@@ -165,28 +165,39 @@ function findTimeMatch(text: string): { match: string; time: string } | null {
   return { match: time[0], time: `${pad2(hour)}:${pad2(minute)}` };
 }
 
-export function parseScheduleText(input: string, reference: Date = new Date()): ParsedSchedule | null {
+export function parseScheduleText(
+  input: string,
+  reference: Date = new Date(),
+  fallbackDate?: Date
+): ParsedSchedule | null {
   const trimmedInput = input.trim();
   if (!trimmedInput) return null;
 
   const rangeMatch = tryParseRange(trimmedInput, reference);
 
   let dates: string[];
-  let matchedDateText: string;
+  let matchedDateText: string | null;
 
   if (rangeMatch) {
     dates = rangeMatch.dates.map(toDateString);
     matchedDateText = rangeMatch.match;
   } else {
     const dateMatch = findDateMatch(trimmedInput, reference);
-    if (!dateMatch) return null;
-    dates = [toDateString(dateMatch.date)];
-    matchedDateText = dateMatch.match;
+    if (dateMatch) {
+      dates = [toDateString(dateMatch.date)];
+      matchedDateText = dateMatch.match;
+    } else if (fallbackDate) {
+      // 텍스트에서 날짜를 못 찾으면, 현재 캘린더에서 선택된 날짜로 대신 등록한다.
+      dates = [toDateString(fallbackDate)];
+      matchedDateText = null;
+    } else {
+      return null;
+    }
   }
 
   const timeMatch = findTimeMatch(trimmedInput);
 
-  let title = trimmedInput.replace(matchedDateText, ' ');
+  let title = matchedDateText ? trimmedInput.replace(matchedDateText, ' ') : trimmedInput;
   if (timeMatch) {
     title = title.replace(timeMatch.match, ' ');
   }
