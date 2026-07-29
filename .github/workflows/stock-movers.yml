@@ -2,18 +2,22 @@ name: Update stock movers
 
 on:
   schedule:
-    # 개장(9:30 ET) 30분 후 = 10:00 ET, 장 초반 변동이 큰 종목을 선별.
-    # 서머타임 여부에 따라 ET->UTC 오프셋이 달라지므로 두 크론으로 나눠서 둘 다 "개장 30분 후"를 맞춘다.
-    # 14:00 UTC = 10:00 ET (서머타임/EDT 기간, 대략 3~10월)
-    - cron: '0 14 * 3-10 1-5'
-    # 15:00 UTC = 10:00 ET (표준시/EST 기간, 대략 11~2월)
-    - cron: '0 15 * 11,12,1,2 1-5'
-    # 21:30 UTC = 미 동부 정규장(16:00 ET) 마감 후, 서머타임 여부와 무관하게 안전한 시각
-    # - 마감 시점 기준으로 변동이 큰 종목을 다시 선별한다 (open 스캔 결과는 그대로 남겨둠)
-    - cron: '30 21 * * 1-5'
-    # 12:30 UTC = 익일 정규장 개장 최소 1시간 전, 서머타임 여부와 무관하게 항상 개장 1시간 이상 전이 되는 시각
-    # - 전날의 open/close 스캔 데이터를 비운다
-    - cron: '30 12 * * 1-5'
+    # 장개장(9:30 ET) 30분 후 = 10:00 ET, 장개장 변동이 큰 종목을 선별.
+    # 서머타임 여부에 따라 ET->UTC 오프셋이 달라지므로 두 크론으로 나눠서 둘 다 "장개장 30분 후"를 맞춘다.
+    # 분 단위를 정각(:00)에서 살짝 떨어뜨려 GitHub Actions 스케줄 혼잡 시간대(정각/30분)를 피한다.
+    # 14:06 UTC = 10:06 ET (서머타임/EDT 기간, 대략 3~10월)
+    - cron: '6 14 * 3-10 1-5'
+    # 15:06 UTC = 10:06 ET (표준시/EST 기간, 대략 11~2월)
+    - cron: '6 15 * 11,12,1,2 1-5'
+    # 장마감(16:00 ET) 30분 후 - 이것도 서머타임에 따라 UTC 오프셋이 달라지므로 개장과 동일하게 두 크론으로 나눈다.
+    # - 장마감 시점 기준으로 변동이 큰 종목을 다시 선별한다 (open 스캔 결과는 그대로 남겨둠)
+    # 20:34 UTC = 16:34 ET (서머타임/EDT 기간, 대략 3~10월)
+    - cron: '34 20 * 3-10 1-5'
+    # 21:34 UTC = 16:34 ET (표준시/EST 기간, 대략 11~2월)
+    - cron: '34 21 * 11,12,1,2 1-5'
+    # 13:04 UTC = 익일 정규장 개장(가장 이른 경우 14:06 UTC) 1시간 이상 전, 서머타임 여부와 무관하게 항상 안전한 시각
+    # - 전날의 장개장/장마감 스캔 데이터를 비운다
+    - cron: '4 13 * * 1-5'
   workflow_dispatch:
     inputs:
       mode:
@@ -43,9 +47,9 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "value=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "0 14 * 3-10 1-5" ] || [ "${{ github.event.schedule }}" = "0 15 * 11,12,1,2 1-5" ]; then
+          elif [ "${{ github.event.schedule }}" = "6 14 * 3-10 1-5" ] || [ "${{ github.event.schedule }}" = "6 15 * 11,12,1,2 1-5" ]; then
             echo "value=open" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "30 21 * * 1-5" ]; then
+          elif [ "${{ github.event.schedule }}" = "34 20 * 3-10 1-5" ] || [ "${{ github.event.schedule }}" = "34 21 * 11,12,1,2 1-5" ]; then
             echo "value=close" >> "$GITHUB_OUTPUT"
           else
             echo "value=clear" >> "$GITHUB_OUTPUT"

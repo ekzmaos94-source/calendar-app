@@ -1,8 +1,8 @@
 // S&P 500 종목 중 당일 시가 대비 5% 이상 변동한 종목을 추리고, 해당 종목에 대해서만
 // 한줄 뉴스를 붙여 data/movers-<session>.json으로 저장한다.
 // GitHub Actions 워크플로(.github/workflows/stock-movers.yml)에서 하루 두 번 실행된다:
-// - open: 개장 직후(장 초반 변동 스캔) -> data/movers-open.json
-// - close: 마감 후(마감 시점 변동 재선별) -> data/movers-close.json
+// - open: 장개장 직후(장개장 변동 스캔) -> data/movers-open.json
+// - close: 장마감 후(장마감 시점 변동 재선별) -> data/movers-close.json
 // 두 파일을 서로 덮어쓰지 않기 때문에, 다음날 개장 1시간 전까지는 둘 다 앱에서 조회할 수 있다.
 //
 // 시세는 Yahoo Finance의 비공식 벌크 시세 엔드포인트로 한 번에 조회한다(503개 종목 개별 호출 시

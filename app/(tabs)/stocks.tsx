@@ -21,8 +21,8 @@ import {
 import { cardShadow, colors, radius } from '../../utils/theme';
 
 const SESSION_LABEL: Record<MoversSession, string> = {
-  open: '장 초반',
-  close: '마감',
+  open: '장개장',
+  close: '장마감',
 };
 
 const SESSION_ORDER: MoversSession[] = ['open', 'close'];
