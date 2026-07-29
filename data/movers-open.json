@@ -1,233 +1,347 @@
 {
-  "generatedAt": "2026-07-28T18:55:05.993Z",
-  "tradingDate": "2026-07-28",
+  "generatedAt": "2026-07-29T18:13:32.890Z",
+  "tradingDate": "2026-07-29",
   "thresholdPercent": 5,
   "session": "open",
   "movers": [
     {
-      "symbol": "INCY",
-      "name": "Incyte",
-      "sector": "Health Care",
-      "open": 118.87,
-      "current": 132,
-      "changePercent": 11.05,
+      "symbol": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "open": 26.03,
+      "current": 30.125,
+      "changePercent": 15.73,
       "news": {
-        "headline": "INCY Q2 Earnings & Revenues Beat on Higher Sales, '26 View Raised",
-        "url": "https://finnhub.io/api/news?id=9b51439141c29da15f6773f0c3e11b7989e81beaf05eadbc1aee88f09c1c18eb",
-        "source": "Yahoo",
-        "datetime": 1785256800,
-        "headlineKo": "INCY, 2분기 실적 및 매출이 판매 증가로 기대치를 상회… 2026년 전망치 상향 조정"
+        "headline": "William Blair Downgrades CoStar Group to Market Perform",
+        "url": "https://finnhub.io/api/news?id=43855e19bc605ed1213fbb2022afc99114c3cfe1f4925b5d72a953d65094390b",
+        "source": "Benzinga",
+        "datetime": 1785325135,
+        "headlineKo": "윌리엄 블레어, 코스타 그룹의 투자 등급을 ‘시장 평균’으로 하향 조정"
       }
     },
     {
-      "symbol": "UHS",
-      "name": "Universal Health Services",
-      "sector": "Health Care",
-      "open": 149.54,
-      "current": 164.21,
-      "changePercent": 9.81,
-      "news": {
-        "headline": "UHS Beats Q2 Earnings and Revenue Estimates Despite Cost Pressures",
-        "url": "https://finnhub.io/api/news?id=88ec2b6c3e4ef3ac6c9a5a98ca4e20ef90022e8708fce7b5c4044ce6407b390a",
-        "source": "Yahoo",
-        "datetime": 1785245760,
-        "headlineKo": "UHS, 비용 압박 속에서도 2분기 실적 및 매출 전망치를 상회"
-      }
-    },
-    {
-      "symbol": "CNC",
-      "name": "Centene Corporation",
-      "sector": "Health Care",
-      "open": 59.505,
-      "current": 64.25,
-      "changePercent": 7.97,
-      "news": {
-        "headline": "Centene Q2 Earnings Call Highlights",
-        "url": "https://finnhub.io/api/news?id=aa22c5bc6fec748740151c819fed37e3600a00b32223b6cc07ba7f1b2ae10fb9",
-        "source": "Yahoo",
-        "datetime": 1785258255,
-        "headlineKo": "센테네 2분기 실적 발표 전화회의 주요 내용"
-      }
-    },
-    {
-      "symbol": "SNDK",
-      "name": "Sandisk",
-      "sector": "Information Technology",
-      "open": 1172.365,
-      "current": 1083.915,
-      "changePercent": -7.54,
-      "news": {
-        "headline": "SNDK Stock Plunges Over 30% In 3 Days Amid Semiconductor Rout – Retail Traders Debate Whether $1,000 Will Hold",
-        "url": "https://finnhub.io/api/news?id=59a294be97c5b2f46b34886669270cd659b5f80a35829bd16fe7159242c60ca4",
-        "source": "Yahoo",
-        "datetime": 1785254065,
-        "headlineKo": "반도체 시장 폭락 속에 SNDK 주가 3일 만에 30% 이상 급락… 개인 투자자들, 1,000달러 지지선 유지 여부 놓고 논쟁"
-      }
-    },
-    {
-      "symbol": "RCL",
-      "name": "Royal Caribbean Group",
+      "symbol": "GRMN",
+      "name": "Garmin",
       "sector": "Consumer Discretionary",
-      "open": 302.7,
-      "current": 322.41,
-      "changePercent": 6.51,
+      "open": 261.81,
+      "current": 299.95,
+      "changePercent": 14.57,
       "news": {
-        "headline": "Royal Caribbean Stock Slips as Geopolitical Risks Cut Outlook",
-        "url": "https://finnhub.io/api/news?id=b9bf311a1bf33c995d5d75826aece2907dd12c88918c5fb571e004635253bc26",
+        "headline": "Garmin Stock Breaks Out On Second-Quarter Beat, Raised Outlook",
+        "url": "https://finnhub.io/api/news?id=34baa8c0529894e117231daa6869e0ef9b3e00de9273b89326043b3902bfcba6",
         "source": "Yahoo",
-        "datetime": 1785260072,
-        "headlineKo": "지정학적 리스크로 전망이 어두워지며 로얄 캐리비안 주가 하락"
+        "datetime": 1785335455,
+        "headlineKo": "가민, 2분기 실적 호조와 전망 상향 조정 소식에 주가 급등"
       }
     },
     {
-      "symbol": "CARR",
-      "name": "Carrier Global",
+      "symbol": "LII",
+      "name": "Lennox International",
       "sector": "Industrials",
-      "open": 67.52,
-      "current": 63.205,
-      "changePercent": -6.39,
+      "open": 491,
+      "current": 441.88,
+      "changePercent": -10,
       "news": {
-        "headline": "Carrier Global Q2 Earnings Call Highlights",
-        "url": "https://finnhub.io/api/news?id=3c73db3be08b20594cbe88160647df7c1401bae175a82f24a5ce4b88b438c773",
+        "headline": "Compared to Estimates, Lennox (LII) Q2 Earnings: A Look at Key Metrics",
+        "url": "https://finnhub.io/api/news?id=e84a4963f9d8ba021203247488f342ac1b0236ae89bf106d0db4f075fff5b426",
         "source": "Yahoo",
-        "datetime": 1785243780,
-        "headlineKo": "캐리어 글로벌 2분기 실적 발표 전화회의 주요 내용"
+        "datetime": 1785331803,
+        "headlineKo": "예상치 대비 레녹스(LII) 2분기 실적: 주요 지표 분석"
+      }
+    },
+    {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "open": 58.3372,
+      "current": 63.39,
+      "changePercent": 8.66,
+      "news": {
+        "headline": "Skyworks Solutions Inc (SWKS) Q3 2026 Earnings Call Highlights: Strong Revenue and Strategic Moves",
+        "url": "https://finnhub.io/api/news?id=29c817433ab94975c5a67ce606119ae937b8e5055b5e8607a36e3dd69f299be4",
+        "source": "Yahoo",
+        "datetime": 1785301322,
+        "headlineKo": "스카이웍스 솔루션즈(SWKS) 2026년 3분기 실적 발표 주요 내용: 견조한 매출과 전략적 조치"
+      }
+    },
+    {
+      "symbol": "BSX",
+      "name": "Boston Scientific",
+      "sector": "Health Care",
+      "open": 42.67,
+      "current": 46.3,
+      "changePercent": 8.51,
+      "news": {
+        "headline": "Boston Scientific reports positive Q2 results yet opts to trim 2026 outlook",
+        "url": "https://finnhub.io/api/news?id=56478597088739a9ef29ba72345d948806b4209219b8892449b9c357c2985673",
+        "source": "Yahoo",
+        "datetime": 1785340295,
+        "headlineKo": "보스턴 사이언티픽, 2분기 호실적을 발표했으나 2026년 실적 전망치를 하향 조정하기로 결정"
+      }
+    },
+    {
+      "symbol": "CTSH",
+      "name": "Cognizant",
+      "sector": "Information Technology",
+      "open": 52.31,
+      "current": 56.595,
+      "changePercent": 8.19,
+      "news": {
+        "headline": "Cognizant Technology Solutions Q2 Earnings Call Highlights",
+        "url": "https://finnhub.io/api/news?id=91b0d59913c52104a7873a6371838ef8eacdc9ab7b03a9aa8d7f4065f124d4ca",
+        "source": "Yahoo",
+        "datetime": 1785333860,
+        "headlineKo": "코그니전트 테크놀로지 솔루션즈 2분기 실적 발표 전화회의 주요 내용"
+      }
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "open": 367.895,
+      "current": 339.2,
+      "changePercent": -7.8,
+      "news": {
+        "headline": "Teradyne Stock Jumps as Earnings Guidance Does the Seemingly Impossible—Impresses Wall Street",
+        "url": "https://finnhub.io/api/news?id=86b0e87e19a3ee81069338fda50e55cb607a855dc5256234fbf782935cd51557",
+        "source": "Yahoo",
+        "datetime": 1785333660,
+        "headlineKo": "테라다인, 실적 전망치가 ‘불가능해 보였던 일’을 해내며 월가를 감탄시키자 주가 급등"
+      }
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "open": 245.99,
+      "current": 227.245,
+      "changePercent": -7.62,
+      "news": {
+        "headline": "Top Midday Stories: Stocks Down, Oil Up as Trump Vows Strong Response to Iran Attacks; Vertiv Q2 Revenue Misses Estimates",
+        "url": "https://finnhub.io/api/news?id=4e83b56623f90487dff4144a79d15447668e6b627f9823c204c104d42e72067c",
+        "source": "Yahoo",
+        "datetime": 1785339645,
+        "headlineKo": "오늘 정오 주요 뉴스: 트럼프, 이란 공격에 강력한 대응을 다짐하며 주가 하락·유가 상승; 버티브, 2분기 매출이 예상치를 하회"
+      }
+    },
+    {
+      "symbol": "HUM",
+      "name": "Humana",
+      "sector": "Health Care",
+      "open": 388.2,
+      "current": 360.92,
+      "changePercent": -7.03,
+      "news": {
+        "headline": "S&P 500 Stocks: GEHC Revives, Humana Fades On Earnings",
+        "url": "https://finnhub.io/api/news?id=d5e86411c5dc8e9fe060a5ada62808565f4a3ef49be60928ca0102bdd104f86b",
+        "source": "Yahoo",
+        "datetime": 1785337536,
+        "headlineKo": "S&P 500 종목: GEHC는 실적 호조에 힘입어 반등, 휴마나는 실적 부진으로 하락"
+      }
+    },
+    {
+      "symbol": "GNRC",
+      "name": "Generac",
+      "sector": "Industrials",
+      "open": 210,
+      "current": 195.47,
+      "changePercent": -6.92,
+      "news": {
+        "headline": "Generac Tops Q2 Earnings Estimates, Reaffirms 2026 Revenue Outlook",
+        "url": "https://finnhub.io/api/news?id=24eb71c5eb383297ae11100853f1bb043beb99f0c8ab4496ae7d23debfac4751",
+        "source": "Yahoo",
+        "datetime": 1785334140,
+        "headlineKo": "제너랙, 2분기 실적 전망치를 상회하며 2026년 매출 전망 재확인"
+      }
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "open": 155.95,
+      "current": 166.215,
+      "changePercent": 6.58,
+      "news": {
+        "headline": "Freshworks Named a Leader in the 2026 Gartner® Magic Quadrant™ for IT Service Management Platforms",
+        "url": "https://finnhub.io/api/news?id=63cfe8a7d766af12a5c03e8c0cf5ccd998431205d244656a9c33bc8460211c9a",
+        "source": "Yahoo",
+        "datetime": 1785340500,
+        "headlineKo": "Freshworks, 2026년 가트너® 매직 쿼드런트™ IT 서비스 관리 플랫폼 부문에서 ‘리더’로 선정"
+      }
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit",
+      "sector": "Information Technology",
+      "open": 314,
+      "current": 334.32,
+      "changePercent": 6.47,
+      "news": {
+        "headline": "Intuit Inc. (INTU) is Attracting Investor Attention: Here is What You Should Know",
+        "url": "https://finnhub.io/api/news?id=c89324058155b32ad0f6b1cf6946af9a00c74946314c4f5f86ce771ec7a43031",
+        "source": "Yahoo",
+        "datetime": 1785330002,
+        "headlineKo": "인튜이트(Intuit Inc., INTU)가 투자자들의 관심을 끌고 있습니다: 꼭 알아야 할 사항은 다음과 같습니다"
+      }
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "open": 832.92,
+      "current": 779.7999,
+      "changePercent": -6.38,
+      "news": {
+        "headline": "Better Artificial Intelligence (AI) Memory Buy: Micron Technology vs. Sandisk After the July 2026 Sell-off",
+        "url": "https://finnhub.io/api/news?id=97b3775ea0127d85eb8f3c23cb3c376aae681a89bb89cdf2ea94a5a979f557a9",
+        "source": "Yahoo",
+        "datetime": 1785335700,
+        "headlineKo": "2026년 7월 매도세 이후, 인공지능(AI) 메모리 투자로 더 나은 선택: 마이크론 테크놀로지 대 샌디스크"
       }
     },
     {
       "symbol": "COHR",
       "name": "Coherent Corp.",
       "sector": "Information Technology",
-      "open": 257.28,
-      "current": 241.21,
-      "changePercent": -6.25,
+      "open": 243.925,
+      "current": 228.77,
+      "changePercent": -6.21,
       "news": {
-        "headline": "Coherent Sinks 11%, Applied Optoelectronics Falls 10%, Lumentum Drops 9% as Traders Question AI Spending Spree",
-        "url": "https://finnhub.io/api/news?id=8c365c1504dc325b8b354a440066f838fc453641aa54395b674b70c45fc62ed2",
+        "headline": "Corning (GLW) Crashed 20% Despite 32% Optical Growth. Should Coherent (COHR) Investors Worry?",
+        "url": "https://finnhub.io/api/news?id=7a9062a6a600efec3ed28063f982cd0ddbfcc84d2b5fecb7f7f7b586e882ce90",
         "source": "Yahoo",
-        "datetime": 1785255354,
-        "headlineKo": "거래자들이 AI 관련 대규모 투자 열풍에 의문을 제기하면서 코히어런트는 11%, 어플라이드 옵토일렉트로닉스는 10%, 루멘텀은 9% 하락했다."
+        "datetime": 1785337887,
+        "headlineKo": "코닝(GLW), 광학 부문 매출 32% 성장에도 주가가 20% 급락. 코히어런트(COHR) 투자자들은 우려해야 할까?"
+      }
+    },
+    {
+      "symbol": "EXPE",
+      "name": "Expedia Group",
+      "sector": "Consumer Discretionary",
+      "open": 291.54,
+      "current": 309.62,
+      "changePercent": 6.2,
+      "news": {
+        "headline": "Expedia (EXPE) Reports Next Week: Wall Street Expects Earnings Growth",
+        "url": "https://finnhub.io/api/news?id=1ddbde2634810c1e632b705a3081b7ed2aa681825c727fe3fe3950286f4c8dee",
+        "source": "Yahoo",
+        "datetime": 1785333638,
+        "headlineKo": "익스피디아(EXPE), 다음 주 실적 발표 예정: 월가, 실적 성장 전망"
+      }
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "open": 252.88,
+      "current": 268.4,
+      "changePercent": 6.14,
+      "news": {
+        "headline": "3 Reasons We Love Datadog (DDOG)",
+        "url": "https://finnhub.io/api/news?id=bf1a45639f923a58fc077e2586c2380c4e96c95e5c4ffea632b6be02dd2d32d4",
+        "source": "Yahoo",
+        "datetime": 1785306542,
+        "headlineKo": "우리가 Datadog(DDOG)을 사랑하는 3가지 이유"
+      }
+    },
+    {
+      "symbol": "BXP",
+      "name": "BXP, Inc.",
+      "sector": "Real Estate",
+      "open": 70.33,
+      "current": 74.625,
+      "changePercent": 6.11,
+      "news": {
+        "headline": "BXP (BXP) Could Be 21% Undervalued After Its $1.2b Madison Avenue Loan",
+        "url": "https://finnhub.io/api/news?id=6ce91f3fd1aad97e9c881d828e4629cb4a85cf3d2c7f948060ab5c6ae7c70012",
+        "source": "Yahoo",
+        "datetime": 1785337670,
+        "headlineKo": "BXP(BXP), 매디슨 애비뉴에 12억 달러 대출 제공 후 21% 저평가되었을 가능성"
       }
     },
     {
       "symbol": "WDAY",
       "name": "Workday, Inc.",
       "sector": "Information Technology",
-      "open": 151.06,
-      "current": 160.285,
-      "changePercent": 6.11,
+      "open": 159.99,
+      "current": 169.33,
+      "changePercent": 5.84,
       "news": {
-        "headline": "Workday (WDAY) Just Flashed Golden Cross Signal: Do You Buy?",
-        "url": "https://finnhub.io/api/news?id=4f73882eded6502c01d9247c5f6a1ad3bed36d857b18878e76fa6b99855f6ef8",
+        "headline": "EarnIn Partners with Workday to Bring Enhanced Direct Deposit to Millions of Working Americans",
+        "url": "https://finnhub.io/api/news?id=55bcaae3440eafb477559760044567584881ab8615743c4073f3e0cad0f6bbd6",
         "source": "Yahoo",
-        "datetime": 1785245702,
-        "headlineKo": "워크데이(WDAY), 방금 골든 크로스 신호 발생: 매수할까요?"
+        "datetime": 1785330000,
+        "headlineKo": "EarnIn, Workday와 제휴하여 수백만 명의 미국 근로자에게 향상된 급여 자동 이체 서비스 제공"
       }
     },
     {
-      "symbol": "BRO",
-      "name": "Brown & Brown",
-      "sector": "Financials",
-      "open": 68.97,
-      "current": 73.14,
-      "changePercent": 6.05,
+      "symbol": "ADBE",
+      "name": "Adobe Inc.",
+      "sector": "Information Technology",
+      "open": 249.99,
+      "current": 264.46,
+      "changePercent": 5.79,
       "news": {
-        "headline": "Brown & Brown Q2 Earnings Miss Estimates on Weak Organic Growth",
-        "url": "https://finnhub.io/api/news?id=5f3dfe27895558340d2589dd8b1b4ac1a5aa838974dc9529139ea968fdcb48d3",
+        "headline": "ADBE Stock At Near Two-Month Highs After FTC Grants Early Approval For Adobe’s Acquisition Of Topaz Labs",
+        "url": "https://finnhub.io/api/news?id=9dbf512663adcd5dca3cbd269f820354d1967e0ef710503c9ab53d87b631b464",
         "source": "Yahoo",
-        "datetime": 1785255600,
-        "headlineKo": "브라운 앤 브라운, 부진한 내생적 성장으로 2분기 실적 예상치 미달"
-      }
-    },
-    {
-      "symbol": "NRG",
-      "name": "NRG Energy",
-      "sector": "Utilities",
-      "open": 134.73,
-      "current": 127.27,
-      "changePercent": -5.54,
-      "news": {
-        "headline": "VST or NRG: Which Utility Stock Has Greater Upside Potential?",
-        "url": "https://finnhub.io/api/news?id=a28de25e09dfdee7725b7dbec497f26829b4b5f2a0bd84a4b5267c9dc281a0a1",
-        "source": "Yahoo",
-        "datetime": 1785251340,
-        "headlineKo": "VST와 NRG: 어느 유틸리티주가 더 큰 상승 잠재력을 가지고 있을까?"
-      }
-    },
-    {
-      "symbol": "FDS",
-      "name": "FactSet",
-      "sector": "Financials",
-      "open": 269.49,
-      "current": 284.02,
-      "changePercent": 5.39,
-      "news": {
-        "headline": "FactSet expands partnership with RepRisk to strengthen sustainable investing solutions suite for clients",
-        "url": "https://finnhub.io/api/news?id=11457c51aaea16bd2c5edf74529a0741f63eaaf305cf5bebb4754002a8861f0b",
-        "source": "Yahoo",
-        "datetime": 1785240060,
-        "headlineKo": "팩트셋, RepRisk와의 파트너십 확대 통해 고객을 위한 지속가능 투자 솔루션 포트폴리오 강화"
+        "datetime": 1785343185,
+        "headlineKo": "FTC가 어도비의 토파즈 랩스 인수를 조기에 승인함에 따라 ADBE 주가가 약 2개월 만에 최고치에 근접했다"
       }
     },
     {
       "symbol": "ACN",
       "name": "Accenture",
       "sector": "Information Technology",
-      "open": 156.95,
-      "current": 165.33,
-      "changePercent": 5.34,
+      "open": 165,
+      "current": 174.29,
+      "changePercent": 5.63,
       "news": {
-        "headline": "Accenture (ACN) Faces Growth Concerns",
-        "url": "https://finnhub.io/api/news?id=ad98edf4df1b85d8b58878e646c418e36c2c72310ad2bbe84a4ee0b30fb824fc",
+        "headline": "Aspocomp Group PLC (STU:ACN) Q2 2026 Earnings Call Highlights: Strong Sales Growth Amid Market ...",
+        "url": "https://finnhub.io/api/news?id=3e16c7a5e11a29a6ea717a319bdc5dcbf4387fd7bcf2660a37cbef11655f89e8",
         "source": "Yahoo",
-        "datetime": 1785244126,
-        "headlineKo": "액센츄어(ACN), 성장에 대한 우려에 직면"
+        "datetime": 1785344412,
+        "headlineKo": "Aspocomp Group PLC (STU:ACN) 2026년 2분기 실적 발표 주요 내용: 시장 상황 속에서도 견조한 매출 성장..."
       }
     },
     {
-      "symbol": "NCLH",
-      "name": "Norwegian Cruise Line Holdings",
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "open": 110.42,
+      "current": 116.19,
+      "changePercent": 5.23,
+      "news": {
+        "headline": "Can Agentic AI Adoption Fuel ServiceNow's Next Phase of Growth?",
+        "url": "https://finnhub.io/api/news?id=20f0e47c49fc4b702f30370e076c72b84c42c63595e308634eb18238eaccef3f",
+        "source": "Yahoo",
+        "datetime": 1785332700,
+        "headlineKo": "에이전트형 AI 도입이 ServiceNow의 다음 성장 단계를 이끌 수 있을까?"
+      }
+    },
+    {
+      "symbol": "FTV",
+      "name": "Fortive",
+      "sector": "Industrials",
+      "open": 62.25,
+      "current": 59.01,
+      "changePercent": -5.2,
+      "news": {
+        "headline": "Fortive Corporation 2026 Q2 - Results - Earnings Call Presentation",
+        "url": "https://finnhub.io/api/news?id=b832cce292c3478a04e3b38bca07231a807d45a1a636c6a1346de2158b9ca6bb",
+        "source": "SeekingAlpha",
+        "datetime": 1785331890,
+        "headlineKo": "Fortive Corporation 2026년 2분기 - 실적 - 실적 발표회 프레젠테이션"
+      }
+    },
+    {
+      "symbol": "CVNA",
+      "name": "Carvana",
       "sector": "Consumer Discretionary",
-      "open": 19.95,
-      "current": 20.985,
-      "changePercent": 5.19,
-      "news": {
-        "headline": "Should You Buy Norwegian Cruise Line Stock Before July 30?",
-        "url": "https://finnhub.io/api/news?id=39e18275f123f5c45c95ec25279a4cabf306d44814704180f045e0fc877f16be",
-        "source": "Yahoo",
-        "datetime": 1785238500,
-        "headlineKo": "7월 30일 전에 노르웨이안 크루즈 라인 주식을 매수해야 할까요?"
-      }
-    },
-    {
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "sector": "Information Technology",
-      "open": 677.55,
-      "current": 642.69,
-      "changePercent": -5.15,
-      "news": {
-        "headline": "Coherent Sinks 11%, Applied Optoelectronics Falls 10%, Lumentum Drops 9% as Traders Question AI Spending Spree",
-        "url": "https://finnhub.io/api/news?id=8c365c1504dc325b8b354a440066f838fc453641aa54395b674b70c45fc62ed2",
-        "source": "Yahoo",
-        "datetime": 1785255354,
-        "headlineKo": "거래자들이 AI 관련 대규모 투자 열풍에 의문을 제기하면서 코히어런트는 11%, 어플라이드 옵토일렉트로닉스는 10%, 루멘텀은 9% 하락했다."
-      }
-    },
-    {
-      "symbol": "FFIV",
-      "name": "F5, Inc.",
-      "sector": "Information Technology",
-      "open": 392,
-      "current": 412.13,
-      "changePercent": 5.14,
-      "news": {
-        "headline": "FFIV Beats Q3 Earnings Estimates on Systems Strength, Raises View",
-        "url": "https://finnhub.io/api/news?id=7979f77f5a225ab47b31eae4c37dfaf43a1463af7958160600f1270aa84129da",
-        "source": "Yahoo",
-        "datetime": 1785253800,
-        "headlineKo": "FFIV, 시스템 부문 호조에 힘입어 3분기 실적 전망치를 상회하며 전망치를 상향 조정"
-      }
+      "open": 65.02,
+      "current": 68.31,
+      "changePercent": 5.06,
+      "news": null
     }
   ]
 }
