@@ -1,7 +1,203 @@
 {
-  "generatedAt": "2026-07-28T14:24:45.268Z",
-  "tradingDate": "2026-07-28",
+  "generatedAt": "2026-07-29T07:52:31.818Z",
+  "tradingDate": "2026-07-29",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "UHS",
+      "name": "Universal Health Services",
+      "sector": "Health Care",
+      "open": 149.54,
+      "current": 166.22,
+      "changePercent": 11.15,
+      "news": {
+        "headline": "UHS Q2 Deep Dive: Acute Care Growth and Outpatient Initiatives Shape Outlook",
+        "url": "https://finnhub.io/api/news?id=36d6986cc93153e29ad33f1fd94a818287ae49d70b98b543d846287568cc006a",
+        "source": "Yahoo",
+        "datetime": 1785301262,
+        "headlineKo": "UHS 2분기 심층 분석: 급성기 치료 부문 성장과 외래 진료 전략이 전망을 주도"
+      }
+    },
+    {
+      "symbol": "INCY",
+      "name": "Incyte",
+      "sector": "Health Care",
+      "open": 118.87,
+      "current": 129.93,
+      "changePercent": 9.3,
+      "news": null
+    },
+    {
+      "symbol": "CNC",
+      "name": "Centene Corporation",
+      "sector": "Health Care",
+      "open": 59.505,
+      "current": 63.91,
+      "changePercent": 7.4,
+      "news": {
+        "headline": "Why Centene (CNC) Shares Are Sliding Today",
+        "url": "https://finnhub.io/api/news?id=8fee2322a92e541b551ff60b7c372279f8678840c98a369acab39765c424889d",
+        "source": "Yahoo",
+        "datetime": 1785295022,
+        "headlineKo": "오늘 센텐(CNC) 주가가 하락하는 이유"
+      }
+    },
+    {
+      "symbol": "ZBRA",
+      "name": "Zebra Technologies",
+      "sector": "Information Technology",
+      "open": 265.15,
+      "current": 284.4,
+      "changePercent": 7.26,
+      "news": null
+    },
+    {
+      "symbol": "BRO",
+      "name": "Brown & Brown",
+      "sector": "Financials",
+      "open": 68.97,
+      "current": 73.65,
+      "changePercent": 6.79,
+      "news": {
+        "headline": "BRO Q2 Deep Dive: AI Partnerships, Accession Integration, and Margin Strategy in Focus",
+        "url": "https://finnhub.io/api/news?id=8e826f85aa2a881895a78f70ed157bb50d92b9e939dc4a54d39777168feeb650",
+        "source": "Yahoo",
+        "datetime": 1785299342,
+        "headlineKo": "BRO 2분기 심층 분석: AI 파트너십, Accession 통합, 마진 전략에 주목"
+      }
+    },
+    {
+      "symbol": "RCL",
+      "name": "Royal Caribbean Group",
+      "sector": "Consumer Discretionary",
+      "open": 302.7,
+      "current": 322.5,
+      "changePercent": 6.54,
+      "news": {
+        "headline": "Royal Caribbean (RCL) Is Up 12.0% After Raising 2026 Outlook And Accelerating Buybacks - Has The Bull Case Changed?",
+        "url": "https://finnhub.io/api/news?id=4c36d431a3ff67c2116deb5b1f1021d8cf3f16578b761d7dcdf3b0fd9b434941",
+        "source": "Yahoo",
+        "datetime": 1785290833,
+        "headlineKo": "로얄 캐리비안(RCL), 2026년 실적 전망 상향 및 자사주 매입 확대 소식에 12.0% 상승 - 강세 전망에 변화가 있었나?"
+      }
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1172.365,
+      "current": 1096.1,
+      "changePercent": -6.51,
+      "news": {
+        "headline": "Sandisk Trades at 43 Times Earnings and 7 Times Next Year's Earnings Estimates. What Has to Go Right for the Cheap Number to Win?",
+        "url": "https://finnhub.io/api/news?id=bdc6a94fbe04d9728668b8cacf8b734a733a00adcd2b5020fbdd37386fc76fbf",
+        "source": "Yahoo",
+        "datetime": 1785285120,
+        "headlineKo": "샌디스크의 주가수익비율(PER)은 43배, 내년 예상 주당순이익 대비 주가수익비율(P/E)은 7배 수준이다. 이처럼 저평가된 주가가 상승세를 타려면 어떤 조건이 충족되어야 할까?"
+      }
+    },
+    {
+      "symbol": "CARR",
+      "name": "Carrier Global",
+      "sector": "Industrials",
+      "open": 67.52,
+      "current": 63.16,
+      "changePercent": -6.46,
+      "news": {
+        "headline": "Why Carrier Global (CARR) Stock Is Falling Today",
+        "url": "https://finnhub.io/api/news?id=7a3ae369591edc295aaf7b54b15f9ac033165c3df46fa652a35afdfb2321ce0b",
+        "source": "Yahoo",
+        "datetime": 1785294542,
+        "headlineKo": "오늘 캐리어 글로벌(CARR) 주가가 하락하는 이유"
+      }
+    },
+    {
+      "symbol": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
+      "sector": "Consumer Discretionary",
+      "open": 19.95,
+      "current": 21.22,
+      "changePercent": 6.37,
+      "news": null
+    },
+    {
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
+      "sector": "Information Technology",
+      "open": 151.06,
+      "current": 159.69,
+      "changePercent": 5.71,
+      "news": null
+    },
+    {
+      "symbol": "HCA",
+      "name": "HCA Healthcare",
+      "sector": "Health Care",
+      "open": 396.22,
+      "current": 418.19,
+      "changePercent": 5.54,
+      "news": null
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 257.28,
+      "current": 243.33,
+      "changePercent": -5.42,
+      "news": {
+        "headline": "Coherent: Right Thesis, Wrong Timing - Why We're Staying At Buy After A 34% Drawdown",
+        "url": "https://finnhub.io/api/news?id=d2494db42a9b7b5359630592a4a9550831a9f518fe332e88abe2d81acba9ded2",
+        "source": "SeekingAlpha",
+        "datetime": 1785284754,
+        "headlineKo": "코히어런트: 논리는 옳았으나 타이밍은 틀렸다 - 34%의 손실을 기록한 후에도 ‘매수’ 추천을 유지하는 이유"
+      }
+    },
+    {
+      "symbol": "DASH",
+      "name": "DoorDash",
+      "sector": "Consumer Discretionary",
+      "open": 185.55,
+      "current": 195.52,
+      "changePercent": 5.37,
+      "news": null
+    },
+    {
+      "symbol": "FDS",
+      "name": "FactSet",
+      "sector": "Financials",
+      "open": 269.49,
+      "current": 283.87,
+      "changePercent": 5.34,
+      "news": null
+    },
+    {
+      "symbol": "NRG",
+      "name": "NRG Energy",
+      "sector": "Utilities",
+      "open": 134.73,
+      "current": 127.56,
+      "changePercent": -5.32,
+      "news": null
+    },
+    {
+      "symbol": "BKNG",
+      "name": "Booking Holdings",
+      "sector": "Consumer Discretionary",
+      "open": 189.475,
+      "current": 199.31,
+      "changePercent": 5.19,
+      "news": null
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "open": 26.92,
+      "current": 28.29,
+      "changePercent": 5.09,
+      "news": null
+    }
+  ]
 }
