@@ -1,7 +1,281 @@
 {
-  "generatedAt": "2026-07-30T18:02:11.962Z",
+  "generatedAt": "2026-07-30T19:00:21.625Z",
   "tradingDate": "2026-07-30",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1135.665,
+      "current": 1255.68,
+      "changePercent": 10.57,
+      "news": {
+        "headline": "Sandisk (SNDK) Stock Slides As Chinese Memory Competition Rattles NAND Outlook",
+        "url": "https://finnhub.io/api/news?id=c747fbd21855f6f07856244f38fa917e740dacd14d2187dcf89489fcbf6ad61f",
+        "source": "Yahoo",
+        "datetime": 1785431298,
+        "headlineKo": "중국 메모리 업체들의 경쟁으로 NAND 전망이 불투명해지면서 샌디스크(SNDK) 주가가 하락했다"
+      }
+    },
+    {
+      "symbol": "CHRW",
+      "name": "C.H. Robinson",
+      "sector": "Industrials",
+      "open": 161.89,
+      "current": 145.01,
+      "changePercent": -10.43,
+      "news": {
+        "headline": "C.H. Robinson Q2 Earnings Beat on Pricing and Lean AI Gains",
+        "url": "https://finnhub.io/api/news?id=6e5aa99e132b2f08cf92ad24c73061868d8c1fd368938d60e96fef833fff5f8d",
+        "source": "Yahoo",
+        "datetime": 1785428340,
+        "headlineKo": "C.H. 로빈슨, 가격 책정 전략과 ‘린 AI’ 성과에 힘입어 2분기 실적 기대치 상회"
+      }
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "open": 793.135,
+      "current": 866.7101,
+      "changePercent": 9.28,
+      "news": {
+        "headline": "Fund’s Missed Bet on Micron Technology (MU) Weighs on Performance",
+        "url": "https://finnhub.io/api/news?id=8ecbab817b6e93c4737b844d5f1f418061cee1ad980766a8531766b1b48fb2cb",
+        "source": "Yahoo",
+        "datetime": 1785416458,
+        "headlineKo": "마이크론 테크놀로지(MU)에 대한 펀드의 잘못된 투자 판단이 성과에 부담으로 작용"
+      }
+    },
+    {
+      "symbol": "BAX",
+      "name": "Baxter International",
+      "sector": "Health Care",
+      "open": 29.07,
+      "current": 26.485,
+      "changePercent": -8.89,
+      "news": {
+        "headline": "BAX Stock Gains on Q2 Earnings & Sales Beat, Margins Contract",
+        "url": "https://finnhub.io/api/news?id=0007ffe0216e700b6c8ed0b3e1049e7206b7730a714da3b4daae9f8b75ec010f",
+        "source": "Yahoo",
+        "datetime": 1785427320,
+        "headlineKo": "BAX 주가, 2분기 실적 및 매출 예상치 상회로 상승…마진 축소"
+      }
+    },
+    {
+      "symbol": "AOS",
+      "name": "A. O. Smith",
+      "sector": "Industrials",
+      "open": 64.44,
+      "current": 59.6208,
+      "changePercent": -7.48,
+      "news": {
+        "headline": "A. O. Smith Q2 Earnings Beat Estimates on Boiler Growth, Pricing",
+        "url": "https://finnhub.io/api/news?id=8e0f4e553ff21c7a514509ec8cb81ead87bfbaed17a6774601b167dd2e25a06e",
+        "source": "Yahoo",
+        "datetime": 1785425220,
+        "headlineKo": "A. O. Smith, 보일러 사업 성장과 가격 책정 효과로 2분기 실적 예상치를 상회"
+      }
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "open": 318.29,
+      "current": 296.39,
+      "changePercent": -6.88,
+      "news": {
+        "headline": "Why Lam Research Stock Is Having Its Best Day Since 1999",
+        "url": "https://finnhub.io/api/news?id=ddbc691fb49cb15f540cefc9dd949237f3c8306e948ebb4a763c407dac8d86d9",
+        "source": "Yahoo",
+        "datetime": 1785427020,
+        "headlineKo": "램 리서치 주가가 1999년 이후 최고의 상승세를 기록하고 있는 이유"
+      }
+    },
+    {
+      "symbol": "FTNT",
+      "name": "Fortinet",
+      "sector": "Information Technology",
+      "open": 164,
+      "current": 152.99,
+      "changePercent": -6.71,
+      "news": {
+        "headline": "FTNT Q2 Earnings Call Highlights SASE Firewall Growth",
+        "url": "https://finnhub.io/api/news?id=cb98e02ebdce6ed9e5044abd2ce62c7aa176badd466bde3d2765bc947c233b24",
+        "source": "Yahoo",
+        "datetime": 1785420000,
+        "headlineKo": "FTNT 2분기 실적 발표 전화 회의, SASE 방화벽 성장세 부각"
+      }
+    },
+    {
+      "symbol": "CRH",
+      "name": "CRH plc",
+      "sector": "Materials",
+      "open": 102.08,
+      "current": 95.51,
+      "changePercent": -6.44,
+      "news": {
+        "headline": "CRH Stock Up on Q2 Earnings & Revenue Beat, Both Up Y/Y",
+        "url": "https://finnhub.io/api/news?id=275dbb2cd9032926cd8fe2f5c5ea2d558ac065c8035971aa4ec748e4dc16cd10",
+        "source": "Yahoo",
+        "datetime": 1785426780,
+        "headlineKo": "CRH, 2분기 실적 및 매출이 시장 예상을 상회하며 주가 상승… 두 지표 모두 전년 동기 대비 증가"
+      }
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "open": 459.16,
+      "current": 486.59,
+      "changePercent": 5.97,
+      "news": {
+        "headline": "The Nvidia Vs. AMD Narrative Evolved Again: How to Understand it Today",
+        "url": "https://finnhub.io/api/news?id=2636e625ce993ef397c7a7d9bd40dd412bb3595dbe4f184da490b3cc09a699be",
+        "source": "Yahoo",
+        "datetime": 1785432014,
+        "headlineKo": "엔비디아 대 AMD 논쟁, 또다시 새로운 국면을 맞이하다: 오늘날 이를 어떻게 이해해야 할까"
+      }
+    },
+    {
+      "symbol": "CMG",
+      "name": "Chipotle Mexican Grill",
+      "sector": "Consumer Discretionary",
+      "open": 36.64,
+      "current": 38.785,
+      "changePercent": 5.85,
+      "news": {
+        "headline": "YUMC vs. CMG: Which Stock Is the Better Value Option?",
+        "url": "https://finnhub.io/api/news?id=6d27fd627f3757ab24fda0a8a7cdaf7831eb12704008dadd45f83e25604f3adf",
+        "source": "Yahoo",
+        "datetime": 1785426003,
+        "headlineKo": "YUMC 대 CMG: 어느 주식이 더 나은 투자 선택일까?"
+      }
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "open": 384.89,
+      "current": 407.41,
+      "changePercent": 5.85,
+      "news": null
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "open": 86.41,
+      "current": 91.2798,
+      "changePercent": 5.64,
+      "news": {
+        "headline": "Intel Is Opening a Door It Usually Keeps Closed",
+        "url": "https://finnhub.io/api/news?id=00105214ed756cb17544c48aa035b4bd1246c76710194b92917a03d3740a9748",
+        "source": "Yahoo",
+        "datetime": 1785429084,
+        "headlineKo": "인텔이 평소에는 닫아두던 문을 열고 있다"
+      }
+    },
+    {
+      "symbol": "AVY",
+      "name": "Avery Dennison",
+      "sector": "Materials",
+      "open": 185.59,
+      "current": 175.44,
+      "changePercent": -5.47,
+      "news": {
+        "headline": "Avery Dennison Q2 Earnings Beat on Pricing & Productivity Gains",
+        "url": "https://finnhub.io/api/news?id=6a942283c67016d8ed8e973a6d001f8ca4d645dc66737266f4beccde7e61af1a",
+        "source": "Yahoo",
+        "datetime": 1785424620,
+        "headlineKo": "에이버리 데니슨, 가격 인상 및 생산성 향상으로 2분기 실적 기대치 상회"
+      }
+    },
+    {
+      "symbol": "ODFL",
+      "name": "Old Dominion",
+      "sector": "Industrials",
+      "open": 222.97,
+      "current": 210.98,
+      "changePercent": -5.38,
+      "news": {
+        "headline": "Evercore ISI Group Maintains Outperform on Old Dominion Freight Line, Raises Price Target to $243",
+        "url": "https://finnhub.io/api/news?id=25eb1df3f3ef685b5ada347b6f8929059da1ce50d02f39af892073dc801952f9",
+        "source": "Benzinga",
+        "datetime": 1785408540,
+        "headlineKo": "에버코어 ISI 그룹, 올드 도미니언 프레이트 라인에 대해 ‘아웃퍼폼’ 투자의견 유지… 목표주가 243달러로 상향 조정"
+      }
+    },
+    {
+      "symbol": "VTR",
+      "name": "Ventas",
+      "sector": "Real Estate",
+      "open": 96.8,
+      "current": 91.795,
+      "changePercent": -5.17,
+      "news": {
+        "headline": "Ventas, Inc. 2026 Q2 - Results - Earnings Call Presentation",
+        "url": "https://finnhub.io/api/news?id=040f34b6b9fb8c85e4dadb1b143ca7ed9518795ea7b78d08329a0be4cc66d58f",
+        "source": "SeekingAlpha",
+        "datetime": 1785412942,
+        "headlineKo": "Ventas, Inc. 2026년 2분기 - 실적 - 실적 발표 전화 회의 프레젠테이션"
+      }
+    },
+    {
+      "symbol": "GNRC",
+      "name": "Generac",
+      "sector": "Industrials",
+      "open": 201.33,
+      "current": 190.96,
+      "changePercent": -5.15,
+      "news": {
+        "headline": "Generac Q2 Earnings Call Highlights Data Center Expansion",
+        "url": "https://finnhub.io/api/news?id=97dae559298750126eef159da6ca3a888c91fede4ccef965cc73bb7628556042",
+        "source": "Yahoo",
+        "datetime": 1785420000,
+        "headlineKo": "제너랙(Generac) 2분기 실적 발표 전화 회의, 데이터 센터 확장 계획 강조"
+      }
+    },
+    {
+      "symbol": "VMC",
+      "name": "Vulcan Materials Company",
+      "sector": "Materials",
+      "open": 287.99,
+      "current": 273.43,
+      "changePercent": -5.06,
+      "news": null
+    },
+    {
+      "symbol": "LH",
+      "name": "Labcorp",
+      "sector": "Health Care",
+      "open": 298,
+      "current": 312.995,
+      "changePercent": 5.03,
+      "news": {
+        "headline": "LH Stock Down Despite Q2 Earnings and Revenue Beat, Margins Rise",
+        "url": "https://finnhub.io/api/news?id=05552d6ffcc25a073722abed7f9de34a3d2ebb547fb64e72bc837087eb718b16",
+        "source": "Yahoo",
+        "datetime": 1785425340,
+        "headlineKo": "LH, 2분기 실적 및 매출이 시장 예상을 상회했음에도 주가 하락…마진 상승"
+      }
+    },
+    {
+      "symbol": "TT",
+      "name": "Trane Technologies",
+      "sector": "Industrials",
+      "open": 467.91,
+      "current": 444.46,
+      "changePercent": -5.01,
+      "news": {
+        "headline": "TT's Q2 Earnings & Revenues Beat Estimates, Increase Year Over Year",
+        "url": "https://finnhub.io/api/news?id=f1e24cf49d0bf58f0f7f6508309f8804a8a27a58019d9f8aee400381534e719d",
+        "source": "Yahoo",
+        "datetime": 1785429120,
+        "headlineKo": "TT의 2분기 실적 및 매출이 시장 예상을 상회하며 전년 동기 대비 증가세를 보였다"
+      }
+    }
+  ]
 }
