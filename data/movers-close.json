@@ -1,7 +1,263 @@
 {
-  "generatedAt": "2026-07-31T18:11:29.053Z",
+  "generatedAt": "2026-07-31T23:48:29.099Z",
   "tradingDate": "2026-07-31",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1382.4,
+      "current": 1214.83,
+      "changePercent": -12.12,
+      "news": {
+        "headline": "SanDisk Is Down 45% in a Month. Should Memory Investors Switch to Micron or SK Hynix Now?",
+        "url": "https://finnhub.io/api/news?id=7e28bab087400535e6536ceb60e7e7c4d7e3a0e78ce610bbbdab9249f01f3f3e",
+        "source": "Yahoo",
+        "datetime": 1785522966,
+        "headlineKo": "샌디스크, 한 달 만에 45% 급락. 메모리 투자자들은 지금 마이크론이나 SK하이닉스로 눈을 돌려야 할까?"
+      }
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "open": 919.65,
+      "current": 823.03,
+      "changePercent": -10.51,
+      "news": {
+        "headline": "Micron Technology Shares Close 6% Higher After Key Trading Signal",
+        "url": "https://finnhub.io/api/news?id=741d0924cb6460b3d8cc71b43b36250c73fa97f07e03b590670ec37a5fe49124",
+        "source": "Benzinga",
+        "datetime": 1785482421,
+        "headlineKo": "주요 거래 신호에 힘입어 마이크론 테크놀로지 주가 6% 상승 마감"
+      }
+    },
+    {
+      "symbol": "NXPI",
+      "name": "NXP Semiconductors",
+      "sector": "Information Technology",
+      "open": 249.2,
+      "current": 229.16,
+      "changePercent": -8.04,
+      "news": {
+        "headline": "Ambarella reportedly in talks to be acquired by NXP Semiconductors, shares spike",
+        "url": "https://finnhub.io/api/news?id=d66764ec50d0fd66d900cdac60d4b36eeadaa339df1417e9adc5381d741f0ea7",
+        "source": "Yahoo",
+        "datetime": 1785519421,
+        "headlineKo": "앰바렐라, NXP 반도체에 인수될 전망이라는 보도에 주가 급등"
+      }
+    },
+    {
+      "symbol": "CBOE",
+      "name": "Cboe Global Markets",
+      "sector": "Financials",
+      "open": 287.54,
+      "current": 310.23,
+      "changePercent": 7.89,
+      "news": {
+        "headline": "Cboe Global Markets Inc (CBOE) (Q2 2026) Earnings Call Highlights: Record Revenue and Strategic ...",
+        "url": "https://finnhub.io/api/news?id=1a81c1e6cadb190902c56ce35c909a77e755350f7e96c3f7469b8a3c3c9c812a",
+        "source": "Yahoo",
+        "datetime": 1785531767,
+        "headlineKo": "Cboe Global Markets Inc (CBOE) (2026년 2분기) 실적 발표 주요 내용: 사상 최대 매출 및 전략적 ..."
+      }
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "open": 76.83,
+      "current": 82.74,
+      "changePercent": 7.69,
+      "news": {
+        "headline": "GoDaddy Stock Plunges 21.1% as Revenue Outlook Disappoints",
+        "url": "https://finnhub.io/api/news?id=e03aa03d6d734096c5d5f5fc6f7ad6d0a027469d57f622fdad691f4afcdc898b",
+        "source": "Yahoo",
+        "datetime": 1785526886,
+        "headlineKo": "매출 전망이 기대에 미치지 못하자 GoDaddy 주가가 21.1% 급락했다"
+      }
+    },
+    {
+      "symbol": "IP",
+      "name": "International Paper",
+      "sector": "Materials",
+      "open": 43.98,
+      "current": 40.83,
+      "changePercent": -7.16,
+      "news": {
+        "headline": "Deutsche Bank Upgrades International Paper (IP)",
+        "url": "https://finnhub.io/api/news?id=a9e0069fdbb2480a85f75e2f626f80f952f83bbfdd72e815624a78741c73b941",
+        "source": "Fintel",
+        "datetime": 1785514420,
+        "headlineKo": "도이체방크, 인터내셔널 페이퍼(IP)의 투자 등급 상향 조정"
+      }
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "open": 315,
+      "current": 293.02,
+      "changePercent": -6.98,
+      "news": {
+        "headline": "I Am Still Calling Lam Research A Strong Buy After Q4 2026",
+        "url": "https://finnhub.io/api/news?id=a4a4551d5d326de66bdd77fe3de9e23146024efed3367f1da99a2b455dcaa143",
+        "source": "SeekingAlpha",
+        "datetime": 1785478669,
+        "headlineKo": "2026년 4분기 실적 발표 이후에도 저는 여전히 램 리서치를 ‘강력 매수’로 평가합니다."
+      }
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "open": 96.72,
+      "current": 90.2,
+      "changePercent": -6.74,
+      "news": {
+        "headline": "Intel Stock Rises as Analyst Sees Apple Supply Opportunity",
+        "url": "https://finnhub.io/api/news?id=258af3c7948b607db2a09d4d87bd2d5f66f067f31dcbdb41e67ae88e29728f15",
+        "source": "Yahoo",
+        "datetime": 1785525394,
+        "headlineKo": "애널리스트가 애플 공급 기회를 전망함에 따라 인텔 주가 상승"
+      }
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "open": 510.275,
+      "current": 476.15,
+      "changePercent": -6.69,
+      "news": {
+        "headline": "Here’s How Much Traders See AMD Stock Moving After Earnings",
+        "url": "https://finnhub.io/api/news?id=b75c5507997c98c4122e90fdcfdbeaaa312d7c9f218248bf431c9565a18f9742",
+        "source": "Yahoo",
+        "datetime": 1785529411,
+        "headlineKo": "트레이더들은 실적 발표 후 AMD 주가가 얼마나 움직일 것으로 예상하고 있을까?"
+      }
+    },
+    {
+      "symbol": "CTVA",
+      "name": "Corteva",
+      "sector": "Materials",
+      "open": 83.99,
+      "current": 78.71,
+      "changePercent": -6.29,
+      "news": {
+        "headline": "Corteva Inc (CTVA) (Q2 2026) Earnings Call Highlights: Strong First-Half Performance and Raised ...",
+        "url": "https://finnhub.io/api/news?id=70c007608d9f54eadc40799429055d488bbce8d4c2569ce19c69690d4e9e3cc5",
+        "source": "Yahoo",
+        "datetime": 1785531648,
+        "headlineKo": "코르테바(Corteva Inc, CTVA) (2026년 2분기) 실적 발표 주요 내용: 상반기 호조세와 상향 조정된 ..."
+      }
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "open": 199.375,
+      "current": 187.56,
+      "changePercent": -5.93,
+      "news": {
+        "headline": "Marvell Technology Is Betting More Of Its Revenue On One End Market",
+        "url": "https://finnhub.io/api/news?id=427d251700e4700db464e95f801ad6bca834d60888601efedc6c69ae5ba2f71a",
+        "source": "Yahoo",
+        "datetime": 1785517769,
+        "headlineKo": "마벨 테크놀로지는 단일 최종 시장에 매출의 더 큰 비중을 걸고 있다"
+      }
+    },
+    {
+      "symbol": "ON",
+      "name": "ON Semiconductor",
+      "sector": "Information Technology",
+      "open": 86.68,
+      "current": 81.61,
+      "changePercent": -5.85,
+      "news": {
+        "headline": "Are Wall Street Analysts Predicting ON Semiconductor Stock Will Climb or Sink?",
+        "url": "https://finnhub.io/api/news?id=8be91ecd39482c5c84572befbcfa581c58d2459f9648e1193a1d931d2461a6c4",
+        "source": "Yahoo",
+        "datetime": 1785506943,
+        "headlineKo": "월스트리트 애널리스트들은 ON 세미컨덕터 주가가 오를 것으로 전망하고 있을까, 아니면 떨어질 것으로 전망하고 있을까?"
+      }
+    },
+    {
+      "symbol": "LYV",
+      "name": "Live Nation Entertainment",
+      "sector": "Communication Services",
+      "open": 184.9,
+      "current": 174.13,
+      "changePercent": -5.82,
+      "news": {
+        "headline": "Is LYV Stock Overvalued After Its Strong Rally and Earnings Beat?",
+        "url": "https://finnhub.io/api/news?id=2fccd94a4a7d0321cf04f199ab3ecc047ebacdbf21abfe143f3e8bc0311b94f7",
+        "source": "Yahoo",
+        "datetime": 1785514440,
+        "headlineKo": "LYV 주식은 강력한 상승세와 실적 호조를 보인 후 과대평가된 것일까?"
+      }
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "open": 755,
+      "current": 713.94,
+      "changePercent": -5.44,
+      "news": {
+        "headline": "Applied Optoelectronics and Coherent Gain 7%, Lumentum Adds 5% as Risk-On Feeling Spreads to Optics Stocks",
+        "url": "https://finnhub.io/api/news?id=a03604ac6e7b3ffe7f75a1113d1dde5153f3da9ee2a1b114051dbacf6c80772e",
+        "source": "Yahoo",
+        "datetime": 1785525469,
+        "headlineKo": "‘Applied Optoelectronics and Coherent’ 7% 상승, ‘Lumentum’ 5% 상승… 광학주에도 위험 선호 심리가 확산되며"
+      }
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 57.85,
+      "current": 54.82,
+      "changePercent": -5.24,
+      "news": {
+        "headline": "Moderna Inc (MRNA) (Q2 2026) Earnings Call Highlights: Revenue Beat and Pipeline Progress Amid ...",
+        "url": "https://finnhub.io/api/news?id=0e6b217ea0b704ea595a10ac7e41a3d97c4c6866d4197a0c10d8a2c6a799ae5b",
+        "source": "Yahoo",
+        "datetime": 1785524454,
+        "headlineKo": "모더나(Moderna Inc, MRNA) (2026년 2분기) 실적 발표 주요 내용: ... 속에서도 매출 예상치를 상회하고 신약 파이프라인이 진전..."
+      }
+    },
+    {
+      "symbol": "FTNT",
+      "name": "Fortinet",
+      "sector": "Information Technology",
+      "open": 154.01,
+      "current": 161.95,
+      "changePercent": 5.16,
+      "news": {
+        "headline": "Fortinet: Securing the AI Revolution",
+        "url": "https://finnhub.io/api/news?id=8cbcc408d03dd3422326c7ade597c246c3d37a9b9dc66ddf7f5b0c19f2daf25b",
+        "source": "Yahoo",
+        "datetime": 1785521820,
+        "headlineKo": "포티넷: AI 혁명을 지키다"
+      }
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "open": 901.69,
+      "current": 856.13,
+      "changePercent": -5.05,
+      "news": {
+        "headline": "Is Seagate (STX) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
+        "url": "https://finnhub.io/api/news?id=6a1295dc17ed3053446d6e0c5a9f7a491964cd4d84dbe012f1b94337643c8c59",
+        "source": "Yahoo",
+        "datetime": 1785516302,
+        "headlineKo": "시게이트(STX)는 탄탄한 성장주인가? ‘그렇다’고 생각할 수 있는 3가지 이유"
+      }
+    }
+  ]
 }
