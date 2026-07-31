@@ -1,7 +1,107 @@
 {
-  "generatedAt": "2026-07-31T18:11:29.033Z",
+  "generatedAt": "2026-07-31T18:57:32.236Z",
   "tradingDate": "2026-07-31",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1382.4,
+      "current": 1244.83,
+      "changePercent": -9.95,
+      "news": {
+        "headline": "Down 45%, is SanDisk stock a bargain buy or value trap?",
+        "url": "https://finnhub.io/api/news?id=cbd9c43378604a427551b97249a18f9332d78e1aa1420a9147abf10f0462c628",
+        "source": "Yahoo",
+        "datetime": 1785519180,
+        "headlineKo": "45% 하락한 샌디스크 주가는 매수 기회일까, 아니면 가치 함정일까?"
+      }
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "open": 919.65,
+      "current": 833.045,
+      "changePercent": -9.42,
+      "news": null
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "open": 76.83,
+      "current": 82.755,
+      "changePercent": 7.71,
+      "news": {
+        "headline": "GoDaddy Q2 Earnings Call Highlights",
+        "url": "https://finnhub.io/api/news?id=6286162c9a0fec3f92d13aa74046e560a446c37172b2e0bc2f588e8ad3303976",
+        "source": "Yahoo",
+        "datetime": 1785488645,
+        "headlineKo": "GoDaddy 2분기 실적 발표 전화회의 주요 내용"
+      }
+    },
+    {
+      "symbol": "NXPI",
+      "name": "NXP Semiconductors",
+      "sector": "Information Technology",
+      "open": 249.2,
+      "current": 232.84,
+      "changePercent": -6.57,
+      "news": {
+        "headline": "Ambarella reportedly in talks to be acquired by NXP Semiconductors, shares spike",
+        "url": "https://finnhub.io/api/news?id=d66764ec50d0fd66d900cdac60d4b36eeadaa339df1417e9adc5381d741f0ea7",
+        "source": "Yahoo",
+        "datetime": 1785519421,
+        "headlineKo": "앰바렐라, NXP 반도체에 인수될 전망이라는 보도에 주가 급등"
+      }
+    },
+    {
+      "symbol": "CBOE",
+      "name": "Cboe Global Markets",
+      "sector": "Financials",
+      "open": 287.54,
+      "current": 306.19,
+      "changePercent": 6.49,
+      "news": {
+        "headline": "CBOE (CBOE) Reports Q2 Earnings: What Key Metrics Have to Say",
+        "url": "https://finnhub.io/api/news?id=1c4bd58c526fd0ce5fda4558c6ce2c98f60ee05659145e3f122699879772c7a7",
+        "source": "Yahoo",
+        "datetime": 1785506402,
+        "headlineKo": "CBOE(CBOE), 2분기 실적 발표: 주요 지표가 시사하는 바는?"
+      }
+    },
+    {
+      "symbol": "LYV",
+      "name": "Live Nation Entertainment",
+      "sector": "Communication Services",
+      "open": 184.9,
+      "current": 173.34,
+      "changePercent": -6.25,
+      "news": {
+        "headline": "Is LYV Stock Overvalued After Its Strong Rally and Earnings Beat?",
+        "url": "https://finnhub.io/api/news?id=2fccd94a4a7d0321cf04f199ab3ecc047ebacdbf21abfe143f3e8bc0311b94f7",
+        "source": "Yahoo",
+        "datetime": 1785514440,
+        "headlineKo": "LYV 주식은 강력한 상승세와 실적 호조를 보인 후 과대평가된 것일까?"
+      }
+    },
+    {
+      "symbol": "IP",
+      "name": "International Paper",
+      "sector": "Materials",
+      "open": 43.98,
+      "current": 41.39,
+      "changePercent": -5.89,
+      "news": {
+        "headline": "Deutsche Bank Upgrades International Paper (IP)",
+        "url": "https://finnhub.io/api/news?id=a9e0069fdbb2480a85f75e2f626f80f952f83bbfdd72e815624a78741c73b941",
+        "source": "Fintel",
+        "datetime": 1785514420,
+        "headlineKo": "도이체방크, 인터내셔널 페이퍼(IP)의 투자 등급 상향 조정"
+      }
+    }
+  ]
 }
