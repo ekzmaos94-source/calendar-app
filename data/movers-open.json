@@ -1,7 +1,335 @@
 {
-  "generatedAt": "2026-08-03T19:06:29.413Z",
+  "generatedAt": "2026-08-03T19:18:49.699Z",
   "tradingDate": "2026-08-03",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 254.86,
+      "current": 291.24,
+      "changePercent": 14.27,
+      "news": {
+        "headline": "Coherent (COHR) Price Prediction: How Much a $1,000 Investment Could Be Worth by 2027",
+        "url": "https://finnhub.io/api/news?id=793a64c511c281fe5b523d208e50506e3dc0f5e889dafb8f1e8e99e6038a3564",
+        "source": "Yahoo",
+        "datetime": 1785775825,
+        "headlineKo": "Coherent (COHR) 가격 전망: 2027년까지 1,000달러 투자금이 얼마나 될까"
+      }
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "open": 685.64,
+      "current": 780.91,
+      "changePercent": 13.9,
+      "news": null
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1160.195,
+      "current": 1290.79,
+      "changePercent": 11.26,
+      "news": {
+        "headline": "Buy Sandisk Stock Before Q4 Earnings? Here's What to Know",
+        "url": "https://finnhub.io/api/news?id=7f134f95f0536c26acc34ba6040c80112263b41e2ed7a97379682790d7102949",
+        "source": "Yahoo",
+        "datetime": 1785774840,
+        "headlineKo": "4분기 실적 발표 전에 샌디스크 주식을 매수해야 할까? 알아두어야 할 점은 다음과 같습니다."
+      }
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "open": 236.98,
+      "current": 263.54,
+      "changePercent": 11.21,
+      "news": {
+        "headline": "Vertiv (VRT) Upgraded to Strong Buy: Here's What You Should Know",
+        "url": "https://finnhub.io/api/news?id=a75f86225c8758866118af7b4939e6bd4898a0d19821cdadc3f3dfbf7f8ff65f",
+        "source": "Yahoo",
+        "datetime": 1785772806,
+        "headlineKo": "버티브(VRT), ‘강력 매수’로 상향 조정: 알아야 할 사항은 다음과 같습니다"
+      }
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "sector": "Information Technology",
+      "open": 134.89,
+      "current": 147.8,
+      "changePercent": 9.57,
+      "news": {
+        "headline": "Corning Stock Slides 13.9% in Three Months: Buy or Hold or Sell?",
+        "url": "https://finnhub.io/api/news?id=652fe2e09991abb64a2f281df177eb553092748198d949371f2d03e391e7dcde",
+        "source": "Yahoo",
+        "datetime": 1785774540,
+        "headlineKo": "코닝 주가, 3개월 만에 13.9% 급락: 매수, 보유, 매도 중 어떤 선택을 해야 할까?"
+      }
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "open": 397.68,
+      "current": 429.69,
+      "changePercent": 8.05,
+      "news": null
+    },
+    {
+      "symbol": "FSLR",
+      "name": "First Solar",
+      "sector": "Information Technology",
+      "open": 218.02,
+      "current": 234.34,
+      "changePercent": 7.49,
+      "news": null
+    },
+    {
+      "symbol": "ARES",
+      "name": "Ares Management",
+      "sector": "Financials",
+      "open": 128.95,
+      "current": 137.995,
+      "changePercent": 7.01,
+      "news": {
+        "headline": "TD Cowen Maintains Buy on Ares Management, Raises Price Target to $155",
+        "url": "https://finnhub.io/api/news?id=f5df8e231d03992574d19437adadacbc26ab344f1ba859f140d5fafaa4ffa8d9",
+        "source": "Benzinga",
+        "datetime": 1785764403,
+        "headlineKo": "TD 코웬, 아레스 매니지먼트에 대해 ‘매수’ 추천 유지… 목표주가 155달러로 상향 조정"
+      }
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "open": 365,
+      "current": 390.32,
+      "changePercent": 6.94,
+      "news": {
+        "headline": "Ciena and Boston Beer have been highlighted as Zacks Bull and Bear of the Day",
+        "url": "https://finnhub.io/api/news?id=0bd03fefd8970c6509f073bdbcab035aea1c25025804f57029048ae4556d0b5d",
+        "source": "Yahoo",
+        "datetime": 1785746400,
+        "headlineKo": "Ciena와 Boston Beer가 ‘Zacks 오늘의 강세주 및 약세주’로 선정되었습니다."
+      }
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "open": 180.52,
+      "current": 192.89,
+      "changePercent": 6.85,
+      "news": {
+        "headline": "Marvell (MRVL) Is Putting $250 Million Into India To Grow AI Chip R and D",
+        "url": "https://finnhub.io/api/news?id=9124d3ad0cd6aff883f67109e85bc9ceb845825e3c1f778019f646239af819fa",
+        "source": "Yahoo",
+        "datetime": 1785776955,
+        "headlineKo": "마벨(MRVL), AI 칩 연구개발 확대를 위해 인도에 2억 5천만 달러 투자"
+      }
+    },
+    {
+      "symbol": "ANET",
+      "name": "Arista Networks",
+      "sector": "Information Technology",
+      "open": 174.42,
+      "current": 186.28,
+      "changePercent": 6.8,
+      "news": {
+        "headline": "Arista Networks (NYSE:ANET): A High-Growth Leader With Powerful Momentum",
+        "url": "https://finnhub.io/api/news?id=0e729004c661f8fbf08e8d620ab4f6580225ae3bd429a696a6e67cb958081cfa",
+        "source": "ChartMill",
+        "datetime": 1785753047,
+        "headlineKo": "아리스타 네트웍스(NYSE:ANET): 강력한 성장 모멘텀을 지닌 고성장 선도 기업"
+      }
+    },
+    {
+      "symbol": "FICO",
+      "name": "Fair Isaac",
+      "sector": "Information Technology",
+      "open": 1111.6,
+      "current": 1042.11,
+      "changePercent": -6.25,
+      "news": null
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "sector": "Information Technology",
+      "open": 131.92,
+      "current": 140.1,
+      "changePercent": 6.2,
+      "news": {
+        "headline": "Oracle (ORCL) Has the AI Demand. Can It Fund the Infrastructure?",
+        "url": "https://finnhub.io/api/news?id=322a7e13f52c5f88c543c4b5f06fccd59612809da9e84b827979be1585b64bcc",
+        "source": "Yahoo",
+        "datetime": 1785771111,
+        "headlineKo": "오라클(ORCL)은 AI 수요를 확보하고 있다. 인프라 구축 자금을 조달할 수 있을까?"
+      }
+    },
+    {
+      "symbol": "BLDR",
+      "name": "Builders FirstSource",
+      "sector": "Industrials",
+      "open": 68.49,
+      "current": 72.64,
+      "changePercent": 6.06,
+      "news": null
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "open": 109.94,
+      "current": 116.28,
+      "changePercent": 5.77,
+      "news": null
+    },
+    {
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "open": 47.51,
+      "current": 50.185,
+      "changePercent": 5.63,
+      "news": {
+        "headline": "HCLTech completes acquisition of HPE's Telco Solutions business",
+        "url": "https://finnhub.io/api/news?id=362e4157ac4788636c8d2e3596c5c5ed289092cde9cade2f377d7b773f7fa85c",
+        "source": "Yahoo",
+        "datetime": 1785771000,
+        "headlineKo": "HCLTech, HPE의 통신 솔루션 사업부 인수를 완료"
+      }
+    },
+    {
+      "symbol": "TSN",
+      "name": "Tyson Foods",
+      "sector": "Consumer Staples",
+      "open": 55.89,
+      "current": 58.94,
+      "changePercent": 5.46,
+      "news": {
+        "headline": "Tyson Foods Q3 Earnings & Revenues Miss Estimates, Volumes Fall Y/Y",
+        "url": "https://finnhub.io/api/news?id=993109d1b1ee39a899d98b7bdf051506c278f3bc37afd3ea2131fb8677515a63",
+        "source": "Yahoo",
+        "datetime": 1785774840,
+        "headlineKo": "타이슨 푸드, 3분기 실적 및 매출이 예상치를 하회… 판매량 전년 동기 대비 감소"
+      }
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "sector": "Communication Services",
+      "open": 562.42,
+      "current": 593,
+      "changePercent": 5.44,
+      "news": {
+        "headline": "Should You Buy Meta Platforms Stock While It's Below $600?",
+        "url": "https://finnhub.io/api/news?id=770ea6bf774a0690cb4f6b6d81cdbf0eb962de17dc79732fa15ea37590569c1e",
+        "source": "Yahoo",
+        "datetime": 1785770646,
+        "headlineKo": "메타 플랫폼스 주가가 600달러 미만일 때 매수해야 할까요?"
+      }
+    },
+    {
+      "symbol": "BA",
+      "name": "Boeing",
+      "sector": "Industrials",
+      "open": 221,
+      "current": 232.8,
+      "changePercent": 5.34,
+      "news": {
+        "headline": "U.S. FAA certifies new Boeing 737-7 airplane",
+        "url": "https://finnhub.io/api/news?id=55e13770a5d1db73f228ad55f4d5826f5605bf772d050b1861c51e1c994e29e6",
+        "source": "Yahoo",
+        "datetime": 1785777900,
+        "headlineKo": "미국 연방항공청(FAA), 신형 보잉 737-7 항공기 인증"
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "name": "Nvidia",
+      "sector": "Information Technology",
+      "open": 197.73,
+      "current": 208.28,
+      "changePercent": 5.34,
+      "news": {
+        "headline": "The ‘Nvidia Tax’: Alphabet Mitigates It Better Than Amazon or Any Other Mag 7 Stock",
+        "url": "https://finnhub.io/api/news?id=c5d0b551fd47c275cf9db9925b2e4c3b4402c1280c8129f719f7968dc5c1e13f",
+        "source": "Yahoo",
+        "datetime": 1785777031,
+        "headlineKo": "‘엔비디아 세금’: 알파벳이 아마존이나 다른 ‘매그 7’ 종목들보다 이를 더 잘 상쇄하고 있다"
+      }
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
+      "sector": "Financials",
+      "open": 86.56,
+      "current": 91.18,
+      "changePercent": 5.34,
+      "news": {
+        "headline": "This Analyst Turns More Conservative On Crypto Stock Valuations, But Says Buy The Dip In COIN, MSTR, HOOD",
+        "url": "https://finnhub.io/api/news?id=fd75c0b3b35358351dd45d2bb86f806e6d4446532750dde1a65e527a2bea9d17",
+        "source": "Yahoo",
+        "datetime": 1785771735,
+        "headlineKo": "이 애널리스트는 암호화폐 주식의 기업가치 평가에 대해 보다 신중한 입장을 보였지만, COIN, MSTR, HOOD는 주가가 하락할 때 매수할 것을 권고했다."
+      }
+    },
+    {
+      "symbol": "FIX",
+      "name": "Comfort Systems USA",
+      "sector": "Industrials",
+      "open": 1674.32,
+      "current": 1761.8,
+      "changePercent": 5.22,
+      "news": null
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "open": 461.79,
+      "current": 485.375,
+      "changePercent": 5.11,
+      "news": null
+    },
+    {
+      "symbol": "ETN",
+      "name": "Eaton Corporation",
+      "sector": "Industrials",
+      "open": 413.94,
+      "current": 434.83,
+      "changePercent": 5.05,
+      "news": {
+        "headline": "Eaton Well-Positioned for Growth Surge Based on Data Center Construction Backlog, RBC Says",
+        "url": "https://finnhub.io/api/news?id=5caed923d24def04526ddc99c2265eb106a4259dfa5514a2a73928fe7a5f79c0",
+        "source": "Yahoo",
+        "datetime": 1785772488,
+        "headlineKo": "RBC, “이튼, 데이터센터 건설 수주 잔고를 바탕으로 성장 가속화에 유리한 입지 확보”"
+      }
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "open": 84.1,
+      "current": 88.33,
+      "changePercent": 5.03,
+      "news": {
+        "headline": "GoDaddy to See Higher Risk in Transition to Agentic Web Building, Vibe Coding, Wedbush Says",
+        "url": "https://finnhub.io/api/news?id=62a9c61949fefe5a16b6bb5700a3bfb8b69b9ea911d289bcccf6440b6aa03282",
+        "source": "Yahoo",
+        "datetime": 1785770274,
+        "headlineKo": "웨드부시, “고대디가 에이전틱 웹 빌딩 및 바이브 코딩으로의 전환 과정에서 더 큰 위험에 직면할 것”이라고 전망"
+      }
+    }
+  ]
 }
