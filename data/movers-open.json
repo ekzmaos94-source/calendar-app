@@ -1,7 +1,326 @@
 {
-  "generatedAt": "2026-08-04T19:09:52.187Z",
+  "generatedAt": "2026-08-04T19:13:19.027Z",
   "tradingDate": "2026-08-04",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "open": 157.58,
+      "current": 187.41,
+      "changePercent": 18.93,
+      "news": {
+        "headline": "Why Gartner Inc. Stock Is Soaring Today",
+        "url": "https://finnhub.io/api/news?id=767169af41e6cdfd04aff91d531456cfdd9c68aea05a4f5a3243bdee8a89981e",
+        "source": "Yahoo",
+        "datetime": 1785860665,
+        "headlineKo": "오늘 가트너(Gartner Inc.) 주가가 급등하는 이유"
+      }
+    },
+    {
+      "symbol": "NRG",
+      "name": "NRG Energy",
+      "sector": "Utilities",
+      "open": 140,
+      "current": 116.725,
+      "changePercent": -16.63,
+      "news": {
+        "headline": "NRG Energy Q2 Earnings Lag Estimates, Revenues Increase Y/Y",
+        "url": "https://finnhub.io/api/news?id=4905d66e4ebe1c79d6896c4604df811ef415422d11c75d90a321f55c64f02ea8",
+        "source": "Yahoo",
+        "datetime": 1785856740,
+        "headlineKo": "NRG 에너지, 2분기 실적은 예상치에 미달했으나 매출은 전년 동기 대비 증가"
+      }
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "sector": "Information Technology",
+      "open": 145.145,
+      "current": 163.595,
+      "changePercent": 12.71,
+      "news": {
+        "headline": "Why Palantir Technologies Stock Skyrocketed Higher Today",
+        "url": "https://finnhub.io/api/news?id=ccd361fb280f8a7d4fadb01716ee97650204860f99602ef12dfca6697bb3d958",
+        "source": "Yahoo",
+        "datetime": 1785859889,
+        "headlineKo": "오늘 팔란티어 테크놀로지스 주가가 급등한 이유"
+      }
+    },
+    {
+      "symbol": "CMI",
+      "name": "Cummins",
+      "sector": "Industrials",
+      "open": 578.9,
+      "current": 635.75,
+      "changePercent": 9.82,
+      "news": {
+        "headline": "Cummins Shares Slide After Earnings Miss Offsets Record Revenue",
+        "url": "https://finnhub.io/api/news?id=5ec2d8e9077917db71a2641b27cd91070d820bc138c69b1043389de8cbaa6533",
+        "source": "Yahoo",
+        "datetime": 1785852689,
+        "headlineKo": "카민스, 기록적인 매출에도 실적 부진이 영향을 미치며 주가 하락"
+      }
+    },
+    {
+      "symbol": "ZBRA",
+      "name": "Zebra Technologies",
+      "sector": "Information Technology",
+      "open": 330.1,
+      "current": 360.25,
+      "changePercent": 9.13,
+      "news": {
+        "headline": "ZBRA Q2 Earnings Beat Estimates on Sales Growth, Outlook Raised",
+        "url": "https://finnhub.io/api/news?id=6626f50cb252fa18eab0deebbf1ee008fad2c936391fd263f3c7ec079e6dd14e",
+        "source": "Yahoo",
+        "datetime": 1785859200,
+        "headlineKo": "ZBRA, 매출 증가에 힘입어 2분기 실적이 예상치를 상회…전망치 상향 조정"
+      }
+    },
+    {
+      "symbol": "CMG",
+      "name": "Chipotle Mexican Grill",
+      "sector": "Consumer Discretionary",
+      "open": 37.46,
+      "current": 34.205,
+      "changePercent": -8.69,
+      "news": {
+        "headline": "CMG Q2 Deep Dive: Menu Innovation and Digital Investments Drive Transaction Gains",
+        "url": "https://finnhub.io/api/news?id=9923f700d799d1b170b53e9f4398b4660fc58e5347da0e67fd771212e48104bf",
+        "source": "Yahoo",
+        "datetime": 1785841282,
+        "headlineKo": "CMG 2분기 심층 분석: 메뉴 혁신과 디지털 투자로 거래량 증가 이끌어내"
+      }
+    },
+    {
+      "symbol": "DD",
+      "name": "DuPont",
+      "sector": "Materials",
+      "open": 130.19,
+      "current": 141.18,
+      "changePercent": 8.44,
+      "news": {
+        "headline": "DD's Q2 Earnings Beat on Higher Organic Sales, Revenues Up Y/Y",
+        "url": "https://finnhub.io/api/news?id=b62e77f69eee10035080c612fb627014895bd93c554d2c7fc5c84955e6b3dcdf",
+        "source": "Yahoo",
+        "datetime": 1785851220,
+        "headlineKo": "DD, 내생적 매출 증가에 힘입어 2분기 실적 기대치 상회…매출 전년 동기 대비 증가"
+      }
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "open": 26.57,
+      "current": 28.71,
+      "changePercent": 8.05,
+      "news": {
+        "headline": "HP, Asus, Acer Quietly Embrace Limited CXMT Chips Amid Tight DRAM Supply, as They Fear Upsetting Memory Giants: Report",
+        "url": "https://finnhub.io/api/news?id=29c88099cccb333e6e01e7fbc2e31ca2b13716e1aad2f3f5c5bb7d32a41aa0fb",
+        "source": "Benzinga",
+        "datetime": 1785827680,
+        "headlineKo": "보도에 따르면, HP, 에이수스, 에이서 등은 DRAM 공급 부족 속에서 메모리 업계 거대 기업들의 반발을 우려해 제한된 수량의 CXMT 칩을 조용히 도입하고 있다."
+      }
+    },
+    {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "open": 62.11,
+      "current": 67.08,
+      "changePercent": 8,
+      "news": null
+    },
+    {
+      "symbol": "FIS",
+      "name": "Fidelity National Information Services",
+      "sector": "Financials",
+      "open": 40.2,
+      "current": 43.295,
+      "changePercent": 7.7,
+      "news": {
+        "headline": "FIS Beats Q2 Earnings on Banking Solutions Strength, Cuts 2026 Outlook",
+        "url": "https://finnhub.io/api/news?id=91dabb48f06d4be7ef4de404b43c32918a587b964201f6f6a3adf778744b73eb",
+        "source": "Yahoo",
+        "datetime": 1785858660,
+        "headlineKo": "FIS, 은행 솔루션 부문 호조에 힘입어 2분기 실적 예상치를 상회했으나 2026년 전망치를 하향 조정"
+      }
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "open": 29.6,
+      "current": 31.6,
+      "changePercent": 6.76,
+      "news": {
+        "headline": "Down 50% in The Year, Is SMCI a Buy?",
+        "url": "https://finnhub.io/api/news?id=c686ed48a82336082f6cb8a4c5d28adbddab49e3bbf08e5941abfe171014ba61",
+        "source": "Yahoo",
+        "datetime": 1785855652,
+        "headlineKo": "올해 50% 하락한 SMCI, 매수할 만한가?"
+      }
+    },
+    {
+      "symbol": "VST",
+      "name": "Vistra Corp.",
+      "sector": "Utilities",
+      "open": 155.6,
+      "current": 145.21,
+      "changePercent": -6.68,
+      "news": null
+    },
+    {
+      "symbol": "TDG",
+      "name": "TransDigm Group",
+      "sector": "Industrials",
+      "open": 1355.6,
+      "current": 1266.535,
+      "changePercent": -6.57,
+      "news": {
+        "headline": "TransDigm's Q3 Earnings Surpass Estimates, Sales Increase Y/Y",
+        "url": "https://finnhub.io/api/news?id=83e694e0784478828b37ba9bebacbb3e4cf2c004464112f3ff65edeb7fed7706",
+        "source": "Yahoo",
+        "datetime": 1785859800,
+        "headlineKo": "트랜스디그름, 3분기 실적 예상치 상회…매출 전년 동기 대비 증가"
+      }
+    },
+    {
+      "symbol": "CLX",
+      "name": "Clorox",
+      "sector": "Consumer Staples",
+      "open": 98.02,
+      "current": 104.43,
+      "changePercent": 6.54,
+      "news": {
+        "headline": "Clorox Faces Weak Demand, Cost Pressure, RBC Says",
+        "url": "https://finnhub.io/api/news?id=3f6130c7b8c0903559f7321f887d798bca502ca6f1efd5494b9feca70d3855b4",
+        "source": "Yahoo",
+        "datetime": 1785860504,
+        "headlineKo": "RBC, “클로록스, 수요 부진과 원가 압박에 직면”"
+      }
+    },
+    {
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "open": 17.93,
+      "current": 19.055,
+      "changePercent": 6.27,
+      "news": null
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "open": 272,
+      "current": 288.78,
+      "changePercent": 6.17,
+      "news": {
+        "headline": "Datadog Before Q2 Earnings: Should You Buy, Sell or Hold the Stock?",
+        "url": "https://finnhub.io/api/news?id=9af2e74d10787a841a96c73522625438960e74efd1656da7ce4707cc7313c139",
+        "source": "Yahoo",
+        "datetime": 1785856320,
+        "headlineKo": "Datadog, 2분기 실적 발표를 앞두고: 주식을 매수, 매도, 아니면 보유해야 할까?"
+      }
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "open": 95.319,
+      "current": 100.9401,
+      "changePercent": 5.9,
+      "news": {
+        "headline": "Why Intel Stock Fell 35% Last Month",
+        "url": "https://finnhub.io/api/news?id=922bc31fd6e1f437268d4e16cb3538cee8fdf140f4572b9ada65992fd37fedca",
+        "source": "Yahoo",
+        "datetime": 1785857400,
+        "headlineKo": "지난달 인텔 주가가 35% 하락한 이유"
+      }
+    },
+    {
+      "symbol": "SBAC",
+      "name": "SBA Communications",
+      "sector": "Real Estate",
+      "open": 176.54,
+      "current": 186.765,
+      "changePercent": 5.79,
+      "news": null
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1357.68,
+      "current": 1435.64,
+      "changePercent": 5.74,
+      "news": {
+        "headline": "Marvell, Sandisk, SK Hynix lead semiconductor stock rally as S&P 500 trades at record highs",
+        "url": "https://finnhub.io/api/news?id=6db627bf4f0b4f816199202a6aa613db87005896d575a448f8cc23ccfd379d94",
+        "source": "Yahoo",
+        "datetime": 1785864136,
+        "headlineKo": "S&P 500 지수가 사상 최고치를 기록하는 가운데, 마벨, 샌디스크, SK하이닉스가 반도체주 상승세를 주도하고 있다"
+      }
+    },
+    {
+      "symbol": "APTV",
+      "name": "Aptiv",
+      "sector": "Consumer Discretionary",
+      "open": 50.45,
+      "current": 47.62,
+      "changePercent": -5.61,
+      "news": {
+        "headline": "Aptiv's Q2 Earnings Beat Estimates, Revenues Increase Year Over Year",
+        "url": "https://finnhub.io/api/news?id=f34675321807abf85599a5d6ffe2fbb6e7c1e92aabf341ddeb03d25cdcf8b2dd",
+        "source": "Yahoo",
+        "datetime": 1785861780,
+        "headlineKo": "앱티브의 2분기 실적이 시장 예상을 상회했으며, 매출은 전년 동기 대비 증가했다"
+      }
+    },
+    {
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "open": 143.78,
+      "current": 151.56,
+      "changePercent": 5.41,
+      "news": null
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "open": 449.28,
+      "current": 473.51,
+      "changePercent": 5.39,
+      "news": null
+    },
+    {
+      "symbol": "EXPD",
+      "name": "Expeditors International",
+      "sector": "Industrials",
+      "open": 170,
+      "current": 179.11,
+      "changePercent": 5.36,
+      "news": {
+        "headline": "Expeditors International (EXPD) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+        "url": "https://finnhub.io/api/news?id=d9bd9cbd087a473e681ce7adab941375e6889a8920b78fae6ab788904f2e3fda",
+        "source": "Yahoo",
+        "datetime": 1785852002,
+        "headlineKo": "엑스페디터스 인터내셔널(EXPD) 2분기 실적: 주요 지표와 시장 예상치 비교 분석"
+      }
+    },
+    {
+      "symbol": "ACN",
+      "name": "Accenture",
+      "sector": "Information Technology",
+      "open": 160.64,
+      "current": 168.9,
+      "changePercent": 5.14,
+      "news": null
+    }
+  ]
 }
