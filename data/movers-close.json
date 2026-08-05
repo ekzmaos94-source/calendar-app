@@ -1,7 +1,182 @@
 {
-  "generatedAt": "2026-08-05T18:11:46.060Z",
+  "generatedAt": "2026-08-05T23:41:40.454Z",
   "tradingDate": "2026-08-05",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "CDW",
+      "name": "CDW Corporation",
+      "sector": "Information Technology",
+      "open": 114.689,
+      "current": 140.1,
+      "changePercent": 22.16,
+      "news": {
+        "headline": "CDW Corp (CDW) (Q2 2026) Earnings Call Highlights: Record Sales and EPS Amid AI-Driven Demand",
+        "url": "https://finnhub.io/api/news?id=d1fbca3375a32167f44cbf309f39ae975bcf3e3926f19721af0313589bdc472a",
+        "source": "Yahoo",
+        "datetime": 1785963879,
+        "headlineKo": "CDW Corp (CDW) (2026년 2분기) 실적 발표 주요 내용: AI 주도 수요에 힘입어 매출 및 주당순이익(EPS) 사상 최고치 기록"
+      }
+    },
+    {
+      "symbol": "DVA",
+      "name": "DaVita",
+      "sector": "Health Care",
+      "open": 205.25,
+      "current": 188.69,
+      "changePercent": -8.07,
+      "news": {
+        "headline": "DaVita Stock Down in Pre-Market Despite Q2 Earnings Beat, Margins Down",
+        "url": "https://finnhub.io/api/news?id=2f965def36b0f4573fda793bfc3ae5acff4f9e2ecca49602cee05d719f3fda89",
+        "source": "Yahoo",
+        "datetime": 1785953100,
+        "headlineKo": "다비타, 2분기 실적 예상 상회에도 장전 거래에서 주가 하락…마진 감소"
+      }
+    },
+    {
+      "symbol": "MOS",
+      "name": "Mosaic Company (The)",
+      "sector": "Materials",
+      "open": 21.7,
+      "current": 23.41,
+      "changePercent": 7.88,
+      "news": {
+        "headline": "The Mosaic Company (MOS) Q2 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=8303bb1ae697b65a1d43f7306cf48b8ff3c6b08662084ee5dcdd546c5659b7b9",
+        "source": "SeekingAlpha",
+        "datetime": 1785940206,
+        "headlineKo": "모자이크 컴퍼니(MOS) 2026년 2분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "HONA",
+      "name": "Honeywell Aerospace",
+      "sector": "Industrials",
+      "open": 219.245,
+      "current": 203.64,
+      "changePercent": -7.12,
+      "news": {
+        "headline": "Honeywell Aerospace (NASDAQ:HONA) Q2 Miss and Supply Chain Disruptions Trigger 11.6% Selloff",
+        "url": "https://finnhub.io/api/news?id=f8359810446f906de7141fc105c58848ec94a8cb989e32b854fd2b57e849322e",
+        "source": "ChartMill",
+        "datetime": 1785963645,
+        "headlineKo": "허니웰 에어로스페이스(NASDAQ:HONA), 2분기 실적 부진과 공급망 차질로 11.6% 급락"
+      }
+    },
+    {
+      "symbol": "EOG",
+      "name": "EOG Resources",
+      "sector": "Energy",
+      "open": 143.5,
+      "current": 134.23,
+      "changePercent": -6.46,
+      "news": {
+        "headline": "EOG Q2 Earnings Beat Estimates on Higher Volumes & Prices",
+        "url": "https://finnhub.io/api/news?id=f5138f0a46bc260c9e2e10d44fd96158a856c1184dd3afb73ef20ffabb757670",
+        "source": "Yahoo",
+        "datetime": 1785942120,
+        "headlineKo": "EOG, 판매량 및 가격 상승에 힘입어 2분기 실적이 시장 예상치를 상회"
+      }
+    },
+    {
+      "symbol": "ANET",
+      "name": "Arista Networks",
+      "sector": "Information Technology",
+      "open": 210.19,
+      "current": 197.31,
+      "changePercent": -6.13,
+      "news": {
+        "headline": "UBS Maintains Buy on Arista Networks, Raises Price Target to $259",
+        "url": "https://finnhub.io/api/news?id=09fec78a7355ba495aec16639f1b7c700938bc1fa8f348edabfd3a2d11e9163b",
+        "source": "Benzinga",
+        "datetime": 1785949848,
+        "headlineKo": "UBS, 아리스타 네트웍스에 대해 ‘매수’ 추천 유지… 목표주가 259달러로 상향 조정"
+      }
+    },
+    {
+      "symbol": "CVS",
+      "name": "CVS Health",
+      "sector": "Health Care",
+      "open": 93.72,
+      "current": 99.12,
+      "changePercent": 5.76,
+      "news": {
+        "headline": "CVS Health Raised Its Outlook, but the Stock Still Fell",
+        "url": "https://finnhub.io/api/news?id=8a291b4825c161edc5c13ce4039297c926b2d077597950a58d1d1376ec858fdd",
+        "source": "Yahoo",
+        "datetime": 1785962460,
+        "headlineKo": "CVS 헬스가 실적 전망을 상향 조정했으나 주가는 여전히 하락했다"
+      }
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
+      "sector": "Communication Services",
+      "open": 382.94,
+      "current": 362.43,
+      "changePercent": -5.36,
+      "news": {
+        "headline": "Alphabet Is Still Up 16% in 2026. What Will It Take to Get GOOGL Stock Above $400?",
+        "url": "https://finnhub.io/api/news?id=a1c17b0ef3801e67dfc7f2aaab9d302693bdecfb8664e5c12cd7c7b888cb6a80",
+        "source": "Yahoo",
+        "datetime": 1785954605,
+        "headlineKo": "알파벳은 2026년 들어 여전히 16% 상승세를 보이고 있다. GOOGL 주가를 400달러 이상으로 끌어올리려면 무엇이 필요할까?"
+      }
+    },
+    {
+      "symbol": "MPC",
+      "name": "Marathon Petroleum",
+      "sector": "Energy",
+      "open": 314.5,
+      "current": 297.75,
+      "changePercent": -5.33,
+      "news": {
+        "headline": "MPC Q2 Earnings Call Highlights Refining Capture and Cash Returns",
+        "url": "https://finnhub.io/api/news?id=7f8be9251417ad38930989a5bc5376ab41fbe1800a952e7013564803f427cb4d",
+        "source": "Yahoo",
+        "datetime": 1785938400,
+        "headlineKo": "MPC 2분기 실적 발표, 정유 부문 실적 호조와 현금 배당 강조"
+      }
+    },
+    {
+      "symbol": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "sector": "Communication Services",
+      "open": 380.085,
+      "current": 360.13,
+      "changePercent": -5.25,
+      "news": null
+    },
+    {
+      "symbol": "ADM",
+      "name": "Archer Daniels Midland",
+      "sector": "Consumer Staples",
+      "open": 81.85,
+      "current": 77.58,
+      "changePercent": -5.22,
+      "news": {
+        "headline": "ADM Declares Cash Dividend",
+        "url": "https://finnhub.io/api/news?id=f2fb0e80e9d37a9360e72159045e66ad87abccf437a19e3d1133e739bdf86ef4",
+        "source": "Yahoo",
+        "datetime": 1785963600,
+        "headlineKo": "ADM, 현금 배당 발표"
+      }
+    },
+    {
+      "symbol": "IFF",
+      "name": "International Flavors & Fragrances",
+      "sector": "Materials",
+      "open": 83.83,
+      "current": 88.07,
+      "changePercent": 5.06,
+      "news": {
+        "headline": "International Flavors & Fragrances Inc (IFF) (Q2 2026) Earnings Call Highlights: Strategic ...",
+        "url": "https://finnhub.io/api/news?id=7c5f8127d662e81cd06ad42585fade86bddbcd0e2a9fefe66b78a2f208fc4235",
+        "source": "Yahoo",
+        "datetime": 1785963757,
+        "headlineKo": "인터내셔널 플레이버 앤 프래그런스(IFF) (2026년 2분기) 실적 발표 전화회의 주요 내용: 전략적 ..."
+      }
+    }
+  ]
 }
