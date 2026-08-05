@@ -1,7 +1,362 @@
 {
-  "generatedAt": "2026-08-04T19:09:52.200Z",
+  "generatedAt": "2026-08-05T00:15:03.103Z",
   "tradingDate": "2026-08-04",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "open": 157.58,
+      "current": 185.79,
+      "changePercent": 17.9,
+      "news": {
+        "headline": "Gartner Inc (IT) (Q2 2026) Earnings Call Highlights: CV Growth Accelerates, Adjusted EPS Soars 24%",
+        "url": "https://finnhub.io/api/news?id=39904cc688e9cf70d7ca6587c5e10535bd2f4f984f4baffc1b974ec713693ace",
+        "source": "Yahoo",
+        "datetime": 1785870156,
+        "headlineKo": "가트너(Gartner Inc, IT) (2026년 2분기) 실적 발표 주요 내용: 매출 성장세 가속화, 조정 주당순이익(EPS) 24% 급증"
+      }
+    },
+    {
+      "symbol": "NRG",
+      "name": "NRG Energy",
+      "sector": "Utilities",
+      "open": 140,
+      "current": 117.04,
+      "changePercent": -16.4,
+      "news": {
+        "headline": "NRG Energy Inc (NRG) (Q2 2026) Earnings Call Highlights: Landmark 1. ...",
+        "url": "https://finnhub.io/api/news?id=2611dbf5c9f860979782f002635f64ef232e24c2ea77dff487edbd3079bea41e",
+        "source": "Yahoo",
+        "datetime": 1785877289,
+        "headlineKo": "NRG Energy Inc (NRG) (2026년 2분기) 실적 발표 전화회의 주요 내용: 획기적인 1. ..."
+      }
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "sector": "Information Technology",
+      "open": 145.145,
+      "current": 162.66,
+      "changePercent": 12.07,
+      "news": {
+        "headline": "PLTR Stock's 30% Surge Has Left Short Sellers With $3B Losses",
+        "url": "https://finnhub.io/api/news?id=9a40be4b2cfb573abe224e1199a827ea32188afd49ccac266d75217470d35c3d",
+        "source": "Yahoo",
+        "datetime": 1785877476,
+        "headlineKo": "PLTR 주가 30% 급등으로 공매도 투자자들, 30억 달러 손실 입어"
+      }
+    },
+    {
+      "symbol": "ZBRA",
+      "name": "Zebra Technologies",
+      "sector": "Information Technology",
+      "open": 330.1,
+      "current": 368.83,
+      "changePercent": 11.73,
+      "news": {
+        "headline": "Zebra Technologies Corp (ZBRA) (Q2 2026) Earnings Call Highlights: Record Sales and EPS Surge ...",
+        "url": "https://finnhub.io/api/news?id=e60150500577b8606e4ba8429c2b3ba690adb350e6a9e318825c7fbb3295134b",
+        "source": "Yahoo",
+        "datetime": 1785877530,
+        "headlineKo": "Zebra Technologies Corp (ZBRA) (2026년 2분기) 실적 발표 주요 내용: 사상 최대 매출 및 주당 순이익(EPS) 급증 ..."
+      }
+    },
+    {
+      "symbol": "FIS",
+      "name": "Fidelity National Information Services",
+      "sector": "Financials",
+      "open": 40.2,
+      "current": 44.26,
+      "changePercent": 10.1,
+      "news": {
+        "headline": "Fidelity National Information Services, Inc. Q2 2026 Earnings Call Summary",
+        "url": "https://finnhub.io/api/news?id=f8c152cde0df919abf0aaae2e0af504f45761db535df234024d0cd8dbfee7ca1",
+        "source": "Yahoo",
+        "datetime": 1785880819,
+        "headlineKo": "피델리티 내셔널 인포메이션 서비스(Fidelity National Information Services, Inc.) 2026년 2분기 실적 발표 전화 회의 요약"
+      }
+    },
+    {
+      "symbol": "CMI",
+      "name": "Cummins",
+      "sector": "Industrials",
+      "open": 578.9,
+      "current": 635.96,
+      "changePercent": 9.86,
+      "news": {
+        "headline": "Cummins Inc. Q2 2026 Earnings Call Summary",
+        "url": "https://finnhub.io/api/news?id=78964faaddf1250669ef79b9754628293de77c1cd1a815e81ca369ce67cb8752",
+        "source": "Yahoo",
+        "datetime": 1785879005,
+        "headlineKo": "커민스(Cummins Inc.) 2026년 2분기 실적 발표 전화회의 요약"
+      }
+    },
+    {
+      "symbol": "DD",
+      "name": "DuPont",
+      "sector": "Materials",
+      "open": 130.19,
+      "current": 142.93,
+      "changePercent": 9.79,
+      "news": {
+        "headline": "DuPont de Nemours, Inc. Q2 2026 Earnings Call Summary",
+        "url": "https://finnhub.io/api/news?id=b7f46cf1a6e9b4098e7a036155fc93df4e84b714805eeb119c10a9155e2df26d",
+        "source": "Yahoo",
+        "datetime": 1785879526,
+        "headlineKo": "듀폰 드 네무르(DuPont de Nemours, Inc.) 2026년 2분기 실적 발표 전화회의 요약"
+      }
+    },
+    {
+      "symbol": "CMG",
+      "name": "Chipotle Mexican Grill",
+      "sector": "Consumer Discretionary",
+      "open": 37.46,
+      "current": 33.82,
+      "changePercent": -9.72,
+      "news": {
+        "headline": "CMG Stock Posts Worst Day In Nine Months As Chipotle Pulls Jalapenos Over Salmonella Probe",
+        "url": "https://finnhub.io/api/news?id=4c38750479ca5d01bfc259adab97d7c7f73ea09c5d61641e1712592f656c8eeb",
+        "source": "Yahoo",
+        "datetime": 1785867684,
+        "headlineKo": "치폴레, 살모넬라균 조사로 할라피뇨 판매 중단…CMG 주가 9개월 만에 최악의 하루 기록"
+      }
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "open": 26.57,
+      "current": 28.82,
+      "changePercent": 8.47,
+      "news": {
+        "headline": "HP, Asus, Acer Quietly Embrace Limited CXMT Chips Amid Tight DRAM Supply, as They Fear Upsetting Memory Giants: Report",
+        "url": "https://finnhub.io/api/news?id=29c88099cccb333e6e01e7fbc2e31ca2b13716e1aad2f3f5c5bb7d32a41aa0fb",
+        "source": "Benzinga",
+        "datetime": 1785827680,
+        "headlineKo": "보도에 따르면, HP, 에이수스, 에이서 등은 DRAM 공급 부족 속에서 메모리 업계 거대 기업들의 반발을 우려해 제한된 수량의 CXMT 칩을 조용히 도입하고 있다."
+      }
+    },
+    {
+      "symbol": "VST",
+      "name": "Vistra Corp.",
+      "sector": "Utilities",
+      "open": 155.6,
+      "current": 143.23,
+      "changePercent": -7.95,
+      "news": null
+    },
+    {
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "open": 17.93,
+      "current": 19.34,
+      "changePercent": 7.86,
+      "news": null
+    },
+    {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "open": 62.11,
+      "current": 66.79,
+      "changePercent": 7.54,
+      "news": null
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "open": 29.6,
+      "current": 31.69,
+      "changePercent": 7.06,
+      "news": {
+        "headline": "Down 50% in The Year, Is SMCI a Buy?",
+        "url": "https://finnhub.io/api/news?id=c686ed48a82336082f6cb8a4c5d28adbddab49e3bbf08e5941abfe171014ba61",
+        "source": "Yahoo",
+        "datetime": 1785855652,
+        "headlineKo": "올해 50% 하락한 SMCI, 매수할 만한가?"
+      }
+    },
+    {
+      "symbol": "CLX",
+      "name": "Clorox",
+      "sector": "Consumer Staples",
+      "open": 98.02,
+      "current": 104.67,
+      "changePercent": 6.78,
+      "news": {
+        "headline": "Clorox Faces Weak Demand, Cost Pressure, RBC Says",
+        "url": "https://finnhub.io/api/news?id=3f6130c7b8c0903559f7321f887d798bca502ca6f1efd5494b9feca70d3855b4",
+        "source": "Yahoo",
+        "datetime": 1785860504,
+        "headlineKo": "RBC, “클로록스, 수요 부진과 원가 압박에 직면”"
+      }
+    },
+    {
+      "symbol": "EXPD",
+      "name": "Expeditors International",
+      "sector": "Industrials",
+      "open": 170,
+      "current": 181.48,
+      "changePercent": 6.75,
+      "news": {
+        "headline": "EXPD Q2 Earnings Beat Estimates on Airfreight and Customs Strength",
+        "url": "https://finnhub.io/api/news?id=a91e06f6806dffde3de69a4d890ec60c20b0f877e3a81116bc9c78983865dc62",
+        "source": "Yahoo",
+        "datetime": 1785863760,
+        "headlineKo": "EXPD, 항공화물 및 통관 부문 호조에 힘입어 2분기 실적 예상치를 상회"
+      }
+    },
+    {
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "open": 143.78,
+      "current": 153.07,
+      "changePercent": 6.46,
+      "news": null
+    },
+    {
+      "symbol": "SBAC",
+      "name": "SBA Communications",
+      "sector": "Real Estate",
+      "open": 176.54,
+      "current": 187.9,
+      "changePercent": 6.43,
+      "news": {
+        "headline": "SBAC Q2 FFO Beat Estimates on International Leasing Strength",
+        "url": "https://finnhub.io/api/news?id=f887983cca713a7a577211a19ef53b1b36d1002350d70d563eed6fbf293873b4",
+        "source": "Yahoo",
+        "datetime": 1785867360,
+        "headlineKo": "SBAC, 2분기 FFO가 해외 임대 부문 호조에 힘입어 시장 예상치를 상회"
+      }
+    },
+    {
+      "symbol": "ACN",
+      "name": "Accenture",
+      "sector": "Information Technology",
+      "open": 160.64,
+      "current": 170.43,
+      "changePercent": 6.09,
+      "news": {
+        "headline": "The Hidden Turbulence Priced Into Accenture Stock",
+        "url": "https://finnhub.io/api/news?id=a9fa9e66862c74de2561e27c83fa6b7c906eeb34ed058314a04504c896435fae",
+        "source": "Yahoo",
+        "datetime": 1785872721,
+        "headlineKo": "액센츄어 주가에 반영된 숨겨진 변동성"
+      }
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "open": 272,
+      "current": 288.15,
+      "changePercent": 5.94,
+      "news": {
+        "headline": "Datadog Before Q2 Earnings: Should You Buy, Sell or Hold the Stock?",
+        "url": "https://finnhub.io/api/news?id=9af2e74d10787a841a96c73522625438960e74efd1656da7ce4707cc7313c139",
+        "source": "Yahoo",
+        "datetime": 1785856320,
+        "headlineKo": "Datadog, 2분기 실적 발표를 앞두고: 주식을 매수, 매도, 아니면 보유해야 할까?"
+      }
+    },
+    {
+      "symbol": "TDG",
+      "name": "TransDigm Group",
+      "sector": "Industrials",
+      "open": 1355.6,
+      "current": 1275.05,
+      "changePercent": -5.94,
+      "news": {
+        "headline": "TransDigm's Q3 Earnings Surpass Estimates, Sales Increase Y/Y",
+        "url": "https://finnhub.io/api/news?id=83e694e0784478828b37ba9bebacbb3e4cf2c004464112f3ff65edeb7fed7706",
+        "source": "Yahoo",
+        "datetime": 1785859800,
+        "headlineKo": "트랜스디그름, 3분기 실적 예상치 상회…매출 전년 동기 대비 증가"
+      }
+    },
+    {
+      "symbol": "ARE",
+      "name": "Alexandria Real Estate Equities",
+      "sector": "Real Estate",
+      "open": 51.9,
+      "current": 48.87,
+      "changePercent": -5.84,
+      "news": {
+        "headline": "Alexandria Real Estate Equities Q2 Earnings Call Highlights",
+        "url": "https://finnhub.io/api/news?id=6a0bc94667ae06f124da570325a625f51e63970d37294c174c1bdc0a71b4b489",
+        "source": "Yahoo",
+        "datetime": 1785873844,
+        "headlineKo": "알렉산드리아 리얼 에스테이트 이쿼티즈 2분기 실적 발표 전화회의 주요 내용"
+      }
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "open": 95.319,
+      "current": 100.86,
+      "changePercent": 5.81,
+      "news": {
+        "headline": "Intel, AMD Lead Powerful Chip Stocks Rally on AI Optimism",
+        "url": "https://finnhub.io/api/news?id=503cb1ba3bd341834f2edc8bb387c39b462efff08f303459164fc536125b784b",
+        "source": "Yahoo",
+        "datetime": 1785875233,
+        "headlineKo": "인텔, AMD… AI에 대한 기대감에 힘입어 고성능 칩 관련주 급등 주도"
+      }
+    },
+    {
+      "symbol": "APTV",
+      "name": "Aptiv",
+      "sector": "Consumer Discretionary",
+      "open": 50.45,
+      "current": 47.72,
+      "changePercent": -5.41,
+      "news": {
+        "headline": "Aptiv PLC Q2 2026 Earnings Call Summary",
+        "url": "https://finnhub.io/api/news?id=d9ac20cda69accc2a36eb46150ef81a39685a9f0bf3be3ed66e7507e433189d7",
+        "source": "Yahoo",
+        "datetime": 1785879586,
+        "headlineKo": "Aptiv PLC 2026년 2분기 실적 발표 전화회의 요약"
+      }
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1357.68,
+      "current": 1427.62,
+      "changePercent": 5.15,
+      "news": {
+        "headline": "SK hynix, Sandisk race to fix AI’s next chip bottleneck",
+        "url": "https://finnhub.io/api/news?id=34e4613a98ba74bef96b87c2ab382461eee34c7fbe8cedf760f4242c4500901d",
+        "source": "Yahoo",
+        "datetime": 1785870780,
+        "headlineKo": "SK하이닉스와 샌디스크, AI의 차세대 칩 병목 현상 해결을 위한 경쟁에 나서다"
+      }
+    },
+    {
+      "symbol": "RMD",
+      "name": "ResMed",
+      "sector": "Health Care",
+      "open": 212.26,
+      "current": 223.14,
+      "changePercent": 5.13,
+      "news": null
+    },
+    {
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
+      "sector": "Information Technology",
+      "open": 162.93,
+      "current": 171.28,
+      "changePercent": 5.12,
+      "news": null
+    }
+  ]
 }
