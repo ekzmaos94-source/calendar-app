@@ -1,7 +1,245 @@
 {
-  "generatedAt": "2026-08-07T16:11:16.821Z",
+  "generatedAt": "2026-08-07T22:19:40.460Z",
   "tradingDate": "2026-08-07",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
+      "sector": "Information Technology",
+      "open": 123.996,
+      "current": 110.54,
+      "changePercent": -10.85,
+      "news": {
+        "headline": "Piper Sandler Maintains Neutral on Akamai Technologies, Lowers Price Target to $140",
+        "url": "https://finnhub.io/api/news?id=7c2637e5980db85e60a8457ee54c7f24e84759e6ccf5a0e80df6577b9ce30c3c",
+        "source": "Benzinga",
+        "datetime": 1786109016,
+        "headlineKo": "파이퍼 샌들러, 아카마이 테크놀로지에 대해 ‘중립’ 평가 유지… 목표주가 140달러로 하향 조정"
+      }
+    },
+    {
+      "symbol": "ABNB",
+      "name": "Airbnb",
+      "sector": "Consumer Discretionary",
+      "open": 164.05,
+      "current": 178.07,
+      "changePercent": 8.55,
+      "news": {
+        "headline": "Airbnb vs. Coca-Cola: Which Consumer Stock Is a Better Buy in 2026?",
+        "url": "https://finnhub.io/api/news?id=13605a253d1194ea4398cfe6ad9feb1d08d2c898e349944406437df38be6f022",
+        "source": "Yahoo",
+        "datetime": 1786133738,
+        "headlineKo": "에어비앤비 대 코카콜라: 2026년에 어떤 소비재 주식을 매수하는 것이 더 나을까?"
+      }
+    },
+    {
+      "symbol": "AXON",
+      "name": "Axon Enterprise",
+      "sector": "Industrials",
+      "open": 526.01,
+      "current": 571.01,
+      "changePercent": 8.55,
+      "news": {
+        "headline": "Axon Enterprise vs. Chewy: Do Customers of Police or Pets Make One Stock a Better Buy in 2026?",
+        "url": "https://finnhub.io/api/news?id=5166a2b572fbdfdd12fa6c0683425fbc4e23a4d5d0d92257bd14701dd7a5de92",
+        "source": "Yahoo",
+        "datetime": 1786135501,
+        "headlineKo": "액슨 엔터프라이즈 대 츄이: 2026년, 경찰과 반려동물 중 어느 쪽의 고객이 한 종목을 더 매력적인 투자 대상으로 만들까?"
+      }
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 54.79,
+      "current": 59.17,
+      "changePercent": 7.99,
+      "news": {
+        "headline": "Moderna Q2 Earnings Call Highlights Cost Cuts and Pipeline Milestones",
+        "url": "https://finnhub.io/api/news?id=3746977f62a3f52bb06e4337c1c4785d5648c76514f4be482ffcb7b77884dadf",
+        "source": "Yahoo",
+        "datetime": 1786113900,
+        "headlineKo": "모더나 2분기 실적 발표, 비용 절감 및 신약 파이프라인의 주요 성과 강조"
+      }
+    },
+    {
+      "symbol": "HONA",
+      "name": "Honeywell Aerospace",
+      "sector": "Industrials",
+      "open": 156.55,
+      "current": 168.51,
+      "changePercent": 7.64,
+      "news": {
+        "headline": "Honeywell Aerospace Needs to Resolve Supply Chain Issues for Upside, Morgan Stanley Says",
+        "url": "https://finnhub.io/api/news?id=f7c5c97011f123e71f512f6637b179cd191055309d39066ff2df83bc8852e43f",
+        "source": "Yahoo",
+        "datetime": 1786115320,
+        "headlineKo": "모건 스탠리, “허니웰 에어로스페이스가 상승 여력을 확보하려면 공급망 문제를 해결해야 한다”고 밝혔다"
+      }
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "sector": "Information Technology",
+      "open": 160.04,
+      "current": 172.01,
+      "changePercent": 7.48,
+      "news": {
+        "headline": "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear — SEZL, SPCX, RDW, PLTR, TTD In Focus",
+        "url": "https://finnhub.io/api/news?id=1e32f60cde1ee10d082ade4fec7ab02bd2ed9ac1708a83d26167a69d24d2475b",
+        "source": "Yahoo",
+        "datetime": 1786137885,
+        "headlineKo": "S&P 500, 사상 최고치로 마감… 부진한 고용 지표로 금리 인상 우려 완화되며 4월 이후 가장 강한 주간 상승세 기록 — SEZL, SPCX, RDW, PLTR, TTD 주목"
+      }
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1308.16,
+      "current": 1212.21,
+      "changePercent": -7.33,
+      "news": {
+        "headline": "Stock Market Rally Powers Ahead; SpaceX, Palantir, Sandisk Are Key Earnings Movers: Weekly Review",
+        "url": "https://finnhub.io/api/news?id=4e2b8a7d772c899e7acccc9fd973f3f3a5b2ae5a7714cb98fce1f1948962fa7a",
+        "source": "Yahoo",
+        "datetime": 1786120507,
+        "headlineKo": "주식 시장 상승세 지속… 스페이스X, 팔란티어, 샌디스크, 실적 발표로 주가 변동 주도: 주간 리뷰"
+      }
+    },
+    {
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "open": 12.88,
+      "current": 13.8,
+      "changePercent": 7.14,
+      "news": {
+        "headline": "The Trade Desk Rebuilt Its C-Suite in Two Months. Its First Guidance Since Points to a 12% Revenue Decline.",
+        "url": "https://finnhub.io/api/news?id=d52d6b8a9009ad33f220cd13b6e0c964ad6748a261d9ca772f57cc745655f948",
+        "source": "Yahoo",
+        "datetime": 1786132440,
+        "headlineKo": "더 트레이드 데스크는 두 달 만에 최고 경영진을 개편했다. 이후 발표한 첫 실적 전망에 따르면 매출이 12% 감소할 것으로 보인다."
+      }
+    },
+    {
+      "symbol": "ZTS",
+      "name": "Zoetis",
+      "sector": "Health Care",
+      "open": 77.92,
+      "current": 72.66,
+      "changePercent": -6.75,
+      "news": {
+        "headline": "Zoetis (ZTS) Following Earnings And Guidance Cut With A Valuation Question",
+        "url": "https://finnhub.io/api/news?id=e99992760c247673dccc2359d6eb16180d5121a7a3bdbe52c4244c1e30fcafbd",
+        "source": "Yahoo",
+        "datetime": 1786119559,
+        "headlineKo": "조에티스(ZTS), 실적 발표 및 실적 전망 하향 조정 이후 기업 가치 평가에 대한 의문 제기"
+      }
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "open": 28.31,
+      "current": 30.05,
+      "changePercent": 6.15,
+      "news": null
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "open": 862.68,
+      "current": 812.76,
+      "changePercent": -5.79,
+      "news": {
+        "headline": "Jim Cramer Didn’t Think Seagate Technology Holdings plc (NASDAQ:STX)’s Earnings Were Bad",
+        "url": "https://finnhub.io/api/news?id=932f16c4f0c242745f89d9f8d01626a65a692632b31fc2cf4b8ab3839c82a947",
+        "source": "Yahoo",
+        "datetime": 1786127236,
+        "headlineKo": "짐 크레이머는 시게이트 테크놀로지 홀딩스 plc(나스닥:STX)의 실적이 나쁘지 않다고 생각했다"
+      }
+    },
+    {
+      "symbol": "HUM",
+      "name": "Humana",
+      "sector": "Health Care",
+      "open": 364,
+      "current": 385,
+      "changePercent": 5.77,
+      "news": null
+    },
+    {
+      "symbol": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "sector": "Energy",
+      "open": 360.84,
+      "current": 340.65,
+      "changePercent": -5.6,
+      "news": null
+    },
+    {
+      "symbol": "TTWO",
+      "name": "Take-Two Interactive",
+      "sector": "Communication Services",
+      "open": 233.5,
+      "current": 246.5,
+      "changePercent": 5.57,
+      "news": {
+        "headline": "Take-Two Interactive Software, Inc. Q1 2027 Earnings Call Summary",
+        "url": "https://finnhub.io/api/news?id=ee01f80b3519d805f988eb23fe74cb8d864885487129f7aed42e6cf092d96fb4",
+        "source": "Yahoo",
+        "datetime": 1786137432,
+        "headlineKo": "Take-Two Interactive Software, Inc. 2027년 1분기 실적 발표 전화회의 요약"
+      }
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 360.02,
+      "current": 379.13,
+      "changePercent": 5.31,
+      "news": {
+        "headline": "Applied Optoelectronics Zooms 13% Higher on Pivotal Quarterly Print; Coherent Advances 13%, Lumentum Adds 8%",
+        "url": "https://finnhub.io/api/news?id=0048e1f5654f5c652ec01ce9b2c10721de241f9430251967f2f1418cbcd60842",
+        "source": "Yahoo",
+        "datetime": 1786111800,
+        "headlineKo": "애플라이드 옵토일렉트로닉스, 중요한 분기 실적 발표에 힘입어 13% 급등; 코히어런트 13% 상승, 루멘텀 8% 상승"
+      }
+    },
+    {
+      "symbol": "UBER",
+      "name": "Uber",
+      "sector": "Industrials",
+      "open": 71.29,
+      "current": 75.02,
+      "changePercent": 5.23,
+      "news": {
+        "headline": "Why Amazon, Alphabet and Uber Keep Showing Up in the Same Billionaire Portfolios",
+        "url": "https://finnhub.io/api/news?id=a0df366107f25c3730a81c18a03934fdfe25b8ce83621dd805cc0a81e7b664df",
+        "source": "Yahoo",
+        "datetime": 1786111201,
+        "headlineKo": "왜 아마존, 알파벳, 우버가 같은 억만장자들의 투자 포트폴리오에 계속해서 등장하는가"
+      }
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "open": 457.445,
+      "current": 434.3,
+      "changePercent": -5.06,
+      "news": {
+        "headline": "Western Digital (NASDAQ:WDC) Clears All Eight Growth Criteria in Navellier-Inspired Screen",
+        "url": "https://finnhub.io/api/news?id=4a8dbaab381fec470d2fd6d87771af0cb209ac61593979be1a2e6ce68eca6c16",
+        "source": "ChartMill",
+        "datetime": 1786101096,
+        "headlineKo": "웨스턴 디지털(NASDAQ:WDC), 나벨리에(Navellier) 방식에 기반한 선별 기준에서 8가지 성장 기준 모두 충족"
+      }
+    }
+  ]
 }
