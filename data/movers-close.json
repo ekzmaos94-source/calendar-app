@@ -1,7 +1,224 @@
 {
-  "generatedAt": "2026-08-10T16:11:23.938Z",
+  "generatedAt": "2026-08-10T22:21:20.612Z",
   "tradingDate": "2026-08-10",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 383.185,
+      "current": 325.15,
+      "changePercent": -15.15,
+      "news": {
+        "headline": "Coherent (COHR) Stock Is Tumbling Today After Massive Optics vs. Memory Debate on Social Media This Weekend",
+        "url": "https://finnhub.io/api/news?id=d9fe4962f677ab704a57d6b23dd4c85ee52cb730537317a0ccabadb24bb3e786",
+        "source": "Yahoo",
+        "datetime": 1786390659,
+        "headlineKo": "지난 주말 소셜 미디어에서 광학 기술 대 메모리 기술에 대한 격렬한 논쟁이 벌어진 후, 오늘 코히어런트(COHR) 주가가 급락하고 있다."
+      }
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "open": 932.36,
+      "current": 813.51,
+      "changePercent": -12.75,
+      "news": {
+        "headline": "Coherent Falls 12%, Lumentum Drops 7% as AI Optics Stocks Cool Ahead of Earnings",
+        "url": "https://finnhub.io/api/news?id=80892540c22ebb7d763a8088d155a9e384ed6e156284f6d2d233bcf41708c226",
+        "source": "Yahoo",
+        "datetime": 1786379141,
+        "headlineKo": "실적 발표를 앞두고 AI 광학 관련주 열기가 식으면서 코히어런트는 12%, 루멘텀은 7% 하락"
+      }
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "open": 231.55,
+      "current": 260.78,
+      "changePercent": 12.62,
+      "news": {
+        "headline": "Datadog (DDOG) Grows Fast, Then Gets Punished For Slowing Down",
+        "url": "https://finnhub.io/api/news?id=bf43c9da2647852cef7e409418e72b2ace32380e1ec9c15859c0e057f678c38d",
+        "source": "Yahoo",
+        "datetime": 1786390444,
+        "headlineKo": "Datadog(DDOG), 급성장했으나 성장세 둔화로 타격 입어"
+      }
+    },
+    {
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
+      "sector": "Information Technology",
+      "open": 107.37,
+      "current": 117.65,
+      "changePercent": 9.57,
+      "news": {
+        "headline": "Jim Cramer Examines Akamai Technologies’ (AKAM) Cloud Pivot and Robotics Win",
+        "url": "https://finnhub.io/api/news?id=ccb610da0f1a4d287a50fe0804d34bd47e5a0767a501eb79083217dd52cb750b",
+        "source": "Yahoo",
+        "datetime": 1786381661,
+        "headlineKo": "짐 크레이머, 아카마이 테크놀로지스(AKAM)의 클라우드 사업 전환과 로봇 분야 성과 분석"
+      }
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "open": 227.96,
+      "current": 208.56,
+      "changePercent": -8.51,
+      "news": {
+        "headline": "Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line",
+        "url": "https://finnhub.io/api/news?id=4a8782728aedce2357e9c4eaafdfee82764aeaefc493664412fa88c240f2a443",
+        "source": "Yahoo",
+        "datetime": 1786392073,
+        "headlineKo": "마벨 테크놀로지 주식의 주가수익비율은 영업이익 전 항목에서 발생하는 이익에 의존하고 있다"
+      }
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "open": 420,
+      "current": 387.7,
+      "changePercent": -7.69,
+      "news": {
+        "headline": "Ciena Down 29% in Past 3 Months: Should Investors Buy, Hold or Sell?",
+        "url": "https://finnhub.io/api/news?id=b5e0109063624c541e3cea7d3fb98f49ba681a89cd0e320f93e431f767140194",
+        "source": "Yahoo",
+        "datetime": 1786375380,
+        "headlineKo": "지난 3개월간 29% 하락한 시에나(Ciena): 투자자들은 매수, 보유, 매도 중 어떤 선택을 해야 할까?"
+      }
+    },
+    {
+      "symbol": "APA",
+      "name": "APA Corporation",
+      "sector": "Energy",
+      "open": 38.24,
+      "current": 41.02,
+      "changePercent": 7.27,
+      "news": {
+        "headline": "Truist Securities Maintains Hold on APA, Raises Price Target to $39",
+        "url": "https://finnhub.io/api/news?id=ffe8a952dac8c025b613cd01be1972d16f60ee9d060e697c010cb4d44c562c38",
+        "source": "Benzinga",
+        "datetime": 1786368590,
+        "headlineKo": "트루이스트 증권은 APA에 대해 ‘보유(Hold)’ 투자의견을 유지하며 목표주가를 39달러로 상향 조정했다."
+      }
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "sector": "Information Technology",
+      "open": 167.885,
+      "current": 157.76,
+      "changePercent": -6.03,
+      "news": null
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
+      "sector": "Information Technology",
+      "open": 205.06,
+      "current": 192.74,
+      "changePercent": -6.01,
+      "news": null
+    },
+    {
+      "symbol": "MPC",
+      "name": "Marathon Petroleum",
+      "sector": "Energy",
+      "open": 302.2,
+      "current": 320.32,
+      "changePercent": 6,
+      "news": {
+        "headline": "3 Reasons Growth Investors Will Love Marathon Petroleum (MPC)",
+        "url": "https://finnhub.io/api/news?id=17c6f66d33f5da2079c9b1ead06b98edb728643a2775b0ce4b1db7c245885a80",
+        "source": "Yahoo",
+        "datetime": 1786380302,
+        "headlineKo": "성장주 투자자들이 마라톤 페트롤리엄(MPC)을 좋아할 3가지 이유"
+      }
+    },
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "sector": "Information Technology",
+      "open": 555,
+      "current": 522.12,
+      "changePercent": -5.92,
+      "news": {
+        "headline": "Applied Materials (AMAT) Gets A Demand Lift From 44.7% AI Chip Growth",
+        "url": "https://finnhub.io/api/news?id=f737840cc3baf5b3c50ba6c833e6d8f1f7c9dfa2764c3ee491d1d74ae36cb069",
+        "source": "Yahoo",
+        "datetime": 1786396181,
+        "headlineKo": "애플라이드 머티리얼즈(AMAT), AI 칩 시장 44.7% 성장에 힘입어 수요 증가"
+      }
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "open": 182.78,
+      "current": 193.17,
+      "changePercent": 5.68,
+      "news": {
+        "headline": "BMC Named a Leader for the Third Consecutive Year in the 2026 Gartner® Magic Quadrant™ for Service Orchestration and Automation Platforms",
+        "url": "https://finnhub.io/api/news?id=ddfbd5de9be712366b5a97a8d4551160cc92e666345ca215c7576c0e8b3f12e0",
+        "source": "Yahoo",
+        "datetime": 1786388280,
+        "headlineKo": "BMC, 2026년 가트너® 매직 쿼드런트™ ‘서비스 오케스트레이션 및 자동화 플랫폼’ 부문에서 3년 연속 리더로 선정"
+      }
+    },
+    {
+      "symbol": "ADM",
+      "name": "Archer Daniels Midland",
+      "sector": "Consumer Staples",
+      "open": 76.22,
+      "current": 80.49,
+      "changePercent": 5.6,
+      "news": null
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "open": 386.658,
+      "current": 365.1,
+      "changePercent": -5.58,
+      "news": null
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "open": 365.5,
+      "current": 385.04,
+      "changePercent": 5.35,
+      "news": {
+        "headline": "CrowdStrike, Palo Alto Networks stocks hit new highs after Black Hat",
+        "url": "https://finnhub.io/api/news?id=02d13035f74262648097272d685a9157b34cab33330ee12880f6afda0790656f",
+        "source": "Yahoo",
+        "datetime": 1786386040,
+        "headlineKo": "블랙햇 행사 이후 크라우드스트라이크와 팔로알토 네트웍스 주가가 사상 최고치를 경신했다"
+      }
+    },
+    {
+      "symbol": "CF",
+      "name": "CF Industries",
+      "sector": "Materials",
+      "open": 115.5,
+      "current": 121.48,
+      "changePercent": 5.18,
+      "news": {
+        "headline": "CF Industries to Benefit From Strong Nitrogen Prices, Cash Flow Amid US-Iran Risks, RBC Says",
+        "url": "https://finnhub.io/api/news?id=cc50ff06438fcc7507d4068ec1656c0dc1dbb394937a675b15ddfaae3ce16f37",
+        "source": "Yahoo",
+        "datetime": 1786379013,
+        "headlineKo": "RBC, “CF 인더스트리즈, 미-이란 긴장 속에서도 높은 질소 가격과 현금 흐름으로 수혜 볼 것”이라고 전망"
+      }
+    }
+  ]
 }
