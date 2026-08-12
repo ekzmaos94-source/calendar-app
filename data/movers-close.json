@@ -1,7 +1,92 @@
 {
-  "generatedAt": "2026-08-12T16:12:38.426Z",
+  "generatedAt": "2026-08-12T22:26:19.459Z",
   "tradingDate": "2026-08-12",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "open": 34.99,
+      "current": 37.61,
+      "changePercent": 7.49,
+      "news": {
+        "headline": "SMCI's Next AI Bottleneck Isn't Demand—It's Working Capital",
+        "url": "https://finnhub.io/api/news?id=dbe467afc1eb1b476c2cab3e9b91c2df605650d2240275dd1d396e91d224c993",
+        "source": "Benzinga",
+        "datetime": 1786528218,
+        "headlineKo": "SMCI의 차세대 AI 사업에서 병목 현상을 일으키는 요인은 수요가 아니라 운전 자본이다"
+      }
+    },
+    {
+      "symbol": "FSLR",
+      "name": "First Solar",
+      "sector": "Information Technology",
+      "open": 243,
+      "current": 226.77,
+      "changePercent": -6.68,
+      "news": null
+    },
+    {
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "open": 55.71,
+      "current": 58.79,
+      "changePercent": 5.53,
+      "news": null
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "open": 459.275,
+      "current": 484.5,
+      "changePercent": 5.49,
+      "news": null
+    },
+    {
+      "symbol": "TRMB",
+      "name": "Trimble Inc.",
+      "sector": "Information Technology",
+      "open": 59.41,
+      "current": 56.35,
+      "changePercent": -5.15,
+      "news": {
+        "headline": "Trimble Stock Slips Despite Q2 Beat: Connected Cloud Workflows and $1B Buyback Drive Outlook",
+        "url": "https://finnhub.io/api/news?id=83fdf260f699f0bacebe012c98a2e61a5667bf319046a1770bc0f7346f9998f6",
+        "source": "Benzinga",
+        "datetime": 1786541728,
+        "headlineKo": "트림블, 2분기 실적 호조에도 주가 하락… ‘커넥티드 클라우드 워크플로우’와 10억 달러 규모의 자사주 매입이 전망을 주도"
+      }
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 60.575,
+      "current": 63.67,
+      "changePercent": 5.11,
+      "news": null
+    },
+    {
+      "symbol": "MCHP",
+      "name": "Microchip Technology",
+      "sector": "Information Technology",
+      "open": 83.68,
+      "current": 79.44,
+      "changePercent": -5.07,
+      "news": null
+    },
+    {
+      "symbol": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "sector": "Energy",
+      "open": 360.87,
+      "current": 342.77,
+      "changePercent": -5.02,
+      "news": null
+    }
+  ]
 }
