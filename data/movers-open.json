@@ -1,41 +1,7 @@
 {
-  "generatedAt": "2026-08-11T17:33:54.523Z",
-  "tradingDate": "2026-08-11",
+  "generatedAt": "2026-08-12T16:12:38.406Z",
+  "tradingDate": "2026-08-12",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": [
-    {
-      "symbol": "KKR",
-      "name": "KKR & Co.",
-      "sector": "Financials",
-      "open": 104.01,
-      "current": 110.74,
-      "changePercent": 6.47,
-      "news": null
-    },
-    {
-      "symbol": "AXON",
-      "name": "Axon Enterprise",
-      "sector": "Industrials",
-      "open": 595,
-      "current": 632,
-      "changePercent": 6.22,
-      "news": null
-    },
-    {
-      "symbol": "APO",
-      "name": "Apollo Global Management",
-      "sector": "Financials",
-      "open": 132.5,
-      "current": 140.24,
-      "changePercent": 5.84,
-      "news": {
-        "headline": "Apollo Global Management (APO) Joins $500 Billion AI Infrastructure Fund",
-        "url": "https://finnhub.io/api/news?id=8030df18d74bed439d647404ded3c5a2526200a2ee3f3f58c341310807e35b55",
-        "source": "Yahoo",
-        "datetime": 1786414165,
-        "headlineKo": "아폴로 글로벌 매니지먼트(APO), 5,000억 달러 규모의 AI 인프라 펀드에 참여"
-      }
-    }
-  ]
+  "movers": []
 }
