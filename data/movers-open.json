@@ -1,26 +1,7 @@
 {
-  "generatedAt": "2026-08-14T16:36:15.049Z",
-  "tradingDate": "2026-08-14",
+  "generatedAt": "2026-08-17T14:05:19.853Z",
+  "tradingDate": "2026-08-17",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": [
-    {
-      "symbol": "CPRT",
-      "name": "Copart",
-      "sector": "Industrials",
-      "open": 29.63,
-      "current": 31.445,
-      "changePercent": 6.13,
-      "news": null
-    },
-    {
-      "symbol": "GDDY",
-      "name": "GoDaddy",
-      "sector": "Information Technology",
-      "open": 101.56,
-      "current": 96.445,
-      "changePercent": -5.04,
-      "news": null
-    }
-  ]
+  "movers": []
 }

@@ -1,50 +1,7 @@
 {
-  "generatedAt": "2026-08-14T21:44:45.078Z",
-  "tradingDate": "2026-08-14",
+  "generatedAt": "2026-08-17T14:05:19.872Z",
+  "tradingDate": "2026-08-17",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": [
-    {
-      "symbol": "CPRT",
-      "name": "Copart",
-      "sector": "Industrials",
-      "open": 29.63,
-      "current": 31.61,
-      "changePercent": 6.68,
-      "news": null
-    },
-    {
-      "symbol": "GDDY",
-      "name": "GoDaddy",
-      "sector": "Information Technology",
-      "open": 101.56,
-      "current": 94.91,
-      "changePercent": -6.55,
-      "news": null
-    },
-    {
-      "symbol": "AMD",
-      "name": "Advanced Micro Devices",
-      "sector": "Information Technology",
-      "open": 487.6,
-      "current": 514.39,
-      "changePercent": 5.49,
-      "news": {
-        "headline": "What's Going On With AMD Stock Friday?",
-        "url": "https://finnhub.io/api/news?id=c58a82b4f36a8a77717f9d1a50b457fb45f8130659c86f85c2766919a8101502",
-        "source": "Benzinga",
-        "datetime": 1786697954,
-        "headlineKo": "금요일 AMD 주가는 어떻게 될까?"
-      }
-    },
-    {
-      "symbol": "NRG",
-      "name": "NRG Energy",
-      "sector": "Utilities",
-      "open": 120,
-      "current": 126.24,
-      "changePercent": 5.2,
-      "news": null
-    }
-  ]
+  "movers": []
 }
