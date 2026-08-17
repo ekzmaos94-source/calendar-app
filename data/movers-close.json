@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-08-17T14:05:19.872Z",
+  "generatedAt": "2026-08-17T21:45:35.504Z",
   "tradingDate": "2026-08-17",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "CVNA",
+      "name": "Carvana",
+      "sector": "Consumer Discretionary",
+      "open": 74.61,
+      "current": 70.09,
+      "changePercent": -6.06,
+      "news": null
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 333.52,
+      "current": 351.22,
+      "changePercent": 5.31,
+      "news": null
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1700,
+      "current": 1786.85,
+      "changePercent": 5.11,
+      "news": {
+        "headline": "Lockheed Martin + Sandisk: Balance And Diversification, Growth And Income",
+        "url": "https://finnhub.io/api/news?id=c6b853ca7b237269d77205a37b89003ece4a7f91158da8ed2190542d300f874c",
+        "source": "SeekingAlpha",
+        "datetime": 1786980000,
+        "headlineKo": "록히드 마틴 + 샌디스크: 균형과 다각화, 성장과 수익"
+      }
+    }
+  ]
 }
