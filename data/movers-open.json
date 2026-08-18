@@ -1,32 +1,7 @@
 {
-  "generatedAt": "2026-08-17T14:58:10.489Z",
-  "tradingDate": "2026-08-17",
+  "generatedAt": "2026-08-18T14:56:54.421Z",
+  "tradingDate": "2026-08-18",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": [
-    {
-      "symbol": "SNDK",
-      "name": "Sandisk",
-      "sector": "Information Technology",
-      "open": 1700,
-      "current": 1815.07,
-      "changePercent": 6.77,
-      "news": {
-        "headline": "Sandisk: Every Bounce Looks Like A Trap",
-        "url": "https://finnhub.io/api/news?id=6e453433109306c0f3aad618917c301f4774f9352c06550b2b57dc4567a3ca11",
-        "source": "SeekingAlpha",
-        "datetime": 1786962767,
-        "headlineKo": "샌디스크: 모든 반등이 함정처럼 보인다"
-      }
-    },
-    {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "open": 333.52,
-      "current": 353.455,
-      "changePercent": 5.98,
-      "news": null
-    }
-  ]
+  "movers": []
 }
