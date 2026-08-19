@@ -1,35 +1,7 @@
 {
-  "generatedAt": "2026-08-18T15:17:41.834Z",
-  "tradingDate": "2026-08-18",
+  "generatedAt": "2026-08-19T14:57:33.045Z",
+  "tradingDate": "2026-08-19",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": [
-    {
-      "symbol": "CIEN",
-      "name": "Ciena",
-      "sector": "Information Technology",
-      "open": 421.585,
-      "current": 398.93,
-      "changePercent": -5.37,
-      "news": null
-    },
-    {
-      "symbol": "TER",
-      "name": "Teradyne",
-      "sector": "Information Technology",
-      "open": 419.145,
-      "current": 397.03,
-      "changePercent": -5.28,
-      "news": null
-    },
-    {
-      "symbol": "ULTA",
-      "name": "Ulta Beauty",
-      "sector": "Consumer Discretionary",
-      "open": 496.75,
-      "current": 521.76,
-      "changePercent": 5.03,
-      "news": null
-    }
-  ]
+  "movers": []
 }

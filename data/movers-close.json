@@ -1,59 +1,7 @@
 {
-  "generatedAt": "2026-08-18T21:42:24.747Z",
-  "tradingDate": "2026-08-18",
+  "generatedAt": "2026-08-19T14:57:33.064Z",
+  "tradingDate": "2026-08-19",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": [
-    {
-      "symbol": "JBL",
-      "name": "Jabil",
-      "sector": "Information Technology",
-      "open": 359.78,
-      "current": 338.62,
-      "changePercent": -5.88,
-      "news": null
-    },
-    {
-      "symbol": "PODD",
-      "name": "Insulet Corporation",
-      "sector": "Health Care",
-      "open": 139.91,
-      "current": 148.03,
-      "changePercent": 5.8,
-      "news": null
-    },
-    {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "open": 324.605,
-      "current": 306.43,
-      "changePercent": -5.6,
-      "news": {
-        "headline": "Here’s How Much You Would Have Made Owning Coherent Stock In The Last 20 Years",
-        "url": "https://finnhub.io/api/news?id=6f73bc54df5b1d32e4595b1db64d95d2eef2f57462d082e7067913d099ce889e",
-        "source": "Benzinga",
-        "datetime": 1787071547,
-        "headlineKo": "지난 20년 동안 코히어런트 주식을 보유했다면 얼마나 벌었을지 알아보세요"
-      }
-    },
-    {
-      "symbol": "NRG",
-      "name": "NRG Energy",
-      "sector": "Utilities",
-      "open": 121.92,
-      "current": 115.56,
-      "changePercent": -5.22,
-      "news": null
-    },
-    {
-      "symbol": "AKAM",
-      "name": "Akamai Technologies",
-      "sector": "Information Technology",
-      "open": 121.49,
-      "current": 115.2,
-      "changePercent": -5.18,
-      "news": null
-    }
-  ]
+  "movers": []
 }
