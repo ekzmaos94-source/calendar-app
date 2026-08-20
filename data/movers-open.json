@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-08-20T15:04:56.037Z",
+  "generatedAt": "2026-08-20T15:51:35.209Z",
   "tradingDate": "2026-08-20",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 150.1125,
+      "current": 140.0191,
+      "changePercent": -6.72,
+      "news": {
+        "headline": "Tempus AI Just Had Their Entire Strategy Validated By Moderna's Vaccine Advance",
+        "url": "https://finnhub.io/api/news?id=5b54ec56dfde684c05d3723c87da63c116166a04b8bff3d3ea948663950358c1",
+        "source": "SeekingAlpha",
+        "datetime": 1787212800,
+        "headlineKo": "템퍼스 AI의 전체 전략이 모더나의 백신 개발 진전을 통해 그 타당성이 입증되었다"
+      }
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
+      "sector": "Financials",
+      "open": 100.85,
+      "current": 94.581,
+      "changePercent": -6.22,
+      "news": null
+    },
+    {
+      "symbol": "IQV",
+      "name": "IQVIA",
+      "sector": "Health Care",
+      "open": 246.87,
+      "current": 259.86,
+      "changePercent": 5.26,
+      "news": null
+    }
+  ]
 }
