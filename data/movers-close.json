@@ -1,7 +1,71 @@
 {
-  "generatedAt": "2026-08-21T14:59:40.182Z",
+  "generatedAt": "2026-08-21T21:43:16.511Z",
   "tradingDate": "2026-08-21",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 132.5,
+      "current": 145.13,
+      "changePercent": 9.53,
+      "news": {
+        "headline": "Stocks making the biggest moves midday: Moderna, Robinhood, BJ's Wholesale, Coinbase & more",
+        "url": "https://finnhub.io/api/news?id=5f4598b0d6ba255f594f708ce90e97cacf249bf22caddb167020847d33773921",
+        "source": "CNBC",
+        "datetime": 1787314912,
+        "headlineKo": "오후 장중 변동폭이 가장 큰 종목: 모더나, 로빈후드, BJ's Wholesale, 코인베이스 등"
+      }
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
+      "sector": "Financials",
+      "open": 100.88,
+      "current": 108.13,
+      "changePercent": 7.19,
+      "news": {
+        "headline": "Why is HOOD stock up today?",
+        "url": "https://finnhub.io/api/news?id=8385495397e10fa5669a1b05e8b687c326f3bc3024d2c9e80a1ef56c03a78d0f",
+        "source": "Yahoo",
+        "datetime": 1787343600,
+        "headlineKo": "오늘 HOOD 주가가 왜 올랐나요?"
+      }
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "open": 252.39,
+      "current": 237.04,
+      "changePercent": -6.08,
+      "news": {
+        "headline": "What's Going On With Marvell Technology Stock Friday?",
+        "url": "https://finnhub.io/api/news?id=0a155a1714361f04184b07bef58efda6c807562f70a11310daf623a09e0d7769",
+        "source": "Benzinga",
+        "datetime": 1787306821,
+        "headlineKo": "금요일 마벨 테크놀로지 주가는 어떻게 될까?"
+      }
+    },
+    {
+      "symbol": "SRE",
+      "name": "Sempra",
+      "sector": "Utilities",
+      "open": 87.64,
+      "current": 82.89,
+      "changePercent": -5.42,
+      "news": null
+    },
+    {
+      "symbol": "EL",
+      "name": "Estée Lauder Companies (The)",
+      "sector": "Consumer Staples",
+      "open": 96.75,
+      "current": 101.94,
+      "changePercent": 5.36,
+      "news": null
+    }
+  ]
 }
