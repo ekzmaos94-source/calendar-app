@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-08-24T15:20:28.658Z",
+  "generatedAt": "2026-08-24T21:52:41.200Z",
   "tradingDate": "2026-08-24",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "JBHT",
+      "name": "J.B. Hunt",
+      "sector": "Industrials",
+      "open": 274.67,
+      "current": 259.88,
+      "changePercent": -5.38,
+      "news": null
+    }
+  ]
 }
