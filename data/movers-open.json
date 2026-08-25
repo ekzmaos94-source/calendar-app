@@ -1,7 +1,65 @@
 {
-  "generatedAt": "2026-08-25T15:28:09.509Z",
+  "generatedAt": "2026-08-25T16:10:13.892Z",
   "tradingDate": "2026-08-25",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 143.415,
+      "current": 156.19,
+      "changePercent": 8.91,
+      "news": {
+        "headline": "Moderna Stock Edges Higher Tuesday: What's Happening?",
+        "url": "https://finnhub.io/api/news?id=7fe7b223afcf23593d669003942bf277a43bdfd0531baf348b2491a66804c553",
+        "source": "Benzinga",
+        "datetime": 1787649528,
+        "headlineKo": "화요일 모더나 주가 소폭 상승: 무슨 일이 있는 걸까?"
+      }
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
+      "sector": "Financials",
+      "open": 103.22,
+      "current": 111.175,
+      "changePercent": 7.71,
+      "news": null
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "open": 36.145,
+      "current": 38.28,
+      "changePercent": 5.91,
+      "news": null
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "open": 176.165,
+      "current": 186.4,
+      "changePercent": 5.81,
+      "news": {
+        "headline": "Coinbase: Buy This Confidently Amid Bitcoin Bump (Upgrade)",
+        "url": "https://finnhub.io/api/news?id=15447e1ae4e2ed2dcf6a22bafcaed3aceee8b1bfacadeb161ce1edbfc056d55e",
+        "source": "SeekingAlpha",
+        "datetime": 1787638713,
+        "headlineKo": "코인베이스: 비트코인 상승세 속 자신 있게 매수하라 (매수 추천 상향)"
+      }
+    },
+    {
+      "symbol": "CDW",
+      "name": "CDW Corporation",
+      "sector": "Information Technology",
+      "open": 131.88,
+      "current": 139.24,
+      "changePercent": 5.58,
+      "news": null
+    }
+  ]
 }
