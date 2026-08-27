@@ -1,23 +1,7 @@
 {
-  "generatedAt": "2026-08-26T16:55:52.405Z",
-  "tradingDate": "2026-08-26",
+  "generatedAt": "2026-08-27T22:52:59.983Z",
+  "tradingDate": "2026-08-27",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": [
-    {
-      "symbol": "INTU",
-      "name": "Intuit",
-      "sector": "Information Technology",
-      "open": 322.95,
-      "current": 346.165,
-      "changePercent": 7.19,
-      "news": {
-        "headline": "Intuit, Zoom, Qfin Holdings And Other Big Stocks Moving Lower In Wednesday’s Pre-Market Session",
-        "url": "https://finnhub.io/api/news?id=b4a4ee145e5933e9260fcfdcfc1c5627a0fd3458ae923954e4a0005146eb4f9b",
-        "source": "Benzinga",
-        "datetime": 1787731303,
-        "headlineKo": "인튜이트, 줌, Qfin 홀딩스 등 주요 종목들, 수요일 장전 거래에서 하락세"
-      }
-    }
-  ]
+  "movers": []
 }
