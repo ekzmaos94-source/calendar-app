@@ -1,7 +1,161 @@
 {
-  "generatedAt": "2026-08-27T22:53:00.002Z",
+  "generatedAt": "2026-08-28T02:22:04.299Z",
   "tradingDate": "2026-08-27",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "SNPS",
+      "name": "Synopsys",
+      "sector": "Information Technology",
+      "open": 418.89,
+      "current": 464.89,
+      "changePercent": 10.98,
+      "news": {
+        "headline": "Synopsys CEO: There is more and more demand for more efficient AI silicon",
+        "url": "https://finnhub.io/api/news?id=bf472d274e1ce5b6cf2cf5ad640f5d96399912c272c7daa661de30f4df0f8d7d",
+        "source": "CNBC",
+        "datetime": 1787830482,
+        "headlineKo": "시노프시스 CEO: 더 효율적인 AI 칩에 대한 수요가 점점 더 늘어나고 있다"
+      }
+    },
+    {
+      "symbol": "CRM",
+      "name": "Salesforce",
+      "sector": "Information Technology",
+      "open": 230.05,
+      "current": 252.05,
+      "changePercent": 9.56,
+      "news": {
+        "headline": "Salesforce, Inc. (CRM) Presents at Deutsche Bank 2026 Technology Conference Transcript",
+        "url": "https://finnhub.io/api/news?id=cf79c701ea3885a0806957003c26158243ea9e21dbdf9759a365c96d4c55678e",
+        "source": "SeekingAlpha",
+        "datetime": 1787854754,
+        "headlineKo": "세일즈포스(Salesforce, Inc.)(CRM), 도이체방크 2026 기술 컨퍼런스에서 발표: 발표록"
+      }
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "open": 208.25,
+      "current": 227.96,
+      "changePercent": 9.46,
+      "news": {
+        "headline": "RBC Capital Maintains Outperform on CrowdStrike Holdings, Raises Price Target to $260",
+        "url": "https://finnhub.io/api/news?id=cd7687f669ba205249a512bb8104524ec158f9f1301b8d379942d6cac189e78b",
+        "source": "Benzinga",
+        "datetime": 1787826873,
+        "headlineKo": "RBC 캐피털, 크라우드스트라이크 홀딩스에 대해 ‘아웃퍼폼’ 투자의견 유지… 목표주가 260달러로 상향"
+      }
+    },
+    {
+      "symbol": "FTNT",
+      "name": "Fortinet",
+      "sector": "Information Technology",
+      "open": 160.24,
+      "current": 172.78,
+      "changePercent": 7.83,
+      "news": {
+        "headline": "Fortinet: Strong Platform And Cash Generation, But Valuation Leaves Limited Margin Of Safety",
+        "url": "https://finnhub.io/api/news?id=3de1d21a3c259bced7f6bb5eb9181569af4ccc74d2605183a9767516bafc427a",
+        "source": "SeekingAlpha",
+        "datetime": 1787824317,
+        "headlineKo": "포티넷: 견고한 플랫폼과 현금 창출 능력을 갖추고 있으나, 기업 가치 평가로 인해 안전 마진이 제한적"
+      }
+    },
+    {
+      "symbol": "HRL",
+      "name": "Hormel Foods",
+      "sector": "Consumer Staples",
+      "open": 23,
+      "current": 21.28,
+      "changePercent": -7.48,
+      "news": {
+        "headline": "Hormel Foods Corporation (HRL) Q3 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=ee285736a97652aae70f20ea2273bd50d1726243021eb740670c32b56f6c0a8f",
+        "source": "SeekingAlpha",
+        "datetime": 1787841555,
+        "headlineKo": "호멜 푸드 코퍼레이션(HRL) 2026년 3분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "open": 358.65,
+      "current": 382.85,
+      "changePercent": 6.75,
+      "news": {
+        "headline": "Why Is Palo Alto Networks Stock Surging Thursday?",
+        "url": "https://finnhub.io/api/news?id=feadc41a693415d19949187169e2112eb5d98f8676a8229b316164800fc854c0",
+        "source": "Benzinga",
+        "datetime": 1787824210,
+        "headlineKo": "목요일, 팔로알토 네트웍스 주가가 왜 급등하고 있을까?"
+      }
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "open": 27.86,
+      "current": 29.63,
+      "changePercent": 6.35,
+      "news": {
+        "headline": "HP: Double Earnings Beat, Raised Guidance, But Near 50% Rally Keeps Me Cautious",
+        "url": "https://finnhub.io/api/news?id=27e555b4322f39f3ecb7ec3db6fe0f595634cf1f0a2249491f326866933cf5bc",
+        "source": "SeekingAlpha",
+        "datetime": 1787847316,
+        "headlineKo": "HP: 실적 예상치를 두 배나 상회하고 전망치를 상향 조정했으나, 50%에 육박하는 주가 급등으로 인해 여전히 신중한 입장이다"
+      }
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "open": 130.48,
+      "current": 138.43,
+      "changePercent": 6.09,
+      "news": {
+        "headline": "ServiceNow, Inc. (NOW) Presents at Deutsche Bank 2026 Technology Conference Transcript",
+        "url": "https://finnhub.io/api/news?id=5c1be21d63c77d2b695f89a461e6abfe98470c44fe9e35600654575128bae774",
+        "source": "SeekingAlpha",
+        "datetime": 1787859557,
+        "headlineKo": "ServiceNow, Inc. (NOW), 도이체방크 2026 기술 컨퍼런스에서 발표: 발표 전문"
+      }
+    },
+    {
+      "symbol": "DLTR",
+      "name": "Dollar Tree",
+      "sector": "Consumer Staples",
+      "open": 119.85,
+      "current": 127,
+      "changePercent": 5.97,
+      "news": {
+        "headline": "Dollar Tree, Inc. (DLTR) Q2 2027 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=d61991a576e190220558f14d71e572d349a77bb878b964b48aa7ffe2edffbbbc",
+        "source": "SeekingAlpha",
+        "datetime": 1787840955,
+        "headlineKo": "달러 트리(Dollar Tree, Inc., DLTR) 2027년 2분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "GNRC",
+      "name": "Generac",
+      "sector": "Industrials",
+      "open": 209.77,
+      "current": 197.29,
+      "changePercent": -5.95,
+      "news": null
+    },
+    {
+      "symbol": "CDW",
+      "name": "CDW Corporation",
+      "sector": "Information Technology",
+      "open": 141.77,
+      "current": 148.97,
+      "changePercent": 5.08,
+      "news": null
+    }
+  ]
 }
