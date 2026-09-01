@@ -1,7 +1,77 @@
 {
-  "generatedAt": "2026-08-31T19:27:23.607Z",
+  "generatedAt": "2026-09-01T00:02:18.873Z",
   "tradingDate": "2026-08-31",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "TTWO",
+      "name": "Take-Two Interactive",
+      "sector": "Communication Services",
+      "open": 234.405,
+      "current": 219.7,
+      "changePercent": -6.27,
+      "news": {
+        "headline": "Take-Two Interactive Software: The Street Is Missing The Big Picture",
+        "url": "https://finnhub.io/api/news?id=c1e941ba37b823022bde98c957fe09c6aa78fbe641d19e6d6c097df0e323ad85",
+        "source": "SeekingAlpha",
+        "datetime": 1788195887,
+        "headlineKo": "테이크투 인터랙티브 소프트웨어: 시장 분석가들은 큰 그림을 놓치고 있다"
+      }
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Discretionary",
+      "open": 347.15,
+      "current": 367.95,
+      "changePercent": 5.99,
+      "news": {
+        "headline": "Trade Tracker: Bryn Talkington buys more Tesla",
+        "url": "https://finnhub.io/api/news?id=c7765a7b23ed932867381efac0950506c2686f3f435fadec9ecb6af92c31aabc",
+        "source": "CNBC",
+        "datetime": 1788182254,
+        "headlineKo": "주식 동향: 브린 토킹턴, 테슬라 추가 매수"
+      }
+    },
+    {
+      "symbol": "AON",
+      "name": "Aon plc",
+      "sector": "Financials",
+      "open": 340,
+      "current": 321.52,
+      "changePercent": -5.44,
+      "news": {
+        "headline": "Aon: Remaining Cautious Amid USI Acquisition",
+        "url": "https://finnhub.io/api/news?id=643606a43b4f3d1950d1096d2036245357fd7229b94f4304b52ae35e1ad76ca0",
+        "source": "SeekingAlpha",
+        "datetime": 1788190650,
+        "headlineKo": "Aon: USI 인수 과정에서 신중한 태도 유지"
+      }
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1486.205,
+      "current": 1566.7,
+      "changePercent": 5.42,
+      "news": {
+        "headline": "MU and SNDK are ‘Just Unbelievable’ Bargains as Mizuho Reiterates Bullish Stance on Memory Stocks",
+        "url": "https://finnhub.io/api/news?id=ede8a9a770f7855e4670112b452815f947a4ffbd06c984e5db836d5829004bc9",
+        "source": "Benzinga",
+        "datetime": 1788165418,
+        "headlineKo": "미즈호가 메모리주에 대한 낙관적 전망을 재확인한 가운데, MU와 SNDK는 ‘정말 믿기 힘든’ 매수 기회로 꼽혔다"
+      }
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "open": 178.56,
+      "current": 188.12,
+      "changePercent": 5.35,
+      "news": null
+    }
+  ]
 }
