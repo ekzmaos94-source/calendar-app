@@ -1,7 +1,107 @@
 {
-  "generatedAt": "2026-09-02T17:04:20.731Z",
+  "generatedAt": "2026-09-02T22:48:14.948Z",
   "tradingDate": "2026-09-02",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "open": 147.67,
+      "current": 158.97,
+      "changePercent": 7.65,
+      "news": {
+        "headline": "Charter (CHTR) Stock Still Looks Undervalued After Its 82% Five Year Fall",
+        "url": "https://finnhub.io/api/news?id=5ede68b39b385ca80c73ae1d766653d09fa9033c3673eed19d5a29d7710a0648",
+        "source": "Yahoo",
+        "datetime": 1788311952,
+        "headlineKo": "차터(CHTR) 주가는 지난 5년간 82% 하락했음에도 여전히 저평가된 것으로 보인다"
+      }
+    },
+    {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "open": 66.86,
+      "current": 71.67,
+      "changePercent": 7.19,
+      "news": null
+    },
+    {
+      "symbol": "XYZ",
+      "name": "Block, Inc.",
+      "sector": "Financials",
+      "open": 76.96,
+      "current": 82.46,
+      "changePercent": 7.15,
+      "news": {
+        "headline": "Block’s Cash App Growth Is Strong But ‘Increasingly Credit-Led,’ Square Remains ‘Missing Second Engine,’ Scotiabank Says",
+        "url": "https://finnhub.io/api/news?id=b4418e44f958ba3b8bb15ef1af6eb03d47ba730423f6a27d2b5828a85dfc3d59",
+        "source": "Yahoo",
+        "datetime": 1788366305,
+        "headlineKo": "스코샤뱅크, “블록의 캐시앱 성장세는 견조하지만 ‘점점 더 신용 기반’으로 전환되고 있으며, 스퀘어는 여전히 ‘두 번째 성장 동력’이 부족하다”고 평가"
+      }
+    },
+    {
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "open": 13.65,
+      "current": 14.55,
+      "changePercent": 6.59,
+      "news": {
+        "headline": "Why The Trade Desk Stock Rallied Today",
+        "url": "https://finnhub.io/api/news?id=40abc4a583c9f8936d562436821eac9ccb0f30841fa8003bba403335da017978",
+        "source": "Yahoo",
+        "datetime": 1788372043,
+        "headlineKo": "오늘 더 트레이드 데스크 주가가 급등한 이유"
+      }
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "open": 462.05,
+      "current": 492.2,
+      "changePercent": 6.53,
+      "news": {
+        "headline": "DELL Q2 Earnings Beat Estimates, Strong AI Demand Aids Revenue Growth",
+        "url": "https://finnhub.io/api/news?id=ba57d54691ba7500d086fc92b9371ce2fe1aa00b82ca8959ac11c3371d467f55",
+        "source": "Yahoo",
+        "datetime": 1788377100,
+        "headlineKo": "델, 2분기 실적 예상치 상회… AI 수요 호조로 매출 성장 견인"
+      }
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "open": 346.18,
+      "current": 328.48,
+      "changePercent": -5.11,
+      "news": {
+        "headline": "Buy Palo Alto Networks Stock? Earnings Reveal a $9.1B AI Security Boom",
+        "url": "https://finnhub.io/api/news?id=7c3235e1ca5b6f6145f6ebe0ad934e0e0fb759f14f93f6f58ceecf7d2717c87f",
+        "source": "Yahoo",
+        "datetime": 1788379200,
+        "headlineKo": "팔로알토 네트웍스 주식을 매수해야 할까? 실적 발표에서 드러난 91억 달러 규모의 AI 보안 붐"
+      }
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "open": 214.345,
+      "current": 203.42,
+      "changePercent": -5.1,
+      "news": {
+        "headline": "The Real Question Behind CrowdStrike Stock's Premium Price",
+        "url": "https://finnhub.io/api/news?id=6d1d0d7c519ab0b68fa1f1912c626ed56ca6235a3122a93d4624ce47963dfdf2",
+        "source": "Yahoo",
+        "datetime": 1788384005,
+        "headlineKo": "크라우드스트라이크 주가 프리미엄의 이면에 숨겨진 진짜 의문"
+      }
+    }
+  ]
 }
