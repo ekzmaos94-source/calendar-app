@@ -1,7 +1,86 @@
 {
-  "generatedAt": "2026-09-04T16:47:50.521Z",
+  "generatedAt": "2026-09-04T17:33:27.287Z",
   "tradingDate": "2026-09-04",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1585.59,
+      "current": 1717.27,
+      "changePercent": 8.3,
+      "news": {
+        "headline": "Why Sandisk Stock Rallied Today",
+        "url": "https://finnhub.io/api/news?id=c1f02dc19328b5375b1b66dcdce93af411c45248cafc1783119e6ee737767d70",
+        "source": "Yahoo",
+        "datetime": 1788536185,
+        "headlineKo": "오늘 샌디스크 주가가 급등한 이유"
+      }
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "open": 38.21,
+      "current": 40.67,
+      "changePercent": 6.44,
+      "news": {
+        "headline": "Hardware & Infrastructure Stocks Q2 Teardown: Super Micro (NASDAQ:SMCI) Vs The Rest",
+        "url": "https://finnhub.io/api/news?id=fb4815673485f329d35b0ade6308787512ca427350748deeeed637abb4f9f7ab",
+        "source": "Yahoo",
+        "datetime": 1788535090,
+        "headlineKo": "하드웨어 및 인프라 관련주 2분기 실적 분석: 슈퍼 마이크로(NASDAQ:SMCI) 대 타사 기업들"
+      }
+    },
+    {
+      "symbol": "ADSK",
+      "name": "Autodesk",
+      "sector": "Information Technology",
+      "open": 232.07,
+      "current": 218.035,
+      "changePercent": -6.05,
+      "news": null
+    },
+    {
+      "symbol": "SNPS",
+      "name": "Synopsys",
+      "sector": "Information Technology",
+      "open": 418.12,
+      "current": 393.455,
+      "changePercent": -5.9,
+      "news": {
+        "headline": "Synopsys Fell 11% This Year. Wall Street Expects It to Gain 50% in the Next 12 Months",
+        "url": "https://finnhub.io/api/news?id=efb4f914e97821027880e13a51e90233c04ac9d841bf5b48818f99341d977853",
+        "source": "Yahoo",
+        "datetime": 1788532196,
+        "headlineKo": "시노프시스는 올해 11% 하락했다. 월스트리트는 향후 12개월 동안 50% 상승할 것으로 전망하고 있다."
+      }
+    },
+    {
+      "symbol": "NRG",
+      "name": "NRG Energy",
+      "sector": "Utilities",
+      "open": 111.29,
+      "current": 117.52,
+      "changePercent": 5.6,
+      "news": null
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 153,
+      "current": 145.35,
+      "changePercent": -5,
+      "news": {
+        "headline": "GSK's mRNA flu vaccine data closely tracks Moderna's, Deutsche Bank says",
+        "url": "https://finnhub.io/api/news?id=da4c67bc94969150666b5f601b1d7abff304311fb75f11c4b526f760cae1c708",
+        "source": "Yahoo",
+        "datetime": 1788520200,
+        "headlineKo": "도이체방크는 GSK의 mRNA 독감 백신 데이터가 모더나의 데이터와 매우 유사한 양상을 보인다고 밝혔다"
+      }
+    }
+  ]
 }
