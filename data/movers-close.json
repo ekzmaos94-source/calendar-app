@@ -1,7 +1,107 @@
 {
-  "generatedAt": "2026-09-04T16:47:50.540Z",
+  "generatedAt": "2026-09-04T22:29:46.281Z",
   "tradingDate": "2026-09-04",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1585.59,
+      "current": 1740,
+      "changePercent": 9.74,
+      "news": {
+        "headline": "Analyst Has Strong Take on Micron, SanDisk Stocks",
+        "url": "https://finnhub.io/api/news?id=fb3e07711d6d06034f5a1fb9d5519f1cbe055a00a3a4bd40148c150a22a00f33",
+        "source": "Yahoo",
+        "datetime": 1788551307,
+        "headlineKo": "애널리스트, 마이크론·샌디스크 주가에 대해 강력한 견해 제시"
+      }
+    },
+    {
+      "symbol": "NRG",
+      "name": "NRG Energy",
+      "sector": "Utilities",
+      "open": 111.29,
+      "current": 119.02,
+      "changePercent": 6.95,
+      "news": null
+    },
+    {
+      "symbol": "ADSK",
+      "name": "Autodesk",
+      "sector": "Information Technology",
+      "open": 232.07,
+      "current": 217.9,
+      "changePercent": -6.11,
+      "news": {
+        "headline": "Is Autodesk Stock's Pullback A Foundation To Build On?",
+        "url": "https://finnhub.io/api/news?id=30d8882a35f3a6f2246c9ab6517f3415e348f988c8805a7eb4e9b74f92eba3a5",
+        "source": "Yahoo",
+        "datetime": 1788547442,
+        "headlineKo": "오토데스크 주가의 조정 국면이 향후 상승을 위한 발판이 될 수 있을까?"
+      }
+    },
+    {
+      "symbol": "SNPS",
+      "name": "Synopsys",
+      "sector": "Information Technology",
+      "open": 418.12,
+      "current": 393.84,
+      "changePercent": -5.81,
+      "news": {
+        "headline": "Synopsys Fell 11% This Year. Wall Street Expects It to Gain 50% in the Next 12 Months",
+        "url": "https://finnhub.io/api/news?id=efb4f914e97821027880e13a51e90233c04ac9d841bf5b48818f99341d977853",
+        "source": "Yahoo",
+        "datetime": 1788532196,
+        "headlineKo": "시노프시스는 올해 11% 하락했다. 월스트리트는 향후 12개월 동안 주가가 50% 상승할 것으로 전망하고 있다."
+      }
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "open": 211.77,
+      "current": 223.55,
+      "changePercent": 5.56,
+      "news": {
+        "headline": "Unpacking Q2 Earnings: Marvell Technology (NASDAQ:MRVL) In The Context Of Other Semiconductor Manufacturing Stocks",
+        "url": "https://finnhub.io/api/news?id=5382e4026beed17c9df9b7b7a536d269e869c52366cc42eb156d5b5bae22e48d",
+        "source": "Yahoo",
+        "datetime": 1788537970,
+        "headlineKo": "2분기 실적 분석: 다른 반도체 제조주와의 비교를 통해 본 마벨 테크놀로지(NASDAQ:MRVL)"
+      }
+    },
+    {
+      "symbol": "EFX",
+      "name": "Equifax",
+      "sector": "Industrials",
+      "open": 167.99,
+      "current": 177.05,
+      "changePercent": 5.39,
+      "news": {
+        "headline": "Equifax, TransUnion, Experian Stocks Fall After Pulte Says Credit Firms Are Overcharging",
+        "url": "https://finnhub.io/api/news?id=767ef4dcdcdcb11fb1b2a5e9e6626d2ca0c9250463bb8d079208b58fc9770a8a",
+        "source": "Yahoo",
+        "datetime": 1788531660,
+        "headlineKo": "펄트가 신용평가사들이 과도한 수수료를 부과하고 있다고 지적한 후, 이퀴팩스, 트랜스유니온, 익스페리언 주가가 하락했다"
+      }
+    },
+    {
+      "symbol": "CEG",
+      "name": "Constellation Energy",
+      "sector": "Utilities",
+      "open": 284.04,
+      "current": 298.96,
+      "changePercent": 5.25,
+      "news": {
+        "headline": "Is Constellation Energy Stock Underperforming the Dow?",
+        "url": "https://finnhub.io/api/news?id=405670748c8d2ffff40c724d812a8abe6666f2420fe290a8c8f0e88c9e24ed3c",
+        "source": "Yahoo",
+        "datetime": 1788537042,
+        "headlineKo": "콘스텔레이션 에너지 주가가 다우 지수보다 부진한가?"
+      }
+    }
+  ]
 }
