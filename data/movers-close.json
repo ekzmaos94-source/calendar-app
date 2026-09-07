@@ -1,7 +1,89 @@
 {
-  "generatedAt": "2026-09-07T18:10:31.598Z",
+  "generatedAt": "2026-09-07T22:58:00.216Z",
   "tradingDate": "2026-09-07",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1585.59,
+      "current": 1740,
+      "changePercent": 9.74,
+      "news": {
+        "headline": "Nike Exits S&P 100 After Nearly 18 Years. Dell, SanDisk and 2 Tech Giants Take Its Place",
+        "url": "https://finnhub.io/api/news?id=f4ae093e4b51ff35a08d1072df57e96306373b501686e859f5db7ec851178bd0",
+        "source": "Yahoo",
+        "datetime": 1788784565,
+        "headlineKo": "나이키, 약 18년 만에 S&P 100 지수에서 제외. 델, 샌디스크 및 2개의 거대 기술 기업이 그 자리를 차지했다"
+      }
+    },
+    {
+      "symbol": "NRG",
+      "name": "NRG Energy",
+      "sector": "Utilities",
+      "open": 111.29,
+      "current": 119.02,
+      "changePercent": 6.95,
+      "news": null
+    },
+    {
+      "symbol": "ADSK",
+      "name": "Autodesk",
+      "sector": "Information Technology",
+      "open": 232.07,
+      "current": 217.9,
+      "changePercent": -6.11,
+      "news": null
+    },
+    {
+      "symbol": "SNPS",
+      "name": "Synopsys",
+      "sector": "Information Technology",
+      "open": 418.12,
+      "current": 393.84,
+      "changePercent": -5.81,
+      "news": null
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "open": 211.77,
+      "current": 223.55,
+      "changePercent": 5.56,
+      "news": null
+    },
+    {
+      "symbol": "EFX",
+      "name": "Equifax",
+      "sector": "Industrials",
+      "open": 167.99,
+      "current": 177.05,
+      "changePercent": 5.39,
+      "news": {
+        "headline": "Quality Investing Standout: Equifax (NYSE:EFX) Clears the Hurdles",
+        "url": "https://finnhub.io/api/news?id=0e0ab91067cacd45fabbc0d5001d1977e41a4f0cd5bf1ee45b1399dd8123b24e",
+        "source": "ChartMill",
+        "datetime": 1788781290,
+        "headlineKo": "품질 투자 유망주: 에퀴팩스(NYSE:EFX), 난관을 극복하다"
+      }
+    },
+    {
+      "symbol": "CEG",
+      "name": "Constellation Energy",
+      "sector": "Utilities",
+      "open": 284.04,
+      "current": 298.96,
+      "changePercent": 5.25,
+      "news": {
+        "headline": "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now?",
+        "url": "https://finnhub.io/api/news?id=063c5b4cd2692c2d40433156cbac158ff765447598d80685e6d1045ff7bdff24",
+        "source": "Yahoo",
+        "datetime": 1788747720,
+        "headlineKo": "원자력 관련주 대결: 현재 콘스텔레이션 에너지와 비스트라 중 어느 쪽이 더 좋은 매수 대상일까?"
+      }
+    }
+  ]
 }
