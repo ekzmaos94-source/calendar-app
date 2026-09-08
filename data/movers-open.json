@@ -1,7 +1,149 @@
 {
-  "generatedAt": "2026-09-08T17:09:37.182Z",
+  "generatedAt": "2026-09-08T17:52:26.580Z",
   "tradingDate": "2026-09-08",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "open": 897.56,
+      "current": 986.6047,
+      "changePercent": 9.92,
+      "news": {
+        "headline": "Stewart Asset Management: AI Infrastructure Drives Lumentum Holdings’ (LITE) Potential",
+        "url": "https://finnhub.io/api/news?id=787efa7c332b779322d3cc284572c6bf758e7917cf6449f93327149be63e1c0f",
+        "source": "Yahoo",
+        "datetime": 1788875751,
+        "headlineKo": "스튜어트 자산운용: AI 인프라가 루멘텀 홀딩스(LITE)의 성장 잠재력을 이끌고 있다"
+      }
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 281.05,
+      "current": 306.5665,
+      "changePercent": 9.08,
+      "news": null
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "open": 100.71,
+      "current": 93.605,
+      "changePercent": -7.05,
+      "news": {
+        "headline": "GoDaddy 2025 Global Stakeholder Impact Report: Environmental Impact | Energy",
+        "url": "https://finnhub.io/api/news?id=8cd0297b706ee2508d355bb8aad4c2e081bec9d668e11d20ed566d8444640ea7",
+        "source": "Yahoo",
+        "datetime": 1788877800,
+        "headlineKo": "GoDaddy 2025 글로벌 이해관계자 영향 보고서: 환경적 영향 | 에너지"
+      }
+    },
+    {
+      "symbol": "EXPE",
+      "name": "Expedia Group",
+      "sector": "Consumer Discretionary",
+      "open": 296.5,
+      "current": 276.23,
+      "changePercent": -6.84,
+      "news": null
+    },
+    {
+      "symbol": "SYK",
+      "name": "Stryker Corporation",
+      "sector": "Health Care",
+      "open": 301,
+      "current": 280.85,
+      "changePercent": -6.69,
+      "news": {
+        "headline": "Supply chain woes send Stryker stock tumbling 7.7%",
+        "url": "https://finnhub.io/api/news?id=a74b301a11cb6a75a3976703e3ac4283b1d9f011878ecf87321e2a2c24aca4a2",
+        "source": "Yahoo",
+        "datetime": 1788881506,
+        "headlineKo": "공급망 문제로 스트라이커 주가 7.7% 급락"
+      }
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "open": 327.42,
+      "current": 348.7,
+      "changePercent": 6.5,
+      "news": {
+        "headline": "Citi makes outrageous call on Ciena stock after earnings",
+        "url": "https://finnhub.io/api/news?id=ec0286d96040848a39c5bd8936c4e9fd0b78b1088871b3b77506271a7ff1651c",
+        "source": "Yahoo",
+        "datetime": 1788881580,
+        "headlineKo": "씨티, 실적 발표 후 시에나 주가에 대해 터무니없는 전망을 내놓았다"
+      }
+    },
+    {
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "open": 52.29,
+      "current": 55.2036,
+      "changePercent": 5.57,
+      "news": {
+        "headline": "Super Micro Climbs 4%, Hewlett Packard Enterprise Advances 5%: Is the Margin Beat Already Guided Away?",
+        "url": "https://finnhub.io/api/news?id=c33631a4e58a0d6eb5c8c0a9dbf3bbd26cc9f3016563fda923f9edfb171be5b1",
+        "source": "Yahoo",
+        "datetime": 1788881597,
+        "headlineKo": "슈퍼마이크로 4% 상승, 휴렛팩커드 엔터프라이즈 5% 상승: 이미 예상치를 상회한 이익 마진 전망은 이미 반영된 것인가?"
+      }
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "sector": "Information Technology",
+      "open": 159.24,
+      "current": 168.08,
+      "changePercent": 5.55,
+      "news": {
+        "headline": "Corning Stock Climbs On Multibillion-Dollar Verizon Network Deal",
+        "url": "https://finnhub.io/api/news?id=2b959d6383e1757939b2ea3099e0f8fa7dbde32eed4a648a82539bda1d2c3d38",
+        "source": "Yahoo",
+        "datetime": 1788878465,
+        "headlineKo": "코닝, 버라이즌과의 수십억 달러 규모 네트워크 계약 체결로 주가 상승"
+      }
+    },
+    {
+      "symbol": "BKNG",
+      "name": "Booking Holdings",
+      "sector": "Consumer Discretionary",
+      "open": 191.56,
+      "current": 181.38,
+      "changePercent": -5.31,
+      "news": null
+    },
+    {
+      "symbol": "EIX",
+      "name": "Edison International",
+      "sector": "Utilities",
+      "open": 56.53,
+      "current": 59.495,
+      "changePercent": 5.25,
+      "news": null
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "open": 183.92,
+      "current": 174.46,
+      "changePercent": -5.14,
+      "news": {
+        "headline": "Why Gartner Stock Skyrocketed 31.2% Last Month",
+        "url": "https://finnhub.io/api/news?id=06faf8cf6b5639fedc97af657068687548b9e54dc8b3ce7ede6b582b414d7ad7",
+        "source": "Yahoo",
+        "datetime": 1788862800,
+        "headlineKo": "지난달 가트너 주가가 31.2% 급등한 이유"
+      }
+    }
+  ]
 }
