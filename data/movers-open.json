@@ -1,7 +1,86 @@
 {
-  "generatedAt": "2026-09-09T17:04:58.029Z",
+  "generatedAt": "2026-09-09T17:46:04.461Z",
   "tradingDate": "2026-09-09",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "open": 288.69,
+      "current": 264.31,
+      "changePercent": -8.45,
+      "news": {
+        "headline": "Is Vertiv (VRT) a Buy as Wall Street Analysts Look Optimistic?",
+        "url": "https://finnhub.io/api/news?id=71d34aa9f152299a761b02a20ca0e685a72eb10e74795a46aa3b471e598ceea5",
+        "source": "Yahoo",
+        "datetime": 1788960605,
+        "headlineKo": "월가 애널리스트들의 전망이 낙관적인 가운데, 버티브(VRT)는 매수할 만한 종목인가?"
+      }
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "open": 209.04,
+      "current": 224.89,
+      "changePercent": 7.58,
+      "news": null
+    },
+    {
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "open": 145.17,
+      "current": 136.13,
+      "changePercent": -6.23,
+      "news": null
+    },
+    {
+      "symbol": "CMCSA",
+      "name": "Comcast",
+      "sector": "Communication Services",
+      "open": 26.2,
+      "current": 24.585,
+      "changePercent": -6.16,
+      "news": {
+        "headline": "Xfinity and Comcast Business High-Speed Internet Now Available to More Than 2,800 Homes and Businesses in Glades County, Florida",
+        "url": "https://finnhub.io/api/news?id=aacc4df89fb6a5c519287a61c534a893b659faa342a3e5b26ec87051dd089c06",
+        "source": "Yahoo",
+        "datetime": 1788962400,
+        "headlineKo": "플로리다주 글레이즈 카운티 내 2,800여 가구 및 기업에 Xfinity 및 Comcast Business 초고속 인터넷 서비스가 제공되기 시작했습니다."
+      }
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "open": 223.745,
+      "current": 236.31,
+      "changePercent": 5.62,
+      "news": {
+        "headline": "Marvell Technology Must Position Itself as The ‘Anti-Broadcom’",
+        "url": "https://finnhub.io/api/news?id=65f159f354364e44572271ea9b561deee7509d7b6d274a135788f61c267883b6",
+        "source": "Yahoo",
+        "datetime": 1788961622,
+        "headlineKo": "마벨 테크놀로지는 스스로를 ‘반(反) 브로드컴’으로 포지셔닝해야 한다"
+      }
+    },
+    {
+      "symbol": "HCA",
+      "name": "HCA Healthcare",
+      "sector": "Health Care",
+      "open": 398.47,
+      "current": 420.74,
+      "changePercent": 5.59,
+      "news": {
+        "headline": "HCA Healthcare, Inc. (HCA) Presents at Wells Fargo 21st Annual Healthcare Conference Transcript",
+        "url": "https://finnhub.io/api/news?id=e103be66cd202c6853c5e5300eca269d7903dd5b03c3e94f98fb2a03f338174c",
+        "source": "SeekingAlpha",
+        "datetime": 1788958026,
+        "headlineKo": "HCA 헬스케어(HCA)의 웰스 파고 제21회 연례 헬스케어 컨퍼런스 발표록"
+      }
+    }
+  ]
 }
