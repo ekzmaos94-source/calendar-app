@@ -1,7 +1,53 @@
 {
-  "generatedAt": "2026-09-10T16:56:09.960Z",
+  "generatedAt": "2026-09-10T22:44:26.873Z",
   "tradingDate": "2026-09-10",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "open": 76.11,
+      "current": 84.03,
+      "changePercent": 10.41,
+      "news": {
+        "headline": "Skyworks Solutions Surges 10%, Qorvo Climbs 6% While Chip Stocks Fall: Is the Merger Finally Clearing?",
+        "url": "https://finnhub.io/api/news?id=99deee5c61d3c5f9ffb432ef23936f9bea82db6fda343ce7c02352569e5469a3",
+        "source": "Yahoo",
+        "datetime": 1789058846,
+        "headlineKo": "반도체주 전반이 하락하는 가운데 스카이웍스 솔루션즈는 10%, 코르보는 6% 급등: 합병이 드디어 순조롭게 진행되고 있는 것일까?"
+      }
+    },
+    {
+      "symbol": "BKR",
+      "name": "Baker Hughes",
+      "sector": "Energy",
+      "open": 63.61,
+      "current": 59.4,
+      "changePercent": -6.62,
+      "news": {
+        "headline": "Why Baker Hughes Stock Is Having Its Worst Day in More Than a Year",
+        "url": "https://finnhub.io/api/news?id=a4ff1579bc97894c4c8bde48f1f995a3fd2380ed683e86cc0b977b2e662d6fd2",
+        "source": "Yahoo",
+        "datetime": 1789063980,
+        "headlineKo": "베이커 휴즈 주가가 1년여 만에 최악의 하루를 보내고 있는 이유"
+      }
+    },
+    {
+      "symbol": "FDS",
+      "name": "FactSet",
+      "sector": "Financials",
+      "open": 279.26,
+      "current": 262.93,
+      "changePercent": -5.85,
+      "news": {
+        "headline": "FactSet Research Systems (NYSE:FDS): A Quality Stock for Long-Term Compounding",
+        "url": "https://finnhub.io/api/news?id=1b5c8864bf00190542523263d363654f170b338eddd1ad92a4f5cb98c329c40a",
+        "source": "ChartMill",
+        "datetime": 1789041057,
+        "headlineKo": "팩트셋 리서치 시스템즈(NYSE:FDS): 장기 복리 투자를 위한 우량주"
+      }
+    }
+  ]
 }
