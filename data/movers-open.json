@@ -1,7 +1,47 @@
 {
-  "generatedAt": "2026-09-10T16:56:09.941Z",
+  "generatedAt": "2026-09-10T17:38:31.480Z",
   "tradingDate": "2026-09-10",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "open": 76.11,
+      "current": 84.265,
+      "changePercent": 10.71,
+      "news": null
+    },
+    {
+      "symbol": "BKR",
+      "name": "Baker Hughes",
+      "sector": "Energy",
+      "open": 63.61,
+      "current": 59.4362,
+      "changePercent": -6.56,
+      "news": {
+        "headline": "UBS Maintains Neutral on Baker Hughes, Lowers Price Target to $70",
+        "url": "https://finnhub.io/api/news?id=49ef8fd737802bf9502f098a7fc73b79a89ae1d543aac094f4fe3416c2c200aa",
+        "source": "Benzinga",
+        "datetime": 1789033695,
+        "headlineKo": "UBS, 베이커 휴즈에 대해 ‘중립’ 평가 유지… 목표주가 70달러로 하향 조정"
+      }
+    },
+    {
+      "symbol": "APP",
+      "name": "AppLovin",
+      "sector": "Information Technology",
+      "open": 300.43,
+      "current": 315.71,
+      "changePercent": 5.09,
+      "news": {
+        "headline": "AppLovin (NASDAQ:APP): Affordable Growth at a Reasonable Valuation",
+        "url": "https://finnhub.io/api/news?id=c0c45928fd5aaef6e6c1f13269e288fb2bc431f157df7923640954ca51baec6c",
+        "source": "ChartMill",
+        "datetime": 1789034475,
+        "headlineKo": "AppLovin (나스닥:APP): 합리적인 기업 가치 평가 하에 실현되는 비용 효율적인 성장"
+      }
+    }
+  ]
 }
