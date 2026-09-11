@@ -1,7 +1,146 @@
 {
-  "generatedAt": "2026-09-11T16:57:40.907Z",
+  "generatedAt": "2026-09-11T22:44:31.788Z",
   "tradingDate": "2026-09-11",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "open": 56.37,
+      "current": 62.09,
+      "changePercent": 10.15,
+      "news": {
+        "headline": "Stock Market Today, Sept. 11: HPE Surges on AI Infrastructure Demand and Recently Raised Guidance",
+        "url": "https://finnhub.io/api/news?id=c5cc4f384e07d7f81146b7af738ce1c8f64655af1985945ccd9d48412e65b694",
+        "source": "Yahoo",
+        "datetime": 1789160743,
+        "headlineKo": "9월 11일 오늘의 주식 시장: AI 인프라 수요와 최근 상향 조정된 실적 전망에 힘입어 HPE 주가 급등"
+      }
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "open": 518.07,
+      "current": 567.29,
+      "changePercent": 9.5,
+      "news": {
+        "headline": "What Did Dell Technologies Say Before Its Stock Quadrupled?",
+        "url": "https://finnhub.io/api/news?id=217d75c30b8ba052e6fab747f0105487a4af766ef444b6ca1dd29caf39187989",
+        "source": "Yahoo",
+        "datetime": 1789159238,
+        "headlineKo": "델 테크놀로지스 주가가 4배로 치솟기 전, 회사는 어떤 입장을 밝혔나?"
+      }
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "sector": "Information Technology",
+      "open": 164.43,
+      "current": 150.28,
+      "changePercent": -8.61,
+      "news": {
+        "headline": "Oracle Says Its Expiring AI Contracts Are Renewing 20% Higher",
+        "url": "https://finnhub.io/api/news?id=bef541b608d040fd2e4a4e78bce941e5e1047c7d509d7ed68afcabc7ebb79e87",
+        "source": "Yahoo",
+        "datetime": 1789161122,
+        "headlineKo": "오라클, 만료 예정인 AI 계약이 20% 인상된 조건으로 갱신되고 있다고 밝혀"
+      }
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "open": 32.95,
+      "current": 35.48,
+      "changePercent": 7.68,
+      "news": {
+        "headline": "HP Facing Margin Pressures, Management to Execute Cost Mitigation Program, RBC Says",
+        "url": "https://finnhub.io/api/news?id=465aa8e679fdd29ab761d88383065aed5fa9ba00a6266f8ae964501a92f9cd3e",
+        "source": "Yahoo",
+        "datetime": 1789138597,
+        "headlineKo": "RBC, “HP, 이익률 압박에 직면… 경영진, 비용 절감 프로그램 시행 예정”"
+      }
+    },
+    {
+      "symbol": "ON",
+      "name": "ON Semiconductor",
+      "sector": "Information Technology",
+      "open": 70.98,
+      "current": 76.14,
+      "changePercent": 7.27,
+      "news": {
+        "headline": "Investors Heavily Search ON Semiconductor Corporation (ON): Here is What You Need to Know",
+        "url": "https://finnhub.io/api/news?id=c4ca8cbf951a03318824fce2d7a0a959a5b1213e93471170dcfdf88aa16c58f7",
+        "source": "Yahoo",
+        "datetime": 1789131604,
+        "headlineKo": "투자자들이 ON Semiconductor Corporation(ON)을 집중적으로 검색 중: 꼭 알아야 할 사항은 다음과 같습니다"
+      }
+    },
+    {
+      "symbol": "NTAP",
+      "name": "NetApp",
+      "sector": "Information Technology",
+      "open": 186.35,
+      "current": 199.28,
+      "changePercent": 6.94,
+      "news": {
+        "headline": "SMCI or NTAP: Which Is the Better Value Stock Right Now?",
+        "url": "https://finnhub.io/api/news?id=aeed85e75fe812711b2c71a8045f1b0130faba392fe40c36ed823de23b54550a",
+        "source": "Yahoo",
+        "datetime": 1789141202,
+        "headlineKo": "SMCI와 NTAP: 현재 어느 쪽이 더 유망한 가치주일까?"
+      }
+    },
+    {
+      "symbol": "CDW",
+      "name": "CDW Corporation",
+      "sector": "Information Technology",
+      "open": 144.81,
+      "current": 153.79,
+      "changePercent": 6.2,
+      "news": null
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "open": 37.82,
+      "current": 40.1,
+      "changePercent": 6.03,
+      "news": {
+        "headline": "SMCI or NTAP: Which Is the Better Value Stock Right Now?",
+        "url": "https://finnhub.io/api/news?id=aeed85e75fe812711b2c71a8045f1b0130faba392fe40c36ed823de23b54550a",
+        "source": "Yahoo",
+        "datetime": 1789141202,
+        "headlineKo": "SMCI와 NTAP: 현재 어느 쪽이 더 유망한 가치주일까?"
+      }
+    },
+    {
+      "symbol": "CPRT",
+      "name": "Copart",
+      "sector": "Industrials",
+      "open": 31.74,
+      "current": 29.95,
+      "changePercent": -5.64,
+      "news": {
+        "headline": "ACV Auctions Soars 40% as Copart Strikes $1.9B Deal",
+        "url": "https://finnhub.io/api/news?id=a697764fc2bd40795c20cdf46bf450130a6ef0e153a2c459284696cb0d552b36",
+        "source": "Yahoo",
+        "datetime": 1789150904,
+        "headlineKo": "코파트, 19억 달러 규모 거래 체결에 ACV 옥션스 주가 40% 급등"
+      }
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "open": 110.2,
+      "current": 115.78,
+      "changePercent": 5.06,
+      "news": null
+    }
+  ]
 }
