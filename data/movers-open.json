@@ -1,7 +1,146 @@
 {
-  "generatedAt": "2026-09-11T16:57:40.888Z",
+  "generatedAt": "2026-09-11T17:42:57.113Z",
   "tradingDate": "2026-09-11",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "open": 56.37,
+      "current": 60.85,
+      "changePercent": 7.95,
+      "news": {
+        "headline": "Hewlett Packard Enterprise and Dell Surge 11% as Oracle’s Capex Guidance Lifts AI Server Demand, Super Micro Climbs 7%",
+        "url": "https://finnhub.io/api/news?id=79d7b55864b7a4a26fcecf68e55738c2bef1bea9c32b8b8c16f786012e7f4353",
+        "source": "Yahoo",
+        "datetime": 1789138278,
+        "headlineKo": "오라클의 설비투자(Capex) 전망이 AI 서버 수요를 끌어올리면서 휴렛팩커드 엔터프라이즈와 델 주가가 11% 급등했고, 슈퍼마이크로 주가는 7% 상승했다."
+      }
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "open": 518.07,
+      "current": 558.93,
+      "changePercent": 7.89,
+      "news": {
+        "headline": "Dell Technologies Positioned to Benefit From AI Infrastructure Spending Cycle, RBC Says",
+        "url": "https://finnhub.io/api/news?id=e8465a4411b33113fd8b4b26eeb054eca2bc0d2a882e70e34e720f112376c57c",
+        "source": "Yahoo",
+        "datetime": 1789138085,
+        "headlineKo": "RBC, “델 테크놀로지스, AI 인프라 투자 사이클로 수혜 볼 전망”"
+      }
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "sector": "Information Technology",
+      "open": 164.43,
+      "current": 152.42,
+      "changePercent": -7.3,
+      "news": {
+        "headline": "Top Midday Stories: Rate-Hike Expectations Rise After August CPI Release; Oracle Shares Up Modestly After Strong Earnings Results",
+        "url": "https://finnhub.io/api/news?id=042177857b710532717aeecb1ed55b772fad7601bdb783905d703347c7756051",
+        "source": "Yahoo",
+        "datetime": 1789141497,
+        "headlineKo": "오늘 정오 주요 뉴스: 8월 소비자물가지수(CPI) 발표 후 금리 인상 기대감 고조; 오라클, 호실적 발표 후 주가가 소폭 상승"
+      }
+    },
+    {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "open": 84.5,
+      "current": 90.4854,
+      "changePercent": 7.08,
+      "news": {
+        "headline": "Strength Seen in Skyworks (SWKS): Can Its 9.8% Jump Turn into More Strength?",
+        "url": "https://finnhub.io/api/news?id=6f083ed0c50895c6a435f2a76e551bce2f318e5aae19e095262283ef364c0d8e",
+        "source": "Yahoo",
+        "datetime": 1789135740,
+        "headlineKo": "스카이웍스(SWKS)의 강세: 9.8% 급등세가 추가 상승으로 이어질 수 있을까?"
+      }
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 138.093,
+      "current": 147.63,
+      "changePercent": 6.91,
+      "news": null
+    },
+    {
+      "symbol": "ON",
+      "name": "ON Semiconductor",
+      "sector": "Information Technology",
+      "open": 70.98,
+      "current": 75.438,
+      "changePercent": 6.28,
+      "news": {
+        "headline": "Investors Heavily Search ON Semiconductor Corporation (ON): Here is What You Need to Know",
+        "url": "https://finnhub.io/api/news?id=c4ca8cbf951a03318824fce2d7a0a959a5b1213e93471170dcfdf88aa16c58f7",
+        "source": "Yahoo",
+        "datetime": 1789131604,
+        "headlineKo": "투자자들이 ON Semiconductor Corporation(ON)에 대한 검색이 급증하고 있습니다: 꼭 알아야 할 사항은 다음과 같습니다"
+      }
+    },
+    {
+      "symbol": "CPRT",
+      "name": "Copart",
+      "sector": "Industrials",
+      "open": 31.74,
+      "current": 29.825,
+      "changePercent": -6.03,
+      "news": {
+        "headline": "CPRT Stock Upgraded, ACVA Downgraded By Barrington After $1.9B Deal – Analyst Sees Acquisition As A Long-Term Growth Catalyst",
+        "url": "https://finnhub.io/api/news?id=eb53a878528902c7afe8c1a83064a25df286982ee97f6cbcd13796738e3f82c7",
+        "source": "Yahoo",
+        "datetime": 1789140624,
+        "headlineKo": "19억 달러 규모 거래 체결 후 배링턴, CPRT 주가 전망 상향·ACVA 하향 조정 – 애널리스트, 이번 인수를 장기 성장 동력으로 전망"
+      }
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "open": 110.2,
+      "current": 116.795,
+      "changePercent": 5.98,
+      "news": null
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "open": 32.95,
+      "current": 34.885,
+      "changePercent": 5.87,
+      "news": {
+        "headline": "HP Facing Margin Pressures, Management to Execute Cost Mitigation Program, RBC Says",
+        "url": "https://finnhub.io/api/news?id=465aa8e679fdd29ab761d88383065aed5fa9ba00a6266f8ae964501a92f9cd3e",
+        "source": "Yahoo",
+        "datetime": 1789138597,
+        "headlineKo": "RBC, “HP, 마진 압박에 직면… 경영진, 비용 절감 프로그램 시행 예정”"
+      }
+    },
+    {
+      "symbol": "NTAP",
+      "name": "NetApp",
+      "sector": "Information Technology",
+      "open": 186.35,
+      "current": 195.81,
+      "changePercent": 5.08,
+      "news": {
+        "headline": "SMCI or NTAP: Which Is the Better Value Stock Right Now?",
+        "url": "https://finnhub.io/api/news?id=aeed85e75fe812711b2c71a8045f1b0130faba392fe40c36ed823de23b54550a",
+        "source": "Yahoo",
+        "datetime": 1789141202,
+        "headlineKo": "SMCI와 NTAP: 현재 어떤 종목이 더 유망한 가치주일까?"
+      }
+    }
+  ]
 }
