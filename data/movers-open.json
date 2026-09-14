@@ -1,7 +1,116 @@
 {
-  "generatedAt": "2026-09-14T18:27:28.304Z",
+  "generatedAt": "2026-09-14T19:14:55.248Z",
   "tradingDate": "2026-09-14",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "open": 346.485,
+      "current": 375.21,
+      "changePercent": 8.29,
+      "news": {
+        "headline": "PANW vs. FTNT: Which Cybersecurity Stock Should You Buy Right Now?",
+        "url": "https://finnhub.io/api/news?id=6ba1c79bfa2bd91404ede793734f75a178c8652f28f5963dcd9018d8adc7773d",
+        "source": "Yahoo",
+        "datetime": 1789394280,
+        "headlineKo": "PANW 대 FTNT: 지금 당장 어떤 사이버보안 주식을 매수해야 할까?"
+      }
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "open": 219,
+      "current": 236.45,
+      "changePercent": 7.97,
+      "news": {
+        "headline": "CrowdStrike Jumps Over 12.2% as Its Market Value Reaches 41 Times ARR",
+        "url": "https://finnhub.io/api/news?id=93df5e6b2f2caea2abf38fe2f4f4f3ea301a2889329c1f5701cf979078faddf5",
+        "source": "Yahoo",
+        "datetime": 1789407571,
+        "headlineKo": "크라우드스트라이크, 시가총액이 ARR의 41배에 달하며 주가가 12.2% 이상 급등"
+      }
+    },
+    {
+      "symbol": "HONA",
+      "name": "Honeywell Aerospace",
+      "sector": "Industrials",
+      "open": 154,
+      "current": 164.175,
+      "changePercent": 6.61,
+      "news": {
+        "headline": "Honeywell Aerospace settles with DOJ for $2M over cybersecurity claims",
+        "url": "https://finnhub.io/api/news?id=432de263d7317d477a86c041cd03b6054505353a2e14030ee0f2391d1539b644",
+        "source": "Yahoo",
+        "datetime": 1789386840,
+        "headlineKo": "허니웰 에어로스페이스, 사이버 보안 관련 주장으로 미 법무부와 200만 달러에 합의"
+      }
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "sector": "Information Technology",
+      "open": 170.78,
+      "current": 180.81,
+      "changePercent": 5.87,
+      "news": {
+        "headline": "Cornelis Expands into Scale-Up Networking with Active Compute Fabric, $205M in Funding, and Qualcomm Collaboration at AI Infra Summit",
+        "url": "https://finnhub.io/api/news?id=996d0b562b9716f878232ec30d5eb9b97d7f9e46f7e646f481ba3205e7943b20",
+        "source": "Yahoo",
+        "datetime": 1789390800,
+        "headlineKo": "코넬리스, ‘액티브 컴퓨트 패브릭’을 통해 스케일업 네트워킹 분야로 사업 확장… AI 인프라 서밋에서 2억 500만 달러 투자 유치 및 퀄컴과 협력 발표"
+      }
+    },
+    {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "open": 86,
+      "current": 81.235,
+      "changePercent": -5.54,
+      "news": null
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "open": 775,
+      "current": 816.5099,
+      "changePercent": 5.36,
+      "news": null
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "open": 186.09,
+      "current": 195.6,
+      "changePercent": 5.11,
+      "news": {
+        "headline": "Hyperscience Recognized as a Leader for the Second Consecutive Year in the Gartner® Magic Quadrant™ for Intelligent Document Processing",
+        "url": "https://finnhub.io/api/news?id=a71bd2f243885906fceb1610f372092af8e4c857229f627ac051abfec5b6d52b",
+        "source": "Yahoo",
+        "datetime": 1789399500,
+        "headlineKo": "하이퍼사이언스, 가트너® 매직 쿼드런트™ ‘지능형 문서 처리’ 부문에서 2년 연속 리더로 선정"
+      }
+    },
+    {
+      "symbol": "BAC",
+      "name": "Bank of America",
+      "sector": "Financials",
+      "open": 62.335,
+      "current": 59.1695,
+      "changePercent": -5.08,
+      "news": {
+        "headline": "Bank of America vs. Truist: Which Bank Stock Has More Upside in 2026?",
+        "url": "https://finnhub.io/api/news?id=883fcf2d19ddd0cada5e868b824d11f36f8881779348b5eca47d57f81d37b874",
+        "source": "Yahoo",
+        "datetime": 1789396440,
+        "headlineKo": "뱅크 오브 아메리카 대 트루이스트: 2026년에 어느 은행주가 더 큰 상승 여력을 보일까요?"
+      }
+    }
+  ]
 }
