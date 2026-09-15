@@ -1,7 +1,98 @@
 {
-  "generatedAt": "2026-09-15T17:34:21.272Z",
+  "generatedAt": "2026-09-15T23:06:57.658Z",
   "tradingDate": "2026-09-15",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "open": 80.54,
+      "current": 90,
+      "changePercent": 11.75,
+      "news": {
+        "headline": "Skyworks Solutions Stock Snaps Back From AI Selloff to Lead the S&P 500",
+        "url": "https://finnhub.io/api/news?id=94f202c5f4f18c845a2f8fdce83daa0d55a86f39c872181ad90a0eea356a018a",
+        "source": "Yahoo",
+        "datetime": 1789498080,
+        "headlineKo": "스카이웍스 솔루션스 주가, AI 관련 매도세에서 반등하며 S&P 500 지수를 주도"
+      }
+    },
+    {
+      "symbol": "RVTY",
+      "name": "Revvity",
+      "sector": "Health Care",
+      "open": 128.67,
+      "current": 140.19,
+      "changePercent": 8.95,
+      "news": {
+        "headline": "Q2 Rundown: Revvity (NYSE:RVTY) Vs Other Research Tools & Consumables Stocks",
+        "url": "https://finnhub.io/api/news?id=c9e230170d179b85b200d044ccc0f27596b9851ed1649e5e94f0dc70a6ee1f7d",
+        "source": "Yahoo",
+        "datetime": 1789479331,
+        "headlineKo": "2분기 개요: Revvity(NYSE:RVTY) 대 기타 연구 도구 및 소모품 관련 종목"
+      }
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "open": 183.621,
+      "current": 172.11,
+      "changePercent": -6.27,
+      "news": {
+        "headline": "Coinbase Slides 6% as CLARITY Odds Crash to 15% Just Before Senate Vote",
+        "url": "https://finnhub.io/api/news?id=f4056a5486c304959de57a435895fdff3412712ea3745e8209d476f00e931af5",
+        "source": "Yahoo",
+        "datetime": 1789495284,
+        "headlineKo": "상원 표결 직전 CLARITY 통과 확률이 15%로 급락하면서 코인베이스 주가 6% 하락"
+      }
+    },
+    {
+      "symbol": "JKHY",
+      "name": "Jack Henry & Associates",
+      "sector": "Financials",
+      "open": 162.91,
+      "current": 154.07,
+      "changePercent": -5.43,
+      "news": {
+        "headline": "Why Jack Henry (JKHY) Stock Is Up Today",
+        "url": "https://finnhub.io/api/news?id=a83b77a303189e39f061e86a938dc66815d9a0317124b49570cdfa0a6e82d1b6",
+        "source": "Yahoo",
+        "datetime": 1789440690,
+        "headlineKo": "잭 헨리(JKHY) 주가가 오늘 상승한 이유"
+      }
+    },
+    {
+      "symbol": "CVNA",
+      "name": "Carvana",
+      "sector": "Consumer Discretionary",
+      "open": 70.56,
+      "current": 66.9,
+      "changePercent": -5.19,
+      "news": {
+        "headline": "Carvana Brings Inspection and Reconditioning Center Capabilities to ADESA Charlotte",
+        "url": "https://finnhub.io/api/news?id=e3bf4fb10a9c6c52980d6d50153a50d634a67d47b1005a6c89ceab3c36a09cb2",
+        "source": "Yahoo",
+        "datetime": 1789473600,
+        "headlineKo": "카르바나, ADESA 샬럿에 차량 검사 및 정비 센터 기능을 도입"
+      }
+    },
+    {
+      "symbol": "CMG",
+      "name": "Chipotle Mexican Grill",
+      "sector": "Consumer Discretionary",
+      "open": 36.7,
+      "current": 34.83,
+      "changePercent": -5.1,
+      "news": {
+        "headline": "Chipotle Mexican Grill (CMG) Registers a Bigger Fall Than the Market: Important Facts to Note",
+        "url": "https://finnhub.io/api/news?id=caa823a9226b3171b710febcb4c5e9dea36bcb5c879b7abe486a4ce709af058a",
+        "source": "Yahoo",
+        "datetime": 1789509003,
+        "headlineKo": "치폴레 멕시칸 그릴(CMG), 시장 평균보다 더 큰 하락세 기록: 주목해야 할 주요 사실들"
+      }
+    }
+  ]
 }
