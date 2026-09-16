@@ -1,56 +1,7 @@
 {
-  "generatedAt": "2026-09-15T18:06:14.881Z",
-  "tradingDate": "2026-09-15",
+  "generatedAt": "2026-09-16T17:33:44.383Z",
+  "tradingDate": "2026-09-16",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": [
-    {
-      "symbol": "SWKS",
-      "name": "Skyworks Solutions",
-      "sector": "Information Technology",
-      "open": 80.54,
-      "current": 89.59,
-      "changePercent": 11.24,
-      "news": {
-        "headline": "Stocks making the biggest moves midday: Skyworks Solutions, Axon, Dave & Buster's, Revvity & more",
-        "url": "https://finnhub.io/api/news?id=41ebfd4b80544d2c7c619a56a61cee031e3049ed69310da56b5dd1c7a7151515",
-        "source": "CNBC",
-        "datetime": 1789473808,
-        "headlineKo": "오후 장중 변동폭이 가장 큰 종목: 스카이웍스 솔루션스, 액슨, 데이브 앤 버스터스, 레비티 등"
-      }
-    },
-    {
-      "symbol": "RVTY",
-      "name": "Revvity",
-      "sector": "Health Care",
-      "open": 128.67,
-      "current": 139.11,
-      "changePercent": 8.11,
-      "news": {
-        "headline": "Q2 Rundown: Revvity (NYSE:RVTY) Vs Other Research Tools & Consumables Stocks",
-        "url": "https://finnhub.io/api/news?id=c9e230170d179b85b200d044ccc0f27596b9851ed1649e5e94f0dc70a6ee1f7d",
-        "source": "Yahoo",
-        "datetime": 1789479331,
-        "headlineKo": "2분기 요약: Revvity(NYSE:RVTY) 대 기타 연구 도구 및 소모품 관련 종목"
-      }
-    },
-    {
-      "symbol": "Q",
-      "name": "Qnity Electronics",
-      "sector": "Information Technology",
-      "open": 119.15,
-      "current": 112.12,
-      "changePercent": -5.9,
-      "news": null
-    },
-    {
-      "symbol": "CMG",
-      "name": "Chipotle Mexican Grill",
-      "sector": "Consumer Discretionary",
-      "open": 36.7,
-      "current": 34.755,
-      "changePercent": -5.3,
-      "news": null
-    }
-  ]
+  "movers": []
 }
