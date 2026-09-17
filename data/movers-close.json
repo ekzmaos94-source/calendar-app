@@ -1,7 +1,98 @@
 {
-  "generatedAt": "2026-09-17T17:33:25.774Z",
+  "generatedAt": "2026-09-17T23:01:21.978Z",
   "tradingDate": "2026-09-17",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "GNRC",
+      "name": "Generac",
+      "sector": "Industrials",
+      "open": 229.5,
+      "current": 207.23,
+      "changePercent": -9.7,
+      "news": {
+        "headline": "Stock Market Today: Dow Rises In Fed Aftermath; Generac, Nebius, Bloom, SpaceX Are Early Movers (Live Coverage)",
+        "url": "https://finnhub.io/api/news?id=49d60463dfc18365c2ea7869c2b6ad825c2821bac2c6dfa5a649333d40193d1c",
+        "source": "Yahoo",
+        "datetime": 1789652086,
+        "headlineKo": "오늘 주식 시장: 연준 회의 여파로 다우 지수 상승… 제너렉, 네비우스, 블룸, 스페이스X가 장 초반 주목받는 종목 (실시간 보도)"
+      }
+    },
+    {
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "open": 57.25,
+      "current": 61.04,
+      "changePercent": 6.62,
+      "news": null
+    },
+    {
+      "symbol": "BLDR",
+      "name": "Builders FirstSource",
+      "sector": "Industrials",
+      "open": 61.45,
+      "current": 57.68,
+      "changePercent": -6.14,
+      "news": null
+    },
+    {
+      "symbol": "WDAY",
+      "name": "Workday, Inc.",
+      "sector": "Information Technology",
+      "open": 187.76,
+      "current": 199.28,
+      "changePercent": 6.14,
+      "news": {
+        "headline": "Stocks making the biggest moves midday: Workday, Generac, Vital Farms, Vicor, Tower Semi & more",
+        "url": "https://finnhub.io/api/news?id=e00a6c1fcb8e45a9dbd5c6d0ce89b361a6c8ae9f08c6624312d28453a4bb0eaf",
+        "source": "CNBC",
+        "datetime": 1789651320,
+        "headlineKo": "오후 장중 가장 큰 등락을 보인 종목: 워크데이, 제너랙, 바이탈 팜스, 비코, 타워 세미 등"
+      }
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "open": 38.09,
+      "current": 40.35,
+      "changePercent": 5.93,
+      "news": null
+    },
+    {
+      "symbol": "DVA",
+      "name": "DaVita",
+      "sector": "Health Care",
+      "open": 194.57,
+      "current": 183.09,
+      "changePercent": -5.9,
+      "news": null
+    },
+    {
+      "symbol": "TMUS",
+      "name": "T-Mobile US",
+      "sector": "Communication Services",
+      "open": 176.61,
+      "current": 166.45,
+      "changePercent": -5.75,
+      "news": {
+        "headline": "T-Mobile US Reports Q2 2026 Results: Full Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=551e05d5d4ded0be4eb115de63713edd7b768f584ed447c3bcdf79743564c57a",
+        "source": "Benzinga",
+        "datetime": 1789618058,
+        "headlineKo": "T-Mobile US, 2026년 2분기 실적 발표: 실적 설명회 전문"
+      }
+    },
+    {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "open": 86.755,
+      "current": 91.32,
+      "changePercent": 5.26,
+      "news": null
+    }
+  ]
 }
