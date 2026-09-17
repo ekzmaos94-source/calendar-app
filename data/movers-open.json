@@ -1,53 +1,7 @@
 {
-  "generatedAt": "2026-09-16T18:07:48.678Z",
-  "tradingDate": "2026-09-16",
+  "generatedAt": "2026-09-17T17:33:25.762Z",
+  "tradingDate": "2026-09-17",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": [
-    {
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "sector": "Information Technology",
-      "open": 856.86,
-      "current": 931.7,
-      "changePercent": 8.73,
-      "news": {
-        "headline": "Optics Stocks Rally as Oversold Bounce Takes Hold: Coherent Jumps 6%, Lumentum Climbs 5%, Applied Optoelectronics Advances 3%",
-        "url": "https://finnhub.io/api/news?id=89ba1fc92e48270cbd2d0e8b36308c53992dc7798c97682a2695ffa4a99caf17",
-        "source": "Yahoo",
-        "datetime": 1789569975,
-        "headlineKo": "과매도 반등세가 이어지며 광학 관련주 급등: 코히어런트 6% 급등, 루멘텀 5% 상승, 애플라이드 옵토일렉트로닉스 3% 상승"
-      }
-    },
-    {
-      "symbol": "AXON",
-      "name": "Axon Enterprise",
-      "sector": "Industrials",
-      "open": 441,
-      "current": 468.02,
-      "changePercent": 6.13,
-      "news": {
-        "headline": "Investors Heavily Search Axon Enterprise, Inc (AXON): Here is What You Need to Know",
-        "url": "https://finnhub.io/api/news?id=2121181fc4bb0c0f87f2217620782bbf899eda6ba044e757167d0fe69decfc8f",
-        "source": "Yahoo",
-        "datetime": 1789563603,
-        "headlineKo": "투자자들이 ‘Axon Enterprise, Inc (AXON)’을 집중적으로 검색 중: 꼭 알아야 할 사항은 다음과 같습니다"
-      }
-    },
-    {
-      "symbol": "FSLR",
-      "name": "First Solar",
-      "sector": "Information Technology",
-      "open": 205.52,
-      "current": 193.01,
-      "changePercent": -6.09,
-      "news": {
-        "headline": "Here is What to Know Beyond Why First Solar, Inc. (FSLR) is a Trending Stock",
-        "url": "https://finnhub.io/api/news?id=6dec91f2060b12c34ef326c18c667f471c154c2b5ddf7ecba7baa9a74c99e5a4",
-        "source": "Yahoo",
-        "datetime": 1789563604,
-        "headlineKo": "퍼스트 솔라(First Solar, Inc., FSLR)가 화제의 종목인 이유를 넘어, 알아두어야 할 점은 다음과 같습니다."
-      }
-    }
-  ]
+  "movers": []
 }
