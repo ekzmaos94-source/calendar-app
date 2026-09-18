@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-09-18T16:59:24.331Z",
+  "generatedAt": "2026-09-18T17:37:53.825Z",
   "tradingDate": "2026-09-18",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "open": 178.155,
+      "current": 194.48,
+      "changePercent": 9.16,
+      "news": {
+        "headline": "Coinbase Just Embedded Its Rails Inside 4,000-Plus Community Banks",
+        "url": "https://finnhub.io/api/news?id=872f887b3a4a0dc54407ab9ac09c3117a1ad27f48c9b9b3aaa839569a7da72e1",
+        "source": "Yahoo",
+        "datetime": 1789724822,
+        "headlineKo": "코인베이스, 4,000여 곳의 지역 은행에 자사 시스템을 도입했다"
+      }
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1624.06,
+      "current": 1742.455,
+      "changePercent": 7.29,
+      "news": {
+        "headline": "Jim Cramer Flags 'Boatload' of Bullish Option Buying in Micron, Sandisk, Intel",
+        "url": "https://finnhub.io/api/news?id=7513d742c4927ad51ec33fe3fd5b8479f77815e80e1d79da440d4fb02ae91fdf",
+        "source": "Benzinga",
+        "datetime": 1789727987,
+        "headlineKo": "짐 크레이머, 마이크론·샌디스크·인텔에서 ‘엄청난 양’의 강세 옵션 매수 세력 포착"
+      }
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "sector": "Information Technology",
+      "open": 191.61,
+      "current": 177.87,
+      "changePercent": -7.17,
+      "news": null
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
+      "sector": "Financials",
+      "open": 113.52,
+      "current": 119.24,
+      "changePercent": 5.04,
+      "news": {
+        "headline": "Here’s How Much You Would Have Made Owning Robinhood Markets Stock In The Last 5 Years",
+        "url": "https://finnhub.io/api/news?id=4eecf63a7a53f5e9102316bc50d7ee1b9dacf736510859f0172e160b5e1bcb5b",
+        "source": "Benzinga",
+        "datetime": 1789727431,
+        "headlineKo": "지난 5년 동안 로빈후드 마켓츠 주식을 보유했다면 얼마나 벌었을지 알아보세요"
+      }
+    }
+  ]
 }
