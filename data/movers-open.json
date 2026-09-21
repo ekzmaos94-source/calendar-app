@@ -1,7 +1,140 @@
 {
-  "generatedAt": "2026-09-21T18:33:44.461Z",
+  "generatedAt": "2026-09-21T19:17:12.885Z",
   "tradingDate": "2026-09-21",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "sector": "Communication Services",
+      "open": 680.38,
+      "current": 745.19,
+      "changePercent": 9.53,
+      "news": {
+        "headline": "Why Meta Platforms Stock Skyrocketed Today",
+        "url": "https://finnhub.io/api/news?id=94f8c142242b23bfd44f404737aa8e7e04325a6172ab5c139306ee1c14ce3723",
+        "source": "Yahoo",
+        "datetime": 1790005826,
+        "headlineKo": "오늘 메타 플랫폼스 주가가 급등한 이유"
+      }
+    },
+    {
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
+      "sector": "Information Technology",
+      "open": 106.04,
+      "current": 116.0114,
+      "changePercent": 9.4,
+      "news": {
+        "headline": "Akamai (AKAM) Wants to Be the Bouncer for Your AI Agents",
+        "url": "https://finnhub.io/api/news?id=893c70e64aa884ff901b755df9cd65b3c2fb9a5950fdf0557016fa68474356c2",
+        "source": "Yahoo",
+        "datetime": 1789964759,
+        "headlineKo": "아카마이(AKAM), 여러분의 AI 에이전트를 위한 ‘문지기’가 되고 싶어 한다"
+      }
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 161.05,
+      "current": 174.03,
+      "changePercent": 8.06,
+      "news": {
+        "headline": "Moderna To Present Additional Data From Key Melanoma Trial At ESMO Congress – Retail Says ‘Breakout Is Getting Hard To Ignore’",
+        "url": "https://finnhub.io/api/news?id=75368c5390dea5e6596b02a0e97eee378a8d5acece9df7257ee2b759aa52aba4",
+        "source": "Yahoo",
+        "datetime": 1790012420,
+        "headlineKo": "모더나, ESMO 학술대회에서 주요 흑색종 임상시험의 추가 데이터 발표 예정 – 리테일 업계 “이 같은 급등세를 더 이상 무시하기 어려워지고 있다”고 평가"
+      }
+    },
+    {
+      "symbol": "APP",
+      "name": "AppLovin",
+      "sector": "Information Technology",
+      "open": 308.69,
+      "current": 333.5051,
+      "changePercent": 8.04,
+      "news": null
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "sector": "Information Technology",
+      "open": 180.61,
+      "current": 194.9,
+      "changePercent": 7.91,
+      "news": {
+        "headline": "Qualcomm Jumps 7% as AI Interconnect Demo Points Past Handsets; Skyworks and Qorvo Sit Out the Rally",
+        "url": "https://finnhub.io/api/news?id=d463077303b59dfd65dec32708ebbed10d48218ff0a4135e458d54ba7db26b6f",
+        "source": "Yahoo",
+        "datetime": 1790009594,
+        "headlineKo": "AI 상호연결 시연이 휴대폰 시장을 넘어선 가능성을 보여주자 퀄컴 주가가 7% 급등; 스카이웍스와 코르보는 이번 상승세에 동참하지 못함"
+      }
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "open": 231.62,
+      "current": 248.615,
+      "changePercent": 7.34,
+      "news": {
+        "headline": "Cybersecurity Stocks Extend Gains on AI Safety Warnings: CrowdStrike and Okta Rise 4%, Palo Alto Ticks Up",
+        "url": "https://finnhub.io/api/news?id=2b9cdfc13c93e89a6e4aa6dae62e4689216fbc3e955c65ad09dd31360cb7f540",
+        "source": "Yahoo",
+        "datetime": 1790010226,
+        "headlineKo": "AI 안전성 경고에 사이버보안주 상승세 이어가… 크라우드스트라이크·옥타 4% 상승, 팔로알토 소폭 상승"
+      }
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "open": 98.32,
+      "current": 104.53,
+      "changePercent": 6.32,
+      "news": null
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 10.65,
+      "current": 10.045,
+      "changePercent": -5.68,
+      "news": {
+        "headline": "Paramount Skydance reaches antitrust deal with states over Warner Bros. Discovery purchase",
+        "url": "https://finnhub.io/api/news?id=ac5e360cd0b2098955f661a3605e05e225155ed17a31e7761f4058dfb07c2966",
+        "source": "Yahoo",
+        "datetime": 1790013800,
+        "headlineKo": "파라마운트 스카이댄스, 워너브라더스 디스커버리 인수와 관련해 주 정부들과 반독점 합의 체결"
+      }
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "open": 229.73,
+      "current": 242.36,
+      "changePercent": 5.5,
+      "news": null
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "open": 583.94,
+      "current": 613.7,
+      "changePercent": 5.1,
+      "news": {
+        "headline": "AMD joins $1 trillion market cap club on AI computing bets",
+        "url": "https://finnhub.io/api/news?id=c453dc09131b23962e72871440cbca8345ef882c774fb9d94c03a9cb388c956a",
+        "source": "Yahoo",
+        "datetime": 1790011421,
+        "headlineKo": "AMD, AI 컴퓨팅에 대한 투자로 시가총액 1조 달러 클럽에 합류"
+      }
+    }
+  ]
 }
