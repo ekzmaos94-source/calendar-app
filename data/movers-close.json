@@ -1,7 +1,125 @@
 {
-  "generatedAt": "2026-09-24T17:48:04.481Z",
+  "generatedAt": "2026-09-24T23:22:23.462Z",
   "tradingDate": "2026-09-24",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "GEN",
+      "name": "Gen Digital",
+      "sector": "Information Technology",
+      "open": 26.16,
+      "current": 23.07,
+      "changePercent": -11.81,
+      "news": {
+        "headline": "GoDaddy Stock Flirts With Buy Point After Gen Digital Takeover Offer",
+        "url": "https://finnhub.io/api/news?id=d78aebeb43888655090ae8db2f4f4b09f33018fd739d4c24de64aefe3dca14d3",
+        "source": "Yahoo",
+        "datetime": 1790270781,
+        "headlineKo": "Gen Digital의 인수 제안 이후 GoDaddy 주가가 매수 선을 넘나들고 있다"
+      }
+    },
+    {
+      "symbol": "FSLR",
+      "name": "First Solar",
+      "sector": "Information Technology",
+      "open": 190,
+      "current": 172.16,
+      "changePercent": -9.39,
+      "news": {
+        "headline": "First Solar (FSLR) Suffers a Larger Drop Than the General Market: Key Insights",
+        "url": "https://finnhub.io/api/news?id=960b63c22c2820dfef47839b50919d55f15f1320371d4da46de273d833e53861",
+        "source": "Yahoo",
+        "datetime": 1790282703,
+        "headlineKo": "퍼스트 솔라(FSLR), 시장 전반보다 더 큰 하락세 기록: 주요 분석"
+      }
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 180.388,
+      "current": 194.82,
+      "changePercent": 8,
+      "news": {
+        "headline": "Moderna's View of the Global Pharma Industry",
+        "url": "https://finnhub.io/api/news?id=440ff8c8146dd867e58e55182333f3e6978aa8b46089c7079aa9a7ea332040fa",
+        "source": "Yahoo",
+        "datetime": 1790265360,
+        "headlineKo": "모더나가 바라보는 글로벌 제약 산업"
+      }
+    },
+    {
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
+      "sector": "Information Technology",
+      "open": 118,
+      "current": 110.41,
+      "changePercent": -6.43,
+      "news": null
+    },
+    {
+      "symbol": "CRL",
+      "name": "Charles River Laboratories",
+      "sector": "Health Care",
+      "open": 277,
+      "current": 294.44,
+      "changePercent": 6.3,
+      "news": {
+        "headline": "Charles River Laboratories International, Inc. (CRL) Analyst/Investor Day Transcript",
+        "url": "https://finnhub.io/api/news?id=6f5b2fba693b22fa73e8e6a1e1077de6b506ff84c3e4f65e588abdc05bf56df2",
+        "source": "SeekingAlpha",
+        "datetime": 1790263799,
+        "headlineKo": "찰스 리버 래버러토리즈 인터내셔널(CRL) 애널리스트·투자자 설명회 회의록"
+      }
+    },
+    {
+      "symbol": "RVTY",
+      "name": "Revvity",
+      "sector": "Health Care",
+      "open": 141.79,
+      "current": 150.68,
+      "changePercent": 6.27,
+      "news": {
+        "headline": "Revvity Launches IVDR-Certified Solution for Early Detection of Type 1 Diabetes",
+        "url": "https://finnhub.io/api/news?id=57a218c79f8db9c5829dc0b25bcf5d3d5d2d104a3cb88128bac31f9d804f3aa9",
+        "source": "Yahoo",
+        "datetime": 1790251200,
+        "headlineKo": "Revvity, 제1형 당뇨병 조기 진단용 IVDR 인증 솔루션 출시"
+      }
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "open": 120.61,
+      "current": 127.39,
+      "changePercent": 5.62,
+      "news": {
+        "headline": "Intel Shares Rise as Agentic AI Keeps CPUs in the Loop",
+        "url": "https://finnhub.io/api/news?id=c7490e1cb2aca8f4de2138e1bb82a4f093f3b7da1ae3efd7d89337ea38ef1873",
+        "source": "Yahoo",
+        "datetime": 1790271292,
+        "headlineKo": "Agentic AI가 CPU를 의사 결정 과정에 지속적으로 참여시키면서 인텔 주가 상승"
+      }
+    },
+    {
+      "symbol": "J",
+      "name": "Jacobs Solutions",
+      "sector": "Industrials",
+      "open": 143.1,
+      "current": 135.33,
+      "changePercent": -5.43,
+      "news": null
+    },
+    {
+      "symbol": "A",
+      "name": "Agilent Technologies",
+      "sector": "Health Care",
+      "open": 163.95,
+      "current": 172.84,
+      "changePercent": 5.42,
+      "news": null
+    }
+  ]
 }
