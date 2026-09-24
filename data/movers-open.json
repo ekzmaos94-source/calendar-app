@@ -1,23 +1,7 @@
 {
-  "generatedAt": "2026-09-23T18:21:31.830Z",
-  "tradingDate": "2026-09-23",
+  "generatedAt": "2026-09-24T17:48:04.467Z",
+  "tradingDate": "2026-09-24",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": [
-    {
-      "symbol": "MCD",
-      "name": "McDonald's",
-      "sector": "Consumer Discretionary",
-      "open": 250.29,
-      "current": 237,
-      "changePercent": -5.31,
-      "news": {
-        "headline": "McDonald's to boost franchisees as inflation weighs on consumers",
-        "url": "https://finnhub.io/api/news?id=792069f18118292b914f977bbb4d6f5a359a9b3d5e064fd7e4d2c6130c483ad7",
-        "source": "Yahoo",
-        "datetime": 1790185452,
-        "headlineKo": "인플레이션으로 소비자들이 어려움을 겪는 가운데 맥도날드, 가맹점주 지원 강화 나설 예정"
-      }
-    }
-  ]
+  "movers": []
 }
