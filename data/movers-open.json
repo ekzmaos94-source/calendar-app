@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-09-25T17:51:14.063Z",
+  "generatedAt": "2026-09-25T18:28:42.231Z",
   "tradingDate": "2026-09-25",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
+      "sector": "Information Technology",
+      "open": 125.41,
+      "current": 116.8442,
+      "changePercent": -6.83,
+      "news": {
+        "headline": "Akamai Technologies' Anthropic Deal Improves Cloud Business Visibility, Oppenheimer Says",
+        "url": "https://finnhub.io/api/news?id=eade21fa5bc99cde36ac85475243e5a7965551b19530706bd533eb816bb464f9",
+        "source": "Yahoo",
+        "datetime": 1790355411,
+        "headlineKo": "오펜하이머, “아카마이 테크놀로지의 앤트로픽 인수로 클라우드 사업 가시성 향상될 것”이라고 밝혀"
+      }
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "open": 179.75,
+      "current": 188.98,
+      "changePercent": 5.13,
+      "news": null
+    }
+  ]
 }
