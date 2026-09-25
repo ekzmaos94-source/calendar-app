@@ -1,7 +1,38 @@
 {
-  "generatedAt": "2026-09-25T17:51:14.082Z",
+  "generatedAt": "2026-09-25T23:28:02.837Z",
   "tradingDate": "2026-09-25",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
+      "sector": "Information Technology",
+      "open": 125.41,
+      "current": 113.94,
+      "changePercent": -9.15,
+      "news": {
+        "headline": "AKAM’s $11.6B Anthropic Deal Has Wall Street Rethinking The Stock — What Analysts See",
+        "url": "https://finnhub.io/api/news?id=0ccd8b0084d64fb5754553f4f54794b78e7674aa4f05ad18e4bcb091bc60bfd1",
+        "source": "Yahoo",
+        "datetime": 1790366487,
+        "headlineKo": "AKAM의 116억 달러 규모 앤트로픽 인수 거래로 월스트리트가 해당 주식을 재평가하고 있다 — 애널리스트들의 전망"
+      }
+    },
+    {
+      "symbol": "GEN",
+      "name": "Gen Digital",
+      "sector": "Information Technology",
+      "open": 22.91,
+      "current": 21.62,
+      "changePercent": -5.63,
+      "news": {
+        "headline": "Is Gen Digital (GEN) Undervalued On GoDaddy Bid Speculation?",
+        "url": "https://finnhub.io/api/news?id=df7b6403c66811b6aa325e2785f67227f855e92f4565813a218cc509d48c8072",
+        "source": "Yahoo",
+        "datetime": 1790338250,
+        "headlineKo": "GoDaddy 인수설에 힘입어 Gen Digital(GEN)의 주가가 저평가된 것일까?"
+      }
+    }
+  ]
 }
