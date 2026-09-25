@@ -1,53 +1,7 @@
 {
-  "generatedAt": "2026-09-24T18:23:11.040Z",
-  "tradingDate": "2026-09-24",
+  "generatedAt": "2026-09-25T17:51:14.063Z",
+  "tradingDate": "2026-09-25",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": [
-    {
-      "symbol": "GEN",
-      "name": "Gen Digital",
-      "sector": "Information Technology",
-      "open": 26.16,
-      "current": 23.755,
-      "changePercent": -9.19,
-      "news": {
-        "headline": "GoDaddy surges 11% after FT reports takeover bid by Gen Digital",
-        "url": "https://finnhub.io/api/news?id=4a1ba66b469e93154645d52e3fe4412abbe1100d4e3cc3b19c952c8cc094409f",
-        "source": "Yahoo",
-        "datetime": 1790262587,
-        "headlineKo": "파이낸셜타임스(FT)가 Gen Digital의 인수 제안을 보도한 후 GoDaddy 주가가 11% 급등했다"
-      }
-    },
-    {
-      "symbol": "FSLR",
-      "name": "First Solar",
-      "sector": "Information Technology",
-      "open": 190,
-      "current": 174.89,
-      "changePercent": -7.95,
-      "news": {
-        "headline": "Solar Stocks Slide as High Borrowing Costs Weigh on Project Financing: First Solar Sinks 8%, SolarEdge Falls 5%, Enphase Energy Drops 4%",
-        "url": "https://finnhub.io/api/news?id=a49ff610236754680b4f780a141fddab7fa98a8ff09ff829e5dd45fa1642d1dd",
-        "source": "Yahoo",
-        "datetime": 1790265316,
-        "headlineKo": "높은 차입 비용이 프로젝트 자금 조달에 부담을 주며 태양광 관련주 하락: 퍼스트 솔라 8% 급락, 솔라엣지 5% 하락, 엔페이즈 에너지 4% 하락"
-      }
-    },
-    {
-      "symbol": "CRL",
-      "name": "Charles River Laboratories",
-      "sector": "Health Care",
-      "open": 277,
-      "current": 297.14,
-      "changePercent": 7.27,
-      "news": {
-        "headline": "Everpure, Fervo Energy, Charles River Laboratories And Other Big Stocks Moving Higher On Thursday",
-        "url": "https://finnhub.io/api/news?id=a166526344472844f31fa905ede32e817e5f4c62411d5fd86ba2c3facb599293",
-        "source": "Benzinga",
-        "datetime": 1790244061,
-        "headlineKo": "에버퓨어, 페르보 에너지, 찰스 리버 래버러토리스 등 주요 종목들, 목요일 상승세"
-      }
-    }
-  ]
+  "movers": []
 }
