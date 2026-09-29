@@ -1,62 +1,7 @@
 {
-  "generatedAt": "2026-09-28T20:30:03.013Z",
-  "tradingDate": "2026-09-28",
+  "generatedAt": "2026-09-29T18:31:00.019Z",
+  "tradingDate": "2026-09-29",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": [
-    {
-      "symbol": "QCOM",
-      "name": "Qualcomm",
-      "sector": "Information Technology",
-      "open": 199.16,
-      "current": 187.48,
-      "changePercent": -5.86,
-      "news": {
-        "headline": "Intel vs. Qualcomm: Which Chip Stock Is a Better Buy in 2026?",
-        "url": "https://finnhub.io/api/news?id=36af7b73f308d271333276d854ba112e9c59d582bbf0b9ed058cbf22a3f2547f",
-        "source": "Yahoo",
-        "datetime": 1790624153,
-        "headlineKo": "인텔 대 퀄컴: 2026년에는 어느 반도체 주식을 매수하는 것이 더 나을까?"
-      }
-    },
-    {
-      "symbol": "PANW",
-      "name": "Palo Alto Networks",
-      "sector": "Information Technology",
-      "open": 370.61,
-      "current": 392.09,
-      "changePercent": 5.8,
-      "news": {
-        "headline": "Palo Alto Networks (PANW) Brings Industrial Edge Connectivity To Its Firewall Ecosystem",
-        "url": "https://finnhub.io/api/news?id=0b3677080ab231aa7f637705fbd0d4871a440d8606df185bab38923e4957d15e",
-        "source": "Yahoo",
-        "datetime": 1790604503,
-        "headlineKo": "팔로알토 네트웍스(PANW), 방화벽 생태계에 산업용 엣지 연결 기능 도입"
-      }
-    },
-    {
-      "symbol": "DASH",
-      "name": "DoorDash",
-      "sector": "Consumer Discretionary",
-      "open": 188.53,
-      "current": 178.39,
-      "changePercent": -5.38,
-      "news": {
-        "headline": "DoorDash doubles down on WPP, naming agency global media partner",
-        "url": "https://finnhub.io/api/news?id=3c02ccc95611fe388019d44dfc0589177875608e8b722cd3502dbeb2d567728d",
-        "source": "Yahoo",
-        "datetime": 1790607600,
-        "headlineKo": "DoorDash, WPP와의 협력을 한층 강화하며 해당 대행사를 글로벌 미디어 파트너로 선정"
-      }
-    },
-    {
-      "symbol": "CVNA",
-      "name": "Carvana",
-      "sector": "Consumer Discretionary",
-      "open": 63.68,
-      "current": 60.47,
-      "changePercent": -5.04,
-      "news": null
-    }
-  ]
+  "movers": []
 }
