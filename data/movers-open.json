@@ -1,7 +1,38 @@
 {
-  "generatedAt": "2026-09-29T18:31:00.019Z",
+  "generatedAt": "2026-09-29T19:18:04.077Z",
   "tradingDate": "2026-09-29",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "FICO",
+      "name": "Fair Isaac",
+      "sector": "Information Technology",
+      "open": 668.08,
+      "current": 614.68,
+      "changePercent": -7.99,
+      "news": {
+        "headline": "Fair Isaac Can’t Win for Losing: First AI, Now Competition Crushes FICO Stock",
+        "url": "https://finnhub.io/api/news?id=af234b9b8ff920bf69bf54b2da2517dc1a9f92a349944bd6ca311fe80c308111",
+        "source": "Yahoo",
+        "datetime": 1790695395,
+        "headlineKo": "페어 아이작, 패배로만 이어지는 악순환: AI에 이어 이번에는 경쟁사까지 FICO 주가를 폭락시켰다"
+      }
+    },
+    {
+      "symbol": "CBOE",
+      "name": "Cboe Global Markets",
+      "sector": "Financials",
+      "open": 279.54,
+      "current": 263.5,
+      "changePercent": -5.74,
+      "news": {
+        "headline": "Cboe Global Markets, S&P Dow Jones Indices Extend Collaboration Through 2051 For Cboe To Provide Trading In Its S&P 500 Index Options",
+        "url": "https://finnhub.io/api/news?id=2ea2212da8db84c38d67deabc42ef698f021719c8ec93f5a9bb21878b52abb11",
+        "source": "Benzinga",
+        "datetime": 1790669913,
+        "headlineKo": "Cboe 글로벌 마켓과 S&P 다우존스 지수는 Cboe가 S&P 500 지수 옵션 거래를 제공할 수 있도록 2051년까지 협력 관계를 연장했다."
+      }
+    }
+  ]
 }
