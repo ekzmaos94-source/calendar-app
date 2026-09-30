@@ -1,38 +1,7 @@
 {
-  "generatedAt": "2026-09-29T23:55:54.066Z",
-  "tradingDate": "2026-09-29",
+  "generatedAt": "2026-09-30T18:19:54.736Z",
+  "tradingDate": "2026-09-30",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": [
-    {
-      "symbol": "FICO",
-      "name": "Fair Isaac",
-      "sector": "Information Technology",
-      "open": 668.08,
-      "current": 617.87,
-      "changePercent": -7.52,
-      "news": {
-        "headline": "Fair Isaac Stock Had Its Worst Day Since 1989. Is the FICO Score’s Near Monopoly Over?",
-        "url": "https://finnhub.io/api/news?id=8809562bcbb5af42f283ede3c89961cc770c604521c22e7565fc42e2297a3fbb",
-        "source": "Yahoo",
-        "datetime": 1790714040,
-        "headlineKo": "페어 아이작(Fair Isaac) 주가가 1989년 이후 최악의 하루를 기록했다. FICO 점수의 사실상 독점 시대는 끝난 것일까?"
-      }
-    },
-    {
-      "symbol": "CBOE",
-      "name": "Cboe Global Markets",
-      "sector": "Financials",
-      "open": 279.54,
-      "current": 261.75,
-      "changePercent": -6.36,
-      "news": {
-        "headline": "CBOE Jumps as Much as 10% on Exclusive 25-Year S&P 500 Options Deal: “Certainty and Continuity”",
-        "url": "https://finnhub.io/api/news?id=c2a59633c3e602ec9f194ffc2a26ede7d20605fd2265a904ffea84011ae3d945",
-        "source": "Yahoo",
-        "datetime": 1790696687,
-        "headlineKo": "CBOE, S&P 500 옵션에 대한 25년 독점 계약 체결 소식에 최대 10% 급등: “확실성과 지속성”"
-      }
-    }
-  ]
+  "movers": []
 }
