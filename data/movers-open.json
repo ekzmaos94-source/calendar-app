@@ -1,47 +1,7 @@
 {
-  "generatedAt": "2026-09-30T19:05:40.133Z",
-  "tradingDate": "2026-09-30",
+  "generatedAt": "2026-10-01T18:44:55.634Z",
+  "tradingDate": "2026-10-01",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": [
-    {
-      "symbol": "HOOD",
-      "name": "Robinhood Markets",
-      "sector": "Financials",
-      "open": 122.61,
-      "current": 112.69,
-      "changePercent": -8.09,
-      "news": {
-        "headline": "Can Robinhood’s (HOOD) Financial Super-App Ambitions Create a Lasting Moat?",
-        "url": "https://finnhub.io/api/news?id=1e80293386a51e2cd9781625f7c4c122f8a6ba2c25ba57b7667a5fea62d5af7b",
-        "source": "Yahoo",
-        "datetime": 1790740999,
-        "headlineKo": "로빈후드(HOOD)의 금융 슈퍼앱 야망이 지속적인 경쟁 우위를 확보할 수 있을까?"
-      }
-    },
-    {
-      "symbol": "JBL",
-      "name": "Jabil",
-      "sector": "Information Technology",
-      "open": 306,
-      "current": 285.42,
-      "changePercent": -6.73,
-      "news": {
-        "headline": "What Jabil (JBL) Said on Its Q4 Earnings Call",
-        "url": "https://finnhub.io/api/news?id=18a925b28fe49cead4b1dbd5402418b0c4131a87c7524030a56d1b36f7bfe538",
-        "source": "Yahoo",
-        "datetime": 1790784167,
-        "headlineKo": "Jabil(JBL)이 4분기 실적 발표 컨퍼런스 콜에서 밝힌 내용"
-      }
-    },
-    {
-      "symbol": "GEN",
-      "name": "Gen Digital",
-      "sector": "Information Technology",
-      "open": 20.88,
-      "current": 22.281,
-      "changePercent": 6.71,
-      "news": null
-    }
-  ]
+  "movers": []
 }

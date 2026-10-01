@@ -1,56 +1,7 @@
 {
-  "generatedAt": "2026-10-01T00:08:01.073Z",
-  "tradingDate": "2026-09-30",
+  "generatedAt": "2026-10-01T18:44:55.653Z",
+  "tradingDate": "2026-10-01",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": [
-    {
-      "symbol": "HOOD",
-      "name": "Robinhood Markets",
-      "sector": "Financials",
-      "open": 122.61,
-      "current": 112.5,
-      "changePercent": -8.25,
-      "news": {
-        "headline": "Robinhood Markets, Inc. (HOOD) Registers a Bigger Fall Than the Market: Important Facts to Note",
-        "url": "https://finnhub.io/api/news?id=c99ea4b050da99442578952a76fe4fb48729dbb22eba1fcd1147e54aa3ea325a",
-        "source": "Yahoo",
-        "datetime": 1790801103,
-        "headlineKo": "로빈후드 마켓츠(Robinhood Markets, Inc., HOOD), 시장 평균보다 더 큰 하락세 기록: 주목해야 할 주요 사실들"
-      }
-    },
-    {
-      "symbol": "JBL",
-      "name": "Jabil",
-      "sector": "Information Technology",
-      "open": 306,
-      "current": 286.86,
-      "changePercent": -6.25,
-      "news": {
-        "headline": "Why Jabil (JBL) Shares Are Falling Today",
-        "url": "https://finnhub.io/api/news?id=b8489dcee09e4abb0bbe6bb1155f436962294755695f4be70ff891e2d492a466",
-        "source": "Yahoo",
-        "datetime": 1790805433,
-        "headlineKo": "오늘 Jabil(JBL) 주가가 하락하는 이유"
-      }
-    },
-    {
-      "symbol": "GEN",
-      "name": "Gen Digital",
-      "sector": "Information Technology",
-      "open": 20.88,
-      "current": 22.02,
-      "changePercent": 5.46,
-      "news": null
-    },
-    {
-      "symbol": "MKC",
-      "name": "McCormick & Company",
-      "sector": "Consumer Staples",
-      "open": 49,
-      "current": 46.4,
-      "changePercent": -5.31,
-      "news": null
-    }
-  ]
+  "movers": []
 }
