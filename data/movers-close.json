@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-10-01T18:44:55.653Z",
+  "generatedAt": "2026-10-02T00:06:17.286Z",
   "tradingDate": "2026-10-01",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "CTVA",
+      "name": "Corteva",
+      "sector": "Materials",
+      "open": 14.44,
+      "current": 12.57,
+      "changePercent": -12.95,
+      "news": {
+        "headline": "Corteva: No Longer Worth Owning Post-Spinoff (Rating Downgrade)",
+        "url": "https://finnhub.io/api/news?id=54a4c526b586dd93d53d7e73acfe4469c43f2a67e3d5e0169df5181a2395ecb8",
+        "source": "SeekingAlpha",
+        "datetime": 1790873032,
+        "headlineKo": "코르테바: 분사 이후 더 이상 보유할 가치가 없음 (등급 하향 조정)"
+      }
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 290,
+      "current": 319.19,
+      "changePercent": 10.07,
+      "news": {
+        "headline": "Why Coherent (COHR) Stock Is Trading Up Today",
+        "url": "https://finnhub.io/api/news?id=9bf06b64396670b694b9bacf60aaba0b1c155ac946d2bc175cd2479306f9266b",
+        "source": "Yahoo",
+        "datetime": 1790891827,
+        "headlineKo": "오늘 코히어런트(COHR) 주가가 상승하고 있는 이유"
+      }
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 10.11,
+      "current": 9.34,
+      "changePercent": -7.62,
+      "news": {
+        "headline": "Paramount Skydance (PSKY) Clears Merger Hurdles And Names Ynon Kreiz Co CEO",
+        "url": "https://finnhub.io/api/news?id=c0448282b7da8d637c725de0835755061cc120f3ec6cfea846e59021cac5877a",
+        "source": "Yahoo",
+        "datetime": 1790885298,
+        "headlineKo": "파라마운트 스카이댄스(PSKY), 합병 장애물 극복하고 이논 크라이즈를 공동 CEO로 선임"
+      }
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "open": 978.425,
+      "current": 1045.78,
+      "changePercent": 6.88,
+      "news": {
+        "headline": "Meet AI’s New “Structural Winners”: Coherent Soars 11%, Lumentum Up 8%",
+        "url": "https://finnhub.io/api/news?id=3619be35bcf1a7fabfa8ddef55707eb9969ae0256b378e5ec8f53df2bf153674",
+        "source": "Yahoo",
+        "datetime": 1790882335,
+        "headlineKo": "AI 분야의 새로운 ‘구조적 수혜주’를 만나보세요: 코히어런트 11% 급등, 루멘텀 8% 상승"
+      }
+    },
+    {
+      "symbol": "MPC",
+      "name": "Marathon Petroleum",
+      "sector": "Energy",
+      "open": 393.21,
+      "current": 420.15,
+      "changePercent": 6.85,
+      "news": {
+        "headline": "Marathon Petroleum Climbs 5%, Valero Energy Gains 4% as Refiners Outrun Integrated Majors; Exxon Mobil Stays Flat",
+        "url": "https://finnhub.io/api/news?id=29e1a73a4258cc5fd071ab287e1755f0895e015f7f17b98fcc685ca6a0e3385b",
+        "source": "Yahoo",
+        "datetime": 1790877193,
+        "headlineKo": "정유사들이 통합 대형 석유사들을 앞지르면서 마라톤 페트롤리엄은 5%, 발레로 에너지는 4% 상승한 반면, 엑슨모빌은 보합세를 유지했다."
+      }
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "open": 355.19,
+      "current": 379.14,
+      "changePercent": 6.74,
+      "news": {
+        "headline": "Ciena Climbs 6% After a Week of Bullish Analyst Calls; Arista Ticks Up, Cisco Holds Steady",
+        "url": "https://finnhub.io/api/news?id=2b32c4053631a0090219460fd4bd4d6c3d241564b2b217649b3de20292e8381d",
+        "source": "Yahoo",
+        "datetime": 1790870272,
+        "headlineKo": "일주일 동안 애널리스트들의 낙관적 전망이 이어진 가운데 시에나 주가 6% 상승… 아리스타 소폭 상승, 시스코는 보합세"
+      }
+    },
+    {
+      "symbol": "MKC",
+      "name": "McCormick & Company",
+      "sector": "Consumer Staples",
+      "open": 46.8,
+      "current": 44.14,
+      "changePercent": -5.68,
+      "news": {
+        "headline": "MKC Q3 Earnings Beat Estimates on Margin Gains and Mexico Growth",
+        "url": "https://finnhub.io/api/news?id=ef81e2b55ed7f85de48b001f128ff8cba5ee81afb769ab47748a0d3b5aa2fb30",
+        "source": "Yahoo",
+        "datetime": 1790862840,
+        "headlineKo": "MKC, 마진 확대와 멕시코 시장 성장에 힘입어 3분기 실적 예상치를 상회"
+      }
+    },
+    {
+      "symbol": "VLO",
+      "name": "Valero Energy",
+      "sector": "Energy",
+      "open": 387.25,
+      "current": 408.46,
+      "changePercent": 5.48,
+      "news": {
+        "headline": "Marathon Petroleum Climbs 5%, Valero Energy Gains 4% as Refiners Outrun Integrated Majors; Exxon Mobil Stays Flat",
+        "url": "https://finnhub.io/api/news?id=29e1a73a4258cc5fd071ab287e1755f0895e015f7f17b98fcc685ca6a0e3385b",
+        "source": "Yahoo",
+        "datetime": 1790877193,
+        "headlineKo": "정유사들이 통합 대형 석유사들을 앞지르면서 마라톤 페트롤리엄은 5%, 발레로 에너지는 4% 상승한 반면, 엑슨모빌은 보합세를 유지했다."
+      }
+    }
+  ]
 }
