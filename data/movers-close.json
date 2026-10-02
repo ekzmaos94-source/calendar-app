@@ -1,7 +1,77 @@
 {
-  "generatedAt": "2026-10-02T18:17:18.012Z",
+  "generatedAt": "2026-10-02T23:58:09.091Z",
   "tradingDate": "2026-10-02",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "FICO",
+      "name": "Fair Isaac",
+      "sector": "Information Technology",
+      "open": 614,
+      "current": 661.25,
+      "changePercent": 7.7,
+      "news": {
+        "headline": "Fair Isaac Consensus Price Target Decreased by 12.47% to $1,311.72",
+        "url": "https://finnhub.io/api/news?id=9ec41cb344684760774bbfaf2a2ffb00e7cf890ff785e067fa46e3f91a45ead9",
+        "source": "Fintel",
+        "datetime": 1790956040,
+        "headlineKo": "페어 아이작의 컨센서스 목표주가, 12.47% 하락한 1,311.72달러로 조정"
+      }
+    },
+    {
+      "symbol": "ECHO",
+      "name": "EchoStar",
+      "sector": "Communication Services",
+      "open": 87.71,
+      "current": 94.25,
+      "changePercent": 7.46,
+      "news": null
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 316.565,
+      "current": 337.04,
+      "changePercent": 6.47,
+      "news": {
+        "headline": "Your Coherent Stock Thesis Has One Loose End",
+        "url": "https://finnhub.io/api/news?id=bead23f1c0164a704a5ed6a931d29e8ca651f63c7e66e4efafcdd2ab9d3fcca1",
+        "source": "Yahoo",
+        "datetime": 1790949856,
+        "headlineKo": "귀하의 일관된 주식 투자 논리에는 한 가지 미진한 점이 있습니다"
+      }
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "open": 194.402,
+      "current": 183,
+      "changePercent": -5.87,
+      "news": {
+        "headline": "Deribit's podcast returns to TOKEN2049, this time with Coinbase behind it",
+        "url": "https://finnhub.io/api/news?id=6b64549bc2eec3790b661adc96288de5d655344f379d068cd45d89eaa3fed9f2",
+        "source": "Yahoo",
+        "datetime": 1790968525,
+        "headlineKo": "데리빗(Deribit)의 팟캐스트가 TOKEN2049에 다시 찾아오며, 이번에는 코인베이스(Coinbase)가 후원합니다."
+      }
+    },
+    {
+      "symbol": "ACN",
+      "name": "Accenture",
+      "sector": "Information Technology",
+      "open": 211.02,
+      "current": 198.9,
+      "changePercent": -5.74,
+      "news": {
+        "headline": "Accenture Stock Pulls Back as Investors Book Profits",
+        "url": "https://finnhub.io/api/news?id=b14c13c29006a1af65f22434d7abf2e8399bebd90294e2a4334b03c997b24b2b",
+        "source": "Yahoo",
+        "datetime": 1790964020,
+        "headlineKo": "투자자들의 이익 실현으로 액센츄어 주가 하락"
+      }
+    }
+  ]
 }
