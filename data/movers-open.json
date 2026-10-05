@@ -1,92 +1,56 @@
 {
-  "generatedAt": "2026-10-02T19:09:38.781Z",
-  "tradingDate": "2026-10-02",
+  "generatedAt": "2026-10-05T21:27:01.249Z",
+  "tradingDate": "2026-10-05",
   "thresholdPercent": 5,
   "session": "open",
   "movers": [
     {
-      "symbol": "FICO",
-      "name": "Fair Isaac",
-      "sector": "Information Technology",
-      "open": 614,
-      "current": 661.94,
-      "changePercent": 7.81,
-      "news": {
-        "headline": "Fair Isaac Consensus Price Target Decreased by 12.47% to $1,311.72",
-        "url": "https://finnhub.io/api/news?id=9ec41cb344684760774bbfaf2a2ffb00e7cf890ff785e067fa46e3f91a45ead9",
-        "source": "Fintel",
-        "datetime": 1790956040,
-        "headlineKo": "페어 아이작의 컨센서스 목표주가, 12.47% 하락한 1,311.72달러로 조정"
-      }
-    },
-    {
-      "symbol": "ECHO",
-      "name": "EchoStar",
-      "sector": "Communication Services",
-      "open": 87.71,
-      "current": 94.035,
-      "changePercent": 7.21,
+      "symbol": "CRL",
+      "name": "Charles River Laboratories",
+      "sector": "Health Care",
+      "open": 292.05,
+      "current": 310.77,
+      "changePercent": 6.41,
       "news": null
     },
     {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "sector": "Financials",
-      "open": 194.402,
-      "current": 182.12,
-      "changePercent": -6.32,
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 191.51,
+      "current": 203.21,
+      "changePercent": 6.11,
       "news": {
-        "headline": "Investors Heavily Search Coinbase Global, Inc. (COIN): Here is What You Need to Know",
-        "url": "https://finnhub.io/api/news?id=061b43c48917123981c3dedce6962b7a24995b9b1bce6ad9247c9db3fb14278d",
+        "headline": "MRNA Stock Soars Ahead Of Slated Return To Nasdaq-100; Retail Echoes Valuation Concerns",
+        "url": "https://finnhub.io/api/news?id=85fbe6e259994956d206666ce9bd76965db090724695c13359d2045247dc66f8",
         "source": "Yahoo",
-        "datetime": 1790942407,
-        "headlineKo": "투자자들이 코인베이스 글로벌(COIN)을 집중적으로 검색 중: 꼭 알아야 할 사항은 다음과 같습니다"
+        "datetime": 1791228622,
+        "headlineKo": "mRNA 주가, 나스닥 100 지수 재편입을 앞두고 급등… 개인 투자자들 사이에서 기업 가치에 대한 우려 목소리 높아져"
       }
     },
     {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "sector": "Information Technology",
-      "open": 316.565,
-      "current": 335.985,
-      "changePercent": 6.13,
+      "symbol": "LEN",
+      "name": "Lennar",
+      "sector": "Consumer Discretionary",
+      "open": 78.97,
+      "current": 74.44,
+      "changePercent": -5.74,
       "news": {
-        "headline": "Your Coherent Stock Thesis Has One Loose End",
-        "url": "https://finnhub.io/api/news?id=bead23f1c0164a704a5ed6a931d29e8ca651f63c7e66e4efafcdd2ab9d3fcca1",
+        "headline": "Berkshire Hathaway Says It's Now America's 4th-Largest Homebuilder. It Also Owns More Than 10% of Lennar.",
+        "url": "https://finnhub.io/api/news?id=60825ed1e9ae28304868de80ebe03776aa5e813f313e4aa703a46ab6e4d43788",
         "source": "Yahoo",
-        "datetime": 1790949856,
-        "headlineKo": "귀하의 일관된 주식 투자 논리에는 한 가지 미진한 점이 있습니다"
+        "datetime": 1791210900,
+        "headlineKo": "버크셔 해서웨이는 자사가 현재 미국 내 4위 규모의 주택 건설업체라고 밝혔다. 또한 이 회사는 레나르 지분의 10% 이상을 보유하고 있다."
       }
     },
     {
-      "symbol": "NTAP",
-      "name": "NetApp",
-      "sector": "Information Technology",
-      "open": 216.43,
-      "current": 228.415,
-      "changePercent": 5.54,
-      "news": {
-        "headline": "Why Is NetApp (NTAP) Up 16% Since Last Earnings Report?",
-        "url": "https://finnhub.io/api/news?id=7019979a51ae6366d05007785dbcdd34455f483f9321ef284569161f93096b56",
-        "source": "Yahoo",
-        "datetime": 1790951404,
-        "headlineKo": "넷앱(NTAP)은 지난 실적 발표 이후 왜 16%나 상승했을까?"
-      }
-    },
-    {
-      "symbol": "ACN",
-      "name": "Accenture",
-      "sector": "Information Technology",
-      "open": 211.02,
-      "current": 199.58,
-      "changePercent": -5.42,
-      "news": {
-        "headline": "Accenture Has Just Shared Game-Changing News",
-        "url": "https://finnhub.io/api/news?id=7423b338b10c75a113db9a90d1c47af96c92563df230b99c4c38d378f24f18ad",
-        "source": "SeekingAlpha",
-        "datetime": 1790946151,
-        "headlineKo": "액센츄어가 방금 판도를 바꿀 만한 소식을 전했습니다"
-      }
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 9.26,
+      "current": 9.775,
+      "changePercent": 5.56,
+      "news": null
     }
   ]
 }
