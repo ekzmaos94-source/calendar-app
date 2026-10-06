@@ -1,56 +1,7 @@
 {
-  "generatedAt": "2026-10-05T21:27:01.249Z",
-  "tradingDate": "2026-10-05",
+  "generatedAt": "2026-10-06T18:50:44.395Z",
+  "tradingDate": "2026-10-06",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": [
-    {
-      "symbol": "CRL",
-      "name": "Charles River Laboratories",
-      "sector": "Health Care",
-      "open": 292.05,
-      "current": 310.77,
-      "changePercent": 6.41,
-      "news": null
-    },
-    {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Care",
-      "open": 191.51,
-      "current": 203.21,
-      "changePercent": 6.11,
-      "news": {
-        "headline": "MRNA Stock Soars Ahead Of Slated Return To Nasdaq-100; Retail Echoes Valuation Concerns",
-        "url": "https://finnhub.io/api/news?id=85fbe6e259994956d206666ce9bd76965db090724695c13359d2045247dc66f8",
-        "source": "Yahoo",
-        "datetime": 1791228622,
-        "headlineKo": "mRNA 주가, 나스닥 100 지수 재편입을 앞두고 급등… 개인 투자자들 사이에서 기업 가치에 대한 우려 목소리 높아져"
-      }
-    },
-    {
-      "symbol": "LEN",
-      "name": "Lennar",
-      "sector": "Consumer Discretionary",
-      "open": 78.97,
-      "current": 74.44,
-      "changePercent": -5.74,
-      "news": {
-        "headline": "Berkshire Hathaway Says It's Now America's 4th-Largest Homebuilder. It Also Owns More Than 10% of Lennar.",
-        "url": "https://finnhub.io/api/news?id=60825ed1e9ae28304868de80ebe03776aa5e813f313e4aa703a46ab6e4d43788",
-        "source": "Yahoo",
-        "datetime": 1791210900,
-        "headlineKo": "버크셔 해서웨이는 자사가 현재 미국 내 4위 규모의 주택 건설업체라고 밝혔다. 또한 이 회사는 레나르 지분의 10% 이상을 보유하고 있다."
-      }
-    },
-    {
-      "symbol": "PSKY",
-      "name": "Paramount Skydance Corporation",
-      "sector": "Communication Services",
-      "open": 9.26,
-      "current": 9.775,
-      "changePercent": 5.56,
-      "news": null
-    }
-  ]
+  "movers": []
 }

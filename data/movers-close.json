@@ -1,62 +1,7 @@
 {
-  "generatedAt": "2026-10-06T01:23:53.666Z",
-  "tradingDate": "2026-10-05",
+  "generatedAt": "2026-10-06T18:50:44.415Z",
+  "tradingDate": "2026-10-06",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": [
-    {
-      "symbol": "CRL",
-      "name": "Charles River Laboratories",
-      "sector": "Health Care",
-      "open": 292.05,
-      "current": 310.77,
-      "changePercent": 6.41,
-      "news": null
-    },
-    {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Care",
-      "open": 191.51,
-      "current": 203.21,
-      "changePercent": 6.11,
-      "news": {
-        "headline": "NVAX Stock Outruns Moderna As Vaxcyte’s Shot Clears A Late-Stage Test",
-        "url": "https://finnhub.io/api/news?id=8c936846d13101d763354103e18ec0b7a6e723c479867cfd117e1ba165308aa6",
-        "source": "Yahoo",
-        "datetime": 1791243744,
-        "headlineKo": "Vaxcyte의 백신이 후기 임상시험을 통과하면서 NVAX 주가가 모더나를 앞질렀다"
-      }
-    },
-    {
-      "symbol": "LEN",
-      "name": "Lennar",
-      "sector": "Consumer Discretionary",
-      "open": 78.97,
-      "current": 74.44,
-      "changePercent": -5.74,
-      "news": {
-        "headline": "Why Lennar Stock Just Suffered Its Worst Drop Since 2024",
-        "url": "https://finnhub.io/api/news?id=bcc9439d963f9ab272bd376814fa5d629ef5866674cf0928f1f2fcae1662fee3",
-        "source": "Yahoo",
-        "datetime": 1791238980,
-        "headlineKo": "레나르 주가가 2024년 이후 최악의 폭락을 기록한 이유"
-      }
-    },
-    {
-      "symbol": "PSKY",
-      "name": "Paramount Skydance Corporation",
-      "sector": "Communication Services",
-      "open": 9.26,
-      "current": 9.775,
-      "changePercent": 5.56,
-      "news": {
-        "headline": "Huge Unusual Call Options Activity in Paramount Skydance Stock Ahead of Merger Close This Week",
-        "url": "https://finnhub.io/api/news?id=916c3059b716d11b0195f8ba9ab7f1cd09712b61d02155c28d6fc9a726e8f6aa",
-        "source": "Yahoo",
-        "datetime": 1791221403,
-        "headlineKo": "이번 주 합병 마무리 앞두고 파라마운트 스카이댄스 주식에서 이례적으로 대규모 콜옵션 거래 활동 포착"
-      }
-    }
-  ]
+  "movers": []
 }
