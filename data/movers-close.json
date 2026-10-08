@@ -1,7 +1,92 @@
 {
-  "generatedAt": "2026-10-07T19:15:44.475Z",
+  "generatedAt": "2026-10-08T00:21:30.395Z",
   "tradingDate": "2026-10-07",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "VST",
+      "name": "Vistra Corp.",
+      "sector": "Utilities",
+      "open": 154.77,
+      "current": 166.72,
+      "changePercent": 7.72,
+      "news": {
+        "headline": "Vistra Stock Rallies 11% as Energy Department Reveals $4.2 Billion Nuclear Investment",
+        "url": "https://finnhub.io/api/news?id=4b2d12028d0a4727e6f28380a4a8fec244dd7b8e34840b0d40a7bc62f64cf24d",
+        "source": "Yahoo",
+        "datetime": 1791379466,
+        "headlineKo": "에너지부가 42억 달러 규모의 원자력 투자 계획을 발표하자 비스트라 주가가 11% 급등했다"
+      }
+    },
+    {
+      "symbol": "NRG",
+      "name": "NRG Energy",
+      "sector": "Utilities",
+      "open": 101,
+      "current": 108.61,
+      "changePercent": 7.53,
+      "news": null
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 183.01,
+      "current": 196.48,
+      "changePercent": 7.36,
+      "news": {
+        "headline": "Moderna, Eli Lilly Lead Healthcare Stocks Higher on a Down Day for Markets",
+        "url": "https://finnhub.io/api/news?id=bbc077f2bed73509ccbbbdf77e170ed9eb13fbb99ec147f5b11a941fbe75838b",
+        "source": "Yahoo",
+        "datetime": 1791404398,
+        "headlineKo": "시장 전반이 약세를 보인 가운데, 모더나와 일라이 릴리가 헬스케어주 상승을 주도했다"
+      }
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "open": 1017.37,
+      "current": 1088,
+      "changePercent": 6.94,
+      "news": {
+        "headline": "MU Stock Adds 3% As D.A. Davidson Forecasts Stock Value To Triple On Valuation Play",
+        "url": "https://finnhub.io/api/news?id=be0a04ac890cba9c485e7f96e69eb8f79ff36a9157e2fd6da1059dc4a41d5146",
+        "source": "Yahoo",
+        "datetime": 1791394586,
+        "headlineKo": "D.A. 데이비슨이 ‘밸류에이션 효과’로 주가가 3배로 오를 것으로 전망함에 따라 MU 주가가 3% 상승했다"
+      }
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "open": 42.52,
+      "current": 44.94,
+      "changePercent": 5.69,
+      "news": {
+        "headline": "Should You Buy, Sell or Hold SMCI Stock at a P/S Valuation of 0.41X?",
+        "url": "https://finnhub.io/api/news?id=018e320cfbe1d439225ea9f86a52e169cbe56eccd24908230750e72a7c2fa296",
+        "source": "Yahoo",
+        "datetime": 1791378600,
+        "headlineKo": "P/S 배율이 0.41배인 상황에서 SMCI 주식을 매수, 매도, 아니면 보유해야 할까요?"
+      }
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 9.26,
+      "current": 9.775,
+      "changePercent": 5.56,
+      "news": {
+        "headline": "Market Chatter: Paramount Skydance's Acquisition of Warner Bros. Discovery's TVN to Undergo Polish Review",
+        "url": "https://finnhub.io/api/news?id=96bf799c20d03da5b4ee81dcbec440f8701cd310deca6bb2eda7af94a8c7f627",
+        "source": "Yahoo",
+        "datetime": 1791375223,
+        "headlineKo": "시장 소식: 파라마운트 스카이댄스의 워너브라더스 디스커버리 산하 TVN 인수 건, 폴란드 당국의 심사를 받게 될 전망"
+      }
+    }
+  ]
 }
