@@ -1,7 +1,146 @@
 {
-  "generatedAt": "2026-10-08T19:12:06.254Z",
+  "generatedAt": "2026-10-09T00:35:25.163Z",
   "tradingDate": "2026-10-08",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "open": 27.6,
+      "current": 29.81,
+      "changePercent": 8.01,
+      "news": null
+    },
+    {
+      "symbol": "CMG",
+      "name": "Chipotle Mexican Grill",
+      "sector": "Consumer Discretionary",
+      "open": 30.68,
+      "current": 32.68,
+      "changePercent": 6.52,
+      "news": {
+        "headline": "SBUX-CMG Takeover Rumors: One Analyst Firm Sees Real-Estate Fit, Others See Distraction",
+        "url": "https://finnhub.io/api/news?id=467a446943e1b5fdb8170bcde6520ebb42301f92a588af81ec13d02f4655d4f7",
+        "source": "Yahoo",
+        "datetime": 1791493064,
+        "headlineKo": "SBUX-CMG 인수설: 한 애널리스트 업체는 부동산 측면에서의 시너지를 전망하는 반면, 다른 업체들은 경영상의 방해 요인으로 보고 있다"
+      }
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "open": 97.2,
+      "current": 103.19,
+      "changePercent": 6.16,
+      "news": {
+        "headline": "GoDaddy Inc. to Announce Third Quarter 2026 Financial Results on Thursday, October 29, 2026",
+        "url": "https://finnhub.io/api/news?id=5f9b853905650450dd9e51772cbfe5a3dc526dcadf826d78ed983e282e7cd9fb",
+        "source": "Yahoo",
+        "datetime": 1791491400,
+        "headlineKo": "GoDaddy Inc., 2026년 10월 29일 목요일에 2026년 3분기 실적 발표 예정"
+      }
+    },
+    {
+      "symbol": "LDOS",
+      "name": "Leidos",
+      "sector": "Industrials",
+      "open": 112.45,
+      "current": 119.22,
+      "changePercent": 6.02,
+      "news": {
+        "headline": "Leidos Holdings (LDOS) Closed Its Security Screening Joint Venture",
+        "url": "https://finnhub.io/api/news?id=cc8c4499995a97dd0a1b96d452e1cff4f72c1afc2bb867c61b75a865711a5e09",
+        "source": "Yahoo",
+        "datetime": 1791465245,
+        "headlineKo": "라이도스 홀딩스(LDOS), 보안 심사 합작 투자사 해산"
+      }
+    },
+    {
+      "symbol": "HSIC",
+      "name": "Henry Schein",
+      "sector": "Health Care",
+      "open": 79.95,
+      "current": 84.63,
+      "changePercent": 5.85,
+      "news": {
+        "headline": "Henry Schein Announces Chief Financial Officer Leadership Transition",
+        "url": "https://finnhub.io/api/news?id=7a72f173738c4bdf539250a97aad9c08d5a42eb795f23e4b5f71643e4675ce35",
+        "source": "Yahoo",
+        "datetime": 1791457200,
+        "headlineKo": "헨리 샤인, 최고재무책임자(CFO) 인사 교체 발표"
+      }
+    },
+    {
+      "symbol": "STZ",
+      "name": "Constellation Brands",
+      "sector": "Consumer Staples",
+      "open": 116.82,
+      "current": 123.63,
+      "changePercent": 5.83,
+      "news": {
+        "headline": "STZ Q2 Earnings Call Highlights Improving Demand and Outlook",
+        "url": "https://finnhub.io/api/news?id=52326566b40fae3c4d77b3d3c95780752595dc7db91ae387f77fb0544e8e80a3",
+        "source": "Yahoo",
+        "datetime": 1791478500,
+        "headlineKo": "STZ 2분기 실적 발표 전화회의, 수요 회복세와 긍정적 전망 강조"
+      }
+    },
+    {
+      "symbol": "VST",
+      "name": "Vistra Corp.",
+      "sector": "Utilities",
+      "open": 165.81,
+      "current": 156.14,
+      "changePercent": -5.83,
+      "news": {
+        "headline": "Vistra Corp. (VST) Registers a Bigger Fall Than the Market: Important Facts to Note",
+        "url": "https://finnhub.io/api/news?id=096335c98a88d9f28e60858babcc03fc75abd97ee4a3a5c53fa0fa179edfd674",
+        "source": "Yahoo",
+        "datetime": 1791492303,
+        "headlineKo": "비스트라 코퍼레이션(VST), 시장 평균보다 더 큰 하락세 기록: 주목해야 할 주요 사실들"
+      }
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 320.44,
+      "current": 302.35,
+      "changePercent": -5.65,
+      "news": {
+        "headline": "Optics Stocks Tumble as Profit Taking Cuts Into Big Yearly Gains: Applied Optoelectronics Drops 9%, Coherent Falls 5%, Lumentum Slides 4%",
+        "url": "https://finnhub.io/api/news?id=0a81f60a333186d931436fb8336b2de03112113f04613f187ce0878cc40767df",
+        "source": "Yahoo",
+        "datetime": 1791475231,
+        "headlineKo": "이익 실현 매도로 연간 큰 폭의 상승폭이 줄어들면서 광학 관련주 급락: 애플라이드 옵토일렉트로닉스 9% 하락, 코히어런트 5% 하락, 루멘텀 4% 하락"
+      }
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 9.26,
+      "current": 9.775,
+      "changePercent": 5.56,
+      "news": null
+    },
+    {
+      "symbol": "ACN",
+      "name": "Accenture",
+      "sector": "Information Technology",
+      "open": 197.73,
+      "current": 208.36,
+      "changePercent": 5.38,
+      "news": {
+        "headline": "Accenture (ACN) Stock Is Up, What You Need To Know",
+        "url": "https://finnhub.io/api/news?id=17c4267e73f4864a77a7d4427bc0fae78b8bbaddf4bc5c036c8f574a9b26a9af",
+        "source": "Yahoo",
+        "datetime": 1791502569,
+        "headlineKo": "액센츄어(ACN) 주가 상승, 알아야 할 점"
+      }
+    }
+  ]
 }
