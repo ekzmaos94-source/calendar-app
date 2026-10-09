@@ -1,7 +1,104 @@
 {
-  "generatedAt": "2026-10-09T18:42:42.050Z",
+  "generatedAt": "2026-10-09T19:26:26.849Z",
   "tradingDate": "2026-10-09",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 199.098,
+      "current": 221.26,
+      "changePercent": 11.13,
+      "news": {
+        "headline": "Novavax Soars 16%, Moderna Surges 11%, Merck Climbs 3% as Biotech Rallies",
+        "url": "https://finnhub.io/api/news?id=631b204a897242e9067909ca94cf040449d481cd1c86236d331f3a110e4b093d",
+        "source": "Yahoo",
+        "datetime": 1791568782,
+        "headlineKo": "바이오테크 주가 급등 속에 노바백스 16% 급등, 모더나 11% 급등, 머크 3% 상승"
+      }
+    },
+    {
+      "symbol": "FICO",
+      "name": "Fair Isaac",
+      "sector": "Information Technology",
+      "open": 717.885,
+      "current": 665.37,
+      "changePercent": -7.32,
+      "news": null
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "open": 275.42,
+      "current": 291.88,
+      "changePercent": 5.98,
+      "news": {
+        "headline": "Fastly Spikes 15% as Oppenheimer Upgrades to Outperform With $35 Target; Datadog Rises 4%, Cloudflare Gains 2%",
+        "url": "https://finnhub.io/api/news?id=4fb8bf5291da84d99e4e73f545e0b637cfa35a21824c8d3627da199ceefb590f",
+        "source": "Yahoo",
+        "datetime": 1791561097,
+        "headlineKo": "오펜하이머가 ‘아웃퍼폼’으로 투자 등급을 상향 조정하고 목표 주가를 35달러로 제시하자 패스트리 주가가 15% 급등했으며, 데이터독은 4%, 클라우드플레어는 2% 상승했다."
+      }
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "open": 31.955,
+      "current": 30.1399,
+      "changePercent": -5.68,
+      "news": {
+        "headline": "Is HP (HPQ) Above Fair Value After A 47% Run?",
+        "url": "https://finnhub.io/api/news?id=8dffcf8817841d3d302c2ee8f9accf3c6a1947cb50a9d5f78af094388a88ae23",
+        "source": "Yahoo",
+        "datetime": 1791515845,
+        "headlineKo": "47% 급등한 후, HP(HPQ)의 주가는 공정 가치보다 높은가?"
+      }
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 9.26,
+      "current": 9.775,
+      "changePercent": 5.56,
+      "news": null
+    },
+    {
+      "symbol": "CCI",
+      "name": "Crown Castle",
+      "sector": "Real Estate",
+      "open": 74.315,
+      "current": 78.425,
+      "changePercent": 5.53,
+      "news": {
+        "headline": "Why Crown Castle Stock Soared Today",
+        "url": "https://finnhub.io/api/news?id=0ea1ad8cff3eb8de3704efa2a4c180c875842ee700e70dcfc8c2c5b5970c399e",
+        "source": "Yahoo",
+        "datetime": 1791564577,
+        "headlineKo": "오늘 크라운 캐슬 주가가 급등한 이유"
+      }
+    },
+    {
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
+      "sector": "Information Technology",
+      "open": 102.4,
+      "current": 107.71,
+      "changePercent": 5.19,
+      "news": null
+    },
+    {
+      "symbol": "MOS",
+      "name": "Mosaic Company (The)",
+      "sector": "Materials",
+      "open": 19.81,
+      "current": 18.795,
+      "changePercent": -5.12,
+      "news": null
+    }
+  ]
 }
