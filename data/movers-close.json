@@ -1,7 +1,95 @@
 {
-  "generatedAt": "2026-10-09T18:42:42.069Z",
+  "generatedAt": "2026-10-10T00:16:59.678Z",
   "tradingDate": "2026-10-09",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 199.098,
+      "current": 225,
+      "changePercent": 13.01,
+      "news": {
+        "headline": "MRNA Stock Sets New 52-Week High As Nasdaq-100 Reentry Meets NIH Cancer-Vaccine Push",
+        "url": "https://finnhub.io/api/news?id=32888a724310a8ebb739390192df3753f6140611aa23b6d020d6eeeaf5dfde0b",
+        "source": "Yahoo",
+        "datetime": 1791577388,
+        "headlineKo": "나스닥-100 지수 재진입과 미국 국립보건원(NIH)의 암 백신 개발 추진이 맞물리며 mRNA 주가가 52주新高를 기록했다"
+      }
+    },
+    {
+      "symbol": "CCI",
+      "name": "Crown Castle",
+      "sector": "Real Estate",
+      "open": 74.315,
+      "current": 79.64,
+      "changePercent": 7.17,
+      "news": {
+        "headline": "Why Crown Castle Stock Soared Today",
+        "url": "https://finnhub.io/api/news?id=0ea1ad8cff3eb8de3704efa2a4c180c875842ee700e70dcfc8c2c5b5970c399e",
+        "source": "Yahoo",
+        "datetime": 1791564577,
+        "headlineKo": "오늘 크라운 캐슬 주가가 급등한 이유"
+      }
+    },
+    {
+      "symbol": "FICO",
+      "name": "Fair Isaac",
+      "sector": "Information Technology",
+      "open": 717.885,
+      "current": 667.58,
+      "changePercent": -7.01,
+      "news": null
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "open": 275.42,
+      "current": 293.26,
+      "changePercent": 6.48,
+      "news": {
+        "headline": "Datadog Is On The Hunt. Here's Why Wall Street Is Wagging Its Tail.",
+        "url": "https://finnhub.io/api/news?id=ab8953b25601443283d9659be8a9b64dd8b6d27d0ce68d34161bcf0cb646654a",
+        "source": "Yahoo",
+        "datetime": 1791569920,
+        "headlineKo": "데이터독이 사냥에 나섰다. 월스트리트가 열광하는 이유는 바로 이것이다."
+      }
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 9.26,
+      "current": 9.775,
+      "changePercent": 5.56,
+      "news": null
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "open": 31.955,
+      "current": 30.2,
+      "changePercent": -5.49,
+      "news": {
+        "headline": "HP (HPQ) Stock Drops Despite Market Gains: Important Facts to Note",
+        "url": "https://finnhub.io/api/news?id=c3091617b6258afb8a3d2f56c02067bb225b66e1d6b314b0d647440ab384bb74",
+        "source": "Yahoo",
+        "datetime": 1791579604,
+        "headlineKo": "시장 상승세 속에서도 HP(HPQ) 주가 하락: 주목해야 할 주요 사실들"
+      }
+    },
+    {
+      "symbol": "MOS",
+      "name": "Mosaic Company (The)",
+      "sector": "Materials",
+      "open": 19.81,
+      "current": 18.74,
+      "changePercent": -5.4,
+      "news": null
+    }
+  ]
 }
