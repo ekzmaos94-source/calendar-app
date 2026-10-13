@@ -1,7 +1,137 @@
 {
-  "generatedAt": "2026-10-13T19:47:43.212Z",
+  "generatedAt": "2026-10-13T20:10:49.613Z",
   "tradingDate": "2026-10-13",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "open": 693.93,
+      "current": 747.2,
+      "changePercent": 7.68,
+      "news": {
+        "headline": "Seagate Technology Holdings (STX) Tests Valuation As Supply Chain Fears Hit Sentiment",
+        "url": "https://finnhub.io/api/news?id=62e512cbdc02e9feafa2d757f31c9cea77a7d7264d35883c3fa0b5f3ad33e9b6",
+        "source": "Yahoo",
+        "datetime": 1791911433,
+        "headlineKo": "공급망 우려로 시장 심리가 위축되면서 시게이트 테크놀로지 홀딩스(STX)의 주가 평가가 시험대에 올랐다"
+      }
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "open": 359.005,
+      "current": 380.71,
+      "changePercent": 6.05,
+      "news": {
+        "headline": "SK Hynix Sinks 6% as Seoul Selloff Extends to Fifth Session; Western Digital and Seagate Drop 7%",
+        "url": "https://finnhub.io/api/news?id=52995ef742ff58ecb27b036ea4b5cdf059388bc18b623076acddc44871df837a",
+        "source": "Yahoo",
+        "datetime": 1791899887,
+        "headlineKo": "서울 증시 매도세가 5거래일째 이어지며 SK하이닉스 주가 6% 급락… 웨스턴디지털과 시게이트도 7% 하락"
+      }
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "open": 253.795,
+      "current": 268.725,
+      "changePercent": 5.88,
+      "news": {
+        "headline": "Marvell Technology Just Gave Its Investors Great News",
+        "url": "https://finnhub.io/api/news?id=e47f34462473f0ec452b2b7dd397f635637d1643d8b67ba86c9636215325f2ba",
+        "source": "Yahoo",
+        "datetime": 1791908402,
+        "headlineKo": "마벨 테크놀로지가 투자자들에게 기쁜 소식을 전했습니다"
+      }
+    },
+    {
+      "symbol": "VST",
+      "name": "Vistra Corp.",
+      "sector": "Utilities",
+      "open": 153.51,
+      "current": 162.35,
+      "changePercent": 5.76,
+      "news": {
+        "headline": "Vistra Bombed Over The Last Year: One Analyst Says The AI Power Play Will Gain 90% Within a Year",
+        "url": "https://finnhub.io/api/news?id=ab2a6f7b7e2d66104ba0dbfb9525f3f0c2078499b616c2935865d0f27901d2d2",
+        "source": "Yahoo",
+        "datetime": 1791890132,
+        "headlineKo": "지난 1년간 비스트라 주가 폭락: 한 애널리스트는 AI 전략이 1년 내 90% 상승할 것이라고 전망"
+      }
+    },
+    {
+      "symbol": "CDW",
+      "name": "CDW Corporation",
+      "sector": "Information Technology",
+      "open": 143.98,
+      "current": 151.97,
+      "changePercent": 5.55,
+      "news": null
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1405.75,
+      "current": 1482.33,
+      "changePercent": 5.45,
+      "news": {
+        "headline": "Should You Buy Sandisk Stock Before Oct. 29?",
+        "url": "https://finnhub.io/api/news?id=343c0eb52d268362c58b882fff931bbb034ac87a5f7bcdd681c4e9bb86fdbef7",
+        "source": "Yahoo",
+        "datetime": 1791912900,
+        "headlineKo": "10월 29일 전에 샌디스크 주식을 매수해야 할까요?"
+      }
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "sector": "Information Technology",
+      "open": 135.91,
+      "current": 143.27,
+      "changePercent": 5.42,
+      "news": {
+        "headline": "Oracle Proposes Up To $55M In Annual Power Bill Credits, Reaffirms Bloom Energy's Role At Project Jupiter",
+        "url": "https://finnhub.io/api/news?id=a9ac98d760c90fb96b959ede450f8fd1e367ecb7fee336a03ca6099c13b12c53",
+        "source": "Yahoo",
+        "datetime": 1791905122,
+        "headlineKo": "오라클, 연간 최대 5,500만 달러의 전력 요금 크레딧 제공을 제안하며 ‘프로젝트 주피터’에서 블룸 에너지의 역할을 재확인"
+      }
+    },
+    {
+      "symbol": "C",
+      "name": "Citigroup",
+      "sector": "Financials",
+      "open": 131.345,
+      "current": 124.53,
+      "changePercent": -5.19,
+      "news": {
+        "headline": "JPMorgan, Wells Fargo, and Citi earnings show consumers holding up despite high rates",
+        "url": "https://finnhub.io/api/news?id=e8be9d6cf41785c526dc46dc17b98b21ce7419deaf67b1cf020fd103b2db9d9c",
+        "source": "Yahoo",
+        "datetime": 1791901283,
+        "headlineKo": "JPMorgan, Wells Fargo, Citi의 실적은 높은 금리에도 불구하고 소비자들이 견조한 모습을 보이고 있음을 보여준다"
+      }
+    },
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth Group",
+      "sector": "Health Care",
+      "open": 397.625,
+      "current": 377.705,
+      "changePercent": -5.01,
+      "news": {
+        "headline": "UnitedHealth (UNH) Stock Trades Up, Here Is Why",
+        "url": "https://finnhub.io/api/news?id=443344951df440101489b0e1ea36915604763f0fb4058f0e0af9fb5141700fb8",
+        "source": "Yahoo",
+        "datetime": 1791914104,
+        "headlineKo": "유나이티드헬스(UNH) 주가 상승, 그 이유는 다음과 같습니다"
+      }
+    }
+  ]
 }
