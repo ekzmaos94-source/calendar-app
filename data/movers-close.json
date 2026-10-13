@@ -1,7 +1,80 @@
 {
-  "generatedAt": "2026-10-12T21:39:11.164Z",
+  "generatedAt": "2026-10-13T02:12:30.579Z",
   "tradingDate": "2026-10-12",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "FICO",
+      "name": "Fair Isaac",
+      "sector": "Information Technology",
+      "open": 674,
+      "current": 740,
+      "changePercent": 9.79,
+      "news": null
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "open": 1100,
+      "current": 995.41,
+      "changePercent": -9.51,
+      "news": {
+        "headline": "Why Lumentum Sank Today",
+        "url": "https://finnhub.io/api/news?id=6e4c664b3df278ab161df98c0003d6c569292e566c77bbc8e9beeca9a43299ba",
+        "source": "Yahoo",
+        "datetime": 1791836458,
+        "headlineKo": "루멘텀 주가가 오늘 급락한 이유"
+      }
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "open": 443.53,
+      "current": 405.01,
+      "changePercent": -8.68,
+      "news": {
+        "headline": "AI Infrastructure Stocks With Real Earnings Leverage From Ciena, Micron And KLA",
+        "url": "https://finnhub.io/api/news?id=304ee06038449cf3b42fb405b451cec4dc4fbf750cf251cc804c80d417a71b14",
+        "source": "Yahoo",
+        "datetime": 1791828548,
+        "headlineKo": "Ciena, Micron, KLA 등 실질적인 실적 시너지 효과를 기대할 수 있는 AI 인프라 관련주"
+      }
+    },
+    {
+      "symbol": "CVNA",
+      "name": "Carvana",
+      "sector": "Consumer Discretionary",
+      "open": 63.73,
+      "current": 59.51,
+      "changePercent": -6.62,
+      "news": null
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 306,
+      "current": 288.02,
+      "changePercent": -5.88,
+      "news": {
+        "headline": "Coherent: A Tempting Buy, But There's One Big Reason To Stay Away",
+        "url": "https://finnhub.io/api/news?id=243e0dc797561a808a93845dd7ca03f0d2c38c7ef976cbea5f1c23a9a2da8490",
+        "source": "SeekingAlpha",
+        "datetime": 1791823543,
+        "headlineKo": "코히어런트: 매수하고 싶은 유혹이 들지만, 피해야 할 한 가지 큰 이유가 있다"
+      }
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 9.26,
+      "current": 9.775,
+      "changePercent": 5.56,
+      "news": null
+    }
+  ]
 }
