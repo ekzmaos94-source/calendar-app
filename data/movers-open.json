@@ -1,7 +1,152 @@
 {
-  "generatedAt": "2026-10-16T17:14:35.176Z",
+  "generatedAt": "2026-10-16T17:57:08.926Z",
   "tradingDate": "2026-10-16",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 234.9,
+      "current": 211.95,
+      "changePercent": -9.77,
+      "news": {
+        "headline": "Moderna stock sinks as Wall Street turns cautious following blistering rally",
+        "url": "https://finnhub.io/api/news?id=e586d9fa75f4bb019a822871751834ee14425871a48920ab8652e36bf3d86a7a",
+        "source": "Yahoo",
+        "datetime": 1792164153,
+        "headlineKo": "급등세를 보인 후 월스트리트가 신중한 태도로 돌아서면서 모더나 주가가 급락했다"
+      }
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "open": 373.5,
+      "current": 342.115,
+      "changePercent": -8.4,
+      "news": null
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "open": 265.83,
+      "current": 244.4099,
+      "changePercent": -8.06,
+      "news": null
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "open": 34.475,
+      "current": 31.7021,
+      "changePercent": -8.04,
+      "news": {
+        "headline": "Super Micro Computer (NASDAQ:SMCI): A Growth-Supported Value Stock Trading at a Discount",
+        "url": "https://finnhub.io/api/news?id=1bb7a079e8cc9ed068433f60cf305d6396017366bc05cfb5a571310ebf68de18",
+        "source": "ChartMill",
+        "datetime": 1792146663,
+        "headlineKo": "슈퍼 마이크로 컴퓨터(NASDAQ:SMCI): 성장에 힘입은 가치주, 현재 할인된 가격에 거래 중"
+      }
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "open": 246.535,
+      "current": 226.875,
+      "changePercent": -7.97,
+      "news": {
+        "headline": "Keybanc Maintains Overweight on CrowdStrike Holdings, Raises Price Target to $265",
+        "url": "https://finnhub.io/api/news?id=708766bacd5d54889d8a38042d7c6fca13603f316fd10795ccec9432288f49ae",
+        "source": "Benzinga",
+        "datetime": 1792142348,
+        "headlineKo": "키뱅크, 크라우드스트라이크 홀딩스에 대한 ‘매수’ 등급 유지… 목표주가 265달러로 상향 조정"
+      }
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "sector": "Information Technology",
+      "open": 202.359,
+      "current": 186.315,
+      "changePercent": -7.93,
+      "news": {
+        "headline": "Palantir Technologies (NASDAQ:PLTR) Screens Strong on Accelerating Growth and Improving Fundamentals",
+        "url": "https://finnhub.io/api/news?id=e7c5d81fc1b38f863feca496e6d4980d989860d6787ca62bf102f88fa51a431b",
+        "source": "ChartMill",
+        "datetime": 1792152061,
+        "headlineKo": "팔란티어 테크놀로지스(나스닥: PLTR), 성장 가속화와 펀더멘털 개선으로 긍정적인 평가 받아"
+      }
+    },
+    {
+      "symbol": "FTNT",
+      "name": "Fortinet",
+      "sector": "Information Technology",
+      "open": 182.35,
+      "current": 168.05,
+      "changePercent": -7.84,
+      "news": null
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "open": 151.92,
+      "current": 141.16,
+      "changePercent": -7.08,
+      "news": {
+        "headline": "How Deep System Roots Protect ServiceNow (NOW) in AI Era",
+        "url": "https://finnhub.io/api/news?id=b4ca5d1385727855fc23fe6c1893c51e1d6a70598b4a8ca23d2c614f17f1a40f",
+        "source": "Yahoo",
+        "datetime": 1792163578,
+        "headlineKo": "AI 시대에 ‘딥 시스템 루츠’가 ServiceNow(NOW)를 어떻게 보호하는가"
+      }
+    },
+    {
+      "symbol": "AXON",
+      "name": "Axon Enterprise",
+      "sector": "Industrials",
+      "open": 422.805,
+      "current": 396.685,
+      "changePercent": -6.18,
+      "news": {
+        "headline": "Is Axon (AXON) a Buy as Wall Street Analysts Look Optimistic?",
+        "url": "https://finnhub.io/api/news?id=69e7f461d3114ee4d192376de7badd810db67db7fabe252bd32030caa5986a79",
+        "source": "Yahoo",
+        "datetime": 1792153806,
+        "headlineKo": "월가 애널리스트들이 낙관적인 전망을 내놓는 가운데, 액슨(AXON)은 매수할 만한 종목인가?"
+      }
+    },
+    {
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "open": 13.285,
+      "current": 12.475,
+      "changePercent": -6.1,
+      "news": null
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 9.26,
+      "current": 9.775,
+      "changePercent": 5.56,
+      "news": null
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "open": 96.89,
+      "current": 91.74,
+      "changePercent": -5.32,
+      "news": null
+    }
+  ]
 }
