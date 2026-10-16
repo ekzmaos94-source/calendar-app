@@ -1,7 +1,233 @@
 {
-  "generatedAt": "2026-10-16T17:14:35.204Z",
+  "generatedAt": "2026-10-16T22:58:19.289Z",
   "tradingDate": "2026-10-16",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "open": 373.5,
+      "current": 342,
+      "changePercent": -8.43,
+      "news": {
+        "headline": "Snowflake, Atlassian, Bandwidth, Five9, and Palo Alto Networks Stocks Trade Down, What You Need To Know",
+        "url": "https://finnhub.io/api/news?id=beae661e63f1151c0175b80b111f4da3591cf2b3e6fb82cd60f269feabe62434",
+        "source": "Yahoo",
+        "datetime": 1792179579,
+        "headlineKo": "스노우플레이크, 아틀라시안, 밴드위드, 파이브9, 팔로알토 네트웍스 주가 하락… 알아야 할 점"
+      }
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "open": 34.475,
+      "current": 31.63,
+      "changePercent": -8.25,
+      "news": {
+        "headline": "Super Micro Computer (NASDAQ:SMCI): A Growth-Supported Value Stock Trading at a Discount",
+        "url": "https://finnhub.io/api/news?id=1bb7a079e8cc9ed068433f60cf305d6396017366bc05cfb5a571310ebf68de18",
+        "source": "ChartMill",
+        "datetime": 1792146663,
+        "headlineKo": "슈퍼 마이크로 컴퓨터(NASDAQ:SMCI): 성장에 힘입은 가치주, 현재 할인된 가격에 거래 중"
+      }
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "sector": "Information Technology",
+      "open": 202.359,
+      "current": 186.03,
+      "changePercent": -8.07,
+      "news": {
+        "headline": "Okta, Datadog, Palantir Technologies, Zscaler, and Elastic Shares Are Falling, What You Need To Know",
+        "url": "https://finnhub.io/api/news?id=649b24e772b4a907cf9b96bf8387ccb6fe52fbfa821947b7d71162ceaab1eb81",
+        "source": "Yahoo",
+        "datetime": 1792180539,
+        "headlineKo": "Okta, Datadog, Palantir Technologies, Zscaler, Elastic 주가 하락… 알아야 할 점"
+      }
+    },
+    {
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "open": 13.285,
+      "current": 12.23,
+      "changePercent": -7.94,
+      "news": null
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "open": 246.535,
+      "current": 227.39,
+      "changePercent": -7.77,
+      "news": {
+        "headline": "Qualys, DigitalOcean, Twilio, CrowdStrike, and MongoDB Shares Are Falling, What You Need To Know",
+        "url": "https://finnhub.io/api/news?id=cb043257a060e0a9a3a0d8abd0461af1f83ce214893f03b0d78da245f3ede34a",
+        "source": "Yahoo",
+        "datetime": 1792179099,
+        "headlineKo": "Qualys, DigitalOcean, Twilio, CrowdStrike, MongoDB 주가 하락… 알아야 할 점"
+      }
+    },
+    {
+      "symbol": "AXON",
+      "name": "Axon Enterprise",
+      "sector": "Industrials",
+      "open": 422.805,
+      "current": 390.29,
+      "changePercent": -7.69,
+      "news": {
+        "headline": "Is Axon (AXON) a Buy as Wall Street Analysts Look Optimistic?",
+        "url": "https://finnhub.io/api/news?id=69e7f461d3114ee4d192376de7badd810db67db7fabe252bd32030caa5986a79",
+        "source": "Yahoo",
+        "datetime": 1792153806,
+        "headlineKo": "월가 애널리스트들이 낙관적인 전망을 내놓는 가운데, 액슨(AXON)은 매수할 만한 종목인가?"
+      }
+    },
+    {
+      "symbol": "FTNT",
+      "name": "Fortinet",
+      "sector": "Information Technology",
+      "open": 182.35,
+      "current": 169.13,
+      "changePercent": -7.25,
+      "news": {
+        "headline": "3 Reasons Why Growth Investors Shouldn't Overlook Fortinet (FTNT)",
+        "url": "https://finnhub.io/api/news?id=87a6f5f20e493417b2c46c263e240172a66111ccb9efc9f64f5e9444b107041b",
+        "source": "Yahoo",
+        "datetime": 1792165503,
+        "headlineKo": "성장주 투자자들이 포티넷(FTNT)을 간과해서는 안 되는 3가지 이유"
+      }
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 234.9,
+      "current": 218.01,
+      "changePercent": -7.19,
+      "news": {
+        "headline": "Azenta, Myriad Genetics, Moderna, Repligen, and PacBio Shares Plummet, What You Need To Know",
+        "url": "https://finnhub.io/api/news?id=3d84b14e70e8d6a49ca4956cbf56c9fe1e46b415cf9dac770ae6bfdec6d22e0d",
+        "source": "Yahoo",
+        "datetime": 1792183419,
+        "headlineKo": "아젠타, 마이리어드 제네틱스, 모더나, 리플리젠, 팩바이오 주가 급락… 꼭 알아야 할 점"
+      }
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "open": 265.83,
+      "current": 247.11,
+      "changePercent": -7.04,
+      "news": {
+        "headline": "Okta, Datadog, Palantir Technologies, Zscaler, and Elastic Shares Are Falling, What You Need To Know",
+        "url": "https://finnhub.io/api/news?id=649b24e772b4a907cf9b96bf8387ccb6fe52fbfa821947b7d71162ceaab1eb81",
+        "source": "Yahoo",
+        "datetime": 1792180539,
+        "headlineKo": "Okta, Datadog, Palantir Technologies, Zscaler, Elastic 주가 하락… 알아야 할 점"
+      }
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "open": 96.89,
+      "current": 90.46,
+      "changePercent": -6.64,
+      "news": null
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "open": 151.92,
+      "current": 141.97,
+      "changePercent": -6.55,
+      "news": {
+        "headline": "Here's Why ServiceNow (NOW) Fell More Than Broader Market",
+        "url": "https://finnhub.io/api/news?id=fab754f466aad3f368d73cf9ae2c5cb2845ba21fa1b1f925b1bd095dcf52df88",
+        "source": "Yahoo",
+        "datetime": 1792183503,
+        "headlineKo": "ServiceNow(NOW)가 시장 전반보다 더 큰 폭으로 하락한 이유는 다음과 같습니다."
+      }
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 247.59,
+      "current": 232.9,
+      "changePercent": -5.93,
+      "news": null
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "open": 677.76,
+      "current": 639.01,
+      "changePercent": -5.72,
+      "news": {
+        "headline": "Seagate Technology Holdings (STX) Eyes TDK HDD Head Deal As AI Storage Demand Builds",
+        "url": "https://finnhub.io/api/news?id=c130aaec47844670ea53514168c5879092389b5192598b77c5a8dfa0e51e2f33",
+        "source": "Yahoo",
+        "datetime": 1792174359,
+        "headlineKo": "AI 스토리지 수요 증가에 힘입어 시게이트 테크놀로지 홀딩스(STX), TDK HDD 헤드 인수 검토"
+      }
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 9.26,
+      "current": 9.775,
+      "changePercent": 5.56,
+      "news": null
+    },
+    {
+      "symbol": "TRV",
+      "name": "Travelers Companies (The)",
+      "sector": "Financials",
+      "open": 370,
+      "current": 389.54,
+      "changePercent": 5.28,
+      "news": {
+        "headline": "Travelers (TRV) Q3 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=d9771418d06d1853ed613020a433bdca839a14853458a83359ab333c4188994f",
+        "source": "Yahoo",
+        "datetime": 1792174390,
+        "headlineKo": "트래블러스(TRV) 2026년 3분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "open": 350.95,
+      "current": 332.73,
+      "changePercent": -5.19,
+      "news": null
+    },
+    {
+      "symbol": "UAL",
+      "name": "United Airlines Holdings",
+      "sector": "Industrials",
+      "open": 101.34,
+      "current": 96.1,
+      "changePercent": -5.17,
+      "news": {
+        "headline": "United Airlines: Higher Fares, Lower Profits, Still A 'Buy'",
+        "url": "https://finnhub.io/api/news?id=72dec96c2dae8dabebd88d536e5ef28d07d04b891d69bbf1765d7973ac175dc0",
+        "source": "SeekingAlpha",
+        "datetime": 1792137600,
+        "headlineKo": "유나이티드 항공: 운임은 올랐지만 이익은 줄었지만, 여전히 ‘매수’ 추천"
+      }
+    }
+  ]
 }
