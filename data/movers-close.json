@@ -1,7 +1,41 @@
 {
-  "generatedAt": "2026-10-19T19:09:48.848Z",
+  "generatedAt": "2026-10-19T23:53:47.386Z",
   "tradingDate": "2026-10-19",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 9.26,
+      "current": 9.775,
+      "changePercent": 5.56,
+      "news": null
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "open": 92.62,
+      "current": 87.54,
+      "changePercent": -5.48,
+      "news": null
+    },
+    {
+      "symbol": "NRG",
+      "name": "NRG Energy",
+      "sector": "Utilities",
+      "open": 104.71,
+      "current": 99.38,
+      "changePercent": -5.09,
+      "news": {
+        "headline": "NRG Energy, Inc. Announces Quarterly Dividend",
+        "url": "https://finnhub.io/api/news?id=5bd2a87de3f8882472828cfc696298a3094d77fc86fa2271393de7b25181e62c",
+        "source": "Yahoo",
+        "datetime": 1792407660,
+        "headlineKo": "NRG Energy, Inc., 분기 배당금 발표"
+      }
+    }
+  ]
 }
