@@ -1,7 +1,101 @@
 {
-  "generatedAt": "2026-10-20T17:51:00.096Z",
+  "generatedAt": "2026-10-20T23:19:33.076Z",
   "tradingDate": "2026-10-20",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "DVA",
+      "name": "DaVita",
+      "sector": "Health Care",
+      "open": 189.31,
+      "current": 175.35,
+      "changePercent": -7.37,
+      "news": null
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 226.03,
+      "current": 242.08,
+      "changePercent": 7.1,
+      "news": {
+        "headline": "Moderna: Sell The Cancer Vaccine Hype",
+        "url": "https://finnhub.io/api/news?id=a141060e79ad532325fb6aae42841b3f8307b37d1ac4af485f1ac9fafc450e75",
+        "source": "SeekingAlpha",
+        "datetime": 1792491293,
+        "headlineKo": "모더나: 암 백신에 대한 과대광고는 잊어라"
+      }
+    },
+    {
+      "symbol": "HAS",
+      "name": "Hasbro",
+      "sector": "Consumer Discretionary",
+      "open": 102.4,
+      "current": 109.52,
+      "changePercent": 6.95,
+      "news": {
+        "headline": "Hasbro Soars 11% as Magic: The Gathering Tops $600 Million and Outlook Rises: “Our Superpower”",
+        "url": "https://finnhub.io/api/news?id=44243b0b97bfa610e1a755493878a5a9927c782fd834482500f7b7f312431392",
+        "source": "Yahoo",
+        "datetime": 1792528430,
+        "headlineKo": "‘매직: 더 개더링’ 매출 6억 달러 돌파 및 전망 호조에 힘입어 해즈브로 주가 11% 급등: “우리의 초능력”"
+      }
+    },
+    {
+      "symbol": "EFX",
+      "name": "Equifax",
+      "sector": "Industrials",
+      "open": 166.11,
+      "current": 176.54,
+      "changePercent": 6.28,
+      "news": {
+        "headline": "Equifax Q3 Earnings Call Highlights",
+        "url": "https://finnhub.io/api/news?id=8ed1b0b5da71d219b85d469d63f4c7edf3d9bac6617fd31c1c9b5f2b80321d3b",
+        "source": "Yahoo",
+        "datetime": 1792526589,
+        "headlineKo": "에퀴팩스 3분기 실적 발표 전화회의 주요 내용"
+      }
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 9.26,
+      "current": 9.775,
+      "changePercent": 5.56,
+      "news": null
+    },
+    {
+      "symbol": "STLD",
+      "name": "Steel Dynamics",
+      "sector": "Materials",
+      "open": 232,
+      "current": 244.37,
+      "changePercent": 5.33,
+      "news": {
+        "headline": "Steel Dynamics (STLD) Q3 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=6e5cdfcd07cfc53a9900ba079fb538f2e4c8d319bcf20d92edc088715d4922ea",
+        "source": "Yahoo",
+        "datetime": 1792532639,
+        "headlineKo": "스틸 다이내믹스(STLD) 2026년 3분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "MMM",
+      "name": "3M",
+      "sector": "Industrials",
+      "open": 163,
+      "current": 171.37,
+      "changePercent": 5.13,
+      "news": {
+        "headline": "3M: 3 Key Takeaways for Long-Term Investors",
+        "url": "https://finnhub.io/api/news?id=7f5c46bcfc0ffe3825f8ad0e157422fc0e3a37e45564b7f57ac25a6bed6c911b",
+        "source": "Yahoo",
+        "datetime": 1792526966,
+        "headlineKo": "3M: 장기 투자자를 위한 3가지 핵심 포인트"
+      }
+    }
+  ]
 }
