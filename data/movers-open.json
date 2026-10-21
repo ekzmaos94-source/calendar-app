@@ -1,7 +1,101 @@
 {
-  "generatedAt": "2026-10-21T17:56:54.320Z",
+  "generatedAt": "2026-10-21T18:32:40.071Z",
   "tradingDate": "2026-10-21",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "CRL",
+      "name": "Charles River Laboratories",
+      "sector": "Health Care",
+      "open": 313.83,
+      "current": 345.7924,
+      "changePercent": 10.18,
+      "news": null
+    },
+    {
+      "symbol": "UAL",
+      "name": "United Airlines Holdings",
+      "sector": "Industrials",
+      "open": 97.5,
+      "current": 104.37,
+      "changePercent": 7.05,
+      "news": {
+        "headline": "United Airlines: 3 Key Takeaways for Long-Term Investors",
+        "url": "https://finnhub.io/api/news?id=92608be3981e7573bb8b31d0bf658ee60f3c3022d9e9de23f43c62a886dce211",
+        "source": "Yahoo",
+        "datetime": 1792603381,
+        "headlineKo": "유나이티드 항공: 장기 투자자를 위한 3가지 핵심 포인트"
+      }
+    },
+    {
+      "symbol": "DHR",
+      "name": "Danaher Corporation",
+      "sector": "Health Care",
+      "open": 217.56,
+      "current": 232.42,
+      "changePercent": 6.83,
+      "news": {
+        "headline": "Danaher (DHR) Q3 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=8ea9348803aa02e70717eca7ca248574a7f7e5080a42f6e152042dc8151b131b",
+        "source": "Yahoo",
+        "datetime": 1792603074,
+        "headlineKo": "다나허(DHR) 2026년 3분기 실적 발표 컨퍼런스콜 기록"
+      }
+    },
+    {
+      "symbol": "ISRG",
+      "name": "Intuitive Surgical",
+      "sector": "Health Care",
+      "open": 402.495,
+      "current": 429.74,
+      "changePercent": 6.77,
+      "news": {
+        "headline": "Intuitive Surgical Hammered As Elevated Buy-Side Views Outshine Solid Numbers",
+        "url": "https://finnhub.io/api/news?id=9e032ac5e9602b6ba0c000c123074509533d91cc3f372ef2da39d02bcb1a1369",
+        "source": "Yahoo",
+        "datetime": 1792601725,
+        "headlineKo": "견실한 실적보다 낙관적인 매수 측 전망이 더 부각되며 인튜이티브 서지컬 주가 급락"
+      }
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "open": 259.77,
+      "current": 277.1,
+      "changePercent": 6.67,
+      "news": {
+        "headline": "Arista Networks vs. Datadog: Which Technology Stock Is a Better Buy in 2026?",
+        "url": "https://finnhub.io/api/news?id=701f310f04ba1f08eed26771d996652dba505f5b3c73f58ef6c915979f9e0e03",
+        "source": "Yahoo",
+        "datetime": 1792593644,
+        "headlineKo": "아리스타 네트웍스 대 데이터독: 2026년에 어떤 기술주가 더 좋은 투자 대상일까?"
+      }
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 9.26,
+      "current": 9.775,
+      "changePercent": 5.56,
+      "news": null
+    },
+    {
+      "symbol": "PM",
+      "name": "Philip Morris International",
+      "sector": "Consumer Staples",
+      "open": 187.14,
+      "current": 196.635,
+      "changePercent": 5.07,
+      "news": {
+        "headline": "Philip Morris (PM) Passed 40% Smoke-Free Revenue, but Cigarettes Did the Growing",
+        "url": "https://finnhub.io/api/news?id=c5bbf02326b4d1ebc7f704568c1dcfcc6fff73923161ed3ab1483baa9d04af95",
+        "source": "Yahoo",
+        "datetime": 1792603843,
+        "headlineKo": "필립 모리스(PM)의 비흡연 관련 매출 비중이 40%를 넘어섰지만, 성장 동력은 담배 사업이었다."
+      }
+    }
+  ]
 }
