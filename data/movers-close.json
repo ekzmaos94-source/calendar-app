@@ -1,7 +1,671 @@
 {
-  "generatedAt": "2026-10-22T17:53:52.279Z",
+  "generatedAt": "2026-10-22T23:32:14.918Z",
   "tradingDate": "2026-10-22",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 240.0625,
+      "current": 202.63,
+      "changePercent": -15.59,
+      "news": {
+        "headline": "Dow Jones Futures: Moderna Crashes, Meta Fuels AI Meltdown, But Warren Buffett Market Thriving",
+        "url": "https://finnhub.io/api/news?id=f2043248724c6702d304287d04dbb5fe81c19e5c040b5136715db0bbddd5dc4f",
+        "source": "Yahoo",
+        "datetime": 1792706003,
+        "headlineKo": "다우존스 선물: 모더나 주가 폭락, 메타가 AI 시장 붕괴에 불을 지피지만 워런 버핏의 포트폴리오는 호조"
+      }
+    },
+    {
+      "symbol": "TSCO",
+      "name": "Tractor Supply",
+      "sector": "Consumer Discretionary",
+      "open": 30.81,
+      "current": 34.73,
+      "changePercent": 12.72,
+      "news": {
+        "headline": "Tractor Supply Company Q3 2026 Earnings Call Summary",
+        "url": "https://finnhub.io/api/news?id=41a473675d46c9690ec567611bb6df7e65f66cedbc82c53e31dacd059b9f310d",
+        "source": "Yahoo",
+        "datetime": 1792704340,
+        "headlineKo": "트랙터 서플라이 컴퍼니 2026년 3분기 실적 발표 회의 요약"
+      }
+    },
+    {
+      "symbol": "ROL",
+      "name": "Rollins, Inc.",
+      "sector": "Industrials",
+      "open": 31.84,
+      "current": 35.31,
+      "changePercent": 10.9,
+      "news": {
+        "headline": "What Rollins (ROL) Said on Its Q3 Earnings Call",
+        "url": "https://finnhub.io/api/news?id=5c356dac1f1e6d390d14c0b2715295475081ed185e1787622db57b7694d0558d",
+        "source": "Yahoo",
+        "datetime": 1792706658,
+        "headlineKo": "롤린스(ROL)가 3분기 실적 발표 컨퍼런스 콜에서 밝힌 내용"
+      }
+    },
+    {
+      "symbol": "BX",
+      "name": "Blackstone Inc.",
+      "sector": "Financials",
+      "open": 107.32,
+      "current": 118.75,
+      "changePercent": 10.65,
+      "news": {
+        "headline": "Blackstone’s Profits Fell, but Its Stock Rose 4%. Here’s What Dividend Investors See",
+        "url": "https://finnhub.io/api/news?id=ec0a8ae30d93ba559934f9c6416141d87f7fa000a80eca9926ffd8510fc29f53",
+        "source": "Yahoo",
+        "datetime": 1792696524,
+        "headlineKo": "블랙스톤의 이익은 감소했지만 주가는 4% 상승했다. 배당 투자자들이 주목하는 점은 다음과 같다."
+      }
+    },
+    {
+      "symbol": "BLDR",
+      "name": "Builders FirstSource",
+      "sector": "Industrials",
+      "open": 52.61,
+      "current": 57.54,
+      "changePercent": 9.37,
+      "news": null
+    },
+    {
+      "symbol": "LULU",
+      "name": "Lululemon Athletica",
+      "sector": "Consumer Discretionary",
+      "open": 95.37,
+      "current": 104.06,
+      "changePercent": 9.11,
+      "news": {
+        "headline": "Lululemon (LULU) Stock Looks Overvalued Following Its 78% Five Year Slump",
+        "url": "https://finnhub.io/api/news?id=379e8c7d6a8b1083cbcbb9894291f30f80263091bf10bac3ba1334757f483c89",
+        "source": "Yahoo",
+        "datetime": 1792674974,
+        "headlineKo": "룰루레몬(LULU) 주가, 5년간 78% 급락한 뒤 과대평가된 것으로 보인다"
+      }
+    },
+    {
+      "symbol": "LEN",
+      "name": "Lennar",
+      "sector": "Consumer Discretionary",
+      "open": 77.57,
+      "current": 84.45,
+      "changePercent": 8.87,
+      "news": {
+        "headline": "Lennar Announces Grand Opening of King Oaks in McDonough, Georgia",
+        "url": "https://finnhub.io/api/news?id=ff32fff419e37afff3fd6053042fbef5978174cfc35c894a0fe34d245d1f9226",
+        "source": "Yahoo",
+        "datetime": 1792674000,
+        "headlineKo": "레나르, 조지아주 맥도너에 위치한 ‘킹 오크스’의 그랜드 오픈 발표"
+      }
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "open": 31.02,
+      "current": 33.76,
+      "changePercent": 8.83,
+      "news": null
+    },
+    {
+      "symbol": "SNA",
+      "name": "Snap-on",
+      "sector": "Industrials",
+      "open": 329.9,
+      "current": 356.46,
+      "changePercent": 8.05,
+      "news": {
+        "headline": "Snap-on (SNA) Q3 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=60b359afdbc67844b4a4fe91776bbc312be8c57a28cb34444701d0175c0ce1a5",
+        "source": "Yahoo",
+        "datetime": 1792703170,
+        "headlineKo": "Snap-on (SNA) 2026년 3분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "VST",
+      "name": "Vistra Corp.",
+      "sector": "Utilities",
+      "open": 153,
+      "current": 140.83,
+      "changePercent": -7.95,
+      "news": {
+        "headline": "Why Vistra Corp. (VST) Dipped More Than Broader Market Today",
+        "url": "https://finnhub.io/api/news?id=2b831190294ac2fd94771ea4225e8490509a04a0ed96ccaa4b38a33db0646caa",
+        "source": "Yahoo",
+        "datetime": 1792701903,
+        "headlineKo": "오늘 비스트라(VST)의 주가가 왜 시장 전반보다 더 크게 하락했는가"
+      }
+    },
+    {
+      "symbol": "GEV",
+      "name": "GE Vernova",
+      "sector": "Industrials",
+      "open": 896,
+      "current": 827.42,
+      "changePercent": -7.65,
+      "news": {
+        "headline": "BofA stays ahead of the curve on GE Vernova as AI power demand surges",
+        "url": "https://finnhub.io/api/news?id=ddb07996dd363c6f9409c65869644e405e89a0980fd987c5d31b937e8bf34721",
+        "source": "Yahoo",
+        "datetime": 1792703820,
+        "headlineKo": "AI 전력 수요가 급증함에 따라 BofA는 GE Vernova 관련 동향에서 한발 앞서 나가고 있다"
+      }
+    },
+    {
+      "symbol": "PHM",
+      "name": "PulteGroup",
+      "sector": "Consumer Discretionary",
+      "open": 111.05,
+      "current": 119.48,
+      "changePercent": 7.59,
+      "news": {
+        "headline": "Pulte (PHM) Q3 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=4578ab721d9854654f9cd2a21ef83bc742db0d6243649867e923d41817615f44",
+        "source": "Yahoo",
+        "datetime": 1792691015,
+        "headlineKo": "Pulte (PHM) 2026년 3분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "ARES",
+      "name": "Ares Management",
+      "sector": "Financials",
+      "open": 114.99,
+      "current": 123.7,
+      "changePercent": 7.57,
+      "news": {
+        "headline": "Ares Management (ARES) Reports Next Week: Wall Street Expects Earnings Growth",
+        "url": "https://finnhub.io/api/news?id=2711d998410ea1207d3f7fc0fed27b53102ffe3796383f02527b3e8be446d501",
+        "source": "Yahoo",
+        "datetime": 1792674007,
+        "headlineKo": "아레스 매니지먼트(ARES), 다음 주 실적 발표 예정: 월가, 실적 성장 전망"
+      }
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "open": 82.87,
+      "current": 76.69,
+      "changePercent": -7.46,
+      "news": null
+    },
+    {
+      "symbol": "DGX",
+      "name": "Quest Diagnostics",
+      "sector": "Health Care",
+      "open": 226.5,
+      "current": 243.28,
+      "changePercent": 7.41,
+      "news": {
+        "headline": "Quest Diagnostics: 3 Key Takeaways for Long-Term Investors",
+        "url": "https://finnhub.io/api/news?id=89928f2caccbbd904ebe7cbcaf9a005ccada72b9c1790b16d99e543367422afc",
+        "source": "Yahoo",
+        "datetime": 1792693468,
+        "headlineKo": "퀘스트 다이아그노스틱스: 장기 투자자를 위한 3가지 핵심 포인트"
+      }
+    },
+    {
+      "symbol": "LUV",
+      "name": "Southwest Airlines",
+      "sector": "Industrials",
+      "open": 39.195,
+      "current": 42.03,
+      "changePercent": 7.23,
+      "news": {
+        "headline": "What Early Southwest Airlines Buyers Saw",
+        "url": "https://finnhub.io/api/news?id=fcb8cb8d6173e405692061bae86a717b64d21c6ca6e0795534209324ab92840c",
+        "source": "Yahoo",
+        "datetime": 1792703345,
+        "headlineKo": "사우스웨스트 항공의 초기 투자자들이 목격한 것"
+      }
+    },
+    {
+      "symbol": "ROP",
+      "name": "Roper Technologies",
+      "sector": "Information Technology",
+      "open": 407.78,
+      "current": 436.23,
+      "changePercent": 6.98,
+      "news": {
+        "headline": "Roper (ROP) Q3 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=cc16cb08ed07a3a289e24d2ec61d1809b17b4f4833e9552bed971180b3eb57f4",
+        "source": "Yahoo",
+        "datetime": 1792692924,
+        "headlineKo": "로퍼(ROP) 2026년 3분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "ACN",
+      "name": "Accenture",
+      "sector": "Information Technology",
+      "open": 242,
+      "current": 258.74,
+      "changePercent": 6.92,
+      "news": {
+        "headline": "What Is Accenture (ACN) Signaling With Its Federal AI Push And China Review?",
+        "url": "https://finnhub.io/api/news?id=777a33d0d411e54a2ca9bd565a2678061753ac57d43c54a5b8bda0470f6d072c",
+        "source": "Yahoo",
+        "datetime": 1792692613,
+        "headlineKo": "액센츄어(ACN)는 연방 정부 대상 AI 추진과 중국 사업 재검토를 통해 무엇을 시사하고 있는가?"
+      }
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 223.15,
+      "current": 207.82,
+      "changePercent": -6.87,
+      "news": {
+        "headline": "Coherent Named One of TIME’s America’s Growth Leaders 2027",
+        "url": "https://finnhub.io/api/news?id=52de4d1458ca23c538a0f6415adf8b404fc738624ad6c2e57826b0fd1013fdb6",
+        "source": "Yahoo",
+        "datetime": 1792692900,
+        "headlineKo": "코히어런트, ‘타임’지 선정 ‘2027년 미국 성장 리더’ 중 하나로 꼽혀"
+      }
+    },
+    {
+      "symbol": "GIS",
+      "name": "General Mills",
+      "sector": "Consumer Staples",
+      "open": 32.92,
+      "current": 35.18,
+      "changePercent": 6.87,
+      "news": {
+        "headline": "Kraft Heinz (KHC) vs. GIS and CAG: Can Strong Cash Generation and Debt Paydown Revive a Forgotten Consumer Staples Stock?",
+        "url": "https://finnhub.io/api/news?id=e88df3a726640eedf3e3cb1b67f31c821838802a70b359b3dfd952bc1cbe6f96",
+        "source": "Yahoo",
+        "datetime": 1792700894,
+        "headlineKo": "크래프트 하인즈(KHC) 대 GIS 및 CAG: 강력한 현금 창출과 부채 상환이 잊혀진 소비재 주식을 되살릴 수 있을까?"
+      }
+    },
+    {
+      "symbol": "UNP",
+      "name": "Union Pacific Corporation",
+      "sector": "Industrials",
+      "open": 280.1,
+      "current": 298.09,
+      "changePercent": 6.42,
+      "news": {
+        "headline": "Union Pacific Corporation Q3 2026 Earnings Call Summary",
+        "url": "https://finnhub.io/api/news?id=44f6aaa79d0bd7beb721954d91834e502890e75acdf392cf87f4781f8a317d2d",
+        "source": "Yahoo",
+        "datetime": 1792704194,
+        "headlineKo": "유니온 퍼시픽 코퍼레이션 2026년 3분기 실적 발표 전화 회의 요약"
+      }
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "open": 804.06,
+      "current": 752.54,
+      "changePercent": -6.41,
+      "news": {
+        "headline": "Optics Stocks Tumble as Tech Selloff Deepens Ahead of Earnings: Coherent Tumbles 12%, Applied Optoelectronics Drops 10%, Lumentum Falls 9%",
+        "url": "https://finnhub.io/api/news?id=a27bbb91413423e8aebb42d3eb1f75d0733f821f6645cb3948e88f46eafbe471",
+        "source": "Yahoo",
+        "datetime": 1792689005,
+        "headlineKo": "실적 발표를 앞두고 기술주 매도세가 심화되면서 광학 관련주 급락: 코히어런트 12% 급락, 애플라이드 옵토일렉트로닉스 10% 하락, 루멘텀 9% 하락"
+      }
+    },
+    {
+      "symbol": "DHI",
+      "name": "D. R. Horton",
+      "sector": "Consumer Discretionary",
+      "open": 138.97,
+      "current": 147.66,
+      "changePercent": 6.25,
+      "news": {
+        "headline": "D.R. Horton (DHI) Cuts 2026 Outlook Following Sales Miss While Undervalued Narrative Holds",
+        "url": "https://finnhub.io/api/news?id=8018149ff8fc79897ce4fdecd07154cf1825fb0e57642efefb9d482e5491c838",
+        "source": "Yahoo",
+        "datetime": 1792675100,
+        "headlineKo": "D.R. Horton(DHI), 매출 부진으로 2026년 실적 전망 하향 조정… ‘저평가’ 논리는 여전히 유효"
+      }
+    },
+    {
+      "symbol": "Q",
+      "name": "Qnity Electronics",
+      "sector": "Information Technology",
+      "open": 116,
+      "current": 108.78,
+      "changePercent": -6.22,
+      "news": null
+    },
+    {
+      "symbol": "PWR",
+      "name": "Quanta Services",
+      "sector": "Industrials",
+      "open": 588.38,
+      "current": 552.44,
+      "changePercent": -6.11,
+      "news": {
+        "headline": "Quanta Services Stock Gains A Data Center Buildout Angle",
+        "url": "https://finnhub.io/api/news?id=12fa7e48a87be8daf0033df3eaaf5ecc1f7cac96ad26764f79418ed4473896d9",
+        "source": "Yahoo",
+        "datetime": 1792682297,
+        "headlineKo": "퀀타 서비스, 데이터센터 확충 기대감에 주가 상승"
+      }
+    },
+    {
+      "symbol": "NVR",
+      "name": "NVR, Inc.",
+      "sector": "Consumer Discretionary",
+      "open": 5760.215,
+      "current": 6110.63,
+      "changePercent": 6.08,
+      "news": {
+        "headline": "NVR (NYSE:NVR) reports sales below analyst estimates in Q3 2026 earnings",
+        "url": "https://finnhub.io/api/news?id=6ef3fae367af3cb3b328891468d71ad13fcb6c66ec066169ecae424b8f706058",
+        "source": "Yahoo",
+        "datetime": 1792700144,
+        "headlineKo": "NVR(NYSE:NVR)이 2026년 3분기 실적 발표에서 애널리스트 예상치를 밑도는 매출을 기록했다고 밝혔다."
+      }
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "open": 343.48,
+      "current": 322.64,
+      "changePercent": -6.07,
+      "news": {
+        "headline": "Is Ciena Stock Really Expensive?",
+        "url": "https://finnhub.io/api/news?id=8af625d7b45b9ca754600deba47ab3c744b3dc4d4f6dbb495f4ec8f9829be73c",
+        "source": "Yahoo",
+        "datetime": 1792697768,
+        "headlineKo": "시엔나 주가는 정말 비싼 걸까?"
+      }
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "open": 221.23,
+      "current": 234.44,
+      "changePercent": 5.97,
+      "news": {
+        "headline": "Why Did IBM Stock Beat Gartner Over Five Years?",
+        "url": "https://finnhub.io/api/news?id=c802d748fea5e67339a43a98b8633b7b3a339a3bfc75c3fae2f7d0959034edd2",
+        "source": "Yahoo",
+        "datetime": 1792684964,
+        "headlineKo": "IBM 주가는 왜 지난 5년 동안 가트너를 앞질렀을까?"
+      }
+    },
+    {
+      "symbol": "EXPE",
+      "name": "Expedia Group",
+      "sector": "Consumer Discretionary",
+      "open": 281.79,
+      "current": 298.49,
+      "changePercent": 5.93,
+      "news": null
+    },
+    {
+      "symbol": "KEYS",
+      "name": "Keysight Technologies",
+      "sector": "Information Technology",
+      "open": 331.11,
+      "current": 311.52,
+      "changePercent": -5.92,
+      "news": null
+    },
+    {
+      "symbol": "PNR",
+      "name": "Pentair",
+      "sector": "Industrials",
+      "open": 52.38,
+      "current": 55.44,
+      "changePercent": 5.84,
+      "news": null
+    },
+    {
+      "symbol": "KHC",
+      "name": "Kraft Heinz",
+      "sector": "Consumer Staples",
+      "open": 23.72,
+      "current": 25.09,
+      "changePercent": 5.78,
+      "news": {
+        "headline": "Kraft Heinz (KHC) vs. GIS and CAG: Can Strong Cash Generation and Debt Paydown Revive a Forgotten Consumer Staples Stock?",
+        "url": "https://finnhub.io/api/news?id=e88df3a726640eedf3e3cb1b67f31c821838802a70b359b3dfd952bc1cbe6f96",
+        "source": "Yahoo",
+        "datetime": 1792700894,
+        "headlineKo": "크래프트 하인즈(KHC) 대 GIS 및 CAG: 강력한 현금 창출과 부채 상환이 잊혀진 소비재 주식을 되살릴 수 있을까?"
+      }
+    },
+    {
+      "symbol": "FIX",
+      "name": "Comfort Systems USA",
+      "sector": "Industrials",
+      "open": 1357.5,
+      "current": 1279.37,
+      "changePercent": -5.76,
+      "news": {
+        "headline": "Comfort Systems USA, Inc. Announces Retirement of CFO William George and Promotion of Julie Shaeff",
+        "url": "https://finnhub.io/api/news?id=d99e9bcd58146ffdc0a82ce55be3aca3dba23ae61d23074870ee7139a1c201e6",
+        "source": "Fintel",
+        "datetime": 1792703706,
+        "headlineKo": "컴포트 시스템즈 USA, Inc., 윌리엄 조지 최고재무책임자(CFO)의 은퇴 및 줄리 셰프의 승진 발표"
+      }
+    },
+    {
+      "symbol": "BXP",
+      "name": "BXP, Inc.",
+      "sector": "Real Estate",
+      "open": 58.23,
+      "current": 61.49,
+      "changePercent": 5.6,
+      "news": null
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 9.26,
+      "current": 9.775,
+      "changePercent": 5.56,
+      "news": null
+    },
+    {
+      "symbol": "AOS",
+      "name": "A. O. Smith",
+      "sector": "Industrials",
+      "open": 59.27,
+      "current": 62.47,
+      "changePercent": 5.4,
+      "news": {
+        "headline": "Earnings Preview: A.O. Smith (AOS) Q3 Earnings Expected to Decline",
+        "url": "https://finnhub.io/api/news?id=7417f2723586674325f963754c5145a470a1503ab192a58faa579a6d9254d315",
+        "source": "Yahoo",
+        "datetime": 1792674019,
+        "headlineKo": "실적 전망: A.O. Smith(AOS) 3분기 실적 감소 예상"
+      }
+    },
+    {
+      "symbol": "NDAQ",
+      "name": "Nasdaq, Inc.",
+      "sector": "Financials",
+      "open": 98.15,
+      "current": 103.3,
+      "changePercent": 5.25,
+      "news": {
+        "headline": "Nasdaq (NDAQ) Q3 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=6df1ba5e4ff9aa4656f539ede6c401a6a8f32c478e96908ae87829c225c2f00a",
+        "source": "Yahoo",
+        "datetime": 1792692924,
+        "headlineKo": "나스닥(NDAQ) 2026년 3분기 실적 발표 회의록"
+      }
+    },
+    {
+      "symbol": "SWK",
+      "name": "Stanley Black & Decker",
+      "sector": "Industrials",
+      "open": 94.03,
+      "current": 98.97,
+      "changePercent": 5.25,
+      "news": null
+    },
+    {
+      "symbol": "CTSH",
+      "name": "Cognizant",
+      "sector": "Information Technology",
+      "open": 70.05,
+      "current": 73.72,
+      "changePercent": 5.24,
+      "news": {
+        "headline": "Cognizant (CTSH) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+        "url": "https://finnhub.io/api/news?id=3764755a1ffe337275e0c2413d42512afe3e18daa1c06d217b68acae30097405",
+        "source": "Yahoo",
+        "datetime": 1792674008,
+        "headlineKo": "코그니전트(CTSH), 실적 증가 전망: 다음 주 실적 발표를 앞두고 알아야 할 점"
+      }
+    },
+    {
+      "symbol": "AWK",
+      "name": "American Water Works",
+      "sector": "Utilities",
+      "open": 136.14,
+      "current": 143.23,
+      "changePercent": 5.21,
+      "news": {
+        "headline": "What You Need to Know Ahead of American Water Works’ Earnings Release",
+        "url": "https://finnhub.io/api/news?id=cf336859092a6edbd95a0c09f46b5109bc50fb260e8af2d4481c240f18fdf648",
+        "source": "Yahoo",
+        "datetime": 1792650888,
+        "headlineKo": "아메리칸 워터 웍스의 실적 발표를 앞두고 알아두어야 할 사항"
+      }
+    },
+    {
+      "symbol": "DVA",
+      "name": "DaVita",
+      "sector": "Health Care",
+      "open": 176.89,
+      "current": 186.1,
+      "changePercent": 5.21,
+      "news": {
+        "headline": "DaVita Stock Gains 55.6% Year to Date: What's Behind the Rally?",
+        "url": "https://finnhub.io/api/news?id=62fd12e5080b12b6263d31d607a9f1b4d07b54f3d1d98dbe99a2fb7960637686",
+        "source": "Yahoo",
+        "datetime": 1792690680,
+        "headlineKo": "다비타 주가, 연초 대비 55.6% 상승: 상승세의 배경은 무엇일까?"
+      }
+    },
+    {
+      "symbol": "ECHO",
+      "name": "EchoStar",
+      "sector": "Communication Services",
+      "open": 90.5,
+      "current": 85.79,
+      "changePercent": -5.2,
+      "news": null
+    },
+    {
+      "symbol": "APH",
+      "name": "Amphenol",
+      "sector": "Information Technology",
+      "open": 77.06,
+      "current": 73.07,
+      "changePercent": -5.18,
+      "news": {
+        "headline": "What Is Amphenol's Management Stressing Now?",
+        "url": "https://finnhub.io/api/news?id=b62acc0dccf68ff977a00dc74eb100c0abb420de6729f137eaa81d0dcb34bd6b",
+        "source": "Yahoo",
+        "datetime": 1792689970,
+        "headlineKo": "현재 앰페놀 경영진은 무엇을 강조하고 있는가?"
+      }
+    },
+    {
+      "symbol": "CEG",
+      "name": "Constellation Energy",
+      "sector": "Utilities",
+      "open": 269,
+      "current": 255.21,
+      "changePercent": -5.13,
+      "news": {
+        "headline": "Musk Says AI Is Short on Power. Here’s Why Constellation Energy Still Has a Rules Problem",
+        "url": "https://finnhub.io/api/news?id=f16a00de444a6d6fca384b08a91a2ad9f20054ef46b5fe741b893d91aef60ee6",
+        "source": "Yahoo",
+        "datetime": 1792700944,
+        "headlineKo": "머스크, “AI는 전력 공급이 부족하다”고 말했다. 그럼에도 콘스텔레이션 에너지가 여전히 규제 문제를 안고 있는 이유는 다음과 같다."
+      }
+    },
+    {
+      "symbol": "BBY",
+      "name": "Best Buy",
+      "sector": "Consumer Discretionary",
+      "open": 94.99,
+      "current": 99.83,
+      "changePercent": 5.1,
+      "news": {
+        "headline": "Best Buy (BBY) is a Top Dividend Stock Right Now: Should You Buy?",
+        "url": "https://finnhub.io/api/news?id=fc3d4bc7b265512e659d51808c3781ca6529703595322e1024b3b78aa6eaa385",
+        "source": "Yahoo",
+        "datetime": 1792680302,
+        "headlineKo": "베스트바이(BBY)는 현재 최고의 배당주입니다: 매수해야 할까요?"
+      }
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "open": 271.49,
+      "current": 257.75,
+      "changePercent": -5.06,
+      "news": {
+        "headline": "Datadog Reportedly Bids Nearly $4B For Cloud Security Startup Upwind To Fortify AI Defenses",
+        "url": "https://finnhub.io/api/news?id=192ffba332302c422a15275b1c0ddbefb046899d121e3b3e7e11961740f229a2",
+        "source": "Yahoo",
+        "datetime": 1792698819,
+        "headlineKo": "데이터독, AI 방어 체계 강화 위해 클라우드 보안 스타트업 업윈드에 약 40억 달러에 달하는 인수 제안을 한 것으로 전해졌다"
+      }
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "open": 109.25,
+      "current": 114.73,
+      "changePercent": 5.02,
+      "news": {
+        "headline": "GoDaddy (GDDY) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+        "url": "https://finnhub.io/api/news?id=8970bb1a96bddd2d492211cdd8c5b79ac72132ab09868bc1829ea6254c4d1ecb",
+        "source": "Yahoo",
+        "datetime": 1792674010,
+        "headlineKo": "GoDaddy(GDDY) 실적 증가 전망: 다음 주 실적 발표를 앞두고 알아야 할 점"
+      }
+    },
+    {
+      "symbol": "MAS",
+      "name": "Masco",
+      "sector": "Industrials",
+      "open": 74.32,
+      "current": 78.05,
+      "changePercent": 5.02,
+      "news": null
+    },
+    {
+      "symbol": "PH",
+      "name": "Parker Hannifin",
+      "sector": "Industrials",
+      "open": 940.26,
+      "current": 893.21,
+      "changePercent": -5,
+      "news": {
+        "headline": "Global Aircraft Wheels Market Size, Share, Trends, and Strategic Forecast, 2026-2031 Featuring Analysis of Key Players Safran, Collins Aerospace, Honeywell, and Parker Hannifin",
+        "url": "https://finnhub.io/api/news?id=de15140709084a7a2c71a23f208c7363798f3767e01b42d93ff7e8d9e9a8bb55",
+        "source": "Yahoo",
+        "datetime": 1792679580,
+        "headlineKo": "2026-2031년 글로벌 항공기 휠 시장 규모, 점유율, 동향 및 전략적 전망: 주요 기업인 사프란(Safran), 콜린스 에어로스페이스(Collins Aerospace), 허니웰(Honeywell), 파커 해니핀(Parker Hannifin)에 대한 분석 포함"
+      }
+    }
+  ]
 }
