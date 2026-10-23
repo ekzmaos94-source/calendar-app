@@ -1,7 +1,116 @@
 {
-  "generatedAt": "2026-10-23T17:47:53.016Z",
+  "generatedAt": "2026-10-23T23:23:32.948Z",
   "tradingDate": "2026-10-23",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "open": 238.5,
+      "current": 257.57,
+      "changePercent": 8,
+      "news": {
+        "headline": "Palo Alto and Crowdstrike Jumped 6%, and Okta Up 5% as Evercore Survey Flags Stronger Cyber Demand",
+        "url": "https://finnhub.io/api/news?id=1eb186d8707c50fc8239ada263e826653373e571904500e3e2b811a2556cb24c",
+        "source": "Yahoo",
+        "datetime": 1792779389,
+        "headlineKo": "에버코어(Evercore)의 설문조사에서 사이버 보안 수요가 증가할 것으로 전망되면서, 팔로알토(Palo Alto)와 크라우드스트라이크(Crowdstrike)는 6% 급등했고, 옥타(Okta)는 5% 상승했다."
+      }
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "open": 354.3,
+      "current": 380.55,
+      "changePercent": 7.41,
+      "news": {
+        "headline": "Palo Alto Networks Fuels Resilience With Cybersecurity Tools",
+        "url": "https://finnhub.io/api/news?id=2aba83cd5e58dcc1bf2539012a0ccd9dc8123dc53125d5843106c530b05b1966",
+        "source": "Yahoo",
+        "datetime": 1792758637,
+        "headlineKo": "팔로알토 네트웍스, 사이버 보안 도구로 회복탄력성 강화"
+      }
+    },
+    {
+      "symbol": "GL",
+      "name": "Globe Life",
+      "sector": "Financials",
+      "open": 166.06,
+      "current": 154.79,
+      "changePercent": -6.79,
+      "news": {
+        "headline": "GL Q3 deep dive: Medicare claims and group health volatility weigh on margins",
+        "url": "https://finnhub.io/api/news?id=f893ac67cf259ff33d1879cdcb3fe43f2218566257286c5b2e5690d4f08d8dd9",
+        "source": "Yahoo",
+        "datetime": 1792789959,
+        "headlineKo": "GL 3분기 심층 분석: 메디케어 청구 건수와 단체 건강보험의 변동성이 마진에 부담을 주고 있다"
+      }
+    },
+    {
+      "symbol": "SLB",
+      "name": "Schlumberger",
+      "sector": "Energy",
+      "open": 49.96,
+      "current": 53.06,
+      "changePercent": 6.2,
+      "news": {
+        "headline": "SLB (SLB) Q3 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=d062f47711765c9d2f51762689cc187140eaaab22296185a83d4a6837c19d832",
+        "source": "Yahoo",
+        "datetime": 1792779195,
+        "headlineKo": "SLB (SLB) 2026년 3분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "AMT",
+      "name": "American Tower",
+      "sector": "Real Estate",
+      "open": 200.72,
+      "current": 188.97,
+      "changePercent": -5.85,
+      "news": {
+        "headline": "American Tower Stock Before Q3 Earnings: Smart Buy or Risky Move?",
+        "url": "https://finnhub.io/api/news?id=344902538d18f9cfeaa636bdc4d8503b18dae0ae3e0469d8f9e1172c330589a7",
+        "source": "Yahoo",
+        "datetime": 1792759500,
+        "headlineKo": "3분기 실적 발표를 앞둔 아메리칸 타워 주가: 현명한 매수 기회인가, 위험한 선택인가?"
+      }
+    },
+    {
+      "symbol": "SBAC",
+      "name": "SBA Communications",
+      "sector": "Real Estate",
+      "open": 196.06,
+      "current": 184.75,
+      "changePercent": -5.77,
+      "news": null
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 9.26,
+      "current": 9.775,
+      "changePercent": 5.56,
+      "news": null
+    },
+    {
+      "symbol": "CCI",
+      "name": "Crown Castle",
+      "sector": "Real Estate",
+      "open": 91.02,
+      "current": 85.97,
+      "changePercent": -5.55,
+      "news": {
+        "headline": "Crown Castle Soars 12% on Reported SpaceX Talks for 80,000 Cell Sites: “A Point of No Return”",
+        "url": "https://finnhub.io/api/news?id=9eed813e60032b8922075294b392f6459c2fe18df7b790181c054bfdb938c6f4",
+        "source": "Yahoo",
+        "datetime": 1792766041,
+        "headlineKo": "크라운 캐슬, 스페이스X와 8만 개 기지국 관련 협상 보도에 주가가 12% 급등: “돌이킬 수 없는 지점”"
+      }
+    }
+  ]
 }
