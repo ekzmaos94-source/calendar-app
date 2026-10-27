@@ -1,7 +1,212 @@
 {
-  "generatedAt": "2026-10-27T18:36:25.041Z",
+  "generatedAt": "2026-10-27T23:56:36.686Z",
   "tradingDate": "2026-10-27",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "XYL",
+      "name": "Xylem Inc.",
+      "sector": "Industrials",
+      "open": 102,
+      "current": 92.86,
+      "changePercent": -8.96,
+      "news": {
+        "headline": "Why Xylem (XYL) stock is nosediving",
+        "url": "https://finnhub.io/api/news?id=186d10c1865a4ba79f284701eaa695b727703b16d799305c69c0dbdcd433773a",
+        "source": "Yahoo",
+        "datetime": 1793135927,
+        "headlineKo": "Xylem(XYL) 주가가 급락하는 이유"
+      }
+    },
+    {
+      "symbol": "BA",
+      "name": "Boeing",
+      "sector": "Industrials",
+      "open": 183.5,
+      "current": 168.18,
+      "changePercent": -8.35,
+      "news": {
+        "headline": "Boeing stock has its worst day since 2020 as the 737 ramp slips into 2027",
+        "url": "https://finnhub.io/api/news?id=ce50f9a507e389721792b1b500cb8dee65b6220565584ecf1cf109e7ba852f4d",
+        "source": "Yahoo",
+        "datetime": 1793128327,
+        "headlineKo": "737 생산 라인 가동 시기가 2027년으로 미뤄지면서 보잉 주가는 2020년 이후 최악의 하루를 기록했습니다."
+      }
+    },
+    {
+      "symbol": "VLO",
+      "name": "Valero Energy",
+      "sector": "Energy",
+      "open": 420.34,
+      "current": 387.34,
+      "changePercent": -7.85,
+      "news": {
+        "headline": "Valero Energy (NYSE:VLO) Breakout Setup Backed by 10/10 Technical Strength",
+        "url": "https://finnhub.io/api/news?id=e4472f17570fde5b559037ecbe088b8d0d36c56df804b1741059fb7a341426ae",
+        "source": "ChartMill",
+        "datetime": 1793106653,
+        "headlineKo": "발레로 에너지(NYSE:VLO), 10/10의 기술적 강세를 바탕으로 한 상승 돌파 구도"
+      }
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 193,
+      "current": 207.97,
+      "changePercent": 7.76,
+      "news": {
+        "headline": "Scancell cancer vaccine strategy backed by Moderna and Merck trial results",
+        "url": "https://finnhub.io/api/news?id=effb6cd8e63c3087ea69c182a67308cf2a7119af20df7394f323db0e5ed597a5",
+        "source": "Yahoo",
+        "datetime": 1793115000,
+        "headlineKo": "모더나와 머크의 임상시험 결과가 스캔셀의 암 백신 전략을 뒷받침하고 있다"
+      }
+    },
+    {
+      "symbol": "MPC",
+      "name": "Marathon Petroleum",
+      "sector": "Energy",
+      "open": 466.66,
+      "current": 435.98,
+      "changePercent": -6.57,
+      "news": {
+        "headline": "Marathon Petroleum (MPC) Stock Falls Amid Market Uptick: What Investors Need to Know",
+        "url": "https://finnhub.io/api/news?id=a36b320d834f7cc6b2106c978c607ffaf9459a309fc5f329f222eb7a07f7fdab",
+        "source": "Yahoo",
+        "datetime": 1793133903,
+        "headlineKo": "시장 상승세 속 마라톤 페트롤리엄(MPC) 주가 하락: 투자자들이 알아야 할 점"
+      }
+    },
+    {
+      "symbol": "HCA",
+      "name": "HCA Healthcare",
+      "sector": "Health Care",
+      "open": 480,
+      "current": 449.96,
+      "changePercent": -6.26,
+      "news": {
+        "headline": "HCA Healthcare (HCA) Stock May Be 46% Undervalued Following Cape Coral Hospital Incentives",
+        "url": "https://finnhub.io/api/news?id=33b64404185a1381dab7852af75499249d1c423f8d11bb6862b5ccbd80f63f37",
+        "source": "Yahoo",
+        "datetime": 1793131752,
+        "headlineKo": "케이프 코럴 병원 인센티브 조치로 인해 HCA 헬스케어(HCA) 주가가 46% 저평가되었을 수 있다"
+      }
+    },
+    {
+      "symbol": "PSX",
+      "name": "Phillips 66",
+      "sector": "Energy",
+      "open": 286.43,
+      "current": 268.53,
+      "changePercent": -6.25,
+      "news": {
+        "headline": "How to Earn $500 a Month From Phillips 66 Stock Ahead of Q3 Earnings",
+        "url": "https://finnhub.io/api/news?id=a6a05a1e3a5a15cc5106c42eaac96d435fbfd016d62e34315e5f29058972d21b",
+        "source": "Yahoo",
+        "datetime": 1793122208,
+        "headlineKo": "3분기 실적 발표를 앞두고 필립스 66 주식으로 매달 500달러를 버는 방법"
+      }
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "open": 474,
+      "current": 501.96,
+      "changePercent": 5.9,
+      "news": {
+        "headline": "Why is Dell (DELL) stock soaring today",
+        "url": "https://finnhub.io/api/news?id=2155d736370c538bcb8fb565e2aab37fc25f2121a3f794084c4430c1574f9bc9",
+        "source": "Yahoo",
+        "datetime": 1793137367,
+        "headlineKo": "오늘 델(DELL) 주가가 왜 급등하고 있을까"
+      }
+    },
+    {
+      "symbol": "ARE",
+      "name": "Alexandria Real Estate Equities",
+      "sector": "Real Estate",
+      "open": 43.4,
+      "current": 40.86,
+      "changePercent": -5.85,
+      "news": {
+        "headline": "Alexandria Real Estate Equities Q3 Earnings Call Highlights",
+        "url": "https://finnhub.io/api/news?id=eeb66163fae0ebb69a37cdf22a66666809ff6dc97b561308d7317b999d28eafb",
+        "source": "Yahoo",
+        "datetime": 1793135072,
+        "headlineKo": "알렉산드리아 리얼 에스테이트 이쿼티즈 3분기 실적 발표 전화회의 주요 내용"
+      }
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "open": 359.95,
+      "current": 380.88,
+      "changePercent": 5.81,
+      "news": {
+        "headline": "Down More Than 50% From Its High, Is Western Digital Stock a Buy?",
+        "url": "https://finnhub.io/api/news?id=caa0e6b1a108300d0f7441f69b3d702fdb181cdc4f8b3c7aa8b099c59fdf5111",
+        "source": "Yahoo",
+        "datetime": 1793119502,
+        "headlineKo": "최고가 대비 50% 이상 하락한 웨스턴디지털 주식, 매수할 만한가?"
+      }
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 9.26,
+      "current": 9.775,
+      "changePercent": 5.56,
+      "news": null
+    },
+    {
+      "symbol": "UHS",
+      "name": "Universal Health Services",
+      "sector": "Health Care",
+      "open": 187.32,
+      "current": 177.32,
+      "changePercent": -5.34,
+      "news": {
+        "headline": "Universal Health Services-B (NYSE:UHS) Q3 2026 Results In Line, Shares Fall on EBITDA Decline",
+        "url": "https://finnhub.io/api/news?id=0d3101f073ea4e43159d4f950dde7d797f810df1b8dc2a5352649103af99fc03",
+        "source": "ChartMill",
+        "datetime": 1793137141,
+        "headlineKo": "유니버설 헬스 서비스-B(NYSE:UHS), 2026년 3분기 실적은 예상치와 일치했으나 EBITDA 감소로 주가 하락"
+      }
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "open": 33.34,
+      "current": 35.09,
+      "changePercent": 5.25,
+      "news": {
+        "headline": "SMCI-Backed Argentum AI In Talks To Secure $5B To Finance Chip Buying: Report",
+        "url": "https://finnhub.io/api/news?id=b2cb29e414eefdc794b4ee5f46408b954b4e2e4b4cb63c1fa0fbf285f9c200fe",
+        "source": "Yahoo",
+        "datetime": 1793120913,
+        "headlineKo": "SMCI가 투자한 아르젠텀 AI, 반도체 매입 자금 조달을 위해 50억 달러 확보 협의 중: 보도에 따르면"
+      }
+    },
+    {
+      "symbol": "MOS",
+      "name": "Mosaic Company (The)",
+      "sector": "Materials",
+      "open": 17.89,
+      "current": 18.79,
+      "changePercent": 5.03,
+      "news": {
+        "headline": "Earnings Preview: Mosaic (MOS) Q3 Earnings Expected to Decline",
+        "url": "https://finnhub.io/api/news?id=c719fd4e091ba69087c42df7e309bcca300bf68d0a9133ec2c5eddab83bf2c67",
+        "source": "Yahoo",
+        "datetime": 1793106008,
+        "headlineKo": "실적 전망: 모자이크(MOS) 3분기 실적 감소 예상"
+      }
+    }
+  ]
 }
