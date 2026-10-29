@@ -1,7 +1,167 @@
 {
-  "generatedAt": "2026-10-28T18:42:50.667Z",
+  "generatedAt": "2026-10-29T00:17:51.791Z",
   "tradingDate": "2026-10-28",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "FFIV",
+      "name": "F5, Inc.",
+      "sector": "Information Technology",
+      "open": 421.305,
+      "current": 365.53,
+      "changePercent": -13.24,
+      "news": {
+        "headline": "F5: Fiscal Q4 Earnings Snapshot",
+        "url": "https://finnhub.io/api/news?id=770671461f2e4a56c6d18bebf5c47ec0dc37a5eaddf8ed46da953bf58b34529b",
+        "source": "Yahoo",
+        "datetime": 1793212465,
+        "headlineKo": "F5: 회계연도 4분기 실적 개요"
+      }
+    },
+    {
+      "symbol": "IP",
+      "name": "International Paper",
+      "sector": "Materials",
+      "open": 31.15,
+      "current": 34.48,
+      "changePercent": 10.69,
+      "news": {
+        "headline": "International Paper (IP) Q3 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=f502f4086d5c4604be8768444be8923fa682e11b3dd7c9b999faa0fd97d30d7f",
+        "source": "Yahoo",
+        "datetime": 1793211409,
+        "headlineKo": "인터내셔널 페이퍼(IP) 2026년 3분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "sector": "Information Technology",
+      "open": 131.32,
+      "current": 144.54,
+      "changePercent": 10.07,
+      "news": {
+        "headline": "Oracle Stock Rallies As Upbeat Revenue, Cash Flow Forecasts Ease AI Jitters",
+        "url": "https://finnhub.io/api/news?id=239f97316f999980cf773c831f3373fa452e3c91c549bf6e6cef0f1b24e66dd1",
+        "source": "Yahoo",
+        "datetime": 1793223227,
+        "headlineKo": "긍정적인 매출 및 현금 흐름 전망이 AI 관련 우려를 누그러뜨리면서 오라클 주가가 급등했다"
+      }
+    },
+    {
+      "symbol": "CSGP",
+      "name": "CoStar Group",
+      "sector": "Real Estate",
+      "open": 30,
+      "current": 27.54,
+      "changePercent": -8.2,
+      "news": {
+        "headline": "CoStar’s Vexcel Acquisition Adds Aerial Imagery for $730M",
+        "url": "https://finnhub.io/api/news?id=11f9f1077b3e95809d887e347066573b5df4f46d56802736834713de8b222a53",
+        "source": "Yahoo",
+        "datetime": 1793215511,
+        "headlineKo": "코스타(CoStar), 7억 3천만 달러에 벡셀(Vexcel) 인수… 항공 사진 데이터 확보"
+      }
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "open": 648.58,
+      "current": 697.97,
+      "changePercent": 7.62,
+      "news": {
+        "headline": "Seagate Technology: 3 Key Takeaways for Long-Term Investors",
+        "url": "https://finnhub.io/api/news?id=26c20db998810473bfa12a041bb82cf10fd0b04fe620845c8882420c2dd7b8d8",
+        "source": "Yahoo",
+        "datetime": 1793208582,
+        "headlineKo": "시게이트 테크놀로지: 장기 투자자를 위한 3가지 핵심 포인트"
+      }
+    },
+    {
+      "symbol": "ODFL",
+      "name": "Old Dominion",
+      "sector": "Industrials",
+      "open": 186.52,
+      "current": 173.32,
+      "changePercent": -7.08,
+      "news": {
+        "headline": "Old Dominion revenue jumps 13% as density increases",
+        "url": "https://finnhub.io/api/news?id=2a32f06273030ea89662d41397c4878b63e3e19e05b4a4e6bccfbff93156fff9",
+        "source": "Yahoo",
+        "datetime": 1793220120,
+        "headlineKo": "올드 도미니언, 밀집도 증가에 따라 매출 13% 급증"
+      }
+    },
+    {
+      "symbol": "HONA",
+      "name": "Honeywell Aerospace",
+      "sector": "Industrials",
+      "open": 165.96,
+      "current": 177.03,
+      "changePercent": 6.67,
+      "news": {
+        "headline": "Honeywell Aerospace (NASDAQ:HONA) Q3 2026 EPS Beat Masks In-Line Revenue and Raised Guidance",
+        "url": "https://finnhub.io/api/news?id=56c3ab6411cd1ada7cfe4b2e715bbca27ffa6b4aca2a3a14508fd486995ca9f8",
+        "source": "ChartMill",
+        "datetime": 1793223131,
+        "headlineKo": "허니웰 에어로스페이스(NASDAQ:HONA), 2026년 3분기 주당순이익(EPS)이 시장 예상을 상회했으나 매출은 예상치에 부합했고 실적 전망치는 상향 조정됨"
+      }
+    },
+    {
+      "symbol": "NXPI",
+      "name": "NXP Semiconductors",
+      "sector": "Information Technology",
+      "open": 238.14,
+      "current": 251.69,
+      "changePercent": 5.69,
+      "news": {
+        "headline": "Can NXP Semiconductors (NXPI) Justify Its Valuation After Soft Guidance And A $5b Buyback?",
+        "url": "https://finnhub.io/api/news?id=3059d9a359d0e1b9a8db07b2100b8ff2c6f0cfb56bb40669059348bd175069bf",
+        "source": "Yahoo",
+        "datetime": 1793210828,
+        "headlineKo": "NXP 세미컨덕터스(NXPI)는 부진한 실적 전망과 50억 달러 규모의 자사주 매입 이후에도 기업 가치를 정당화할 수 있을까?"
+      }
+    },
+    {
+      "symbol": "FTNT",
+      "name": "Fortinet",
+      "sector": "Information Technology",
+      "open": 184.5,
+      "current": 174.08,
+      "changePercent": -5.65,
+      "news": {
+        "headline": "After-Hours Movers: LABT, NCPL Top Gainers; Fortinet, AUROW Top Losers",
+        "url": "https://finnhub.io/api/news?id=7b08f4d7fe29b07af8355cb3d5017226a0064f2216e7dc3208e72b3b0750e5f3",
+        "source": "ChartMill",
+        "datetime": 1793224843,
+        "headlineKo": "장 마감 후 주가 변동: LABT, NCPL이 상승률 1위, Fortinet, AUROW가 하락률 1위"
+      }
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "sector": "Communication Services",
+      "open": 9.26,
+      "current": 9.775,
+      "changePercent": 5.56,
+      "news": null
+    },
+    {
+      "symbol": "MAS",
+      "name": "Masco",
+      "sector": "Industrials",
+      "open": 80.28,
+      "current": 76.05,
+      "changePercent": -5.27,
+      "news": {
+        "headline": "Masco (MAS) Q3 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=f8cf01f9341f142df87383dea4f5999b81d6f2d247d62200046cb427e2764d60",
+        "source": "Yahoo",
+        "datetime": 1793211409,
+        "headlineKo": "Masco (MAS) 2026년 3분기 실적 발표 전화 회의 기록"
+      }
+    }
+  ]
 }
