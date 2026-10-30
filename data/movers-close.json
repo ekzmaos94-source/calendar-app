@@ -1,7 +1,212 @@
 {
-  "generatedAt": "2026-10-30T18:29:19.864Z",
+  "generatedAt": "2026-10-30T23:59:53.441Z",
   "tradingDate": "2026-10-30",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "open": 103.7,
+      "current": 117.24,
+      "changePercent": 13.06,
+      "news": {
+        "headline": "GDDY Q3 Earnings Beat Estimates on Revenue Growth and Airo Gains",
+        "url": "https://finnhub.io/api/news?id=832f3df37f8242c1a729ca6868c4635c62f9a03897f0e9005079055cc0717192",
+        "source": "Yahoo",
+        "datetime": 1793374500,
+        "headlineKo": "GDDY, 매출 증가와 Airo 부문 실적 호조에 힘입어 3분기 실적이 시장 예상치를 상회"
+      }
+    },
+    {
+      "symbol": "GPN",
+      "name": "Global Payments",
+      "sector": "Financials",
+      "open": 86,
+      "current": 96.84,
+      "changePercent": 12.6,
+      "news": {
+        "headline": "GPN Clocks Best Day In Over Eight Months On Reports Of CD&R-GTCR Take-Private Bid",
+        "url": "https://finnhub.io/api/news?id=17e68ca3362d53cccbf3b4fd8f6eee274bd33ab3aad55125f14c78b5ed8464f9",
+        "source": "Yahoo",
+        "datetime": 1793395702,
+        "headlineKo": "CD&R-GTCR의 비공개화 제안 소식에 GPN, 8개월여 만에 최고 상승폭 기록"
+      }
+    },
+    {
+      "symbol": "FDXF",
+      "name": "FedEx Freight",
+      "sector": "Industrials",
+      "open": 115.2,
+      "current": 126.04,
+      "changePercent": 9.41,
+      "news": {
+        "headline": "FedEx Freight Q3 shipments dip slightly following spinoff",
+        "url": "https://finnhub.io/api/news?id=1e6e0dc0a00eeb2e426269f9f345194493f620c5be6157a49a29f02e46a4e40b",
+        "source": "Yahoo",
+        "datetime": 1793374560,
+        "headlineKo": "페덱스 프레이트, 분사 이후 3분기 운송량 소폭 감소"
+      }
+    },
+    {
+      "symbol": "DVA",
+      "name": "DaVita",
+      "sector": "Health Care",
+      "open": 175,
+      "current": 187.5,
+      "changePercent": 7.14,
+      "news": {
+        "headline": "CRMD Stock Hits Fresh 52-Week Low On DaVita’s Warning Of Sharp 2027 DefenCath Reimbursement Drop",
+        "url": "https://finnhub.io/api/news?id=c22ef4513d9daad3ba546ac16f9afbde26af5f1aa66000afd5c73f30ab86cfda",
+        "source": "Yahoo",
+        "datetime": 1793389868,
+        "headlineKo": "다비타(DaVita)가 2027년 DefenCath 보험 급여액이 급격히 감소할 것이라고 경고함에 따라 CRMD 주가가 52주 최저치를 경신했다"
+      }
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "open": 252.88,
+      "current": 235.27,
+      "changePercent": -6.96,
+      "news": {
+        "headline": "Axon Enterprise vs. Datadog: Does Physical Security or Cyber Security Make for a Better Stock Buy in 2026?",
+        "url": "https://finnhub.io/api/news?id=9e145d8d983e61d5c64e4638f9d944a9dedd3a4dca87247fd47112a42ae74775",
+        "source": "Yahoo",
+        "datetime": 1793371741,
+        "headlineKo": "Axon Enterprise 대 Datadog: 2026년에는 물리적 보안과 사이버 보안 중 어느 쪽이 더 나은 투자 대상이 될까?"
+      }
+    },
+    {
+      "symbol": "RMD",
+      "name": "ResMed",
+      "sector": "Health Care",
+      "open": 246.56,
+      "current": 229.94,
+      "changePercent": -6.74,
+      "news": {
+        "headline": "ResMed (RMD) Looks Fully Valued After Another Earnings Beat",
+        "url": "https://finnhub.io/api/news?id=f68291d962bc11a1cde1a6d34a0f215b90c09d6bfe8faab279cd8d29b4f173f9",
+        "source": "Yahoo",
+        "datetime": 1793387762,
+        "headlineKo": "ResMed(RMD), 또다시 실적 기대치를 상회한 가운데 주가가 이미 충분히 반영된 것으로 보인다"
+      }
+    },
+    {
+      "symbol": "REGN",
+      "name": "Regeneron Pharmaceuticals",
+      "sector": "Health Care",
+      "open": 869.43,
+      "current": 927.89,
+      "changePercent": 6.72,
+      "news": {
+        "headline": "REGN Q3 Earnings Beat on Dupixent Profits & Eylea HD Growth, Stock Up",
+        "url": "https://finnhub.io/api/news?id=dd08a5c661d8dac859f7b8e27be2006f66bd409d427319178584be08aea8c9df",
+        "source": "Yahoo",
+        "datetime": 1793382900,
+        "headlineKo": "REGN, 듀픽센트 수익과 아이레아 HD 매출 성장에 힘입어 3분기 실적 예상치 상회… 주가 상승"
+      }
+    },
+    {
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "open": 13.06,
+      "current": 12.29,
+      "changePercent": -5.9,
+      "news": null
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "sector": "Information Technology",
+      "open": 174.82,
+      "current": 164.79,
+      "changePercent": -5.74,
+      "news": {
+        "headline": "Broadcom Falls 5% Despite DA Davidson Upgrade on Anthropic and OpenAI IPO Hopes; Arm and Qualcomm Sink 10%, Marvell Drops 8%",
+        "url": "https://finnhub.io/api/news?id=6c7ffa73b65110965c367031c2786a861fa3b8672294fa7fa3f078fc993d68e8",
+        "source": "Yahoo",
+        "datetime": 1793372209,
+        "headlineKo": "DA 데이비슨이 앤트로픽에 대한 투자 등급을 상향 조정하고 오픈AI의 기업공개(IPO) 기대감이 높아졌음에도 브로드컴 주가는 5% 하락했다. ARM과 퀄컴은 10% 급락했고, 마벨은 8% 하락했다."
+      }
+    },
+    {
+      "symbol": "APP",
+      "name": "AppLovin",
+      "sector": "Information Technology",
+      "open": 242.08,
+      "current": 228.5,
+      "changePercent": -5.61,
+      "news": {
+        "headline": "Did The Market Read AppLovin Stock Right?",
+        "url": "https://finnhub.io/api/news?id=30a311675247591d4dfbd0d752b3bb44c226943114615c8e25fbe5bbb612d3dc",
+        "source": "Yahoo",
+        "datetime": 1793396477,
+        "headlineKo": "시장은 AppLovin 주가를 제대로 파악했을까?"
+      }
+    },
+    {
+      "symbol": "IDXX",
+      "name": "Idexx Laboratories",
+      "sector": "Health Care",
+      "open": 583.75,
+      "current": 551.21,
+      "changePercent": -5.57,
+      "news": {
+        "headline": "IDEXX Laboratories Reports Soon: How Has The Stock Reacted To Past Earnings?",
+        "url": "https://finnhub.io/api/news?id=b47c8e659e85e93a66a309e9999bd42c5a3bd97b8e6c92e0d8e45dfcb6c18ff5",
+        "source": "Yahoo",
+        "datetime": 1793354227,
+        "headlineKo": "IDEXX Laboratories, 곧 실적 발표 예정: 과거 실적 발표 시 주가는 어떻게 반응했나?"
+      }
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "sector": "Information Technology",
+      "open": 27.3,
+      "current": 28.78,
+      "changePercent": 5.42,
+      "news": {
+        "headline": "Dell, HP Stocks Tumble As Intel Flags Deepening PC Slump, Memory Shortages",
+        "url": "https://finnhub.io/api/news?id=13feb90b1334abdbab1e88ac9c45a2ce183f82d13e650dc3414a670023234ba6",
+        "source": "Benzinga",
+        "datetime": 1793351587,
+        "headlineKo": "인텔, PC 시장 침체 심화와 메모리 부족 경고에 델·HP 주가 급락"
+      }
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1215.095,
+      "current": 1150.89,
+      "changePercent": -5.28,
+      "news": {
+        "headline": "Sandisk Sinks 12% Despite Earnings Beat and 8-for-1 Split as Memory Stocks Slide: “It’s Absurd”",
+        "url": "https://finnhub.io/api/news?id=f557c8141d70e993cfa78d31247772badb3e41a8f73099a7430a4b32b41a6585",
+        "source": "Yahoo",
+        "datetime": 1793378845,
+        "headlineKo": "메모리주 하락세 속 샌디스크, 실적 호조와 8대 1 주식 분할에도 12% 급락: “말도 안 되는 일”"
+      }
+    },
+    {
+      "symbol": "FFIV",
+      "name": "F5, Inc.",
+      "sector": "Information Technology",
+      "open": 356.26,
+      "current": 338.34,
+      "changePercent": -5.03,
+      "news": {
+        "headline": "F5 (FFIV) Loses 18% in 4 Weeks, Here's Why a Trend Reversal May be Around the Corner",
+        "url": "https://finnhub.io/api/news?id=64508cbed5639639b8da608add9df01d44609217ea400c363bee463014344b09",
+        "source": "Yahoo",
+        "datetime": 1793363701,
+        "headlineKo": "F5(FFIV), 4주 만에 18% 하락… 추세 반전이 임박한 이유"
+      }
+    }
+  ]
 }
