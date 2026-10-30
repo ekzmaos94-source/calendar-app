@@ -1,7 +1,347 @@
 {
-  "generatedAt": "2026-10-30T18:29:19.849Z",
+  "generatedAt": "2026-10-30T19:09:19.991Z",
   "tradingDate": "2026-10-30",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "sector": "Information Technology",
+      "open": 103.7,
+      "current": 115.255,
+      "changePercent": 11.14,
+      "news": {
+        "headline": "GDDY Q3 Earnings Beat Estimates on Revenue Growth and Airo Gains",
+        "url": "https://finnhub.io/api/news?id=832f3df37f8242c1a729ca6868c4635c62f9a03897f0e9005079055cc0717192",
+        "source": "Yahoo",
+        "datetime": 1793374500,
+        "headlineKo": "GDDY, 매출 증가와 Airo 부문 실적 호조에 힘입어 3분기 실적이 시장 예상치를 상회"
+      }
+    },
+    {
+      "symbol": "GPN",
+      "name": "Global Payments",
+      "sector": "Financials",
+      "open": 86,
+      "current": 95.03,
+      "changePercent": 10.5,
+      "news": {
+        "headline": "Global Payments jumps 12% on report of potential $40 billion buyout",
+        "url": "https://finnhub.io/api/news?id=72b6a50f5dea875a9acb8be1dad7113071c49636046f8067d980d3e5f3f9637e",
+        "source": "Yahoo",
+        "datetime": 1793380398,
+        "headlineKo": "글로벌 페이먼츠, 400억 달러 규모 인수설에 주가 12% 급등"
+      }
+    },
+    {
+      "symbol": "FDXF",
+      "name": "FedEx Freight",
+      "sector": "Industrials",
+      "open": 115.2,
+      "current": 127.17,
+      "changePercent": 10.39,
+      "news": {
+        "headline": "FedEx Freight Q3 shipments dip slightly following spinoff",
+        "url": "https://finnhub.io/api/news?id=1e6e0dc0a00eeb2e426269f9f345194493f620c5be6157a49a29f02e46a4e40b",
+        "source": "Yahoo",
+        "datetime": 1793374560,
+        "headlineKo": "페덱스 프레이트, 분사 이후 3분기 운송량 소폭 감소"
+      }
+    },
+    {
+      "symbol": "IDXX",
+      "name": "Idexx Laboratories",
+      "sector": "Health Care",
+      "open": 583.75,
+      "current": 540.62,
+      "changePercent": -7.39,
+      "news": {
+        "headline": "IDEXX Laboratories Reports Soon: How Has The Stock Reacted To Past Earnings?",
+        "url": "https://finnhub.io/api/news?id=b47c8e659e85e93a66a309e9999bd42c5a3bd97b8e6c92e0d8e45dfcb6c18ff5",
+        "source": "Yahoo",
+        "datetime": 1793354227,
+        "headlineKo": "IDEXX Laboratories, 곧 실적 발표 예정: 과거 실적 발표 시 주가는 어떻게 반응했나?"
+      }
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "open": 252.88,
+      "current": 234.235,
+      "changePercent": -7.37,
+      "news": {
+        "headline": "Axon Enterprise vs. Datadog: Does Physical Security or Cyber Security Make for a Better Stock Buy in 2026?",
+        "url": "https://finnhub.io/api/news?id=9e145d8d983e61d5c64e4638f9d944a9dedd3a4dca87247fd47112a42ae74775",
+        "source": "Yahoo",
+        "datetime": 1793371741,
+        "headlineKo": "Axon Enterprise 대 Datadog: 2026년에는 물리적 보안과 사이버 보안 중 어느 쪽이 더 나은 투자 대상일까?"
+      }
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 1215.095,
+      "current": 1127.58,
+      "changePercent": -7.2,
+      "news": {
+        "headline": "Sandisk Sinks 12% Despite Earnings Beat and 8-for-1 Split as Memory Stocks Slide: “It’s Absurd”",
+        "url": "https://finnhub.io/api/news?id=f557c8141d70e993cfa78d31247772badb3e41a8f73099a7430a4b32b41a6585",
+        "source": "Yahoo",
+        "datetime": 1793378845,
+        "headlineKo": "메모리주 하락세 속 샌디스크, 실적 호조와 8대 1 주식 분할에도 12% 급락: “말도 안 되는 일”"
+      }
+    },
+    {
+      "symbol": "DVA",
+      "name": "DaVita",
+      "sector": "Health Care",
+      "open": 175,
+      "current": 187.5,
+      "changePercent": 7.14,
+      "news": {
+        "headline": "DaVita (DVA) Q3 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=a716be3f6c31ece513c989f51e4de25e468134a9dac628865751214e40f35461",
+        "source": "Yahoo",
+        "datetime": 1793370557,
+        "headlineKo": "DaVita (DVA) 2026년 3분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "open": 148.23,
+      "current": 137.8,
+      "changePercent": -7.04,
+      "news": {
+        "headline": "Coinbase, MicroStrategy, Robinhood tumble after largest crypto hack ever",
+        "url": "https://finnhub.io/api/news?id=fa5a8ba2e7e27b502d0aa043ad62fd6c16e86d1d11f60c0a0f23ee3a9011aea3",
+        "source": "Yahoo",
+        "datetime": 1793379986,
+        "headlineKo": "사상 최대 규모의 암호화폐 해킹 사건 이후 코인베이스, 마이크로스트래티지, 로빈후드 주가 급락"
+      }
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "sector": "Information Technology",
+      "open": 174.82,
+      "current": 162.51,
+      "changePercent": -7.04,
+      "news": {
+        "headline": "Broadcom Falls 5% Despite DA Davidson Upgrade on Anthropic and OpenAI IPO Hopes; Arm and Qualcomm Sink 10%, Marvell Drops 8%",
+        "url": "https://finnhub.io/api/news?id=6c7ffa73b65110965c367031c2786a861fa3b8672294fa7fa3f078fc993d68e8",
+        "source": "Yahoo",
+        "datetime": 1793372209,
+        "headlineKo": "DA 데이비슨이 앤트로픽에 대한 투자 등급을 상향 조정하고 오픈AI의 기업공개(IPO) 기대감이 높아졌음에도 브로드컴 주가는 5% 하락했다. ARM과 퀄컴은 10% 급락했고, 마벨은 8% 하락했다."
+      }
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "open": 68.35,
+      "current": 63.845,
+      "changePercent": -6.59,
+      "news": {
+        "headline": "Update: Nasdaq Plunges 810 Points as Mega-Cap Chipmakers Sink Following Intel's Results",
+        "url": "https://finnhub.io/api/news?id=3c647b64ec6aac017eae26d432eb95a30608b82be532df547b3e4ff25108859e",
+        "source": "Yahoo",
+        "datetime": 1793382383,
+        "headlineKo": "속보: 인텔 실적 발표 후 대형 반도체 기업 주가가 폭락하며 나스닥 지수가 810포인트 급락"
+      }
+    },
+    {
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "open": 13.06,
+      "current": 12.255,
+      "changePercent": -6.16,
+      "news": null
+    },
+    {
+      "symbol": "APP",
+      "name": "AppLovin",
+      "sector": "Information Technology",
+      "open": 242.08,
+      "current": 227.355,
+      "changePercent": -6.08,
+      "news": {
+        "headline": "Is Trending Stock AppLovin Corporation (APP) a Buy Now?",
+        "url": "https://finnhub.io/api/news?id=8690ffa89a294a0041cd353a5185d5002bc356bb1cb30eaff51f6a2037fdcbb0",
+        "source": "Yahoo",
+        "datetime": 1793361604,
+        "headlineKo": "최근 주목받고 있는 주식 AppLovin Corporation(APP)은 지금 매수해야 할까요?"
+      }
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "open": 205.36,
+      "current": 193.1226,
+      "changePercent": -5.96,
+      "news": {
+        "headline": "MRVL vs. SNDK: Which AI Infrastructure Stock is a Safer Bet?",
+        "url": "https://finnhub.io/api/news?id=b753a4a2215dc6fd68cb548f7a0e3691c5ea37776c2d7d814a519a862c14776b",
+        "source": "Yahoo",
+        "datetime": 1793369760,
+        "headlineKo": "MRVL 대 SNDK: 어떤 AI 인프라주가 더 안전한 투자 대상일까?"
+      }
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "open": 383.95,
+      "current": 361.22,
+      "changePercent": -5.92,
+      "news": {
+        "headline": "Palo Alto Networks Recommends Stockholders Reject Mini-Tender Offer by Tutanota LLC",
+        "url": "https://finnhub.io/api/news?id=6bfc30843471e14d3a101c967059c90ab2ef081d1333fa637a93e9cb4c225cc9",
+        "source": "Yahoo",
+        "datetime": 1793361600,
+        "headlineKo": "팔로알토 네트웍스, 주주들에게 투타노타(Tutanota LLC)의 소규모 공개매수 제안을 거부할 것을 권고"
+      }
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "open": 261.06,
+      "current": 245.875,
+      "changePercent": -5.82,
+      "news": {
+        "headline": "CrowdStrike CEO Made Millions as Cybersecurity Stocks Rallied",
+        "url": "https://finnhub.io/api/news?id=8d31fc24cc838c44b3cea391cc979445278b0c20b56135658780d94620f8b08b",
+        "source": "Yahoo",
+        "datetime": 1793373420,
+        "headlineKo": "사이버보안주 급등 속에 크라우드스트라이크 CEO, 수백만 달러 벌어들여"
+      }
+    },
+    {
+      "symbol": "RMD",
+      "name": "ResMed",
+      "sector": "Health Care",
+      "open": 246.56,
+      "current": 232.21,
+      "changePercent": -5.82,
+      "news": {
+        "headline": "ResMed (RMD) Q1 2027 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=556d41538ebda509ddcd763bb451107ad9ccebe089c2ff7a9cdb82fcb1ee2be3",
+        "source": "Yahoo",
+        "datetime": 1793372440,
+        "headlineKo": "ResMed (RMD) 2027년 1분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "REGN",
+      "name": "Regeneron Pharmaceuticals",
+      "sector": "Health Care",
+      "open": 869.43,
+      "current": 919.38,
+      "changePercent": 5.75,
+      "news": {
+        "headline": "Regeneron Pharmaceuticals, Inc. Q3 2026 Earnings Call Summary",
+        "url": "https://finnhub.io/api/news?id=acceafa340fd7dea051826aaf73003864ee5a6ba3e88ab4d739f660f8d5a23cd",
+        "source": "Yahoo",
+        "datetime": 1793379356,
+        "headlineKo": "리제네론 파마슈티컬스(Regeneron Pharmaceuticals, Inc.) 2026년 3분기 실적 발표 전화회의 요약"
+      }
+    },
+    {
+      "symbol": "ERIE",
+      "name": "Erie Indemnity",
+      "sector": "Financials",
+      "open": 251.17,
+      "current": 265.43,
+      "changePercent": 5.68,
+      "news": {
+        "headline": "Erie Indemnity Company Q3 2026 Earnings Call Summary",
+        "url": "https://finnhub.io/api/news?id=eaee4116e66e726ea2b01ad4a498fd7f2c94d18867e818831e4f5f0a1584445d",
+        "source": "Yahoo",
+        "datetime": 1793363400,
+        "headlineKo": "에리 인뎀니티 컴퍼니 2026년 3분기 실적 발표 전화회의 요약"
+      }
+    },
+    {
+      "symbol": "CBOE",
+      "name": "Cboe Global Markets",
+      "sector": "Financials",
+      "open": 322.99,
+      "current": 341.09,
+      "changePercent": 5.6,
+      "news": {
+        "headline": "Cboe Global Markets, Inc. Q3 2026 Earnings Call Summary",
+        "url": "https://finnhub.io/api/news?id=b38ac203bee0c35a96a14bb62f8aeecacf0b6a9639ba36824496cd96314474de",
+        "source": "Yahoo",
+        "datetime": 1793378982,
+        "headlineKo": "Cboe Global Markets, Inc. 2026년 3분기 실적 발표 전화 회의 요약"
+      }
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 217.14,
+      "current": 205.3088,
+      "changePercent": -5.45,
+      "news": {
+        "headline": "Applied Optoelectronics Plunges 15%, Coherent Tumbles 13% as Hyperscaler Spending Fears Hit AI Optics Stocks; Lumentum and Marvell Sink 10%",
+        "url": "https://finnhub.io/api/news?id=853742c8081dcdf82ae36430fe967e33824508ee0106fc80121a2a26d47f5869",
+        "source": "Yahoo",
+        "datetime": 1793379446,
+        "headlineKo": "하이퍼스케일러의 투자 위축 우려가 AI 광학 관련주에 타격을 주면서 애플라이드 옵토일렉트로닉스는 15%, 코히어런트는 13% 급락했으며, 루멘텀과 마벨도 10% 하락했다."
+      }
+    },
+    {
+      "symbol": "CRL",
+      "name": "Charles River Laboratories",
+      "sector": "Health Care",
+      "open": 372.99,
+      "current": 352.76,
+      "changePercent": -5.42,
+      "news": {
+        "headline": "Charles River (CRL) Stock Could Be 27% Overvalued As Preclinical FDA Collaboration Starts",
+        "url": "https://finnhub.io/api/news?id=16eb0faaa11883c5c264375c46c02fe97940b75d3bdfd588bb49c75979fddc25",
+        "source": "Yahoo",
+        "datetime": 1793344154,
+        "headlineKo": "FDA와의 전임상 협력 시작에 따라 찰스 리버(CRL) 주가가 27% 과대평가되었을 가능성"
+      }
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "open": 109.13,
+      "current": 103.55,
+      "changePercent": -5.11,
+      "news": {
+        "headline": "ServiceNow CEO makes striking 'unicorn' claim after $3M bet",
+        "url": "https://finnhub.io/api/news?id=2d1df07bf66a56eff4ab888674e1024a41a6bdc2f12ab6c06383716f6881f73d",
+        "source": "Yahoo",
+        "datetime": 1793382420,
+        "headlineKo": "ServiceNow CEO, 300만 달러 내기 후 파격적인 ‘유니콘’ 주장 제기"
+      }
+    },
+    {
+      "symbol": "VLTO",
+      "name": "Veralto",
+      "sector": "Industrials",
+      "open": 108.01,
+      "current": 113.43,
+      "changePercent": 5.02,
+      "news": {
+        "headline": "Veralto (VLTO) Q3 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=e508507c770deee38c426c1d624b1b83bdc46f6c280bad8fd75b9002a846df93",
+        "source": "Yahoo",
+        "datetime": 1793380481,
+        "headlineKo": "베랄토(VLTO) 2026년 3분기 실적 발표 컨퍼런스 콜 기록"
+      }
+    }
+  ]
 }
