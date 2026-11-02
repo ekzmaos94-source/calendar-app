@@ -1,74 +1,7 @@
 {
-  "generatedAt": "2026-11-02T15:56:14.928Z",
+  "generatedAt": "2026-11-02T22:14:16.558Z",
   "tradingDate": "2026-11-02",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": [
-    {
-      "symbol": "LITE",
-      "name": "Lumentum",
-      "sector": "Information Technology",
-      "open": 800.02,
-      "current": 750.975,
-      "changePercent": -6.13,
-      "news": {
-        "headline": "Marvell Slides 3%, Lumentum Drops 6% on $115 Billion All-Stock Merger Deal; Coherent Climbs 2%",
-        "url": "https://finnhub.io/api/news?id=e8182ed48e431f44c442203bca9424f06d0174d7b421b1ee2dd155cc82f62cb4",
-        "source": "Yahoo",
-        "datetime": 1793627606,
-        "headlineKo": "1,150억 달러 규모의 전액 주식 합병 소식에 마벨 3% 하락, 루멘텀 6% 급락; 코히어런트 2% 상승"
-      }
-    },
-    {
-      "symbol": "CBRE",
-      "name": "CBRE Group",
-      "sector": "Real Estate",
-      "open": 130,
-      "current": 137.16,
-      "changePercent": 5.51,
-      "news": null
-    },
-    {
-      "symbol": "CNC",
-      "name": "Centene Corporation",
-      "sector": "Health Care",
-      "open": 69.12,
-      "current": 65.37,
-      "changePercent": -5.43,
-      "news": null
-    },
-    {
-      "symbol": "CSGP",
-      "name": "CoStar Group",
-      "sector": "Real Estate",
-      "open": 30.04,
-      "current": 31.6363,
-      "changePercent": 5.31,
-      "news": null
-    },
-    {
-      "symbol": "FOXA",
-      "name": "Fox Corporation (Class A)",
-      "sector": "Communication Services",
-      "open": 66.489,
-      "current": 63.05,
-      "changePercent": -5.17,
-      "news": null
-    },
-    {
-      "symbol": "DDOG",
-      "name": "Datadog",
-      "sector": "Information Technology",
-      "open": 235.51,
-      "current": 223.64,
-      "changePercent": -5.04,
-      "news": {
-        "headline": "Datadog (DDOG) Fell In October, Where Does Fair Value Sit Now?",
-        "url": "https://finnhub.io/api/news?id=056be0c273c3d5d0bdc84ba195690e6dadf087f9aef2f1bfaf311551f92c06d0",
-        "source": "Yahoo",
-        "datetime": 1793621364,
-        "headlineKo": "데이터독(DDOG), 10월에 하락… 현재 적정 가치는 어느 수준일까?"
-      }
-    }
-  ]
+  "movers": []
 }
