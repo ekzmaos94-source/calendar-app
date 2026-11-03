@@ -1,7 +1,146 @@
 {
-  "generatedAt": "2026-11-03T19:59:53.760Z",
+  "generatedAt": "2026-11-03T20:52:20.097Z",
   "tradingDate": "2026-11-03",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "APTV",
+      "name": "Aptiv",
+      "sector": "Consumer Discretionary",
+      "open": 44.96,
+      "current": 41.335,
+      "changePercent": -8.06,
+      "news": {
+        "headline": "Aptiv PLC Reports Third Quarter 2026 Financial Results",
+        "url": "https://finnhub.io/api/news?id=91feecfcdb4bd292ace6723d345f01bf3a14df1d105f02914f8cab349a6d6011",
+        "source": "Fintel",
+        "datetime": 1793738303,
+        "headlineKo": "Aptiv PLC, 2026년 3분기 실적 발표"
+      }
+    },
+    {
+      "symbol": "FOXA",
+      "name": "Fox Corporation (Class A)",
+      "sector": "Communication Services",
+      "open": 62.669,
+      "current": 67.2,
+      "changePercent": 7.23,
+      "news": {
+        "headline": "Fox Corporation: Don't Be Fooled By The Latest Earnings Windfall",
+        "url": "https://finnhub.io/api/news?id=f24bdf1a479890f955b82c0bc06883dca3f374721891a218cae2615698044553",
+        "source": "SeekingAlpha",
+        "datetime": 1793698469,
+        "headlineKo": "폭스 코퍼레이션: 최근의 갑작스러운 실적 호조에 속지 마세요"
+      }
+    },
+    {
+      "symbol": "FOX",
+      "name": "Fox Corporation (Class B)",
+      "sector": "Communication Services",
+      "open": 55.69,
+      "current": 59.535,
+      "changePercent": 6.9,
+      "news": {
+        "headline": "Fox Corporation: Don't Be Fooled By The Latest Earnings Windfall",
+        "url": "https://finnhub.io/api/news?id=f24bdf1a479890f955b82c0bc06883dca3f374721891a218cae2615698044553",
+        "source": "SeekingAlpha",
+        "datetime": 1793698469,
+        "headlineKo": "폭스 코퍼레이션: 최근의 갑작스러운 실적 호조에 속지 마세요"
+      }
+    },
+    {
+      "symbol": "APP",
+      "name": "AppLovin",
+      "sector": "Information Technology",
+      "open": 231.19,
+      "current": 245.596,
+      "changePercent": 6.23,
+      "news": {
+        "headline": "AppLovin Fell 60% Even With Today’s Pop. Tomorrow We Learn if Earnings Fell With It",
+        "url": "https://finnhub.io/api/news?id=3cb9f51251708ae42aa6ce88f7cf93abef3579db93fc8506ab24968f615892fa",
+        "source": "Yahoo",
+        "datetime": 1793734041,
+        "headlineKo": "AppLovin은 오늘 주가가 급등했음에도 60%나 하락했다. 내일이면 실적도 함께 떨어졌는지 알 수 있을 것이다."
+      }
+    },
+    {
+      "symbol": "ADM",
+      "name": "Archer Daniels Midland",
+      "sector": "Consumer Staples",
+      "open": 74.31,
+      "current": 69.81,
+      "changePercent": -6.06,
+      "news": {
+        "headline": "ADM Raises 2026 Earnings Outlook as Q3 Profit Beats Forecasts Despite Revenue Miss",
+        "url": "https://finnhub.io/api/news?id=d2c2b8b5a288cb448d6c00198c0e9d36c1e6dc9a8506b6dc53c8135b9a748652",
+        "source": "Yahoo",
+        "datetime": 1793717387,
+        "headlineKo": "ADM, 매출은 예상에 미치지 못했으나 3분기 순이익이 전망치를 상회함에 따라 2026년 실적 전망치를 상향 조정"
+      }
+    },
+    {
+      "symbol": "BLDR",
+      "name": "Builders FirstSource",
+      "sector": "Industrials",
+      "open": 67.42,
+      "current": 63.57,
+      "changePercent": -5.71,
+      "news": null
+    },
+    {
+      "symbol": "BAX",
+      "name": "Baxter International",
+      "sector": "Health Care",
+      "open": 24.04,
+      "current": 25.4,
+      "changePercent": 5.66,
+      "news": null
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "open": 138.315,
+      "current": 145.5475,
+      "changePercent": 5.23,
+      "news": {
+        "headline": "Coinbase gets New Jersey's staking brakes lifted: What it means for investors",
+        "url": "https://finnhub.io/api/news?id=95bf55c728390cd724bc9de7735b4c831ddd2b096aa84b2dffac410aca6046a0",
+        "source": "Yahoo",
+        "datetime": 1793727605,
+        "headlineKo": "코인베이스, 뉴저지주의 스테이킹 규제 해제: 투자자들에게 어떤 의미가 있을까"
+      }
+    },
+    {
+      "symbol": "VRTX",
+      "name": "Vertex Pharmaceuticals",
+      "sector": "Health Care",
+      "open": 558.44,
+      "current": 529.75,
+      "changePercent": -5.14,
+      "news": {
+        "headline": "Vertex Pharmaceuticals earnings analysis: questions answered and next catalysts",
+        "url": "https://finnhub.io/api/news?id=b56839f2858718ab6f21edbd48f722a68681d9093f942b1d055a8df0004c38dc",
+        "source": "Yahoo",
+        "datetime": 1793730292,
+        "headlineKo": "버텍스 파마슈티컬스 실적 분석: 의문점 해명과 향후 촉매 요인"
+      }
+    },
+    {
+      "symbol": "BALL",
+      "name": "Ball Corporation",
+      "sector": "Materials",
+      "open": 67,
+      "current": 63.565,
+      "changePercent": -5.13,
+      "news": {
+        "headline": "Ball Corporation Reports Third Quarter 2026 Diluted Loss Per Share of 36 Cents",
+        "url": "https://finnhub.io/api/news?id=28bb28dad9205db21de34e0af732fe103639590555f8cb0ec65cfa141f054b8b",
+        "source": "Fintel",
+        "datetime": 1793720574,
+        "headlineKo": "볼 코퍼레이션, 2026년 3분기 희석 주당 순손실 36센트 기록"
+      }
+    }
+  ]
 }
