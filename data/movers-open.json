@@ -1,7 +1,1370 @@
 {
-  "generatedAt": "2026-11-05T20:30:36.984Z",
+  "generatedAt": "2026-11-05T21:27:37.579Z",
   "tradingDate": "2026-11-05",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 962.248,
+      "current": 806.43,
+      "changePercent": -16.19,
+      "news": {
+        "headline": "Sandisk Stock Is Down 45% Over the Past Four Months. Is It a Bargain or a Value Trap?",
+        "url": "https://finnhub.io/api/news?id=bcf91ba72d591ad49ce7c48f07ea17cecb4952f6e398ba50914cdca637b70cf8",
+        "source": "Yahoo",
+        "datetime": 1793905380,
+        "headlineKo": "샌디스크 주가는 지난 4개월 동안 45% 하락했다. 이건 매수 기회일까, 아니면 가치 함정일까?"
+      }
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "open": 594.195,
+      "current": 509.7,
+      "changePercent": -14.22,
+      "news": {
+        "headline": "Lumentum Sinks 15% as AI Chip Selloff Deepens",
+        "url": "https://finnhub.io/api/news?id=c57d28a53496a3a9206df4ded4196557a1602dba5cbc30acddcdbbe0ea61bf59",
+        "source": "Yahoo",
+        "datetime": 1793898315,
+        "headlineKo": "AI 칩 매도세가 심화되면서 루멘텀 주가 15% 급락"
+      }
+    },
+    {
+      "symbol": "MCHP",
+      "name": "Microchip Technology",
+      "sector": "Information Technology",
+      "open": 74.58,
+      "current": 64.85,
+      "changePercent": -13.05,
+      "news": null
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "open": 752.69,
+      "current": 656.39,
+      "changePercent": -12.79,
+      "news": {
+        "headline": "Could Micron Technology (MU) Face Slower AI Demand From New Data Center Rules?",
+        "url": "https://finnhub.io/api/news?id=1fa712197a43ee85846fa0a7d353d46a204772c7dadc316068a73083109d4e84",
+        "source": "Yahoo",
+        "datetime": 1793902154,
+        "headlineKo": "마이크론 테크놀로지(MU)가 새로운 데이터센터 규제로 인해 AI 수요 둔화를 겪게 될까?"
+      }
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "open": 242.05,
+      "current": 212.74,
+      "changePercent": -12.11,
+      "news": {
+        "headline": "Teradyne, Inc. (TER) is Attracting Investor Attention: Here is What You Should Know",
+        "url": "https://finnhub.io/api/news?id=59021227db16700b53e7fab790d889ca1166c4543b1f32a4af9fee33a39e5637",
+        "source": "Yahoo",
+        "datetime": 1793883604,
+        "headlineKo": "테라다인(Teradyne, Inc., TER)이 투자자들의 관심을 끌고 있습니다: 알아두어야 할 사항은 다음과 같습니다"
+      }
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "open": 304.12,
+      "current": 267.63,
+      "changePercent": -12,
+      "news": {
+        "headline": "SanDisk Slides 7%, Micron and Western Digital Fall 5% as Lawmaker’s Call for AI Pause Extends Memory Rout",
+        "url": "https://finnhub.io/api/news?id=6ba02d89d6087546c241239d253c29ba5b1ba34f9b01be649d3a12fea94b0d6f",
+        "source": "Yahoo",
+        "datetime": 1793886427,
+        "headlineKo": "의원들의 AI 일시 중단 요구가 이어지며 샌디스크 주가가 7% 하락하고, 마이크론과 웨스턴디지털도 5% 하락하며 메모리주 폭락세가 이어졌다."
+      }
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "open": 151.405,
+      "current": 133.55,
+      "changePercent": -11.79,
+      "news": {
+        "headline": "MRVL's Networking Business Grows on the Back of AI: What's Ahead?",
+        "url": "https://finnhub.io/api/news?id=12aa6277705f48c9aa82d4ce6415d2e4fed5c4e47a32319ca2fe038eb4207d4f",
+        "source": "Yahoo",
+        "datetime": 1793887800,
+        "headlineKo": "AI를 발판으로 성장하는 MRVL의 네트워킹 사업: 앞으로의 전망은?"
+      }
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "open": 74.68,
+      "current": 66.73,
+      "changePercent": -10.65,
+      "news": null
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "open": 452.5,
+      "current": 404.4,
+      "changePercent": -10.63,
+      "news": {
+        "headline": "AMD Stocks Fall 12.68% Despite a $17 Billion Revenue Outlook",
+        "url": "https://finnhub.io/api/news?id=3d3545c03e21e552d108d7d7af6ba7fe73d3a0607a2b9532adab304b01c9c254",
+        "source": "Yahoo",
+        "datetime": 1793907147,
+        "headlineKo": "170억 달러 매출 전망에도 불구하고 AMD 주가 12.68% 하락"
+      }
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "open": 207.02,
+      "current": 185.2,
+      "changePercent": -10.54,
+      "news": {
+        "headline": "Lam Research Stocks Fall 13.5% as Equipment Investors Reassess AI Spending",
+        "url": "https://finnhub.io/api/news?id=b45ac8b16ba8567af06ec94979b11072d9b3619f151867301fe870ec55410245",
+        "source": "Yahoo",
+        "datetime": 1793907093,
+        "headlineKo": "장비 투자자들이 AI 관련 지출을 재검토함에 따라 램 리서치 주가 13.5% 하락"
+      }
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "open": 257.94,
+      "current": 230.81,
+      "changePercent": -10.52,
+      "news": {
+        "headline": "Ciena, Nokia, and Cisco Named Leaders in ABI Research’s Open Line Systems for Data Center Interconnect Scale-Across Ranking",
+        "url": "https://finnhub.io/api/news?id=2a31f81801f18adc63255b88cbc1315061d6127f5ad33574b4db7eec5e411010",
+        "source": "Yahoo",
+        "datetime": 1793887200,
+        "headlineKo": "ABI 리서치의 ‘데이터 센터 상호 연결용 오픈 라인 시스템(Scale-Across)’ 순위에서 시에나(Ciena), 노키아(Nokia), 시스코(Cisco)가 리더로 선정되었다"
+      }
+    },
+    {
+      "symbol": "NWS",
+      "name": "News Corp (Class B)",
+      "sector": "Communication Services",
+      "open": 32.35,
+      "current": 28.97,
+      "changePercent": -10.45,
+      "news": {
+        "headline": "News Corp (NWSA) Q1 2027 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=094c059f2d1c0adce520d35358d3665631ef9e5124314ebe87f58f97acd6557a",
+        "source": "Yahoo",
+        "datetime": 1793902432,
+        "headlineKo": "뉴스 코프(NWSA) 2027년 1분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "open": 520.68,
+      "current": 466.53,
+      "changePercent": -10.4,
+      "news": {
+        "headline": "Seagate Technology Holdings (NASDAQ:STX): A Quality Dividend Stock for Income Investors",
+        "url": "https://finnhub.io/api/news?id=ce41bf192f66bb69ffc96022e5c8e0a53464ee176b8de9db1baa4335d456c3c5",
+        "source": "ChartMill",
+        "datetime": 1793877687,
+        "headlineKo": "시게이트 테크놀로지 홀딩스(NASDAQ:STX): 소득형 투자자를 위한 우수한 배당주"
+      }
+    },
+    {
+      "symbol": "AXON",
+      "name": "Axon Enterprise",
+      "sector": "Industrials",
+      "open": 426.72,
+      "current": 382.56,
+      "changePercent": -10.35,
+      "news": null
+    },
+    {
+      "symbol": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "sector": "Energy",
+      "open": 300.77,
+      "current": 272.18,
+      "changePercent": -9.51,
+      "news": {
+        "headline": "Texas Pacific Land Corporation (TPL) Q3 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=478fdb088267fc2901bebf694d9d2909b94493808673a533c66dc3539d617ebf",
+        "source": "SeekingAlpha",
+        "datetime": 1793883885,
+        "headlineKo": "텍사스 퍼시픽 랜드 코퍼레이션(TPL) 2026년 3분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "open": 350,
+      "current": 316.91,
+      "changePercent": -9.45,
+      "news": {
+        "headline": "Astera Labs Sinks 12%, Dell Technologies Down 8% as Chip Stocks Slide Again",
+        "url": "https://finnhub.io/api/news?id=289ad325797b3046c890343dbc45ee09a0bfbdfed8d40af3252805a38cd75b3b",
+        "source": "Yahoo",
+        "datetime": 1793889972,
+        "headlineKo": "반도체주 다시 하락세… 아스테라 랩스 12% 급락, 델 테크놀로지스 8% 하락"
+      }
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "open": 195,
+      "current": 176.73,
+      "changePercent": -9.37,
+      "news": {
+        "headline": "Vertiv Sinks Another 16% as Data Center Selloff Deepens: “Forced Control on CapEx”",
+        "url": "https://finnhub.io/api/news?id=cc00a4ddb7045e3f840d5341be693c0bd22c1e1d8639464a7e702df5c062a3c2",
+        "source": "Yahoo",
+        "datetime": 1793894190,
+        "headlineKo": "데이터센터 매도세가 심화되며 버티브 주가 16% 추가 하락: “자본지출(CapEx)에 대한 강제적 통제”"
+      }
+    },
+    {
+      "symbol": "VRSK",
+      "name": "Verisk Analytics",
+      "sector": "Industrials",
+      "open": 194,
+      "current": 211.47,
+      "changePercent": 9.01,
+      "news": {
+        "headline": "Verisk (VRSK) Q3 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=536a05984d5e37e2ddde58e201ed101f51f7dbbbf813cf7ccb549bd6fcad4fd0",
+        "source": "Yahoo",
+        "datetime": 1793904740,
+        "headlineKo": "베리스크(VRSK) 2026년 3분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "sector": "Information Technology",
+      "open": 113.43,
+      "current": 103.43,
+      "changePercent": -8.82,
+      "news": {
+        "headline": "Corning (GLW) Stock Looks Like It Trades At A Discount",
+        "url": "https://finnhub.io/api/news?id=acd9aee4a9795767710f752a2eecc016a6113d965123303ca8f5fe6b831a0607",
+        "source": "Yahoo",
+        "datetime": 1793880896,
+        "headlineKo": "코닝(GLW) 주가는 현재 저평가된 것으로 보인다"
+      }
+    },
+    {
+      "symbol": "NUE",
+      "name": "Nucor",
+      "sector": "Materials",
+      "open": 268.93,
+      "current": 245.68,
+      "changePercent": -8.65,
+      "news": {
+        "headline": "Global Metal Recycling Market to Reach $856.9 Billion by 2032 as Circular Economy Investments Accelerate | ArcelorMittal, Nucor, Aurubis, and Baosteel Lead",
+        "url": "https://finnhub.io/api/news?id=635251c3a44948725c01ce62a957388e3edb51b14ae2972d2e61f2792e59efe1",
+        "source": "Yahoo",
+        "datetime": 1793890500,
+        "headlineKo": "순환 경제 투자 확대에 힘입어 2032년까지 전 세계 금속 재활용 시장 규모, 8,569억 달러에 달할 전망 | 아르셀로미탈, 누코어, 아우루비스, 바오스틸이 주도"
+      }
+    },
+    {
+      "symbol": "IVZ",
+      "name": "Invesco",
+      "sector": "Financials",
+      "open": 29.63,
+      "current": 27.08,
+      "changePercent": -8.61,
+      "news": null
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
+      "sector": "Financials",
+      "open": 85.745,
+      "current": 78.39,
+      "changePercent": -8.58,
+      "news": null
+    },
+    {
+      "symbol": "FCX",
+      "name": "Freeport-McMoRan",
+      "sector": "Materials",
+      "open": 63.31,
+      "current": 57.9,
+      "changePercent": -8.55,
+      "news": {
+        "headline": "Are Basic Materials Stocks Lagging  FreeportMcMoRan (FCX) This Year?",
+        "url": "https://finnhub.io/api/news?id=e20d7ca22e19c06d55aa056b1e1bc084c1b4743d50b6ddf65a9e4960d6c44fba",
+        "source": "Yahoo",
+        "datetime": 1793886003,
+        "headlineKo": "올해 기초 소재주들이 프리포트맥모란(FCX)에 뒤처지고 있는 것일까?"
+      }
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
+      "sector": "Information Technology",
+      "open": 141.93,
+      "current": 129.8,
+      "changePercent": -8.55,
+      "news": {
+        "headline": "KLA Stocks Drop 12.18% as Investors Reprice Semiconductor Equipment Growth",
+        "url": "https://finnhub.io/api/news?id=87345ee34946f9835245732b6b1276e5274eb6b9dbff578f3c3d1163ebb3ed15",
+        "source": "Yahoo",
+        "datetime": 1793907093,
+        "headlineKo": "투자자들이 반도체 장비 성장 전망을 재평가함에 따라 KLA 주가가 12.18% 하락했다"
+      }
+    },
+    {
+      "symbol": "ON",
+      "name": "ON Semiconductor",
+      "sector": "Information Technology",
+      "open": 68.745,
+      "current": 63.01,
+      "changePercent": -8.34,
+      "news": null
+    },
+    {
+      "symbol": "ECHO",
+      "name": "EchoStar",
+      "sector": "Communication Services",
+      "open": 98,
+      "current": 89.92,
+      "changePercent": -8.24,
+      "news": {
+        "headline": "Did Profit Rebound Just Shift EchoStar (ECHO) Stock Narrative?",
+        "url": "https://finnhub.io/api/news?id=e2ac8552d6db8c44551dd5f7f476c9f1153f8e9fce00e27bba133ff72f14e7a5",
+        "source": "Yahoo",
+        "datetime": 1793884417,
+        "headlineKo": "이익 반등이 에코스타(ECHO) 주가에 대한 시장 전망을 바꾼 것일까?"
+      }
+    },
+    {
+      "symbol": "COIN",
+      "name": "Coinbase",
+      "sector": "Financials",
+      "open": 149.025,
+      "current": 136.82,
+      "changePercent": -8.19,
+      "news": {
+        "headline": "Bitcoin Breaks Below $76K, Wiping Out Over $1B Crypto Bets: MSTR, BMNR, CRCL, COIN Stocks Tumble Double Digits",
+        "url": "https://finnhub.io/api/news?id=7eac4118868cfd71442178ce508d4e7ef4fa8b1f56b479a5d1c05121a80e9bfc",
+        "source": "Yahoo",
+        "datetime": 1793906602,
+        "headlineKo": "비트코인, 7만 6천 달러 아래로 떨어지며 10억 달러 이상의 암호화폐 투자 손실 발생: MSTR, BMNR, CRCL, COIN 주가 두 자릿수 급락"
+      }
+    },
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "sector": "Information Technology",
+      "open": 347.595,
+      "current": 319.25,
+      "changePercent": -8.15,
+      "news": {
+        "headline": "Applied Materials Stocks Fall 12% Before a $10.25 Billion Revenue Test",
+        "url": "https://finnhub.io/api/news?id=351fda8edfb9ef900cf0517980da989fa28b0b55329d74f205e70a3f0aa26168",
+        "source": "Yahoo",
+        "datetime": 1793907088,
+        "headlineKo": "102억 5천만 달러 매출 실적 발표를 앞두고 애플라이드 머티리얼즈 주가 12% 하락"
+      }
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Discretionary",
+      "open": 374.12,
+      "current": 343.69,
+      "changePercent": -8.13,
+      "news": {
+        "headline": "If You Invested $1,000 in Tesla at Its 2010 IPO, Here’s What You’d Have Today",
+        "url": "https://finnhub.io/api/news?id=8878d9d4f14d5f0ee0d0a5262cfbba7ec80955cee0be3aad6864baebf0d3c6eb",
+        "source": "Yahoo",
+        "datetime": 1793906262,
+        "headlineKo": "2010년 테슬라 기업공개(IPO) 당시 1,000달러를 투자했다면, 현재 자산은 이 정도가 될 것입니다"
+      }
+    },
+    {
+      "symbol": "STLD",
+      "name": "Steel Dynamics",
+      "sector": "Materials",
+      "open": 241.4,
+      "current": 221.895,
+      "changePercent": -8.08,
+      "news": null
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 184.505,
+      "current": 169.76,
+      "changePercent": -7.99,
+      "news": {
+        "headline": "Coherent Stocks Fall 13.72% Despite a Higher AI Optics Growth Target",
+        "url": "https://finnhub.io/api/news?id=24e1dd32909e568cf5aa20183001269e51e266aa9f17aba1c5df8f30b21a2041",
+        "source": "Yahoo",
+        "datetime": 1793907116,
+        "headlineKo": "AI 옵틱스의 성장 목표치가 상향 조정되었음에도 코히어런트 주가는 13.72% 하락했다"
+      }
+    },
+    {
+      "symbol": "TXN",
+      "name": "Texas Instruments",
+      "sector": "Information Technology",
+      "open": 301.92,
+      "current": 278.15,
+      "changePercent": -7.87,
+      "news": {
+        "headline": "Texas Instruments (TXN) Could Be 29% Undervalued As Fresh Debt Fuels Its Silicon Laboratories Deal",
+        "url": "https://finnhub.io/api/news?id=65777fa801a99cf8357e1687616ac6004ba4cf7990130cca06e21b12d01d7598",
+        "source": "Yahoo",
+        "datetime": 1793891900,
+        "headlineKo": "텍사스 인스트루먼트(TXN), 신규 차입금으로 실리콘 래버러토리스 인수 추진에 힘입어 29% 저평가되었을 가능성"
+      }
+    },
+    {
+      "symbol": "PH",
+      "name": "Parker Hannifin",
+      "sector": "Industrials",
+      "open": 968,
+      "current": 892.29,
+      "changePercent": -7.82,
+      "news": {
+        "headline": "PH Q1 Earnings Beat Estimates on Industrial and Aerospace Strength",
+        "url": "https://finnhub.io/api/news?id=08de216e2558efc905e0b9c726d7a93e71b88e289d9c56d4a9455f206d7d136c",
+        "source": "Yahoo",
+        "datetime": 1793888400,
+        "headlineKo": "PH, 1분기 실적… 산업 및 항공우주 부문 호조에 힘입어 시장 예상치 상회"
+      }
+    },
+    {
+      "symbol": "J",
+      "name": "Jacobs Solutions",
+      "sector": "Industrials",
+      "open": 160.03,
+      "current": 147.54,
+      "changePercent": -7.8,
+      "news": null
+    },
+    {
+      "symbol": "PWR",
+      "name": "Quanta Services",
+      "sector": "Industrials",
+      "open": 552,
+      "current": 509.06,
+      "changePercent": -7.78,
+      "news": {
+        "headline": "The Zacks Analyst Blog Highlights Comfort Systems, Quanta Services and Sterling Infrastructure",
+        "url": "https://finnhub.io/api/news?id=dad1ae2ba572e6b8ce57d1ba143e68406ab0cb67943bd30a67747107a56d7d2f",
+        "source": "Yahoo",
+        "datetime": 1793861640,
+        "headlineKo": "잭스 애널리스트 블로그, 컴포트 시스템즈·퀀타 서비스·스털링 인프라를 주목하다"
+      }
+    },
+    {
+      "symbol": "BKR",
+      "name": "Baker Hughes",
+      "sector": "Energy",
+      "open": 50.03,
+      "current": 46.2,
+      "changePercent": -7.66,
+      "news": null
+    },
+    {
+      "symbol": "NWSA",
+      "name": "News Corp (Class A)",
+      "sector": "Communication Services",
+      "open": 28.64,
+      "current": 26.48,
+      "changePercent": -7.54,
+      "news": {
+        "headline": "News Corp (NWSA) Q1 2027 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=094c059f2d1c0adce520d35358d3665631ef9e5124314ebe87f58f97acd6557a",
+        "source": "Yahoo",
+        "datetime": 1793902432,
+        "headlineKo": "뉴스 코프(NWSA) 2027년 1분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "open": 56.505,
+      "current": 52.25,
+      "changePercent": -7.53,
+      "news": {
+        "headline": "Intel Stocks Fall 9.1% as Server Demand Meets a Softer Outlook",
+        "url": "https://finnhub.io/api/news?id=c025ea9d544321ad776d537417725358765a5d69d5afb881f35de81dd60e4f0b",
+        "source": "Yahoo",
+        "datetime": 1793907144,
+        "headlineKo": "서버 수요에 대한 전망이 어두워지면서 인텔 주가 9.1% 하락"
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "name": "Nvidia",
+      "sector": "Information Technology",
+      "open": 196.07,
+      "current": 181.6,
+      "changePercent": -7.38,
+      "news": {
+        "headline": "Prediction: These Will Be Nvidia's and Palantir's Stock Prices by 2027 (Hint: Only 1 Is a Buy)",
+        "url": "https://finnhub.io/api/news?id=aab2da6c0c3262fca9563ac24325839f4b4c9ae055d36b615cbfd445c12f14b1",
+        "source": "Yahoo",
+        "datetime": 1793907960,
+        "headlineKo": "전망: 2027년까지 엔비디아와 팔란티어의 주가는 이 정도가 될 전망 (힌트: 매수할 만한 종목은 단 하나뿐)"
+      }
+    },
+    {
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "open": 47.675,
+      "current": 44.16,
+      "changePercent": -7.37,
+      "news": null
+    },
+    {
+      "symbol": "CDW",
+      "name": "CDW Corporation",
+      "sector": "Information Technology",
+      "open": 170.79,
+      "current": 158.39,
+      "changePercent": -7.26,
+      "news": {
+        "headline": "What Just Happened To CDW Stock?",
+        "url": "https://finnhub.io/api/news?id=54ec898a927fdd38327e000cc32d025fb5aacaff048e1ab7c91f7becd6e1f05f",
+        "source": "Yahoo",
+        "datetime": 1793893761,
+        "headlineKo": "CDW 주가에 무슨 일이 일어난 걸까?"
+      }
+    },
+    {
+      "symbol": "CVNA",
+      "name": "Carvana",
+      "sector": "Consumer Discretionary",
+      "open": 77.6,
+      "current": 72.08,
+      "changePercent": -7.11,
+      "news": {
+        "headline": "Is Carvana (CVNA) a Buy as Wall Street Analysts Look Optimistic?",
+        "url": "https://finnhub.io/api/news?id=423b165b3aa9a0415f30972d112d0e1bbcb6a035f1fb824b254c4da7a3bfa0a3",
+        "source": "Yahoo",
+        "datetime": 1793885402,
+        "headlineKo": "월가 애널리스트들이 낙관적인 전망을 내놓는 가운데, 카바나(CVNA)는 매수할 만한 종목인가?"
+      }
+    },
+    {
+      "symbol": "TRGP",
+      "name": "Targa Resources",
+      "sector": "Energy",
+      "open": 292.61,
+      "current": 271.82,
+      "changePercent": -7.11,
+      "news": {
+        "headline": "Targa Resources Corp. 2026 Q3 - Results - Earnings Call Presentation",
+        "url": "https://finnhub.io/api/news?id=4a0ac2182db336554f53bb83e629e17f187a00a078db368268bead3a94e5eef9",
+        "source": "SeekingAlpha",
+        "datetime": 1793894499,
+        "headlineKo": "타르가 리소시스(Targa Resources Corp.) 2026년 3분기 실적 - 실적 발표 - 실적 설명회 자료"
+      }
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir Technologies",
+      "sector": "Information Technology",
+      "open": 166.715,
+      "current": 154.99,
+      "changePercent": -7.03,
+      "news": {
+        "headline": "Does Palantir Technologies (PLTR) Have A New Overseas Growth Engine In AI Manufacturing?",
+        "url": "https://finnhub.io/api/news?id=1e40ceeb2350b2ef59239073b36ee2769188b24875e19a2c9f28261e01018be6",
+        "source": "Yahoo",
+        "datetime": 1793874159,
+        "headlineKo": "팔란티어 테크놀로지스(PLTR)가 AI 제조 분야에서 새로운 해외 성장 동력을 확보했을까?"
+      }
+    },
+    {
+      "symbol": "MS",
+      "name": "Morgan Stanley",
+      "sector": "Financials",
+      "open": 195.995,
+      "current": 182.44,
+      "changePercent": -6.92,
+      "news": {
+        "headline": "Cisco Systems Has Multi-Year Growth Path But Faces Margin Concerns, Morgan Stanley Says",
+        "url": "https://finnhub.io/api/news?id=d0f260c992d959c14d89c216adf8c1195315e8c525efa8f1f354df3dccf4276a",
+        "source": "Yahoo",
+        "datetime": 1793898122,
+        "headlineKo": "모건 스탠리, “시스코 시스템즈는 다년간의 성장 궤도를 타고 있으나 마진 문제에 직면해 있다”고 밝혔다"
+      }
+    },
+    {
+      "symbol": "URI",
+      "name": "United Rentals",
+      "sector": "Industrials",
+      "open": 1121,
+      "current": 1043.78,
+      "changePercent": -6.89,
+      "news": null
+    },
+    {
+      "symbol": "GS",
+      "name": "Goldman Sachs",
+      "sector": "Financials",
+      "open": 932.32,
+      "current": 868.95,
+      "changePercent": -6.8,
+      "news": {
+        "headline": "Is a Gold Bullion ETF a Better Investment Than a Silver Miners Fund? ETFs from Goldman Sachs and iShares Battle It Out",
+        "url": "https://finnhub.io/api/news?id=c400f591d6bc462908578480ac8bfe69260ba4e62431c87b40fe4ead04983b91",
+        "source": "Yahoo",
+        "datetime": 1793903581,
+        "headlineKo": "금 현물 ETF가 은 광산 기업 펀드보다 더 나은 투자인가? 골드만삭스와 아이셰어스의 ETF가 맞대결을 펼친다"
+      }
+    },
+    {
+      "symbol": "ADI",
+      "name": "Analog Devices",
+      "sector": "Information Technology",
+      "open": 387.25,
+      "current": 361.01,
+      "changePercent": -6.78,
+      "news": {
+        "headline": "Analog Devices (NASDAQ:ADI): A Dividend Quality Candidate for Income Investors",
+        "url": "https://finnhub.io/api/news?id=ede058f92e4c75292e0c671601d264e46663952729eaecd61e3a42b00880af07",
+        "source": "ChartMill",
+        "datetime": 1793886656,
+        "headlineKo": "아날로그 디바이스(NASDAQ:ADI): 소득형 투자자를 위한 유망한 배당주 후보"
+      }
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks",
+      "sector": "Information Technology",
+      "open": 337.55,
+      "current": 314.67,
+      "changePercent": -6.78,
+      "news": {
+        "headline": "Palo Alto Networks Eyes $500 Million AI Security Deal",
+        "url": "https://finnhub.io/api/news?id=e4e0898a4caee9394b8efea47a646061d92398a077a175e4bfc2e7514db638ab",
+        "source": "Yahoo",
+        "datetime": 1793889846,
+        "headlineKo": "팔로알토 네트웍스, 5억 달러 규모의 AI 보안 계약 체결 추진"
+      }
+    },
+    {
+      "symbol": "NTAP",
+      "name": "NetApp",
+      "sector": "Information Technology",
+      "open": 181.65,
+      "current": 169.38,
+      "changePercent": -6.75,
+      "news": {
+        "headline": "NetApp Up 62% in the Past Year: Should Investors Buy the Stock?",
+        "url": "https://finnhub.io/api/news?id=e16643e16a9c3ea370c1567d20eb8f58c79db70628a736347ba338da67159821",
+        "source": "Yahoo",
+        "datetime": 1793878800,
+        "headlineKo": "지난 1년간 62% 상승한 넷앱: 투자자들은 이 주식을 매수해야 할까?"
+      }
+    },
+    {
+      "symbol": "PODD",
+      "name": "Insulet Corporation",
+      "sector": "Health Care",
+      "open": 167.33,
+      "current": 156.12,
+      "changePercent": -6.7,
+      "news": {
+        "headline": "Insulet Stock What’s Changed After Earnings Beat",
+        "url": "https://finnhub.io/api/news?id=4804308475b52c777bb8fa7153c59cd01ccde43d81e620087278b00404ca07bd",
+        "source": "Yahoo",
+        "datetime": 1793856250,
+        "headlineKo": "인슐렛 주가: 실적 호조 이후 어떤 변화가 있었나"
+      }
+    },
+    {
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
+      "sector": "Information Technology",
+      "open": 83.42,
+      "current": 77.84,
+      "changePercent": -6.69,
+      "news": null
+    },
+    {
+      "symbol": "WMB",
+      "name": "Williams Companies",
+      "sector": "Energy",
+      "open": 68.84,
+      "current": 64.25,
+      "changePercent": -6.67,
+      "news": {
+        "headline": "Williams Companies Inc (WMB) (Q3 2026) Earnings Call Highlights: Record EBITDA, Momentum ...",
+        "url": "https://finnhub.io/api/news?id=893719880f8f0fec71a9e1f2dde0cec2c525225484e2fd5296a366b60b70fb02",
+        "source": "Yahoo",
+        "datetime": 1793869404,
+        "headlineKo": "윌리엄스 컴퍼니즈(Williams Companies Inc, WMB) (2026년 3분기) 실적 발표 주요 내용: 사상 최대 EBITDA, 성장 모멘텀 ..."
+      }
+    },
+    {
+      "symbol": "FIX",
+      "name": "Comfort Systems USA",
+      "sector": "Industrials",
+      "open": 1033,
+      "current": 964.94,
+      "changePercent": -6.59,
+      "news": {
+        "headline": "Should Comfort Systems USA (FIX) Investors Worry About AI Data Center Policy Risk?",
+        "url": "https://finnhub.io/api/news?id=f37f39681ad6a3b55c51316ccb875aaf81ed1412b4182b77300693382404660b",
+        "source": "Yahoo",
+        "datetime": 1793887991,
+        "headlineKo": "Comfort Systems USA(FIX) 투자자들은 AI 데이터센터 관련 정책 리스크를 우려해야 할까?"
+      }
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "sector": "Information Technology",
+      "open": 311.89,
+      "current": 291.53,
+      "changePercent": -6.53,
+      "news": {
+        "headline": "Broadcom Stocks Fall 6.42% With $21.7 Billion AI Forecast in Focus",
+        "url": "https://finnhub.io/api/news?id=16fd36cfb804c226d7489554e69a5a5e4c7761cee9a3b7cd45dad9d7db4b3547",
+        "source": "Yahoo",
+        "datetime": 1793904639,
+        "headlineKo": "브로드컴 주가, 217억 달러 규모의 AI 매출 전망에 주목하며 6.42% 하락"
+      }
+    },
+    {
+      "symbol": "FICO",
+      "name": "Fair Isaac",
+      "sector": "Information Technology",
+      "open": 664.2,
+      "current": 707.4,
+      "changePercent": 6.5,
+      "news": {
+        "headline": "FICO Q4 Earnings Beat on Scores, Pricing and Software Growth",
+        "url": "https://finnhub.io/api/news?id=71df15e62f97a4a811fd3fcfaa21623e882bb873a7f3c5ee5bfe63243bfbef0d",
+        "source": "Yahoo",
+        "datetime": 1793898600,
+        "headlineKo": "FICO, 신용 점수·가격 책정 및 소프트웨어 성장에 힘입어 4분기 실적 기대치 상회"
+      }
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 258.01,
+      "current": 241.46,
+      "changePercent": -6.41,
+      "news": {
+        "headline": "Moderna Soared 8% on Cancer Data. Friday’s Report Shows Whether It Can Afford the Pipeline",
+        "url": "https://finnhub.io/api/news?id=74cb67858032af1398cb1bb162739fc436950bc2206e2852b972d9bfa81751bf",
+        "source": "Yahoo",
+        "datetime": 1793893787,
+        "headlineKo": "모더나, 암 관련 데이터 발표에 주가가 8% 급등. 금요일 발표를 통해 신약 파이프라인 유지 여부가 드러날 전망"
+      }
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "sector": "Information Technology",
+      "open": 123,
+      "current": 115.16,
+      "changePercent": -6.37,
+      "news": {
+        "headline": "Oracle Stocks Fall 9.3% as Investors Weigh Cloud Growth Against Funding",
+        "url": "https://finnhub.io/api/news?id=beabcbb88c3f15e1250d439cc3eac1e9a71236ceece281d3e799452bf4a975a4",
+        "source": "Yahoo",
+        "datetime": 1793907140,
+        "headlineKo": "투자자들이 클라우드 성장세와 자금 조달 상황을 저울질하면서 오라클 주가가 9.3% 하락했다"
+      }
+    },
+    {
+      "symbol": "C",
+      "name": "Citigroup",
+      "sector": "Financials",
+      "open": 126.4725,
+      "current": 118.45,
+      "changePercent": -6.34,
+      "news": {
+        "headline": "Nintendo profit misses as Switch 2 sales slump; Citi sees temporary dip",
+        "url": "https://finnhub.io/api/news?id=977f4013edb462dcbd445e2d45aa6d7dfb579544bd7398ee617db0663011052b",
+        "source": "Yahoo",
+        "datetime": 1793894519,
+        "headlineKo": "스위치 2 판매 부진으로 닌텐도 이익 기대치 미달… 시티그룹, 일시적인 하락으로 전망"
+      }
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike",
+      "sector": "Information Technology",
+      "open": 231.89,
+      "current": 217.2,
+      "changePercent": -6.33,
+      "news": {
+        "headline": "CrowdStrike Sinks 9%, Palo Alto Down 8%, Cloudflare Down 9% as AI Trade Unwinds",
+        "url": "https://finnhub.io/api/news?id=b8c9590d11b3131ed10099c3d4f727f98362921c8783a92f9b8e92c904c05c18",
+        "source": "Yahoo",
+        "datetime": 1793902736,
+        "headlineKo": "AI 관련 매수세가 해소되면서 크라우드스트라이크는 9%, 팔로알토는 8%, 클라우드플레어는 9% 하락했다"
+      }
+    },
+    {
+      "symbol": "TEL",
+      "name": "TE Connectivity",
+      "sector": "Information Technology",
+      "open": 220.03,
+      "current": 206.36,
+      "changePercent": -6.21,
+      "news": null
+    },
+    {
+      "symbol": "BX",
+      "name": "Blackstone Inc.",
+      "sector": "Financials",
+      "open": 127.67,
+      "current": 119.82,
+      "changePercent": -6.15,
+      "news": null
+    },
+    {
+      "symbol": "MLM",
+      "name": "Martin Marietta Materials",
+      "sector": "Materials",
+      "open": 562.37,
+      "current": 527.83,
+      "changePercent": -6.14,
+      "news": null
+    },
+    {
+      "symbol": "NDSN",
+      "name": "Nordson Corporation",
+      "sector": "Industrials",
+      "open": 330.75,
+      "current": 310.49,
+      "changePercent": -6.13,
+      "news": null
+    },
+    {
+      "symbol": "KEYS",
+      "name": "Keysight Technologies",
+      "sector": "Information Technology",
+      "open": 277.5,
+      "current": 260.61,
+      "changePercent": -6.09,
+      "news": null
+    },
+    {
+      "symbol": "IBKR",
+      "name": "Interactive Brokers",
+      "sector": "Financials",
+      "open": 77.43,
+      "current": 72.73,
+      "changePercent": -6.07,
+      "news": null
+    },
+    {
+      "symbol": "JPM",
+      "name": "JPMorgan Chase",
+      "sector": "Financials",
+      "open": 358.635,
+      "current": 337.34,
+      "changePercent": -5.94,
+      "news": {
+        "headline": "JPMorgan Chase & Co. Warns a Rapid Rate Rise Could Shake the Financial System",
+        "url": "https://finnhub.io/api/news?id=015f864c9d47cdc47651acef0cb9f148d85dce6551b3139083fdaa69899588af",
+        "source": "Yahoo",
+        "datetime": 1793898893,
+        "headlineKo": "JPMorgan Chase & Co., 급격한 금리 인상이 금융 시스템을 뒤흔들 수 있다고 경고"
+      }
+    },
+    {
+      "symbol": "MPWR",
+      "name": "Monolithic Power Systems",
+      "sector": "Information Technology",
+      "open": 1202.84,
+      "current": 1131.43,
+      "changePercent": -5.94,
+      "news": null
+    },
+    {
+      "symbol": "NXPI",
+      "name": "NXP Semiconductors",
+      "sector": "Information Technology",
+      "open": 259.665,
+      "current": 244.43,
+      "changePercent": -5.87,
+      "news": null
+    },
+    {
+      "symbol": "BLDR",
+      "name": "Builders FirstSource",
+      "sector": "Industrials",
+      "open": 69.58,
+      "current": 65.5,
+      "changePercent": -5.86,
+      "news": null
+    },
+    {
+      "symbol": "APH",
+      "name": "Amphenol",
+      "sector": "Information Technology",
+      "open": 76.09,
+      "current": 71.64,
+      "changePercent": -5.85,
+      "news": {
+        "headline": "3 Reasons Why Growth Investors Shouldn't Overlook Amphenol (APH)",
+        "url": "https://finnhub.io/api/news?id=fded2d61a51c7513532f23f788bea5fe78cabb9a0c89aa49812ac877726638af",
+        "source": "Yahoo",
+        "datetime": 1793897102,
+        "headlineKo": "성장주 투자자들이 앰페놀(APH)을 간과해서는 안 되는 3가지 이유"
+      }
+    },
+    {
+      "symbol": "IT",
+      "name": "Gartner",
+      "sector": "Information Technology",
+      "open": 210.38,
+      "current": 198.07,
+      "changePercent": -5.85,
+      "news": {
+        "headline": "Workday Named a Leader in 2026 Gartner® Magic Quadrant™ for Cloud ERP for Service-Centric Enterprises for Fifth Consecutive Year",
+        "url": "https://finnhub.io/api/news?id=ff557e5b8b8d55ec072cc13c6e15eedea3701f506d9be37997de33eddfff5d13",
+        "source": "Yahoo",
+        "datetime": 1793897820,
+        "headlineKo": "워크데이, ‘서비스 중심 기업을 위한 클라우드 ERP’ 부문 2026년 가트너® 매직 쿼드런트™에서 5년 연속 ‘리더’로 선정"
+      }
+    },
+    {
+      "symbol": "ODFL",
+      "name": "Old Dominion",
+      "sector": "Industrials",
+      "open": 181.06,
+      "current": 170.56,
+      "changePercent": -5.8,
+      "news": null
+    },
+    {
+      "symbol": "DXCM",
+      "name": "Dexcom",
+      "sector": "Health Care",
+      "open": 89.575,
+      "current": 84.46,
+      "changePercent": -5.71,
+      "news": null
+    },
+    {
+      "symbol": "STT",
+      "name": "State Street Corporation",
+      "sector": "Financials",
+      "open": 175.21,
+      "current": 165.23,
+      "changePercent": -5.7,
+      "news": {
+        "headline": "SPDW vs VXUS: Is a State Street or Vanguard International ETF the Better Fit for Your Portfolio?",
+        "url": "https://finnhub.io/api/news?id=3273fb8ba9c90fb605f91e6a7995520723cb5961c453c6ea375bb3d9e19160bd",
+        "source": "Yahoo",
+        "datetime": 1793905382,
+        "headlineKo": "SPDW 대 VXUS: 스테이트 스트리트와 뱅가드 국제 ETF 중 어느 것이 여러분의 포트폴리오에 더 적합할까요?"
+      }
+    },
+    {
+      "symbol": "APO",
+      "name": "Apollo Global Management",
+      "sector": "Financials",
+      "open": 124.32,
+      "current": 117.27,
+      "changePercent": -5.67,
+      "news": {
+        "headline": "Apollo Global Management: Relative Value Trade In Preferred Shares Vs. OTC Bonds",
+        "url": "https://finnhub.io/api/news?id=d5291a864e394a59937f724d667e3954e41a92499a9699d9c2f7c4914f8ed559",
+        "source": "SeekingAlpha",
+        "datetime": 1793844889,
+        "headlineKo": "아폴로 글로벌 매니지먼트: 우선주와 장외채권을 비교한 상대가치 투자 전략"
+      }
+    },
+    {
+      "symbol": "APTV",
+      "name": "Aptiv",
+      "sector": "Consumer Discretionary",
+      "open": 43.3,
+      "current": 40.85,
+      "changePercent": -5.66,
+      "news": null
+    },
+    {
+      "symbol": "DASH",
+      "name": "DoorDash",
+      "sector": "Consumer Discretionary",
+      "open": 190.71,
+      "current": 179.92,
+      "changePercent": -5.66,
+      "news": {
+        "headline": "Lyft Launches $9.99-a-Month Program With DoorDash Membership",
+        "url": "https://finnhub.io/api/news?id=5462fe56720d170ba3237d49178e7111a9bd0505cdc12cc13c2bdd5064e0373e",
+        "source": "Yahoo",
+        "datetime": 1793883600,
+        "headlineKo": "Lyft, DoorDash 멤버십과 연계한 월 9.99달러 요금제 출시"
+      }
+    },
+    {
+      "symbol": "ROST",
+      "name": "Ross Stores",
+      "sector": "Consumer Discretionary",
+      "open": 249.3,
+      "current": 235.23,
+      "changePercent": -5.64,
+      "news": null
+    },
+    {
+      "symbol": "COR",
+      "name": "Cencora",
+      "sector": "Health Care",
+      "open": 359.87,
+      "current": 339.68,
+      "changePercent": -5.61,
+      "news": {
+        "headline": "Evercore ISI Group Maintains Outperform on Cencora, Raises Price Target to $380",
+        "url": "https://finnhub.io/api/news?id=ce0969878800d275fea6bf070e6b5e13b897756f27312d69a3efb7cb4ec42ca2",
+        "source": "Benzinga",
+        "datetime": 1793873389,
+        "headlineKo": "에버코어 ISI 그룹, 센코라에 대한 ‘아웃퍼폼’ 투자의견 유지… 목표주가 380달러로 상향"
+      }
+    },
+    {
+      "symbol": "BEN",
+      "name": "Franklin Resources",
+      "sector": "Financials",
+      "open": 34.1,
+      "current": 32.21,
+      "changePercent": -5.54,
+      "news": null
+    },
+    {
+      "symbol": "PSX",
+      "name": "Phillips 66",
+      "sector": "Energy",
+      "open": 261.5,
+      "current": 247.04,
+      "changePercent": -5.53,
+      "news": null
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "open": 108.355,
+      "current": 102.36,
+      "changePercent": -5.53,
+      "news": {
+        "headline": "Salesforce Vs. ServiceNow: You Can Trust Both Following The Recent Drop",
+        "url": "https://finnhub.io/api/news?id=a952a7e82e045b05363f5cf4714a8b0f3578329ca7b1398071eda488c1d3eaf6",
+        "source": "Yahoo",
+        "datetime": 1793893521,
+        "headlineKo": "Salesforce 대 ServiceNow: 최근 주가 하락 이후 두 기업 모두 신뢰할 만하다"
+      }
+    },
+    {
+      "symbol": "EQT",
+      "name": "EQT Corporation",
+      "sector": "Energy",
+      "open": 53.57,
+      "current": 50.62,
+      "changePercent": -5.51,
+      "news": null
+    },
+    {
+      "symbol": "BAC",
+      "name": "Bank of America",
+      "sector": "Financials",
+      "open": 52.65,
+      "current": 49.76,
+      "changePercent": -5.49,
+      "news": {
+        "headline": "ETFs Are Net Sellers of Bank of America (BAC) on Nov. 3",
+        "url": "https://finnhub.io/api/news?id=6c299e46ae175a0a5263fa54cbc617fbd7bc227e6c81411a012c0703fedf5890",
+        "source": "Yahoo",
+        "datetime": 1793876553,
+        "headlineKo": "11월 3일, ETF들은 뱅크 오브 아메리카(BAC)를 순매도했다"
+      }
+    },
+    {
+      "symbol": "EXPD",
+      "name": "Expeditors International",
+      "sector": "Industrials",
+      "open": 199.85,
+      "current": 188.87,
+      "changePercent": -5.49,
+      "news": null
+    },
+    {
+      "symbol": "SLB",
+      "name": "Schlumberger",
+      "sector": "Energy",
+      "open": 52.51,
+      "current": 49.64,
+      "changePercent": -5.47,
+      "news": {
+        "headline": "SLB: 3 Key Takeaways for Long-Term Investors",
+        "url": "https://finnhub.io/api/news?id=f4999ca06baaef34141b3767a7c8d482ed0faf59e42df6bbcba046533cdcb9d7",
+        "source": "Yahoo",
+        "datetime": 1793899202,
+        "headlineKo": "SLB: 장기 투자자를 위한 3가지 핵심 요점"
+      }
+    },
+    {
+      "symbol": "JBL",
+      "name": "Jabil",
+      "sector": "Information Technology",
+      "open": 250,
+      "current": 236.36,
+      "changePercent": -5.46,
+      "news": {
+        "headline": "Did Jabil's Sales Earn Its Stock's Rise?",
+        "url": "https://finnhub.io/api/news?id=dea78275060fe4fd79b34c13d4f4bb53593b42606855816dd117c45065ddde2b",
+        "source": "Yahoo",
+        "datetime": 1793880388,
+        "headlineKo": "제이블의 매출이 주가 상승을 뒷받침했는가?"
+      }
+    },
+    {
+      "symbol": "ROK",
+      "name": "Rockwell Automation",
+      "sector": "Industrials",
+      "open": 402.96,
+      "current": 381.05,
+      "changePercent": -5.44,
+      "news": {
+        "headline": "Rockwell Automation Reports Fourth Quarter and Full Year 2026 Results; Introduces Fiscal 2027 Guidance",
+        "url": "https://finnhub.io/api/news?id=743b274f64abda918e2b2e83fce5f1c974d80c1c1c293e408b28e6c580c8889d",
+        "source": "Fintel",
+        "datetime": 1793907710,
+        "headlineKo": "록웰 오토메이션, 2026년 4분기 및 연간 실적 발표… 2027 회계연도 실적 전망치 제시"
+      }
+    },
+    {
+      "symbol": "SHW",
+      "name": "Sherwin-Williams",
+      "sector": "Materials",
+      "open": 369,
+      "current": 349.01,
+      "changePercent": -5.42,
+      "news": null
+    },
+    {
+      "symbol": "HON",
+      "name": "Honeywell Technologies",
+      "sector": "Industrials",
+      "open": 228.09,
+      "current": 215.78,
+      "changePercent": -5.4,
+      "news": {
+        "headline": "Honeywell Technologies: A Stronger 2027 Is Coming Into View",
+        "url": "https://finnhub.io/api/news?id=3a2132ac565bec4fd69c9a1d29ff9900d846654159a47571534ede60a781a46d",
+        "source": "SeekingAlpha",
+        "datetime": 1793856485,
+        "headlineKo": "허니웰 테크놀로지스: 더욱 견고한 2027년이 시야에 들어오고 있다"
+      }
+    },
+    {
+      "symbol": "TDY",
+      "name": "Teledyne Technologies",
+      "sector": "Information Technology",
+      "open": 625.34,
+      "current": 591.72,
+      "changePercent": -5.38,
+      "news": null
+    },
+    {
+      "symbol": "GNRC",
+      "name": "Generac",
+      "sector": "Industrials",
+      "open": 182.01,
+      "current": 172.33,
+      "changePercent": -5.32,
+      "news": {
+        "headline": "Is GNRC Worth Buying as Data Center Growth Tests Margins and Risk?",
+        "url": "https://finnhub.io/api/news?id=7614b9d2dd809ad33d4e5baa9e430647dc6e12d6c1bf7cf66bd42c17a042ae7a",
+        "source": "Yahoo",
+        "datetime": 1793898660,
+        "headlineKo": "데이터 센터 성장으로 인해 마진과 리스크가 시험대에 오른 상황에서 GNRC는 매수할 가치가 있을까?"
+      }
+    },
+    {
+      "symbol": "CCL",
+      "name": "Carnival Corporation",
+      "sector": "Consumer Discretionary",
+      "open": 31.25,
+      "current": 29.59,
+      "changePercent": -5.31,
+      "news": {
+        "headline": "Carnival Corporation (CCL) Is a Trending Stock: Facts to Know Before Betting on It",
+        "url": "https://finnhub.io/api/news?id=7fbd25914204af4b4a874e87f8b17cdfe18663cecb4463a5db705b1667d971b1",
+        "source": "Yahoo",
+        "datetime": 1793883604,
+        "headlineKo": "카니발 코퍼레이션(CCL)은 주목받는 종목입니다: 투자 전 알아두어야 할 사실들"
+      }
+    },
+    {
+      "symbol": "BLK",
+      "name": "BlackRock",
+      "sector": "Financials",
+      "open": 1235.78,
+      "current": 1170.67,
+      "changePercent": -5.27,
+      "news": {
+        "headline": "iConnections and Preqin, a Part of BlackRock, Announce Collaboration to Bring Institutional Data to Violet, an AI-Powered Capital Introduction Platform",
+        "url": "https://finnhub.io/api/news?id=ad0ce7f89cb8a67e647987bd684bd04c03c93cd7eec8ae64b5b59c8d83840b6a",
+        "source": "Yahoo",
+        "datetime": 1793883600,
+        "headlineKo": "iConnections와 블랙록(BlackRock) 산하 기업인 Preqin은 AI 기반 자본 연결 플랫폼인 Violet에 기관 투자자 데이터를 제공하기 위한 협력 계획을 발표했다."
+      }
+    },
+    {
+      "symbol": "CRL",
+      "name": "Charles River Laboratories",
+      "sector": "Health Care",
+      "open": 330.14,
+      "current": 313.02,
+      "changePercent": -5.19,
+      "news": {
+        "headline": "Will Earnings Beat Change Charles River Laboratories' (CRL) Narrative",
+        "url": "https://finnhub.io/api/news?id=e65a7e237f3d9c140d221088162961c0912fc1803fdeb52c25b9caca881bbe56",
+        "source": "Yahoo",
+        "datetime": 1793898577,
+        "headlineKo": "실적 전망치를 상회할 경우, 찰스 리버 래버러토리스(CRL)에 대한 시장 인식이 바뀔까?"
+      }
+    },
+    {
+      "symbol": "CI",
+      "name": "Cigna",
+      "sector": "Health Care",
+      "open": 318,
+      "current": 301.48,
+      "changePercent": -5.19,
+      "news": {
+        "headline": "Cigna Group (CI) Raises 2026 Outlook After Strong Quarter And $3 Billion Reset",
+        "url": "https://finnhub.io/api/news?id=57c345ab21a9300d14dcdc19ee21cd76ade19a78cbaf7e53bf645816f55466ac",
+        "source": "Yahoo",
+        "datetime": 1793905925,
+        "headlineKo": "시그나 그룹(CI), 호조였던 분기 실적과 30억 달러 규모의 구조조정 이후 2026년 전망 상향 조정"
+      }
+    },
+    {
+      "symbol": "TJX",
+      "name": "TJX Companies",
+      "sector": "Consumer Discretionary",
+      "open": 146.16,
+      "current": 138.59,
+      "changePercent": -5.18,
+      "news": {
+        "headline": "Investors Heavily Search The TJX Companies, Inc. (TJX): Here is What You Need to Know",
+        "url": "https://finnhub.io/api/news?id=f4fc351edd28758d173d07cd6cda47445ad678a7a0ac3658c2185b59004b69dd",
+        "source": "Yahoo",
+        "datetime": 1793883603,
+        "headlineKo": "투자자들이 TJX Companies, Inc. (TJX)에 대한 정보를 집중적으로 검색하고 있습니다: 꼭 알아야 할 사항은 다음과 같습니다"
+      }
+    },
+    {
+      "symbol": "EXPE",
+      "name": "Expedia Group",
+      "sector": "Consumer Discretionary",
+      "open": 287.315,
+      "current": 272.48,
+      "changePercent": -5.16,
+      "news": {
+        "headline": "Stock Market Today: Dow Down 1,500 Points As Volatility Spikes; Expedia Posts A Soft Outlook (Live Coverage)",
+        "url": "https://finnhub.io/api/news?id=5077f927305c7d6d6209bd8bfdb739bab68622fd790bed96467bbc23076bf198",
+        "source": "Yahoo",
+        "datetime": 1793907980,
+        "headlineKo": "오늘 주식 시장: 변동성 급증 속 다우 지수 1,500포인트 하락; 익스피디아, 부진한 실적 전망 발표 (실시간 보도)"
+      }
+    },
+    {
+      "symbol": "WAB",
+      "name": "Wabtec",
+      "sector": "Industrials",
+      "open": 293.42,
+      "current": 278.48,
+      "changePercent": -5.09,
+      "news": {
+        "headline": "Wabtec (NYSE:WAB): A Quality Stock Case Study in Cash-Backed Growth",
+        "url": "https://finnhub.io/api/news?id=f7c358b2c10a7c9aedb2f6ebeed696387643a7c010f1b759486fe042b9950dd2",
+        "source": "ChartMill",
+        "datetime": 1793876458,
+        "headlineKo": "Wabtec (NYSE:WAB): 현금 기반 성장을 보여주는 우량주 사례 연구"
+      }
+    },
+    {
+      "symbol": "PFG",
+      "name": "Principal Financial Group",
+      "sector": "Financials",
+      "open": 118.79,
+      "current": 112.82,
+      "changePercent": -5.03,
+      "news": {
+        "headline": "Principal Financial: 3 Key Takeaways for Long-Term Investors",
+        "url": "https://finnhub.io/api/news?id=db0101443f7f3a5f92cd1c6bd2e4148d2d1ad4b834ae92a7eb13e4062ff53a86",
+        "source": "Yahoo",
+        "datetime": 1793901002,
+        "headlineKo": "프린시펄 파이낸셜: 장기 투자자를 위한 3가지 핵심 포인트"
+      }
+    },
+    {
+      "symbol": "AMP",
+      "name": "Ameriprise Financial",
+      "sector": "Financials",
+      "open": 536.17,
+      "current": 509.32,
+      "changePercent": -5.01,
+      "news": null
+    },
+    {
+      "symbol": "EL",
+      "name": "Estée Lauder Companies (The)",
+      "sector": "Consumer Staples",
+      "open": 113.32,
+      "current": 107.65,
+      "changePercent": -5,
+      "news": {
+        "headline": "EL's Fiscal 2030 Roadmap Targets Stronger Growth & Higher Margins",
+        "url": "https://finnhub.io/api/news?id=b801d6f67f7b5cbada24a22249e8978126595d3d6fe33b63315cb382ac9fd9ae",
+        "source": "Yahoo",
+        "datetime": 1793890200,
+        "headlineKo": "EL의 2030 회계연도 로드맵, 더 강력한 성장과 높은 마진 달성 목표"
+      }
+    },
+    {
+      "symbol": "FDXF",
+      "name": "FedEx Freight",
+      "sector": "Industrials",
+      "open": 130.96,
+      "current": 124.41,
+      "changePercent": -5,
+      "news": null
+    }
+  ]
 }
