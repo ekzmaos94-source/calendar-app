@@ -1,71 +1,7 @@
 {
-  "generatedAt": "2026-11-10T21:15:20.169Z",
-  "tradingDate": "2026-11-10",
+  "generatedAt": "2026-11-11T20:04:13.778Z",
+  "tradingDate": "2026-11-11",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": [
-    {
-      "symbol": "CHTR",
-      "name": "Charter Communications",
-      "sector": "Communication Services",
-      "open": 121.88,
-      "current": 134.06,
-      "changePercent": 9.99,
-      "news": null
-    },
-    {
-      "symbol": "TTD",
-      "name": "Trade Desk (The)",
-      "sector": "Communication Services",
-      "open": 14.52,
-      "current": 15.42,
-      "changePercent": 6.2,
-      "news": {
-        "headline": "The Trade Desk: Value Trap Becomes AI Road Kill (Rating Downgrade)",
-        "url": "https://finnhub.io/api/news?id=f2ba684dc90f04c1613193eb0f2e58b70786d8c51c7380f739dd887e71c24fae",
-        "source": "SeekingAlpha",
-        "datetime": 1794319251,
-        "headlineKo": "더 트레이드 데스크: ‘가치 함정’이 ‘AI의 희생양’으로 전락 (신용등급 하향 조정)"
-      }
-    },
-    {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Care",
-      "open": 265.885,
-      "current": 250.83,
-      "changePercent": -5.66,
-      "news": {
-        "headline": "Moderna to Present at Upcoming Conference in November 2026",
-        "url": "https://finnhub.io/api/news?id=404ee1d46ec66c17967028f40c87e8ebb2a14af8b46f52e2356c4ef29a43d05d",
-        "source": "Yahoo",
-        "datetime": 1794312000,
-        "headlineKo": "모더나, 2026년 11월 개최 예정인 컨퍼런스에서 발표 예정"
-      }
-    },
-    {
-      "symbol": "GEV",
-      "name": "GE Vernova",
-      "sector": "Industrials",
-      "open": 755.53,
-      "current": 797.04,
-      "changePercent": 5.49,
-      "news": {
-        "headline": "GE Vernova Advances Hydrogen Capabilities for Aeroderivative Gas Turbines with New Milestones",
-        "url": "https://finnhub.io/api/news?id=e50be394b876bf6dbbe12a43998f352ed267db6304b0bf46bebca9681207c9c3",
-        "source": "Yahoo",
-        "datetime": 1794332997,
-        "headlineKo": "GE 베르노바, 새로운 성과 달성으로 항공기 파생형 가스 터빈의 수소 기술 역량 강화"
-      }
-    },
-    {
-      "symbol": "AKAM",
-      "name": "Akamai Technologies",
-      "sector": "Information Technology",
-      "open": 79.5,
-      "current": 83.71,
-      "changePercent": 5.3,
-      "news": null
-    }
-  ]
+  "movers": []
 }

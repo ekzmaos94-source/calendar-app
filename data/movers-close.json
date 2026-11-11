@@ -1,62 +1,7 @@
 {
-  "generatedAt": "2026-11-11T01:24:46.756Z",
-  "tradingDate": "2026-11-10",
+  "generatedAt": "2026-11-11T20:04:13.792Z",
+  "tradingDate": "2026-11-11",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": [
-    {
-      "symbol": "CHTR",
-      "name": "Charter Communications",
-      "sector": "Communication Services",
-      "open": 121.88,
-      "current": 134.06,
-      "changePercent": 9.99,
-      "news": null
-    },
-    {
-      "symbol": "MRNA",
-      "name": "Moderna",
-      "sector": "Health Care",
-      "open": 265.8575,
-      "current": 250.83,
-      "changePercent": -5.65,
-      "news": {
-        "headline": "Moderna to Present at Upcoming Conference in November 2026",
-        "url": "https://finnhub.io/api/news?id=404ee1d46ec66c17967028f40c87e8ebb2a14af8b46f52e2356c4ef29a43d05d",
-        "source": "Yahoo",
-        "datetime": 1794312000,
-        "headlineKo": "모더나, 2026년 11월 개최 예정인 컨퍼런스에서 발표 예정"
-      }
-    },
-    {
-      "symbol": "TTD",
-      "name": "Trade Desk (The)",
-      "sector": "Communication Services",
-      "open": 14.601,
-      "current": 15.42,
-      "changePercent": 5.61,
-      "news": {
-        "headline": "The Trade Desk: Value Trap Becomes AI Road Kill (Rating Downgrade)",
-        "url": "https://finnhub.io/api/news?id=f2ba684dc90f04c1613193eb0f2e58b70786d8c51c7380f739dd887e71c24fae",
-        "source": "SeekingAlpha",
-        "datetime": 1794319251,
-        "headlineKo": "더 트레이드 데스크: ‘가치 함정’이 ‘AI의 희생양’으로 전락 (신용등급 하향 조정)"
-      }
-    },
-    {
-      "symbol": "GEV",
-      "name": "GE Vernova",
-      "sector": "Industrials",
-      "open": 755.53,
-      "current": 797.04,
-      "changePercent": 5.49,
-      "news": {
-        "headline": "GE Vernova's Backlog Hit $197 Billion and the Stock Fell Anyway. Here's What a $10,000 Investment Could Be Worth by 2030.",
-        "url": "https://finnhub.io/api/news?id=f5854d48a4084f395675714cb84fc9e4e950c06ff487e36dc654e99f8376820a",
-        "source": "Yahoo",
-        "datetime": 1794354600,
-        "headlineKo": "GE 베르노바의 수주 잔고가 1,970억 달러에 달했지만 주가는 오히려 하락했다. 2030년이 되면 1만 달러를 투자했을 때 그 가치가 얼마나 될지 살펴보자."
-      }
-    }
-  ]
+  "movers": []
 }
