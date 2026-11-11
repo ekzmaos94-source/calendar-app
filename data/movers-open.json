@@ -1,7 +1,50 @@
 {
-  "generatedAt": "2026-11-11T20:04:13.778Z",
+  "generatedAt": "2026-11-11T21:50:09.057Z",
   "tradingDate": "2026-11-11",
   "thresholdPercent": 5,
   "session": "open",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "FIS",
+      "name": "Fidelity National Information Services",
+      "sector": "Financials",
+      "open": 28.08,
+      "current": 30.21,
+      "changePercent": 7.59,
+      "news": null
+    },
+    {
+      "symbol": "REGN",
+      "name": "Regeneron Pharmaceuticals",
+      "sector": "Health Care",
+      "open": 904.99,
+      "current": 959.41,
+      "changePercent": 6.01,
+      "news": null
+    },
+    {
+      "symbol": "APH",
+      "name": "Amphenol",
+      "sector": "Information Technology",
+      "open": 83.99,
+      "current": 79.31,
+      "changePercent": -5.57,
+      "news": null
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 928.24,
+      "current": 977.69,
+      "changePercent": 5.33,
+      "news": {
+        "headline": "Sandisk Stocks Jump 16% as Storage Rally Returns Ahead of 8-for-1 Split",
+        "url": "https://finnhub.io/api/news?id=dba3f029fd38261593a66e7302a85e5d3464a2e3cf967bbe64051eb2798b9f79",
+        "source": "Yahoo",
+        "datetime": 1794422847,
+        "headlineKo": "8대 1 주식 분할을 앞두고 스토리지 시장 상승세가 재개되면서 샌디스크 주가 16% 급등"
+      }
+    }
+  ]
 }
