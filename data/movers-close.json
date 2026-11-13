@@ -1,7 +1,188 @@
 {
-  "generatedAt": "2026-11-12T20:42:23.793Z",
+  "generatedAt": "2026-11-13T02:03:32.787Z",
   "tradingDate": "2026-11-12",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "CTVA",
+      "name": "Corteva",
+      "sector": "Materials",
+      "open": 10.51,
+      "current": 9.19,
+      "changePercent": -12.56,
+      "news": {
+        "headline": "Corteva Inc (CTVA) Q3 2026 Earnings Call Transcript",
+        "url": "https://finnhub.io/api/news?id=2ffc4840c17a1685aa087e293fdcee29cf740cf4b86462ea87cc64448d32523a",
+        "source": "Yahoo",
+        "datetime": 1794519078,
+        "headlineKo": "코르테바(Corteva Inc, CTVA) 2026년 3분기 실적 발표 전화 회의 기록"
+      }
+    },
+    {
+      "symbol": "GPN",
+      "name": "Global Payments",
+      "sector": "Financials",
+      "open": 100,
+      "current": 88.19,
+      "changePercent": -11.81,
+      "news": {
+        "headline": "Global Payments Sinks 12% as CD&R and GTCR Walk Away From Buyout Talks",
+        "url": "https://finnhub.io/api/news?id=9eb3fe09176bec19097cefb2bb925d3b89fb31fa11d508d7b46193f9ba361861",
+        "source": "Yahoo",
+        "datetime": 1794517558,
+        "headlineKo": "CD&R과 GTCR이 인수 협상에서 손을 뗀 가운데 글로벌 페이먼츠 주가 12% 급락"
+      }
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "open": 336.085,
+      "current": 371.17,
+      "changePercent": 10.44,
+      "news": {
+        "headline": "The AI Summit New York 2026 Announces Keynote and Featured Speaker Lineup with Leaders from Google, L’Oréal and Dell Technologies",
+        "url": "https://finnhub.io/api/news?id=1f62f60795549dfa3a26200ce05d3803239f6ef1213534d69247b3a2b614270c",
+        "source": "Yahoo",
+        "datetime": 1794488400,
+        "headlineKo": "‘AI 서밋 뉴욕 2026’이 구글, 로레알, 델 테크놀로지스의 리더들로 구성된 기조연설자 및 주요 연사 라인업을 발표했습니다."
+      }
+    },
+    {
+      "symbol": "NVDA",
+      "name": "Nvidia",
+      "sector": "Information Technology",
+      "open": 150.99,
+      "current": 166.19,
+      "changePercent": 10.07,
+      "news": {
+        "headline": "Michael Burry Doubles Down On Nasdaq 100 Puts, Adds To Semiconductor Shorts As Nvidia Faces Scrutiny",
+        "url": "https://finnhub.io/api/news?id=2a23d00328472aa9de06e890184049fbbc6a679c87eba157f1d878b454db5fcc",
+        "source": "Yahoo",
+        "datetime": 1794527598,
+        "headlineKo": "마이클 버리, 나스닥 100 풋옵션 포지션 확대… 엔비디아에 대한 조사 강화 속에 반도체 공매도 물량 추가"
+      }
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 213.99,
+      "current": 232.08,
+      "changePercent": 8.45,
+      "news": {
+        "headline": "Coherent Named to Forbes America's Best Companies List for Second Consecutive Year",
+        "url": "https://finnhub.io/api/news?id=492f7055ac967a03648cfa92da6c47cc5db69feba366b34a83309527e51a9aff",
+        "source": "Yahoo",
+        "datetime": 1794510900,
+        "headlineKo": "코히어런트, 2년 연속 ‘포브스 미국 최고의 기업’ 명단에 선정"
+      }
+    },
+    {
+      "symbol": "ANET",
+      "name": "Arista Networks",
+      "sector": "Information Technology",
+      "open": 193.145,
+      "current": 206.63,
+      "changePercent": 6.98,
+      "news": {
+        "headline": "Piper Sandler’s James Fish Calls Arista Networks (ANET) a Top Pick. Here’s What He Sees Ahead",
+        "url": "https://finnhub.io/api/news?id=189adea7803dde682e2883325d54e413a539f7f326d3f0376ddb3524e312b941",
+        "source": "Yahoo",
+        "datetime": 1794525115,
+        "headlineKo": "파이퍼 샌들러의 제임스 피시가 아리스타 네트웍스(ANET)를 최우선 추천 종목으로 꼽았다. 그가 전망하는 바는 다음과 같다."
+      }
+    },
+    {
+      "symbol": "FIS",
+      "name": "Fidelity National Information Services",
+      "sector": "Financials",
+      "open": 30.27,
+      "current": 28.36,
+      "changePercent": -6.31,
+      "news": {
+        "headline": "U.S. Bancorp or Fidelity National Information Services: Only One Gets My Dividend Dollars for the Next 10 Years",
+        "url": "https://finnhub.io/api/news?id=b83ab24549e5d5224712be286df3cd146fc170905aad1dd9ae2d9676cd8408f3",
+        "source": "Yahoo",
+        "datetime": 1794502364,
+        "headlineKo": "U.S. Bancorp와 Fidelity National Information Services 중, 향후 10년 동안 내 배당금을 받을 곳은 단 한 곳뿐이다."
+      }
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "open": 197.57,
+      "current": 209.64,
+      "changePercent": 6.11,
+      "news": {
+        "headline": "Vertiv Holdings Co (VRT) Debuts PowerNexus MV UPS For AI Data Centers",
+        "url": "https://finnhub.io/api/news?id=e6d15b62c92b19f3b14a070bfbffc9fae0d941feb00901288547717f16903fea",
+        "source": "Yahoo",
+        "datetime": 1794517914,
+        "headlineKo": "버티브 홀딩스(VRT), AI 데이터센터용 ‘파워넥서스 MV’ UPS 출시"
+      }
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 888.105,
+      "current": 937.46,
+      "changePercent": 5.56,
+      "news": {
+        "headline": "Sandisk Stocks Slide 7.83% as NVIDIA Exit Hits Storage a Week Before 8-for-1 Split",
+        "url": "https://finnhub.io/api/news?id=4bfd6dcf2c028f3e33acc9906c7845ae367c10646fe11e184a620117805ce2ab",
+        "source": "Yahoo",
+        "datetime": 1794512641,
+        "headlineKo": "8대 1 주식 분할을 일주일 앞두고 엔비디아의 철수가 스토리지 시장에 타격을 주면서 샌디스크 주가가 7.83% 하락했다"
+      }
+    },
+    {
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "open": 47.6,
+      "current": 50.16,
+      "changePercent": 5.38,
+      "news": {
+        "headline": "How Risky Is Hewlett Packard Enterprise Stock?",
+        "url": "https://finnhub.io/api/news?id=99dca929f24d3f5fc9721044a270090bbe8d5b3cf005b248eb237dac2cde93d1",
+        "source": "Yahoo",
+        "datetime": 1794503412,
+        "headlineKo": "휴렛 팩커드 엔터프라이즈(Hewlett Packard Enterprise) 주식은 얼마나 위험한가?"
+      }
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "open": 593.095,
+      "current": 624.65,
+      "changePercent": 5.32,
+      "news": {
+        "headline": "Lumentum Trades Below Marvell’s Buyout Offer. Is the Gap a Bargain?",
+        "url": "https://finnhub.io/api/news?id=d3e9b0912031f54d268a4c4cc657348c8f2b135166083342ddc22de006a8e4fe",
+        "source": "Yahoo",
+        "datetime": 1794491892,
+        "headlineKo": "루멘텀 주가, 마벨의 인수 제안가보다 낮게 거래 중. 이 격차가 매수 기회일까?"
+      }
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "sector": "Information Technology",
+      "open": 113.5,
+      "current": 119.5,
+      "changePercent": 5.29,
+      "news": {
+        "headline": "What Are Corning Investors Betting On?",
+        "url": "https://finnhub.io/api/news?id=8c3af7883fe3cf465dae96edf6a6ab5b01a51abe33ffc80bb3943c20be1f6d88",
+        "source": "Yahoo",
+        "datetime": 1794506380,
+        "headlineKo": "코닝 투자자들은 무엇에 베팅하고 있을까?"
+      }
+    }
+  ]
 }
