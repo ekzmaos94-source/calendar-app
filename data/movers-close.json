@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-11-13T20:23:52.900Z",
+  "generatedAt": "2026-11-14T01:39:16.671Z",
   "tradingDate": "2026-11-13",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "open": 367.51,
+      "current": 344.53,
+      "changePercent": -6.25,
+      "news": null
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "open": 566.67,
+      "current": 534.06,
+      "changePercent": -5.75,
+      "news": {
+        "headline": "Stock Market Today, Nov. 13: AMD Sinks 8.75% on Sector AI-Chip Sell-Off After Early Gains Reverse",
+        "url": "https://finnhub.io/api/news?id=62ffc936d5523c28dae5f77b405391066807bd91136134dbfceac7467f9d2423",
+        "source": "Yahoo",
+        "datetime": 1794608035,
+        "headlineKo": "11월 13일 오늘의 주식 시장: AMD, 초반 상승세 반전 후 AI 칩 관련주 매도 물량에 8.75% 급락"
+      }
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "open": 213.06,
+      "current": 202.07,
+      "changePercent": -5.16,
+      "news": {
+        "headline": "Why Should Vertiv Stock Holders Keep Watching This Number?",
+        "url": "https://finnhub.io/api/news?id=3b4d26380d5d684496a52801f6aebf33d0d5491f3c6d7d7efe1f5c1f8099eeea",
+        "source": "Yahoo",
+        "datetime": 1794609991,
+        "headlineKo": "버티브 주주들은 왜 이 수치를 계속 주시해야 할까요?"
+      }
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 229.75,
+      "current": 218.15,
+      "changePercent": -5.05,
+      "news": {
+        "headline": "AXTQ 2X Short AXT ETF Surges 15% as AXT Retraces From 147% Year-to-Date Rally; Coherent Drops 8%",
+        "url": "https://finnhub.io/api/news?id=baa4debb5bb231c3f00245d0cd0b925b5e079df88f29b2f7d0e6bd67944185d3",
+        "source": "Yahoo",
+        "datetime": 1794596584,
+        "headlineKo": "AXT가 연초 대비 147% 상승세에서 조정세를 보이면서 AXTQ 2X 숏 AXT ETF가 15% 급등했고, 코히어런트는 8% 하락했다."
+      }
+    }
+  ]
 }
