@@ -1,7 +1,68 @@
 {
-  "generatedAt": "2026-11-16T22:47:41.597Z",
+  "generatedAt": "2026-11-17T04:07:30.426Z",
   "tradingDate": "2026-11-16",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "TTWO",
+      "name": "Take-Two Interactive",
+      "sector": "Communication Services",
+      "open": 233.82,
+      "current": 213.47,
+      "changePercent": -8.7,
+      "news": {
+        "headline": "Zacks Investment Ideas feature highlights: Take-Two Interactive",
+        "url": "https://finnhub.io/api/news?id=53e8ad567a0bd62aa2bac0cf5dcb9f8d3834b8f793b21e251db925ec63d0f204",
+        "source": "Yahoo",
+        "datetime": 1794814980,
+        "headlineKo": "Zacks 투자 아이디어 특집 하이라이트: Take-Two Interactive"
+      }
+    },
+    {
+      "symbol": "PODD",
+      "name": "Insulet Corporation",
+      "sector": "Health Care",
+      "open": 153.5,
+      "current": 145.29,
+      "changePercent": -5.35,
+      "news": {
+        "headline": "Can Insulet Stock Jump 50%?",
+        "url": "https://finnhub.io/api/news?id=2881ec7e16a95287ee8467798534d1f1c8ae0f8430ae9286eb18c1202107cfe9",
+        "source": "Yahoo",
+        "datetime": 1794871210,
+        "headlineKo": "인슐렛 주가가 50% 급등할 수 있을까?"
+      }
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "sector": "Information Technology",
+      "open": 182.41,
+      "current": 172.86,
+      "changePercent": -5.24,
+      "news": {
+        "headline": "Datadog (DDOG) Just Gave Investors Something To Think About",
+        "url": "https://finnhub.io/api/news?id=c8f6c2a34b1164af06ab40efeffc57c25690ded3995ceeb7a1dc18037ba44796",
+        "source": "Yahoo",
+        "datetime": 1794834419,
+        "headlineKo": "Datadog(DDOG), 투자자들에게 숙고할 거리를 안겨주었다"
+      }
+    },
+    {
+      "symbol": "TSN",
+      "name": "Tyson Foods",
+      "sector": "Consumer Staples",
+      "open": 60.9,
+      "current": 63.95,
+      "changePercent": 5.01,
+      "news": {
+        "headline": "Tyson Foods, Inc. Q4 2026 Earnings Call Summary",
+        "url": "https://finnhub.io/api/news?id=3aeb201b983b0a1f0e9c5ae0899a5a1d3daaa8af3b2f31207551e1088f170286",
+        "source": "Yahoo",
+        "datetime": 1794866273,
+        "headlineKo": "타이슨 푸드(Tyson Foods, Inc.) 2026년 4분기 실적 발표 전화회의 요약"
+      }
+    }
+  ]
 }
