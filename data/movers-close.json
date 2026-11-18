@@ -1,7 +1,122 @@
 {
-  "generatedAt": "2026-11-17T21:37:10.892Z",
+  "generatedAt": "2026-11-18T03:05:18.396Z",
   "tradingDate": "2026-11-17",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "NKE",
+      "name": "Nike, Inc.",
+      "sector": "Consumer Discretionary",
+      "open": 40.2,
+      "current": 35.85,
+      "changePercent": -10.82,
+      "news": {
+        "headline": "Nike Is Down 78% From Its High. Here's What That Does to the Yield.",
+        "url": "https://finnhub.io/api/news?id=c7d4ad2dce958bc585c5eacbde44d778944b25f14806d97d2807d5d14069290d",
+        "source": "Yahoo",
+        "datetime": 1794955800,
+        "headlineKo": "나이키 주가가 최고점 대비 78% 하락했다. 이로 인해 배당수익률에 어떤 영향이 미치는지 살펴보자."
+      }
+    },
+    {
+      "symbol": "CRM",
+      "name": "Salesforce",
+      "sector": "Information Technology",
+      "open": 209.01,
+      "current": 194.52,
+      "changePercent": -6.93,
+      "news": {
+        "headline": "Stock Market Today, Nov. 17: Stocks Slide on AI Chip and Tech Pressures, Salesforce Plummets 9%",
+        "url": "https://finnhub.io/api/news?id=0ad8b3f9e133305b4da018a90cda7f326c1b70a4affccec60082213ec62ef7dd",
+        "source": "Yahoo",
+        "datetime": 1794955436,
+        "headlineKo": "11월 17일 오늘의 주식 시장: AI 칩 및 기술주 부진으로 주가 하락, 세일즈포스 9% 급락"
+      }
+    },
+    {
+      "symbol": "SBAC",
+      "name": "SBA Communications",
+      "sector": "Real Estate",
+      "open": 186.33,
+      "current": 174.56,
+      "changePercent": -6.32,
+      "news": null
+    },
+    {
+      "symbol": "FSLR",
+      "name": "First Solar",
+      "sector": "Information Technology",
+      "open": 163.08,
+      "current": 152.97,
+      "changePercent": -6.2,
+      "news": {
+        "headline": "First Solar and Enphase Fall 5% as Solar Selloff Stretches On; SolarEdge Drops 4%",
+        "url": "https://finnhub.io/api/news?id=315e6c538aa23436abb725bf60f977b53141db674e6a26bc1e8a5008f02819dd",
+        "source": "Yahoo",
+        "datetime": 1794941912,
+        "headlineKo": "태양광 주식 매도세가 이어지면서 퍼스트 솔라와 엔페이즈 주가가 5% 하락했고, 솔라엣지는 4% 하락했다."
+      }
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna",
+      "sector": "Health Care",
+      "open": 219.85,
+      "current": 206.8,
+      "changePercent": -5.94,
+      "news": {
+        "headline": "JPMorgan Still Sees Moderna Overvalued Despite Raising Its Target",
+        "url": "https://finnhub.io/api/news?id=72d5c966f06ca199536e85079feb152f75dc866b91d8039fbaff9f88ed5f98fb",
+        "source": "Yahoo",
+        "datetime": 1794937522,
+        "headlineKo": "JPMorgan, 목표주가 상향 조정에도 불구하고 모더나의 주가가 여전히 과대평가되었다고 판단"
+      }
+    },
+    {
+      "symbol": "INTU",
+      "name": "Intuit",
+      "sector": "Information Technology",
+      "open": 339.34,
+      "current": 320.79,
+      "changePercent": -5.47,
+      "news": {
+        "headline": "Why Intuit Stock Is Falling Fast Today",
+        "url": "https://finnhub.io/api/news?id=172337f040c08e4f28a9bf1b345e1649ae471232c6f10123b7bd6e5f052a283a",
+        "source": "Yahoo",
+        "datetime": 1794936891,
+        "headlineKo": "오늘 인튜이트 주가가 급락하는 이유"
+      }
+    },
+    {
+      "symbol": "TTWO",
+      "name": "Take-Two Interactive",
+      "sector": "Communication Services",
+      "open": 215.69,
+      "current": 203.93,
+      "changePercent": -5.45,
+      "news": {
+        "headline": "Take-Two Interactive Fell 13% Over 3 Months: GTA VI Launches Nov. 19 and This Analyst Predicts 55% Gains",
+        "url": "https://finnhub.io/api/news?id=ad2a794b00f4634bb56e4a0cffb7ddfb5e234517982bb4509bef25a0c7395105",
+        "source": "Yahoo",
+        "datetime": 1794930354,
+        "headlineKo": "테이크투 인터랙티브, 3개월간 13% 하락… ‘GTA VI’ 11월 19일 출시 예정, 한 애널리스트는 55% 상승 전망"
+      }
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow",
+      "sector": "Information Technology",
+      "open": 98,
+      "current": 92.9,
+      "changePercent": -5.2,
+      "news": {
+        "headline": "ServiceNow Has Lost About $59 Billion in Value in 14 Trading Days, Since a Report Where Revenue Beat",
+        "url": "https://finnhub.io/api/news?id=ec753cd7977b0501ebb8049a867013446e89ddec5b0bca7d2781725ac1558594",
+        "source": "Yahoo",
+        "datetime": 1794955882,
+        "headlineKo": "ServiceNow는 매출이 예상치를 상회했다는 보도가 나온 이후 14거래일 동안 약 590억 달러의 시가총액을 잃었다."
+      }
+    }
+  ]
 }
