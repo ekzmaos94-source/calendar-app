@@ -1,7 +1,818 @@
 {
-  "generatedAt": "2026-11-20T20:58:10.284Z",
+  "generatedAt": "2026-11-21T02:44:19.011Z",
   "tradingDate": "2026-11-20",
   "thresholdPercent": 5,
   "session": "close",
-  "movers": []
+  "movers": [
+    {
+      "symbol": "NVDA",
+      "name": "Nvidia",
+      "sector": "Information Technology",
+      "open": 143.57,
+      "current": 125.53,
+      "changePercent": -12.57,
+      "news": {
+        "headline": "NVDA Stock Clocks Worst Week In 18 Years As SEC Reportedly Probes Its Accounting Practices",
+        "url": "https://finnhub.io/api/news?id=fe85428ac252f2f71c02ad6b9d581ebd740aaf7f4f5e9da38c5158286056f3ff",
+        "source": "Yahoo",
+        "datetime": 1795217892,
+        "headlineKo": "SEC가 NVDA의 회계 관행을 조사 중인 것으로 알려지면서, NVDA 주가는 18년 만에 최악의 한 주를 기록했습니다."
+      }
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk",
+      "sector": "Information Technology",
+      "open": 89.91,
+      "current": 79.24,
+      "changePercent": -11.87,
+      "news": {
+        "headline": "Sandisk’s Data Center Portfolio Soars 1,700% as AI Demand Reshapes NAND Business",
+        "url": "https://finnhub.io/api/news?id=4cdf85af0d5e8d96af3cd3843a0c790e0eff057951edff344eaff9ebda56ce88",
+        "source": "Yahoo",
+        "datetime": 1795198364,
+        "headlineKo": "AI 수요로 NAND 사업이 재편되면서 샌디스크의 데이터 센터 제품군 매출이 1,700% 급증했다"
+      }
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "sector": "Information Technology",
+      "open": 342.39,
+      "current": 304.41,
+      "changePercent": -11.09,
+      "news": {
+        "headline": "Data Center AI Chips Could Change the Winners: Broadcom and Marvell",
+        "url": "https://finnhub.io/api/news?id=350b7b787df4ab1d9e0d47982aacd2338851263fb35869cc7aa66e9b84608c46",
+        "source": "Yahoo",
+        "datetime": 1795217154,
+        "headlineKo": "데이터센터용 AI 칩이 승자 구도를 바꿀 수 있다: 브로드컴과 마벨"
+      }
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "sector": "Information Technology",
+      "open": 515.91,
+      "current": 460.54,
+      "changePercent": -10.73,
+      "news": {
+        "headline": "Marvell's $115 Billion Lumentum Deal Creates a New Valuation Test",
+        "url": "https://finnhub.io/api/news?id=66a20bf4cbe8b5ec550e6c876a9fe86f3deb80fcc358f15380041849719764eb",
+        "source": "Yahoo",
+        "datetime": 1795210872,
+        "headlineKo": "마벨의 1,150억 달러 규모 루멘텀 인수, 새로운 기업 가치 평가 기준을 제시하다"
+      }
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "sector": "Information Technology",
+      "open": 665.625,
+      "current": 594.51,
+      "changePercent": -10.68,
+      "news": {
+        "headline": "Micron Shares Crash Despite Strong AI Memory Demand: Is MU Undervalued?",
+        "url": "https://finnhub.io/api/news?id=9814e56e0f28e3c7b555d4f06aaada19806b729a6d8aacaf177ff19bbf632251",
+        "source": "Yahoo",
+        "datetime": 1795210725,
+        "headlineKo": "AI 메모리 수요가 호조를 보임에도 마이크론 주가 폭락: MU는 저평가된 것인가?"
+      }
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "sector": "Information Technology",
+      "open": 471.94,
+      "current": 424.39,
+      "changePercent": -10.08,
+      "news": {
+        "headline": "Mets Owner Steve Cohen’s Fund Dumped Nearly All of Its AMD and Bet $1 Billion That Microsoft Is the Safer AI Stock. AMD Has Fallen 31% Since",
+        "url": "https://finnhub.io/api/news?id=3ed3775304109e922a44a7c0c9b047047affab0885a662640efcd93b5eff7e1c",
+        "source": "Yahoo",
+        "datetime": 1795218424,
+        "headlineKo": "메츠 구단주 스티브 코헨의 펀드는 보유하던 AMD 주식을 거의 전량 매도하고, 마이크로소프트가 더 안전한 AI 주식이라고 판단해 10억 달러를 투자했다. 이후 AMD 주가는 31% 하락했다."
+      }
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "sector": "Information Technology",
+      "open": 206.995,
+      "current": 187.22,
+      "changePercent": -9.55,
+      "news": {
+        "headline": "Ken Fisher and 12 Other Big Funds Sold Coherent Last Quarter, While 14 Bought. Who’s Right?",
+        "url": "https://finnhub.io/api/news?id=54557a0ec8e0c1009065ed4665219dd9621635c0b7f436eca87634ed02e9f1bc",
+        "source": "Yahoo",
+        "datetime": 1795186670,
+        "headlineKo": "지난 분기 켄 피셔와 다른 12개 대형 펀드는 코히어런트 지분을 매도한 반면, 14개 펀드는 매수했다. 과연 누가 옳은가?"
+      }
+    },
+    {
+      "symbol": "ANET",
+      "name": "Arista Networks",
+      "sector": "Information Technology",
+      "open": 185.09,
+      "current": 167.62,
+      "changePercent": -9.44,
+      "news": {
+        "headline": "Can Arista Networks Stock Fall 30%?",
+        "url": "https://finnhub.io/api/news?id=f989d0964a8cf4ae8da87a6fba3266c8cfeb8033001387434f3a62f0e1edfec9",
+        "source": "Yahoo",
+        "datetime": 1795184901,
+        "headlineKo": "아리스타 네트웍스 주가가 30%나 하락할 수 있을까?"
+      }
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "sector": "Information Technology",
+      "open": 504.5,
+      "current": 457.01,
+      "changePercent": -9.41,
+      "news": null
+    },
+    {
+      "symbol": "MPWR",
+      "name": "Monolithic Power Systems",
+      "sector": "Information Technology",
+      "open": 1259.642,
+      "current": 1142.05,
+      "changePercent": -9.34,
+      "news": null
+    },
+    {
+      "symbol": "GPN",
+      "name": "Global Payments",
+      "sector": "Financials",
+      "open": 84.01,
+      "current": 91.83,
+      "changePercent": 9.31,
+      "news": {
+        "headline": "Global Payments Soars 10% as GTCR Revives Buyout Talk With $50 Billion Takeover Bid",
+        "url": "https://finnhub.io/api/news?id=9d5032cd45b5316367f657c78638ee9a8db97097bf152e0d03296724223a1193",
+        "source": "Yahoo",
+        "datetime": 1795211088,
+        "headlineKo": "GTCR이 500억 달러 규모의 인수 제안을 내놓으며 인수 합병 논의가 재점화되자 글로벌 페이먼츠 주가가 10% 급등했다"
+      }
+    },
+    {
+      "symbol": "FLEX",
+      "name": "Flex Ltd.",
+      "sector": "Information Technology",
+      "open": 72.8,
+      "current": 66.24,
+      "changePercent": -9.01,
+      "news": {
+        "headline": "Flex Wins 2026 Automotive News PACE Award for Fully Symmetric HV DC/DC Architecture",
+        "url": "https://finnhub.io/api/news?id=2253f02d5c2ab40557dbbbdafc515b8347c871c2fbb1bd10e35373f80d20a1a5",
+        "source": "Yahoo",
+        "datetime": 1795183500,
+        "headlineKo": "플렉스, 완전 대칭형 HV DC/DC 아키텍처로 2026년 오토모티브 뉴스 PACE 어워드 수상"
+      }
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "sector": "Information Technology",
+      "open": 257.49,
+      "current": 234.37,
+      "changePercent": -8.98,
+      "news": {
+        "headline": "CIEN Targets a $50B Market: How AI Could Expand Its Growth Opportunity",
+        "url": "https://finnhub.io/api/news?id=ddd046e519426b2371b4fb7caaca9f401440a8be78b829c7e496398bf49b8536",
+        "source": "Yahoo",
+        "datetime": 1795180200,
+        "headlineKo": "CIEN, 500억 달러 규모의 시장을 겨냥하다: AI가 성장 기회를 어떻게 확대할 수 있을까"
+      }
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "sector": "Information Technology",
+      "open": 286.23,
+      "current": 261.11,
+      "changePercent": -8.78,
+      "news": {
+        "headline": "Credo Technology Group vs. Western Digital: Which Technology Stock Is a Better Buy for 2027?",
+        "url": "https://finnhub.io/api/news?id=e39b3e555f08776efc242bd0a2771ebfab9135fbab0f7c2e89fcdc8fa39b6797",
+        "source": "Yahoo",
+        "datetime": 1795213028,
+        "headlineKo": "크레도 테크놀로지 그룹 대 웨스턴 디지털: 2027년에 어떤 기술주가 더 좋은 투자 대상일까?"
+      }
+    },
+    {
+      "symbol": "FSLR",
+      "name": "First Solar",
+      "sector": "Information Technology",
+      "open": 150.55,
+      "current": 137.59,
+      "changePercent": -8.61,
+      "news": {
+        "headline": "First Solar CEO Urges Bipartisan Support for Industrial Strategy, Enforcement of US Trade and Tax Policy at House Select Committee on China Hearing",
+        "url": "https://finnhub.io/api/news?id=cc95521a0ac7959c58165904c68d97df896cf8d981b3f8a0e7ce34cf7a1e2a18",
+        "source": "Yahoo",
+        "datetime": 1795190400,
+        "headlineKo": "퍼스트 솔라 CEO, 하원 중국 특별위원회 청문회에서 산업 전략에 대한 초당적 지지와 미국 무역·세제 정책의 이행을 촉구"
+      }
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
+      "sector": "Information Technology",
+      "open": 138.63,
+      "current": 126.87,
+      "changePercent": -8.48,
+      "news": {
+        "headline": "Zacks Industry Outlook Highlights KLA and SiTime",
+        "url": "https://finnhub.io/api/news?id=9b33de3af94d0bc98d760ac92a638a5e5708727e37c533dd5f31f5ab8b8f4a6a",
+        "source": "Yahoo",
+        "datetime": 1795180560,
+        "headlineKo": "잭스(Zacks) 산업 전망 보고서, KLA와 SiTime을 주목하다"
+      }
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "sector": "Information Technology",
+      "open": 103.11,
+      "current": 94.38,
+      "changePercent": -8.47,
+      "news": {
+        "headline": "Corning Glass: Copper-To-Fiber And Potential Global AI Buildout Bode Well (Rating Upgrade)",
+        "url": "https://finnhub.io/api/news?id=5b67b3a15211d57e282b2d8a0fbecc1a18acf3825d7e13dcb35d78fea62aeab1",
+        "source": "SeekingAlpha",
+        "datetime": 1795140209,
+        "headlineKo": "코닝 글래스: 구리-광섬유 전환 및 잠재적인 글로벌 AI 인프라 확충이 긍정적 신호 (투자의견 상향)"
+      }
+    },
+    {
+      "symbol": "HOOD",
+      "name": "Robinhood Markets",
+      "sector": "Financials",
+      "open": 67.91,
+      "current": 62.17,
+      "changePercent": -8.45,
+      "news": {
+        "headline": "Robinhood Markets vs. Nu: Which Financial Stock Is a Better Buy for 2027?",
+        "url": "https://finnhub.io/api/news?id=fc78c91879e285258a88e3483f8921e05cc52900e5588c9f275ced8292fc2a46",
+        "source": "Yahoo",
+        "datetime": 1795187702,
+        "headlineKo": "로빈후드 마켓 대 Nu: 2027년에 어떤 금융주가 더 좋은 매수 대상일까?"
+      }
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "sector": "Information Technology",
+      "open": 303.6,
+      "current": 278.02,
+      "changePercent": -8.43,
+      "news": {
+        "headline": "Record AI Orders Solidifies Dell Technologies’s (DELL) Hardware Leadership",
+        "url": "https://finnhub.io/api/news?id=5e240c4208f73d53ae118c7159790b9aaa9dcb3c9aec33f47584fae51ed5b036",
+        "source": "Yahoo",
+        "datetime": 1795185113,
+        "headlineKo": "AI 주문량 사상 최대 기록, 델 테크놀로지스(DELL)의 하드웨어 분야 선도적 입지 공고히 해"
+      }
+    },
+    {
+      "symbol": "TTD",
+      "name": "Trade Desk (The)",
+      "sector": "Communication Services",
+      "open": 14.58,
+      "current": 13.38,
+      "changePercent": -8.23,
+      "news": {
+        "headline": "Trade Desk (TTD) Could Be 50% Undervalued After The Circana Partnership",
+        "url": "https://finnhub.io/api/news?id=dcd178a60cba396ca59c401cc5be213623165158afa827500baa4dc48033a474",
+        "source": "Yahoo",
+        "datetime": 1795191121,
+        "headlineKo": "트레이드 데스크(TTD), 서카나와의 파트너십 체결 후 주가가 50% 저평가되었을 가능성"
+      }
+    },
+    {
+      "symbol": "AMAT",
+      "name": "Applied Materials",
+      "sector": "Information Technology",
+      "open": 329.75,
+      "current": 302.63,
+      "changePercent": -8.22,
+      "news": {
+        "headline": "AMAT's AGS Gains From Growing Installed Base: What's Ahead?",
+        "url": "https://finnhub.io/api/news?id=2388de7ea1704e6a1dfea17b0439d8d4c22360a24b023f9c97a3e2dfaab01968",
+        "source": "Yahoo",
+        "datetime": 1795186920,
+        "headlineKo": "AMAT의 AGS, 설치 기반 확대에 힘입어 성장세: 향후 전망은?"
+      }
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "sector": "Industrials",
+      "open": 181,
+      "current": 166.24,
+      "changePercent": -8.15,
+      "news": {
+        "headline": "Vertiv Holdings Co (VRT) Deepens AI Data Center Liquid Cooling Push",
+        "url": "https://finnhub.io/api/news?id=a3a5ceb58a8e2919f12849642d4d28d5ae2f6e436a1cc82025750f6a39f385b1",
+        "source": "Yahoo",
+        "datetime": 1795191049,
+        "headlineKo": "버티브 홀딩스(VRT), AI 데이터센터 액체 냉각 사업 확대에 박차"
+      }
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "sector": "Information Technology",
+      "open": 199.49,
+      "current": 183.27,
+      "changePercent": -8.13,
+      "news": {
+        "headline": "Why Is Lam Research (LRCX) Down 11.5% Since Last Earnings Report?",
+        "url": "https://finnhub.io/api/news?id=4949efa08c149b84bc258181c2812dd5d59d5abf44dfcd6ecaa800c6eb385170",
+        "source": "Yahoo",
+        "datetime": 1795188607,
+        "headlineKo": "램 리서치(LRCX)는 지난 실적 발표 이후 왜 11.5%나 하락했을까?"
+      }
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "sector": "Information Technology",
+      "open": 132.74,
+      "current": 122.28,
+      "changePercent": -7.88,
+      "news": {
+        "headline": "CRDO vs. MRVL: Which AI Connectivity Stock Is the Better Pick?",
+        "url": "https://finnhub.io/api/news?id=328ea2085c97bf0aa915ec4eda320866b91f20445c520797d9f1ee2cc5cfad54",
+        "source": "Yahoo",
+        "datetime": 1795183560,
+        "headlineKo": "CRDO 대 MRVL: 어떤 AI 커넥티비티 관련주가 더 나은 선택일까?"
+      }
+    },
+    {
+      "symbol": "FDXF",
+      "name": "FedEx Freight",
+      "sector": "Industrials",
+      "open": 128.5,
+      "current": 118.54,
+      "changePercent": -7.75,
+      "news": null
+    },
+    {
+      "symbol": "URI",
+      "name": "United Rentals",
+      "sector": "Industrials",
+      "open": 1052.79,
+      "current": 973.43,
+      "changePercent": -7.54,
+      "news": {
+        "headline": "United Rentals (URI) Down 4.6% Since Last Earnings Report: Can It Rebound?",
+        "url": "https://finnhub.io/api/news?id=b967df532d2d7f11565998b92b253c23c8a12d3b0cc4f993e0d8770bd67735d1",
+        "source": "Yahoo",
+        "datetime": 1795188611,
+        "headlineKo": "유나이티드 렌탈스(URI), 지난 실적 발표 이후 4.6% 하락… 반등할 수 있을까?"
+      }
+    },
+    {
+      "symbol": "ECHO",
+      "name": "EchoStar",
+      "sector": "Communication Services",
+      "open": 90.97,
+      "current": 84.26,
+      "changePercent": -7.38,
+      "news": null
+    },
+    {
+      "symbol": "KEYS",
+      "name": "Keysight Technologies",
+      "sector": "Information Technology",
+      "open": 281.86,
+      "current": 261.51,
+      "changePercent": -7.22,
+      "news": {
+        "headline": "Keysight Technologies (KEYS) Stock Could Be Cheap After A 107% Run",
+        "url": "https://finnhub.io/api/news?id=736260befd547485e3e408561ffbd743f209fb72ec4f53ca9a3fb12086080a61",
+        "source": "Yahoo",
+        "datetime": 1795191011,
+        "headlineKo": "키사이트 테크놀로지스(KEYS) 주가, 107% 급등 후 저평가될 가능성"
+      }
+    },
+    {
+      "symbol": "NCLH",
+      "name": "Norwegian Cruise Line Holdings",
+      "sector": "Consumer Discretionary",
+      "open": 17.23,
+      "current": 15.99,
+      "changePercent": -7.2,
+      "news": {
+        "headline": "Norwegian Cruise Line Holdings (NCLH) Stock May Be Undervalued On Fresh Cruise Disruption News",
+        "url": "https://finnhub.io/api/news?id=4f39a3dcd0067029c04a65958cbe4a5ceef6396e5fcde921cd864187a1b9196f",
+        "source": "Yahoo",
+        "datetime": 1795183912,
+        "headlineKo": "크루즈 운항 차질 소식이 전해지면서 노르웨이안 크루즈 라인 홀딩스(NCLH) 주가가 저평가되었을 수 있다"
+      }
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "sector": "Information Technology",
+      "open": 161.36,
+      "current": 149.94,
+      "changePercent": -7.08,
+      "news": {
+        "headline": "Why Are Investors Ignoring Qualcomm Stock's High Cash Yield?",
+        "url": "https://finnhub.io/api/news?id=091118ba409f38bd9c28c8c32f5e470e65b4983e2de5c505254a5facdfa1f007",
+        "source": "Yahoo",
+        "datetime": 1795202564,
+        "headlineKo": "투자자들은 왜 퀄컴 주식의 높은 현금 수익률을 외면하고 있을까?"
+      }
+    },
+    {
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "sector": "Information Technology",
+      "open": 44.02,
+      "current": 40.91,
+      "changePercent": -7.06,
+      "news": {
+        "headline": "What HPE Holders Should Watch In Monday's Margin",
+        "url": "https://finnhub.io/api/news?id=32e4fd9a7332e24af8c1729a44d62f7b63f7c123d0ba911667a8b632b9eeebd7",
+        "source": "Yahoo",
+        "datetime": 1795197461,
+        "headlineKo": "HPE 보유자들이 월요일 마진 거래에서 주목해야 할 점"
+      }
+    },
+    {
+      "symbol": "JBL",
+      "name": "Jabil",
+      "sector": "Information Technology",
+      "open": 242.8,
+      "current": 225.77,
+      "changePercent": -7.01,
+      "news": null
+    },
+    {
+      "symbol": "TER",
+      "name": "Teradyne",
+      "sector": "Information Technology",
+      "open": 220.2,
+      "current": 204.775,
+      "changePercent": -7,
+      "news": {
+        "headline": "Teradyne: 3 Key Takeaways for Long-Term Investors",
+        "url": "https://finnhub.io/api/news?id=cdbcacbabfe29b5a012a1769b414797331a9fa3f5638e5ece08986ee5589fae6",
+        "source": "Yahoo",
+        "datetime": 1795211402,
+        "headlineKo": "테라다인: 장기 투자자를 위한 3가지 핵심 포인트"
+      }
+    },
+    {
+      "symbol": "APP",
+      "name": "AppLovin",
+      "sector": "Information Technology",
+      "open": 374,
+      "current": 348.29,
+      "changePercent": -6.87,
+      "news": null
+    },
+    {
+      "symbol": "ADI",
+      "name": "Analog Devices",
+      "sector": "Information Technology",
+      "open": 371.315,
+      "current": 345.92,
+      "changePercent": -6.84,
+      "news": {
+        "headline": "Power-Over-Ethernet (PoE) Chipsets - Global Strategic Business Report 2026: Capitalize on 13% CAGR and $2.2B by 2032; Benchmark Cisco, Analog Devices, NXP, Microchip and Texas Instruments",
+        "url": "https://finnhub.io/api/news?id=c638370ee015e05f4e42f6d4b78a7ee3f90c70413371c0042d4b5fb9c32083e0",
+        "source": "Yahoo",
+        "datetime": 1795187160,
+        "headlineKo": "PoE(Power-Over-Ethernet) 칩셋 - 2026년 글로벌 전략 비즈니스 보고서: 연평균 성장률(CAGR) 13%와 2032년까지 22억 달러 규모를 활용하라; 시스코, 아날로그 디바이스, NXP, 마이크로칩, 텍사스 인스트루먼트를 벤치마킹하라"
+      }
+    },
+    {
+      "symbol": "ON",
+      "name": "ON Semiconductor",
+      "sector": "Information Technology",
+      "open": 65.25,
+      "current": 60.84,
+      "changePercent": -6.76,
+      "news": null
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle Corporation",
+      "sector": "Information Technology",
+      "open": 108.475,
+      "current": 101.19,
+      "changePercent": -6.72,
+      "news": {
+        "headline": "Oracle says OpenAI contract is fully funded, addresses market financing scrutiny",
+        "url": "https://finnhub.io/api/news?id=b4bf5ae78bac1261bfcd4272a1472aa16d5fc1358fb3aa05529c322129cd2fea",
+        "source": "Yahoo",
+        "datetime": 1795214586,
+        "headlineKo": "오라클, OpenAI 계약 자금 전액 확보했다고 밝히며 시장의 자금 조달 관련 의문 해소"
+      }
+    },
+    {
+      "symbol": "Q",
+      "name": "Qnity Electronics",
+      "sector": "Information Technology",
+      "open": 110.93,
+      "current": 103.47,
+      "changePercent": -6.72,
+      "news": null
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla, Inc.",
+      "sector": "Consumer Discretionary",
+      "open": 370.22,
+      "current": 345.82,
+      "changePercent": -6.59,
+      "news": {
+        "headline": "Should Tesla (TSLA) Investors Watch Its Merger Talks And Cybercab FSD Rollout?",
+        "url": "https://finnhub.io/api/news?id=0faa28ea19cc61bbb32e4609b7228eb7488c3a6e7c233a4348e22f1f35397068",
+        "source": "Yahoo",
+        "datetime": 1795209179,
+        "headlineKo": "테슬라(TSLA) 투자자들은 합병 협상과 ‘사이버캡’ FSD 출시 동향을 주시해야 할까?"
+      }
+    },
+    {
+      "symbol": "CVNA",
+      "name": "Carvana",
+      "sector": "Consumer Discretionary",
+      "open": 68.29,
+      "current": 63.85,
+      "changePercent": -6.5,
+      "news": {
+        "headline": "Can Carvana Stock Hit $95?",
+        "url": "https://finnhub.io/api/news?id=90451f55d823cd50143be595b7df46597301478fa377662e137401d71b1269be",
+        "source": "Yahoo",
+        "datetime": 1795174822,
+        "headlineKo": "카바나 주가가 95달러까지 오를 수 있을까?"
+      }
+    },
+    {
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
+      "sector": "Information Technology",
+      "open": 91.01,
+      "current": 85.11,
+      "changePercent": -6.48,
+      "news": {
+        "headline": "Akamai Technologies (AKAM) Expands Mobile Enterprise Browser Security",
+        "url": "https://finnhub.io/api/news?id=3df078be1f0c0bb888d0eafb1364b8b5ba0cd47c3fa12f2eb8719facc00076b0",
+        "source": "Yahoo",
+        "datetime": 1795144594,
+        "headlineKo": "아카마이 테크놀로지스(AKAM), 모바일 기업용 브라우저 보안 강화"
+      }
+    },
+    {
+      "symbol": "SNPS",
+      "name": "Synopsys",
+      "sector": "Information Technology",
+      "open": 423.01,
+      "current": 396.17,
+      "changePercent": -6.35,
+      "news": {
+        "headline": "Synopsys (SNPS) Dips More Than Broader Market: What You Should Know",
+        "url": "https://finnhub.io/api/news?id=49fd22dd980f5041726a5c8f9b785ae93dd8edee52e4fe4ff5572c410ab05de2",
+        "source": "Yahoo",
+        "datetime": 1795211102,
+        "headlineKo": "시노프시스(SNPS), 시장 전반보다 더 큰 폭으로 하락: 알아야 할 점"
+      }
+    },
+    {
+      "symbol": "TXN",
+      "name": "Texas Instruments",
+      "sector": "Information Technology",
+      "open": 281.53,
+      "current": 263.75,
+      "changePercent": -6.32,
+      "news": {
+        "headline": "Texas Instruments (TXN) Could Be 50% Overvalued As AI Tools And Earnings Impress",
+        "url": "https://finnhub.io/api/news?id=921a9e04fb83a1f0601d771e47ce49f29e070543313a83fc61b5077961cc40f0",
+        "source": "Yahoo",
+        "datetime": 1795209169,
+        "headlineKo": "텍사스 인스트루먼트(TXN), AI 도구와 실적 호조에 힘입어 주가가 50% 과대평가되었을 가능성"
+      }
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Supermicro",
+      "sector": "Information Technology",
+      "open": 23.1,
+      "current": 21.65,
+      "changePercent": -6.28,
+      "news": {
+        "headline": "Super Micro Computer, Inc. (SMCI) is Attracting Investor Attention: Here is What You Should Know",
+        "url": "https://finnhub.io/api/news?id=7cdd2747877efd1a9be0860f4be8895a7602f6f3aecbf2cee090ba3cd6e5cabf",
+        "source": "Yahoo",
+        "datetime": 1795179605,
+        "headlineKo": "슈퍼 마이크로 컴퓨터(SMCI)가 투자자들의 관심을 끌고 있습니다: 꼭 알아야 할 사항은 다음과 같습니다"
+      }
+    },
+    {
+      "symbol": "NTAP",
+      "name": "NetApp",
+      "sector": "Information Technology",
+      "open": 168.07,
+      "current": 157.65,
+      "changePercent": -6.2,
+      "news": {
+        "headline": "Why NetApp (NTAP) is Poised to Beat Earnings Estimates Again",
+        "url": "https://finnhub.io/api/news?id=69cf261f37112ea2c5caa28f69e82dbe6188ea150bdc28b580bfe0c660e01ee1",
+        "source": "Yahoo",
+        "datetime": 1795191002,
+        "headlineKo": "넷앱(NTAP)이 다시 한번 실적 예상치를 상회할 것으로 보이는 이유"
+      }
+    },
+    {
+      "symbol": "DLR",
+      "name": "Digital Realty",
+      "sector": "Real Estate",
+      "open": 173.09,
+      "current": 162.46,
+      "changePercent": -6.14,
+      "news": {
+        "headline": "Truist Securities Maintains Buy on Digital Realty Trust, Lowers Price Target to $215",
+        "url": "https://finnhub.io/api/news?id=a66512ddf5cbc59555102c48b9fda327004033882dbc7ca73c68dda157a6e958",
+        "source": "Benzinga",
+        "datetime": 1795167629,
+        "headlineKo": "트루이스트 증권은 디지털 리얼티 트러스트에 대해 ‘매수’ 추천을 유지하면서 목표 주가를 215달러로 하향 조정했다"
+      }
+    },
+    {
+      "symbol": "NXPI",
+      "name": "NXP Semiconductors",
+      "sector": "Information Technology",
+      "open": 250.215,
+      "current": 235.15,
+      "changePercent": -6.02,
+      "news": {
+        "headline": "NXPI Semiconductors And Ambarella: Weighing The Pros And Cons Of A Potential Deal",
+        "url": "https://finnhub.io/api/news?id=8576d0a2a7aaf1ab52b3d88ed00aa688e68c2aa504a257035ccd2fc2c72a219a",
+        "source": "SeekingAlpha",
+        "datetime": 1795194139,
+        "headlineKo": "NXPI 세미컨덕터스와 앰바렐라: 잠재적 인수합병의 장단점 분석"
+      }
+    },
+    {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "sector": "Information Technology",
+      "open": 78.55,
+      "current": 73.91,
+      "changePercent": -5.91,
+      "news": null
+    },
+    {
+      "symbol": "IRM",
+      "name": "Iron Mountain",
+      "sector": "Real Estate",
+      "open": 108.45,
+      "current": 102.22,
+      "changePercent": -5.74,
+      "news": null
+    },
+    {
+      "symbol": "APH",
+      "name": "Amphenol",
+      "sector": "Information Technology",
+      "open": 73.91,
+      "current": 69.72,
+      "changePercent": -5.67,
+      "news": {
+        "headline": "Wall Street Analysts Think Amphenol (APH) Could Surge 42.32%: Read This Before Placing a Bet",
+        "url": "https://finnhub.io/api/news?id=14019f50456b782f3aab65ad7f0bdb2f9562c1b18ac9261378b1bf2a5e97d892",
+        "source": "Yahoo",
+        "datetime": 1795182904,
+        "headlineKo": "월가 애널리스트들, 앰페놀(APH) 주가가 42.32% 급등할 것으로 전망: 투자 결정 전 꼭 읽어보세요"
+      }
+    },
+    {
+      "symbol": "XYZ",
+      "name": "Block, Inc.",
+      "sector": "Financials",
+      "open": 73.84,
+      "current": 69.66,
+      "changePercent": -5.66,
+      "news": null
+    },
+    {
+      "symbol": "CDNS",
+      "name": "Cadence Design Systems",
+      "sector": "Information Technology",
+      "open": 298.43,
+      "current": 281.58,
+      "changePercent": -5.65,
+      "news": {
+        "headline": "Is Cadence (CDNS) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
+        "url": "https://finnhub.io/api/news?id=d8f24d2473e5dee69c1d0a8766b78969eb9d23792f71887a9dfd971238919131",
+        "source": "Yahoo",
+        "datetime": 1795193102,
+        "headlineKo": "캐던스(CDNS)는 탄탄한 성장주인가? ‘그렇다’고 볼 수 있는 3가지 이유"
+      }
+    },
+    {
+      "symbol": "APTV",
+      "name": "Aptiv",
+      "sector": "Consumer Discretionary",
+      "open": 37.435,
+      "current": 35.33,
+      "changePercent": -5.62,
+      "news": {
+        "headline": "Is Trending Stock Aptiv PLC (APTV) a Buy Now?",
+        "url": "https://finnhub.io/api/news?id=6280c1487e7b4f1ad2ec4d50fa9f6d9bb76a51fd5190a6fb36c2b46de9c1533f",
+        "source": "Yahoo",
+        "datetime": 1795179603,
+        "headlineKo": "최근 화제가 되고 있는 주식 Aptiv PLC(APTV)는 지금 매수해야 할까요?"
+      }
+    },
+    {
+      "symbol": "MOS",
+      "name": "Mosaic Company (The)",
+      "sector": "Materials",
+      "open": 19.75,
+      "current": 18.66,
+      "changePercent": -5.52,
+      "news": null
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "sector": "Information Technology",
+      "open": 54.26,
+      "current": 51.28,
+      "changePercent": -5.49,
+      "news": {
+        "headline": "Could Jensen Huang Land At Nvidia Rival Intel?",
+        "url": "https://finnhub.io/api/news?id=17d322f78d56df54b25aee57070831527fe631cd351995d563a2c812e0098ca5",
+        "source": "Yahoo",
+        "datetime": 1795210115,
+        "headlineKo": "젠슨 황이 엔비디아의 경쟁사인 인텔로 이적할 수 있을까?"
+      }
+    },
+    {
+      "symbol": "STLD",
+      "name": "Steel Dynamics",
+      "sector": "Materials",
+      "open": 217.92,
+      "current": 205.96,
+      "changePercent": -5.49,
+      "news": {
+        "headline": "Steel Scrap - Global Strategic Business Report: Capitalize on 34% Volume Growth to 727.1M Tons by 2030 as Tariffs Reshape ArcelorMittal, Nucor, Gerdau and Steel Dynamics",
+        "url": "https://finnhub.io/api/news?id=4777c77249cd510f8968d0f9dd2b21fbd44e80d87e4776209327381e57a4ea2c",
+        "source": "Yahoo",
+        "datetime": 1795187520,
+        "headlineKo": "철스크랩 - 글로벌 전략 비즈니스 보고서: 관세 정책이 아르셀로미탈, 누코어, 게르다우, 스틸 다이내믹스의 사업 구도를 재편함에 따라 2030년까지 7억 2,710만 톤으로 34% 증가할 것으로 예상되는 물량 성장세를 활용하라"
+      }
+    },
+    {
+      "symbol": "VST",
+      "name": "Vistra Corp.",
+      "sector": "Utilities",
+      "open": 121.7225,
+      "current": 115.25,
+      "changePercent": -5.32,
+      "news": null
+    },
+    {
+      "symbol": "MCHP",
+      "name": "Microchip Technology",
+      "sector": "Information Technology",
+      "open": 58.47,
+      "current": 55.44,
+      "changePercent": -5.18,
+      "news": null
+    },
+    {
+      "symbol": "GEV",
+      "name": "GE Vernova",
+      "sector": "Industrials",
+      "open": 737.49,
+      "current": 699.33,
+      "changePercent": -5.17,
+      "news": {
+        "headline": "Why GE Vernova Investors Could Make Sense Of ETFs Now",
+        "url": "https://finnhub.io/api/news?id=2d528184d6f17a453b63576e29eae26db58ea4e7ccce776dc6306b3ee29bd731",
+        "source": "Yahoo",
+        "datetime": 1795187600,
+        "headlineKo": "GE 베르노바 투자자들이 지금 ETF에 주목해야 하는 이유"
+      }
+    },
+    {
+      "symbol": "CHTR",
+      "name": "Charter Communications",
+      "sector": "Communication Services",
+      "open": 135.66,
+      "current": 128.73,
+      "changePercent": -5.11,
+      "news": null
+    }
+  ]
 }
